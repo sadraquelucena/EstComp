@@ -23,6 +23,13 @@ website:
         text: "Bibliografia"
       - href: info/cronograma.qmd
         text: "Cronograma"
+      
+    - section: "Material das aulas"
+      contents: 
+      - href: aulas/aula1.qmd
+        text: "Aula 1"
+      - href: aulas/aula2.qmd
+        text: "Aula 2"
 
 format:
   html:

@@ -1,0 +1,82 @@
+📘 Aula 2 – Introdução ao GitHub + GitHub Pages
+🎯 Título da Aula:
+"Como versionar código e criar um portfólio público online?"
+
+🧩 Problema motivador (PBL):
+Você acabou de entrar em um projeto de análise de dados em equipe. Os arquivos são trocados por e-mail e ninguém sabe qual é a versão final do código. O coordenador pede: “Crie um repositório público organizado com todo seu trabalho para mostrar aos nossos parceiros. Ah, e coloque isso num site bonitinho!”.
+Como você resolve?
+
+🕒 Estrutura da Aula (1h30)
+🧑‍🏫 Parte 1 – Exposição dialogada (45 minutos com interação)
+Cenário Profissional:
+
+A importância da rastreabilidade e organização em projetos colaborativos.
+
+GitHub como “LinkedIn do programador” e ferramenta de versionamento.
+
+GitHub Pages como um meio de criar um portfólio público estático.
+
+Conceitos e Demonstrações (via projetor e terminal):
+
+O que é Git e GitHub?
+
+Clonar, commit, push, pull.
+
+Repositório público vs privado.
+
+Estrutura básica de um repositório para projeto de análise.
+
+Criando um repositório para a disciplina.
+
+Configurando o GitHub Pages com um arquivo index.qmd.
+
+👩‍💻 Parte 2 – Mão na massa (45 minutos de prática orientada)
+Passo a passo prático com acompanhamento:
+
+Criar conta no GitHub.
+
+Criar um repositório estat-comp-nome-aluno.
+
+Criar um README.md simples com:
+
+Nome
+
+Curso
+
+Interesses em Estatística
+
+Criar um arquivo index.qmd (em branco ou com um “Olá, mundo”).
+
+Publicar esse arquivo via GitHub Pages.
+
+Objetivo até o fim da aula: Cada aluno terá um repositório funcional com um site publicado.
+
+🏠 Atividade Extra (30 minutos fora da sala)
+📌 Título: “Meu primeiro projeto público: quem sou eu como estatístico?”
+
+Tarefa:
+
+Atualize seu repositório com uma versão inicial do seu portfólio:
+
+Modifique o arquivo index.qmd com:
+
+Breve apresentação pessoal
+
+Área(s) de interesse
+
+Link para o repositório da disciplina
+
+Adicione um print de tela do site funcionando no repositório (imagem).
+
+Faça commit + push e atualize o GitHub Pages.
+
+Entrega: Até o início da próxima aula, via GitHub (link do Pages compartilhado em um formulário ou lista da turma).
+
+🧠 Ganhos esperados da aula
+Compreensão prática de versionamento de código.
+
+Familiaridade com ferramentas usadas no mercado (GitHub, Pages).
+
+Início de um portfólio pessoal reprodutível, que será expandido ao longo da disciplina.
+
+Confiança para trabalhar em equipes com versionamento e transparência.

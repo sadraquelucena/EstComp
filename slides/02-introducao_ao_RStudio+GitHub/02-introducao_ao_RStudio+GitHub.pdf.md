@@ -1,0 +1,478 @@
+---
+title: "Como manter seu projeto organizado, seguro e acessível?"
+subtitle: "<span style='font-size:1.4em; font-weight:bold;'>Introdução ao RStudio + GitHub</span>"
+author:
+  name: | # indica que o campo name terá múltiplas linhas
+    ESTAT0090 -- Estatística Computacional<br>
+    Prof. Dr. Sadraque E. F. Lucena<br>
+    <span style="font-size:.8em;">sadraquelucena@academico.ufs.br</span>
+
+format:
+  revealjs:
+    theme: meutema.scss
+    width: 1024
+    height: 768
+    margin: 0.1         # margem em torno do conteúdo
+    min-scale: 0.2       # escala mínima permitida
+    max-scale: 2.0       # escala máxima permitida
+    slide-number: true
+    subtitle-style: "font-size: 2em; font-weight: bold;"  # Aqui é onde aumentamos o subtítulo
+    logo: imagens/ufs_horizontal_positiva.png
+    transition: fade
+    transition-speed: fast
+    scss: meutema.scss
+  pdf:
+    keep-md: true  # mantém o markdown usado
+---
+
+## Cenário profissional
+
+### Uma História Real (ou quase)
+- Imagine que você é contratado por uma empresa para analisar dados de clientes e construir relatórios periódicos.
+
+- Você começa empolgado, faz seu código em R, roda tudo no seu computador e entrega um relatório lindo.
+
+- Um mês depois, o gerente pede que você refaça a análise com os novos dados.
+
+- Só tem um problema:
+
+    - você não lembra qual script usou.
+    - Os arquivos estão todos em “versão final_v3_final_real.R”.
+    - E o relatório? Foi feito no Word e agora está com outro estagiário.
+
+
+
+
+## Cenário profissional
+
+### O Problema
+Você percebe que:
+
+- Seus scripts estão bagunçados.
+
+- O histórico do que foi feito se perdeu.
+
+- O relatório não é reprodutível.
+
+- Ninguém (nem você mesmo) entende o que foi feito.
+
+
+### A Motivação
+Como resolver isso? Você precisa de:
+
+- Um ambiente organizado para escrever e executar código (RStudio).
+
+- Um jeito de acompanhar o histórico do seu trabalho (Git).
+
+- Uma forma de colaborar e compartilhar com outras pessoas (GitHub).
+
+- Relatórios que podem ser reproduzidos a qualquer momento (Quarto).
+
+
+## Um Exemplo da Nossa Própria Disciplina
+
+Cenário:
+
+- Você está cursando Estatística Computacional.
+
+- A cada aula, o professor entrega:
+
+    - Slides da aula com explicações e um código em R.
+
+     - Um problema para você resolver, adaptando e expandindo o código.
+
+- Você modifica, testa, ajusta e responde o problema.
+
+- Na aula seguinte, você parte exatamente de onde parou.
+
+
+
+
+## E se você fizer tudo isso com <img src="imagens/git-logo.png" style="width: 120px; vertical-align: middle; margin-left: 10px; margin-top: 11px;" /> e <img src="imagens/github-logo.png" style="width: 200px; vertical-align: middle; margin-left: 8px; margin-top: -0px;" />?
+
+Você terá:
+
+- Um histórico completo de aprendizagem.
+
+- Um repositório que mostra sua evolução.
+
+- Uma base reutilizável para projetos futuros.
+
+> É como criar seu próprio material interativo de Estatística Computacional!
+
+
+## Objetivo da aula
+
+-   Entender o que é e para que serve o Git e o GitHub.
+-   Saber como criar um repositório de projeto.
+-   Atualizar repositório no GitHub via Studio.
+
+
+
+
+# Breve introdução ao <img src="imagens/github-logo.png" style="width: 280px; vertical-align: middle; margin-left: 10px; margin-top: -0px;" />
+
+
+
+
+## O que é o <img src="imagens/git-logo.png" style="width: 120px; vertical-align: middle; margin-left: 10px; margin-top: 11px;" />?
+
+- **Git** é uma ferramenta que **ajuda a controlar e gerenciar mudanças em arquivos** ao longo do tempo.
+
+- Ele permite que você **salve versões** diferentes de um trabalho à medida que faz alterações, de modo que possa **voltar para versões anteriores** se algo der errado ou se precisar revisar mudanças feitas.
+
+### Por que o <img src="imagens/git-logo.png" style="width: 100px; vertical-align: middle; margin-left: 10px; margin-top: 11px;" /> é importante?
+
+- **Evita perda de trabalho:** Se você estiver escrevendo código ou criando qualquer tipo de documento, o Git permite que você **salve diferentes versões** do seu trabalho. Assim, se algo der errado, você pode voltar a uma versão anterior.
+
+- **Facilita o trabalho em equipe:** Quando várias pessoas estão trabalhando no mesmo projeto, o Git permite que cada uma **trabalhe de forma independente** e depois **una os trabalhos de maneira organizada**. Isso evita que as alterações de uma pessoa sobrescrevam as de outra.
+
+- **Organização e rastreamento:** O Git mantém um **histórico completo** de todas as mudanças feitas em um projeto, permitindo saber **quem fez o quê e quando**.
+
+
+
+
+## O que é o <img src="imagens/github-logo.png" style="width: 200px; vertical-align: middle; margin-left: 8px; margin-top: -0px;" />?
+
+- **GitHub** é uma plataforma online que **armazena e organiza projetos que utilizam Git**.
+
+- Ele permite que você **publique seu código, compartilhe arquivos e colabore com outras pessoas** em projetos de forma fácil e eficiente.
+
+### Por que o <img src="imagens/github-logo.png" style="width: 160px; vertical-align: middle; margin-left: 8px; margin-top: 3px;" /> é importante?
+
+- **Armazenamento seguro:** Com o GitHub, seus projetos ficam **seguramente armazenados na nuvem**. Isso significa que você pode acessar seu trabalho de qualquer lugar e sempre terá uma cópia segura.
+
+- **Colaboração em equipe:** GitHub permite que várias pessoas trabalhem no mesmo projeto ao mesmo tempo. Cada pessoa pode fazer mudanças no código, e o GitHub ajuda a **gerenciar essas mudanças** sem que uma sobrescreva a outra.
+
+- **Histórico e transparência:** O GitHub mantém um **histórico completo** de todas as alterações feitas no seu projeto. Isso permite ver **quem fez o quê e quando**, facilitando o acompanhamento e revisão do trabalho de equipe.
+
+
+
+
+## Como e por que usar o <img src="imagens/github-logo.png" style="width: 200px; vertical-align: middle; margin-left: 8px; margin-top: -0px;" /> na disciplina?
+
+- Você receberá um script em R a cada aula  
+
+- Durante a aula, vai editar esse script no RStudio, testando e resolvendo problemas  
+
+- No final da aula, envia suas alterações para seu repositório (push) — tudo salvo e organizado  
+
+- Pode acessar seu trabalho de qualquer lugar, com segurança e histórico garantido  
+
+> GitHub será seu **caderno digital de códigos** — inteligente, seguro e acessível para a disciplina
+
+
+
+
+## Primeiros passos
+
+1. Baixar e instalar o Git: <https://happygitwithr.com/install-git.html>
+
+2. Criar uma conta no GitHub: <https://github.com/>
+
+3. Criar um reposítório Git
+
+4. Clone esse repositório para sua máquina usando o RStudio
+
+5. Trabalhe no projeto e envie as atualizações de volta ao GitHub
+
+> Desenvolva o hábito de buscar soluções por conta própria. Isso faz parte do dia a dia de quem trabalha com dados. Comece agora a desenvolver essa autonomia.
+
+
+## Criando um repositório <img src="imagens/git-logo.png" style="width: 120px; vertical-align: middle; margin-left: 8px; margin-top: 10px;" /> no <img src="imagens/github-logo.png" style="width: 180px; vertical-align: middle; margin-left: 8px; margin-top: -0px;" />
+
+- Após fazer login no GitHub, Clique em `+` no canto superior direito
+
+- Em seguida, clique em `New repository`
+
+<div style="text-align: center;">
+  <img src="imagens/github1.png" style="width: 400px;" />
+</div>
+
+
+
+
+## Criando um repositório <img src="imagens/git-logo.png" style="width: 120px; vertical-align: middle; margin-left: 8px; margin-top: 10px;" /> no <img src="imagens/github-logo.png" style="width: 180px; vertical-align: middle; margin-left: 8px; margin-top: -0px;" />
+
+:::: {.columns}
+
+::: {.column width="40%"}
+- Em `Repository name` dê um anome ao repositóro
+
+- Em `Description` faça uma descrição do repositório
+
+- Marque a opção `Public` ou `Private`
+
+- Em `Initialize this repository with:` marque a opção `Add a README file`
+
+- Clique em `Create repository`
+:::
+
+::: {.column width="60%"}
+![](imagens/github2.png){fig-width=100px fig-align="center"}
+:::
+
+::::
+
+
+
+
+##
+
+- Com o repositório já criado no GitHub, agora vamos usar o RStudio para **ligar o projeto local ao repositório remoto**.
+
+- Assim, todas as alterações feitas no RStudio poderão ser **salvas na nuvem** e **versionadas automaticamente**.
+
+- Para enviar essas alterações ao GitHub, será necessário se autenticar — com **login e senha** ou com um **token de acesso**.
+
+  - Vamos ver como criar um token de acesso no GitHub.
+
+
+
+
+## Criando um token de acesso no <img src="imagens/github-logo.png" style="width: 180px; vertical-align: middle; margin-left: 8px; margin-top: -0px;" />
+
+1. Estando logado no GitHub, clique na sua **foto de perfil** no canto superior direito  
+2. Clique em `Settings`
+
+<div style="text-align: center;">
+  <img src="imagens/github4.png" style="width: 300px;" />
+</div>
+
+
+
+
+## Criando um token de acesso no <img src="imagens/github-logo.png" style="width: 180px; vertical-align: middle; margin-left: 8px; margin-top: -0px;" />
+
+3. No canto inferior esquerdo da tela clique em `Developer settings`
+
+<div style="text-align: center;">
+  <img src="imagens/github5.png" style="width: 600px;" />
+</div>
+
+
+
+
+## Criando um token de acesso no <img src="imagens/github-logo.png" style="width: 180px; vertical-align: middle; margin-left: 8px; margin-top: -0px;" />
+
+4. No canto superior esquerdo da tela clique em `Personal access tokens`
+
+5. Clique em `Tokens (classic)`
+
+<div style="text-align: center;">
+  <img src="imagens/github6.png" style="width: 300px;" />
+</div>
+
+6. Em `Expiration` selecione a data em que o token irá expirar
+
+7. Marque todas as opções em `Select scopes`
+
+8. Clique em `Generate token`
+
+> O token será gerado uma única vez. Guarde-o com cuidado, pois não será possível visualizá-lo novamente no GitHub. Você usará esse token quando for solicitada autenticação.
+
+
+
+
+# Integrando <img src="imagens/rstudio-logo.svg" style="width: 280px; vertical-align: middle; margin-left: 10px; margin-top: 2px;" /> e <img src="imagens/github-logo.png" style="width: 250px; vertical-align: middle; margin-left: 8px; margin-top: 5px;" />
+
+
+## <img src="imagens/rstudio-logo.svg" style="width: 180px; vertical-align: middle; margin-left: 10px; margin-top: 2px;" /> + <img src="imagens/github-logo.png" style="width: 180px; vertical-align: middle; margin-left: 8px; margin-top: 5px;" />: integração prática
+
+- O **RStudio** possui integração nativa com o **Git** e **GitHub**
+
+    - Ou seja, é possível sincronizar um repositório GitHub a um repositório local
+
+    - Isso significa que você pode ligar o repositório do GitHub (na nuvem) ao seu projeto no computador. Assim, o que você altera localmente pode ser enviado para o GitHub — e vice-versa.
+
+- Para isso, seguimos os seguintes passos:
+
+1. Fazemos uma cópia do repositório do GitHub na máquina local usando o RStudio.
+
+    - Quando já há uma cópia na máquina, começamos o trabalho atualizando o projeto local com as alterações que estão no GitHub (`pull`).
+
+2. Trabalhamos normalmente no projeto: scripts, análises, relatórios...
+
+3. Usamos o Git para **registrar as alterações** (`commit`) e **enviar para o GitHub** (`push`).
+
+
+
+
+
+## <img src="imagens/github-logo.png" style="width: 180px; vertical-align: middle; margin-left: 8px; margin-top: -0px;" /> + <img src="imagens/rstudio-logo.svg" style="width: 180px; vertical-align: middle; margin-left: 10px; margin-top: 2px;" />: criando o projeto local
+
+- No canto superior direito do RStudio clique em `File > New Project`
+
+
+<img src="imagens/rstudio1.png" style="width: 380px; display: block; margin: auto;" />
+
+- Clique em `Version control`
+
+<img src="imagens/rstudio2.png" style="width: 380px; display: block; margin: auto;" />
+
+
+
+
+## <img src="imagens/github-logo.png" style="width: 180px; vertical-align: middle; margin-left: 8px; margin-top: -0px;" /> + <img src="imagens/rstudio-logo.svg" style="width: 180px; vertical-align: middle; margin-left: 10px; margin-top: 2px;" />: criando o projeto local
+
+- Clique em `Git`
+
+<img src="imagens/rstudio3.png" style="width: 400px; display: block; margin: auto;" />
+
+
+
+
+## <img src="imagens/github-logo.png" style="width: 180px; vertical-align: middle; margin-left: 8px; margin-top: -0px;" /> + <img src="imagens/rstudio-logo.svg" style="width: 180px; vertical-align: middle; margin-left: 10px; margin-top: 2px;" />: criando o projeto local
+
+- No campo `Repository URL`, cole a URL do repositório que você criou no GitHub
+
+- Em `Create project as subdirectory of`, escolha o diretório em que o repositório do GitHub será copiado na máquina local 
+
+- Clique em `Create Project`
+
+<img src="imagens/rstudio4.png" style="width: 400px; display: block; margin: auto;" />
+
+
+
+
+## <img src="imagens/github-logo.png" style="width: 180px; vertical-align: middle; margin-left: 8px; margin-top: -0px;" /> + <img src="imagens/rstudio-logo.svg" style="width: 180px; vertical-align: middle; margin-left: 10px; margin-top: 2px;" />: criando o projeto local
+
+- Se você estiver clonando um **repositório público**, o RStudio irá criar uma cópia do projeto localmente, sem exigir login.
+
+- Se o repositório for **privado**, o GitHub pedirá que você se autentique (login e senha ou token).
+
+
+
+
+# Atualizando repositório no <img src="imagens/github-logo.png" style="width: 280px; vertical-align: middle; margin-left: 8px; margin-top: -0px;" />
+
+
+## Enviando alterações para o <img src="imagens/github-logo.png" style="width: 180px; vertical-align: middle; margin-left: 8px; margin-top: -0px;" /> via <img src="imagens/rstudio-logo.svg" style="width: 180px; vertical-align: middle; margin-left: 10px; margin-top: 2px;" />
+
+- Depois de salvar as atualizações do seu projeto local, você pode **enviar essas alterações para o repositório no GitHub diretamente pelo RStudio**.
+
+- Você deve fazer:
+
+1. No quadrante superior direito clique em `Commit`
+
+<div style="text-align: center;">
+  <img src="imagens/rstudio5.png" style="width: 1000px;" />
+</div>
+
+
+
+
+
+## Enviando alterações para o <img src="imagens/github-logo.png" style="width: 180px; vertical-align: middle; margin-left: 8px; margin-top: -0px;" /> via <img src="imagens/rstudio-logo.svg" style="width: 180px; vertical-align: middle; margin-left: 10px; margin-top: 2px;" />
+
+2. RStudio mostra os arquivos que foram alterados. Selecione-os
+
+3. No campo `Commit message` escreva um comentário contendo o que foi atualizado
+
+4. Clique em `Commit`
+
+<div style="text-align: center;">
+  <img src="imagens/rstudio6.png" style="width: 1000px;" />
+</div>
+
+
+
+
+## Enviando alterações para o <img src="imagens/github-logo.png" style="width: 180px; vertical-align: middle; margin-left: 8px; margin-top: -0px;" /> via <img src="imagens/rstudio-logo.svg" style="width: 180px; vertical-align: middle; margin-left: 10px; margin-top: 2px;" />
+
+5. Clique em `Close`
+
+<div style="text-align: center;">
+  <img src="imagens/rstudio7.png" style="width: 1000px;" />
+</div>
+
+
+
+
+## Enviando alterações para o <img src="imagens/github-logo.png" style="width: 180px; vertical-align: middle; margin-left: 8px; margin-top: -0px;" /> via <img src="imagens/rstudio-logo.svg" style="width: 180px; vertical-align: middle; margin-left: 10px; margin-top: 2px;" />
+
+6. Note que irá aparecer a mensagem `Your branch is ahead of 'origin/master' by 1 commit`
+
+7. Clique em `Push`
+
+<div style="text-align: center;">
+  <img src="imagens/rstudio8.png" style="width: 1000px;" />
+</div>
+
+8. No campo `Username for 'https://github.com'` coloque login e clique em `OK`
+
+<div style="text-align: center;">
+  <img src="imagens/rstudio9.png" style="width: 500px;" />
+</div>
+
+
+
+
+## Enviando alterações para o <img src="imagens/github-logo.png" style="width: 180px; vertical-align: middle; margin-left: 8px; margin-top: -0px;" /> via <img src="imagens/rstudio-logo.svg" style="width: 180px; vertical-align: middle; margin-left: 10px; margin-top: 2px;" />
+
+9. No campo `Personal Access Token` insira o token criado no GitHub
+
+10. Clique em `OK`
+
+<div style="text-align: center;">
+  <img src="imagens/rstudio10.png" style="width: 500px;" />
+</div>
+
+
+
+
+## Enviando alterações para o <img src="imagens/github-logo.png" style="width: 180px; vertical-align: middle; margin-left: 8px; margin-top: -0px;" /> via <img src="imagens/rstudio-logo.svg" style="width: 180px; vertical-align: middle; margin-left: 10px; margin-top: 2px;" />
+
+11. Caso apareça a mensagem abaixo, os arquivos foram atualizados no repositório do GitHub.
+
+<div style="text-align: center;">
+  <img src="imagens/rstudio11.png" style="width: 500px;" />
+</div>
+
+
+
+
+## Material Extra
+
+Aprofunde o que vimos em aula com esses vídeos no YouTube:
+
+- Curso completo de Git e GitHub: <http://tiny.cc/GitGitHub:
+
+- Integração do RStudio com o GitHub:
+    - Parte 1: <http://tiny.cc/RStudioGitHub1>
+    - Parte 2: <http://tiny.cc/RStudioGitHub2>
+
+
+
+## Ganhos da aula
+
+- Versionamento de cpodigo e arquivos com GitHub
+
+- Integração do RStudio com GitHub
+
+- Experiência com ferramentas do mercado
+
+
+
+## Atividade extraclasse
+
+### Configure seu ambiente de trabalho pessoal
+
+#### Objetivo
+Deixar seu computador pessoal pronto para continuar os trabalhos da disciplina fora do laboratório, de forma independente.
+
+#### Etapas:
+- Instalar o Git: <https://happygitwithr.com/install-git.html>
+
+- Instalar o R: <https://cran.r-project.org>
+
+- Instalar o RStudio: <https://posit.co/download/rstudio-desktop>
+
+- Fazer uma cópia (clone) do **repositório da disciplina no GitHub** para o seu computador.
+
+Criar um **repositório de teste**, clonar no RStudio e fazer seu **primeiro commit**.
+
+
+
+
+# Fim
