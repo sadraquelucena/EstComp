@@ -8,10 +8,9 @@ website:
   title: "Estatística Computacional"
   sidebar:
     style: "docked"
-    search: true
-    logo: img/logo_hex8.png
+    search: false
+    logo: img/ESTAT0090_logo_hex.png
     background: "#BED5BE"
-    
     contents:
     - section: "Informações do curso"
       contents: 
@@ -25,7 +24,6 @@ website:
         text: "Bibliografia"
       - href: info/cronograma.qmd
         text: "Cronograma"
-      
     - section: "Material das aulas"
       contents: 
       - href: aulas/aula1.qmd
