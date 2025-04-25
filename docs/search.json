@@ -1,0 +1,421 @@
+[
+  {
+    "objectID": "info/bibliografia.html",
+    "href": "info/bibliografia.html",
+    "title": "Estatística Computacional",
+    "section": "",
+    "text": "DE ALMEIDA, Pedro Quaresma. Introduçao ao LATEX. Escolar Editora, 1996.\nRUBINSTEIN, Reuven Y; KROESE, Dirk P. Simulation and Monte Carlo method. 2nd ed. New Jersey, Estados Unidos: Wiley-Interscience, 2008.\nDAVISON, A. C; HINKLEY, D. V. Bootstrap methods and their application. New York, Estados Unidos: Cambridge University Press, 1997.\nEFRON, Bradley; TIBSHIRANI, Robert. An introduction to the bootstrap. Boca Raton, Estados Unidos: Chapman & Hall/CRC, 1994.\nVERZANI, John. Using R for introductory statistics. Boca Raton, Estados Unidos: Chapman & Hall/CRC, 2005.\n\n\n\n\n\nRIZZO, Maria L. Statistical computing with R. CRC Press, 2019.\nGIVENS, Geof H.; HOETING, Jennifer A. Computational statistics. John Wiley & Sons, 2012.",
+    "crumbs": [
+      "Informações do curso",
+      "Bibliografia"
+    ]
+  },
+  {
+    "objectID": "info/bibliografia.html#bibliografia",
+    "href": "info/bibliografia.html#bibliografia",
+    "title": "Estatística Computacional",
+    "section": "",
+    "text": "DE ALMEIDA, Pedro Quaresma. Introduçao ao LATEX. Escolar Editora, 1996.\nRUBINSTEIN, Reuven Y; KROESE, Dirk P. Simulation and Monte Carlo method. 2nd ed. New Jersey, Estados Unidos: Wiley-Interscience, 2008.\nDAVISON, A. C; HINKLEY, D. V. Bootstrap methods and their application. New York, Estados Unidos: Cambridge University Press, 1997.\nEFRON, Bradley; TIBSHIRANI, Robert. An introduction to the bootstrap. Boca Raton, Estados Unidos: Chapman & Hall/CRC, 1994.\nVERZANI, John. Using R for introductory statistics. Boca Raton, Estados Unidos: Chapman & Hall/CRC, 2005.\n\n\n\n\n\nRIZZO, Maria L. Statistical computing with R. CRC Press, 2019.\nGIVENS, Geof H.; HOETING, Jennifer A. Computational statistics. John Wiley & Sons, 2012.",
+    "crumbs": [
+      "Informações do curso",
+      "Bibliografia"
+    ]
+  },
+  {
+    "objectID": "info/conteudo.html",
+    "href": "info/conteudo.html",
+    "title": "Estatística Computacional",
+    "section": "",
+    "text": "Geração de variáveis aleatórias\n1.1. Comandos básicos do R\n1.2. Estruturas de repetição no R\n1.3. Condições e sı́mbolos lógicos no\n1.4. Escrevendo funções no R\n1.5. Gerador de números aleatórios\n1.6. Método da Transformada inversa\n1.7. Método da Aceitação-Rejeição\n1.8. Outros métodos de geração de v.a.\nMétodos de Monte Carlo\n2.1. Conceito Geral\n2.2. Testes de Hipóteses e Erros\n2.3. Intervalos de confiança\n2.4. Viés e Erro quadrático Médio\n2.5. Método de Reamostragem: Bootstrap\n2.6. Método de Reamostragem: Jackknife\nO editor de textos LaTeX\n3.1. Comandos iniciais\n3.2. Formatação de texto, Tipos de Listas, Teoremas\n3.3. Fórmulas diversas, sı́mbolos matemáticos, escrevendo em ambiente de fórmulas\n3.4. Matrizes, equações alinhadas, tabelas e imagens\n3.5. Textos sem formatação (Para saı́das computacionais)\n3.6. Partes de documento: Tı́tulos, capı́tulos, sumários, cabeçalho e rodapé, bibliografia básica\n3.7. BibTeX (bibliografia externa)\n3.8. Criando Apresentações e Pôster",
+    "crumbs": [
+      "Informações do curso",
+      "Conteúdo"
+    ]
+  },
+  {
+    "objectID": "info/conteudo.html#conteudo",
+    "href": "info/conteudo.html#conteudo",
+    "title": "Estatística Computacional",
+    "section": "",
+    "text": "Geração de variáveis aleatórias\n1.1. Comandos básicos do R\n1.2. Estruturas de repetição no R\n1.3. Condições e sı́mbolos lógicos no\n1.4. Escrevendo funções no R\n1.5. Gerador de números aleatórios\n1.6. Método da Transformada inversa\n1.7. Método da Aceitação-Rejeição\n1.8. Outros métodos de geração de v.a.\nMétodos de Monte Carlo\n2.1. Conceito Geral\n2.2. Testes de Hipóteses e Erros\n2.3. Intervalos de confiança\n2.4. Viés e Erro quadrático Médio\n2.5. Método de Reamostragem: Bootstrap\n2.6. Método de Reamostragem: Jackknife\nO editor de textos LaTeX\n3.1. Comandos iniciais\n3.2. Formatação de texto, Tipos de Listas, Teoremas\n3.3. Fórmulas diversas, sı́mbolos matemáticos, escrevendo em ambiente de fórmulas\n3.4. Matrizes, equações alinhadas, tabelas e imagens\n3.5. Textos sem formatação (Para saı́das computacionais)\n3.6. Partes de documento: Tı́tulos, capı́tulos, sumários, cabeçalho e rodapé, bibliografia básica\n3.7. BibTeX (bibliografia externa)\n3.8. Criando Apresentações e Pôster",
+    "crumbs": [
+      "Informações do curso",
+      "Conteúdo"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Bem-vindo(a)!",
+    "section": "",
+    "text": "Bem-vindo(a)!\nEsta página foi criada pelo Prof. Dr. Sadraque E. F. Lucena para centralizar os conteúdos, atividades, cronograma e materiais da disciplina ESTAT0090 – Estatística Computacional, ofertada pelo Departamento de Estatística e Ciências Atuariais da Universidade Federal de Sergipe. Ao longo do semestre, vamos explorar ferramentas fundamentais para a prática da Estatística moderna, com ênfase em programação em R, Quarto, LaTeX, GitHub, simulação, métodos computacionais e reamostragem (como Bootstrap e Monte Carlo).\nA disciplina será conduzida com uma abordagem baseada em problemas (PBL), conectando a teoria à prática profissional do estatístico. A cada semana, novos desafios e projetos serão propostos, promovendo o aprendizado ativo e colaborativo.\nFique atento(a) às atualizações — este espaço será constantemente revisado com avisos, novos materiais e mudanças no cronograma."
+  },
+  {
+    "objectID": "aulas/aula2.html",
+    "href": "aulas/aula2.html",
+    "title": "Estatística Computacional",
+    "section": "",
+    "text": "Versão html\nVersão pdf",
+    "crumbs": [
+      "Material das aulas",
+      "Aula 2"
+    ]
+  },
+  {
+    "objectID": "aulas/aula2.html#introdução-ao-rstudio-github",
+    "href": "aulas/aula2.html#introdução-ao-rstudio-github",
+    "title": "Estatística Computacional",
+    "section": "",
+    "text": "Versão html\nVersão pdf",
+    "crumbs": [
+      "Material das aulas",
+      "Aula 2"
+    ]
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#cenário-profissional",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#cenário-profissional",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Cenário profissional",
+    "text": "Cenário profissional\nUma História Real (ou quase)\n\nImagine que você é contratado por uma empresa para analisar dados de clientes e construir relatórios periódicos.\nVocê começa empolgado, faz seu código em R, roda tudo no seu computador e entrega um relatório lindo.\nUm mês depois, o gerente pede que você refaça a análise com os novos dados.\nSó tem um problema:\n\nvocê não lembra qual script usou.\nOs arquivos estão todos em “versão final_v3_final_real.R”.\nE o relatório? Foi feito no Word e agora está com outro estagiário."
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#cenário-profissional-1",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#cenário-profissional-1",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Cenário profissional",
+    "text": "Cenário profissional\nO Problema\nVocê percebe que:\n\nSeus scripts estão bagunçados.\nO histórico do que foi feito se perdeu.\nO relatório não é reprodutível.\nNinguém (nem você mesmo) entende o que foi feito.\n\nA Motivação\nComo resolver isso? Você precisa de:\n\nUm ambiente organizado para escrever e executar código (RStudio).\nUm jeito de acompanhar o histórico do seu trabalho (Git).\nUma forma de colaborar e compartilhar com outras pessoas (GitHub).\nRelatórios que podem ser reproduzidos a qualquer momento (Quarto)."
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#um-exemplo-da-nossa-própria-disciplina",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#um-exemplo-da-nossa-própria-disciplina",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Um Exemplo da Nossa Própria Disciplina",
+    "text": "Um Exemplo da Nossa Própria Disciplina\nCenário:\n\nVocê está cursando Estatística Computacional.\nA cada aula, o professor entrega:\n\nSlides da aula com explicações e um código em R.\nUm problema para você resolver, adaptando e expandindo o código.\n\nVocê modifica, testa, ajusta e responde o problema.\nNa aula seguinte, você parte exatamente de onde parou."
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#e-se-você-fizer-tudo-isso-com-e",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#e-se-você-fizer-tudo-isso-com-e",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "E se você fizer tudo isso com  e ?",
+    "text": "E se você fizer tudo isso com  e ?\nVocê terá:\n\nUm histórico completo de aprendizagem.\nUm repositório que mostra sua evolução.\nUma base reutilizável para projetos futuros.\n\n\nÉ como criar seu próprio material interativo de Estatística Computacional!"
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#objetivo-da-aula",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#objetivo-da-aula",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Objetivo da aula",
+    "text": "Objetivo da aula\n\nEntender o que é e para que serve o Git e o GitHub.\nSaber como criar um repositório de projeto.\nAtualizar repositório no GitHub via Studio."
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#o-que-é-o",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#o-que-é-o",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "O que é o ?",
+    "text": "O que é o ?\n\nGit é uma ferramenta que ajuda a controlar e gerenciar mudanças em arquivos ao longo do tempo.\nEle permite que você salve versões diferentes de um trabalho à medida que faz alterações, de modo que possa voltar para versões anteriores se algo der errado ou se precisar revisar mudanças feitas.\n\nPor que o  é importante?\n\nEvita perda de trabalho: Se você estiver escrevendo código ou criando qualquer tipo de documento, o Git permite que você salve diferentes versões do seu trabalho. Assim, se algo der errado, você pode voltar a uma versão anterior.\nFacilita o trabalho em equipe: Quando várias pessoas estão trabalhando no mesmo projeto, o Git permite que cada uma trabalhe de forma independente e depois una os trabalhos de maneira organizada. Isso evita que as alterações de uma pessoa sobrescrevam as de outra.\nOrganização e rastreamento: O Git mantém um histórico completo de todas as mudanças feitas em um projeto, permitindo saber quem fez o quê e quando."
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#o-que-é-o-1",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#o-que-é-o-1",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "O que é o ?",
+    "text": "O que é o ?\n\nGitHub é uma plataforma online que armazena e organiza projetos que utilizam Git.\nEle permite que você publique seu código, compartilhe arquivos e colabore com outras pessoas em projetos de forma fácil e eficiente.\n\nPor que o  é importante?\n\nArmazenamento seguro: Com o GitHub, seus projetos ficam seguramente armazenados na nuvem. Isso significa que você pode acessar seu trabalho de qualquer lugar e sempre terá uma cópia segura.\nColaboração em equipe: GitHub permite que várias pessoas trabalhem no mesmo projeto ao mesmo tempo. Cada pessoa pode fazer mudanças no código, e o GitHub ajuda a gerenciar essas mudanças sem que uma sobrescreva a outra.\nHistórico e transparência: O GitHub mantém um histórico completo de todas as alterações feitas no seu projeto. Isso permite ver quem fez o quê e quando, facilitando o acompanhamento e revisão do trabalho de equipe."
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#como-e-por-que-usar-o-na-disciplina",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#como-e-por-que-usar-o-na-disciplina",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Como e por que usar o  na disciplina?",
+    "text": "Como e por que usar o  na disciplina?\n\nVocê receberá um script em R a cada aula\nDurante a aula, vai editar esse script no RStudio, testando e resolvendo problemas\nNo final da aula, envia suas alterações para seu repositório (push) — tudo salvo e organizado\nPode acessar seu trabalho de qualquer lugar, com segurança e histórico garantido\n\n\nGitHub será seu caderno digital de códigos — inteligente, seguro e acessível para a disciplina"
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#primeiros-passos",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#primeiros-passos",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Primeiros passos",
+    "text": "Primeiros passos\n\nBaixar e instalar o Git: https://happygitwithr.com/install-git.html\nCriar uma conta no GitHub: https://github.com/\nCriar um reposítório Git\nClone esse repositório para sua máquina usando o RStudio\nTrabalhe no projeto e envie as atualizações de volta ao GitHub\n\n\nDesenvolva o hábito de buscar soluções por conta própria. Isso faz parte do dia a dia de quem trabalha com dados. Comece agora a desenvolver essa autonomia."
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-repositório-no",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-repositório-no",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Criando um repositório  no ",
+    "text": "Criando um repositório  no \n\nApós fazer login no GitHub, Clique em + no canto superior direito\nEm seguida, clique em New repository"
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-repositório-no-1",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-repositório-no-1",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Criando um repositório  no ",
+    "text": "Criando um repositório  no \n\n\n\nEm Repository name dê um anome ao repositóro\nEm Description faça uma descrição do repositório\nMarque a opção Public ou Private\nEm Initialize this repository with: marque a opção Add a README file\nClique em Create repository"
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#section",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#section",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "",
+    "text": "Com o repositório já criado no GitHub, agora vamos usar o RStudio para ligar o projeto local ao repositório remoto.\nAssim, todas as alterações feitas no RStudio poderão ser salvas na nuvem e versionadas automaticamente.\nPara enviar essas alterações ao GitHub, será necessário se autenticar — com login e senha ou com um token de acesso.\n\nVamos ver como criar um token de acesso no GitHub."
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-token-de-acesso-no",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-token-de-acesso-no",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Criando um token de acesso no ",
+    "text": "Criando um token de acesso no \n\nEstando logado no GitHub, clique na sua foto de perfil no canto superior direito\n\nClique em Settings"
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-token-de-acesso-no-1",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-token-de-acesso-no-1",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Criando um token de acesso no ",
+    "text": "Criando um token de acesso no \n\nNo canto inferior esquerdo da tela clique em Developer settings"
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-token-de-acesso-no-2",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-token-de-acesso-no-2",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Criando um token de acesso no ",
+    "text": "Criando um token de acesso no \n\nNo canto superior esquerdo da tela clique em Personal access tokens\nClique em Tokens (classic)\n\n\n\n\n\nEm Expiration selecione a data em que o token irá expirar\nMarque todas as opções em Select scopes\nClique em Generate token\n\n\nO token será gerado uma única vez. Guarde-o com cuidado, pois não será possível visualizá-lo novamente no GitHub. Você usará esse token quando for solicitada autenticação."
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#integração-prática",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#integração-prática",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": " + : integração prática",
+    "text": "+ : integração prática\n\nO RStudio possui integração nativa com o Git e GitHub\n\nOu seja, é possível sincronizar um repositório GitHub a um repositório local\nIsso significa que você pode ligar o repositório do GitHub (na nuvem) ao seu projeto no computador. Assim, o que você altera localmente pode ser enviado para o GitHub — e vice-versa.\n\nPara isso, seguimos os seguintes passos:\n\n\nFazemos uma cópia do repositório do GitHub na máquina local usando o RStudio.\n\nQuando já há uma cópia na máquina, começamos o trabalho atualizando o projeto local com as alterações que estão no GitHub (pull).\n\nTrabalhamos normalmente no projeto: scripts, análises, relatórios…\nUsamos o Git para registrar as alterações (commit) e enviar para o GitHub (push)."
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-o-projeto-local",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-o-projeto-local",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": " + : criando o projeto local",
+    "text": "+ : criando o projeto local\n\nNo canto superior direito do RStudio clique em File &gt; New Project\n\n\n\nClique em Version control"
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-o-projeto-local-1",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-o-projeto-local-1",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": " + : criando o projeto local",
+    "text": "+ : criando o projeto local\n\nClique em Git"
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-o-projeto-local-2",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-o-projeto-local-2",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": " + : criando o projeto local",
+    "text": "+ : criando o projeto local\n\nNo campo Repository URL, cole a URL do repositório que você criou no GitHub\nEm Create project as subdirectory of, escolha o diretório em que o repositório do GitHub será copiado na máquina local\nClique em Create Project"
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-o-projeto-local-3",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-o-projeto-local-3",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": " + : criando o projeto local",
+    "text": "+ : criando o projeto local\n\nSe você estiver clonando um repositório público, o RStudio irá criar uma cópia do projeto localmente, sem exigir login.\nSe o repositório for privado, o GitHub pedirá que você se autentique (login e senha ou token)."
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Enviando alterações para o  via ",
+    "text": "Enviando alterações para o  via \n\nDepois de salvar as atualizações do seu projeto local, você pode enviar essas alterações para o repositório no GitHub diretamente pelo RStudio.\nVocê deve fazer:\n\n\nNo quadrante superior direito clique em Commit"
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-1",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-1",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Enviando alterações para o  via ",
+    "text": "Enviando alterações para o  via \n\nRStudio mostra os arquivos que foram alterados. Selecione-os\nNo campo Commit message escreva um comentário contendo o que foi atualizado\nClique em Commit"
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-2",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-2",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Enviando alterações para o  via ",
+    "text": "Enviando alterações para o  via \n\nClique em Close"
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-3",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-3",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Enviando alterações para o  via ",
+    "text": "Enviando alterações para o  via \n\nNote que irá aparecer a mensagem Your branch is ahead of 'origin/master' by 1 commit\nClique em Push\n\n\n\n\n\nNo campo Username for 'https://github.com' coloque login e clique em OK"
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-4",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-4",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Enviando alterações para o  via ",
+    "text": "Enviando alterações para o  via \n\nNo campo Personal Access Token insira o token criado no GitHub\nClique em OK"
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-5",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-5",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Enviando alterações para o  via ",
+    "text": "Enviando alterações para o  via \n\nCaso apareça a mensagem abaixo, os arquivos foram atualizados no repositório do GitHub."
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#material-extra",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#material-extra",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Material Extra",
+    "text": "Material Extra\nAprofunde o que vimos em aula com esses vídeos no YouTube:\n\nCurso completo de Git e GitHub: &lt;http://tiny.cc/GitGitHub:\nIntegração do RStudio com o GitHub:\n\nParte 1: http://tiny.cc/RStudioGitHub1\nParte 2: http://tiny.cc/RStudioGitHub2"
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#ganhos-da-aula",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#ganhos-da-aula",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Ganhos da aula",
+    "text": "Ganhos da aula\n\nVersionamento de cpodigo e arquivos com GitHub\nIntegração do RStudio com GitHub\nExperiência com ferramentas do mercado"
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#atividade-extraclasse",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#atividade-extraclasse",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Atividade extraclasse",
+    "text": "Atividade extraclasse\nConfigure seu ambiente de trabalho pessoal\nObjetivo\nDeixar seu computador pessoal pronto para continuar os trabalhos da disciplina fora do laboratório, de forma independente.\nEtapas:\n\nInstalar o Git: https://happygitwithr.com/install-git.html\nInstalar o R: https://cran.r-project.org\nInstalar o RStudio: https://posit.co/download/rstudio-desktop\nFazer uma cópia (clone) do repositório da disciplina no GitHub para o seu computador.\n\nCriar um repositório de teste, clonar no RStudio e fazer seu primeiro commit."
+  },
+  {
+    "objectID": "info/ementa.html",
+    "href": "info/ementa.html",
+    "title": "Estatística Computacional",
+    "section": "",
+    "text": "Editor de textos LATEX. Estruturas de repetições e funções no software R. Geração de Variáveis Aleatórias. Método de Monte Carlo. Bootstrap.",
+    "crumbs": [
+      "Informações do curso",
+      "Ementa e objetivos"
+    ]
+  },
+  {
+    "objectID": "info/ementa.html#ementa",
+    "href": "info/ementa.html#ementa",
+    "title": "Estatística Computacional",
+    "section": "",
+    "text": "Editor de textos LATEX. Estruturas de repetições e funções no software R. Geração de Variáveis Aleatórias. Método de Monte Carlo. Bootstrap.",
+    "crumbs": [
+      "Informações do curso",
+      "Ementa e objetivos"
+    ]
+  },
+  {
+    "objectID": "info/ementa.html#objetivos",
+    "href": "info/ementa.html#objetivos",
+    "title": "Estatística Computacional",
+    "section": "Objetivos",
+    "text": "Objetivos\nDesenvolver habilidades essenciais para a aplicação de métodos computacionais na análise de dados e na obtenção de estimativas estatı́sticas confiáveis, bem como preparar estudantes para criar documentos de alta qualidade com notação matemática adequada e formatação profissional.",
+    "crumbs": [
+      "Informações do curso",
+      "Ementa e objetivos"
+    ]
+  },
+  {
+    "objectID": "info/ementa.html#metodologia",
+    "href": "info/ementa.html#metodologia",
+    "title": "Estatística Computacional",
+    "section": "Metodologia",
+    "text": "Metodologia\nSerão ministradas aulas teóricas expositivas; utilizados recursos visuais; resolução de exercı́cios em sala de aula; solicitação de atividades extraclasse. O cronograma de aulas encontra-se no Quadro 1.",
+    "crumbs": [
+      "Informações do curso",
+      "Ementa e objetivos"
+    ]
+  },
+  {
+    "objectID": "info/ementa.html#habilidades-e-competências",
+    "href": "info/ementa.html#habilidades-e-competências",
+    "title": "Estatística Computacional",
+    "section": "Habilidades e Competências",
+    "text": "Habilidades e Competências\nAo término deste curso o aluno estará apto a realizar análises estatı́sticas avançadas, simulações e estimativas confiáveis, além de resolver problemas práticos no campo da Estatı́stica utilizando abordagens computacionais.",
+    "crumbs": [
+      "Informações do curso",
+      "Ementa e objetivos"
+    ]
+  },
+  {
+    "objectID": "info/ementa.html#avaliação",
+    "href": "info/ementa.html#avaliação",
+    "title": "Estatística Computacional",
+    "section": "Avaliação",
+    "text": "Avaliação\nSerão realizadas três avaliações ao longo do semestre. As avaliações poderão ser provas, trabalhos ou outras atividades solicitadas pelo professor.",
+    "crumbs": [
+      "Informações do curso",
+      "Ementa e objetivos"
+    ]
+  },
+  {
+    "objectID": "info/cronograma.html",
+    "href": "info/cronograma.html",
+    "title": "Estatística Computacional",
+    "section": "",
+    "text": "Cronograma de aulas de Estatística Computacional para o período 2025-1.",
+    "crumbs": [
+      "Informações do curso",
+      "Cronograma"
+    ]
+  },
+  {
+    "objectID": "info/cronograma.html#cronograma-de-aulas",
+    "href": "info/cronograma.html#cronograma-de-aulas",
+    "title": "Estatística Computacional",
+    "section": "",
+    "text": "Cronograma de aulas de Estatística Computacional para o período 2025-1.",
+    "crumbs": [
+      "Informações do curso",
+      "Cronograma"
+    ]
+  },
+  {
+    "objectID": "info/dados_gerais.html",
+    "href": "info/dados_gerais.html",
+    "title": "Estatística Computacional",
+    "section": "",
+    "text": "Componente curricular:\nESTAT0090 - Estatística Computacional\nDisciplina obrigatória para o curso de Estatística da Universidade Federal de Sergipe",
+    "crumbs": [
+      "Informações do curso",
+      "Dados gerais"
+    ]
+  },
+  {
+    "objectID": "info/dados_gerais.html#dados-gerais-da-disciplina",
+    "href": "info/dados_gerais.html#dados-gerais-da-disciplina",
+    "title": "Estatística Computacional",
+    "section": "",
+    "text": "Componente curricular:\nESTAT0090 - Estatística Computacional\nDisciplina obrigatória para o curso de Estatística da Universidade Federal de Sergipe",
+    "crumbs": [
+      "Informações do curso",
+      "Dados gerais"
+    ]
+  },
+  {
+    "objectID": "info/dados_gerais.html#informações-da-disciplina",
+    "href": "info/dados_gerais.html#informações-da-disciplina",
+    "title": "Estatística Computacional",
+    "section": "Informações da Disciplina",
+    "text": "Informações da Disciplina\n\nCarga Horária: 60 horas (4 créditos)\nUnidade Responsável: Departamento de Estatística e Ciências Atuariais (DECAT)\nDocente Responsável: Prof. Dr. Sadraque E. F. Lucena\nPeríodo Letivo: 2025-1",
+    "crumbs": [
+      "Informações do curso",
+      "Dados gerais"
+    ]
+  },
+  {
+    "objectID": "info/dados_gerais.html#horários-das-aulas",
+    "href": "info/dados_gerais.html#horários-das-aulas",
+    "title": "Estatística Computacional",
+    "section": "Horários das Aulas",
+    "text": "Horários das Aulas\nAs aulas ocorrerão nos seguintes horários:\n\nTerças: 19h00 às 20h30\nQuintas: 20h45 às 22h15\n\nLocal: Laboratório de Estatística (DECAT)",
+    "crumbs": [
+      "Informações do curso",
+      "Dados gerais"
+    ]
+  },
+  {
+    "objectID": "info/dados_gerais.html#avaliações",
+    "href": "info/dados_gerais.html#avaliações",
+    "title": "Estatística Computacional",
+    "section": "Avaliações",
+    "text": "Avaliações\nA disciplina contará com 3 avaliações distribuídas ao longo do semestre.",
+    "crumbs": [
+      "Informações do curso",
+      "Dados gerais"
+    ]
+  }
+]

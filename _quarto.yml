@@ -5,10 +5,12 @@ project:
 website:
   bread-crumbs: false
   page-navigation: true
-  title: "ESTAT0090 - Estatística Computacional"
+  title: "Estatística Computacional"
   sidebar:
     style: "docked"
     search: true
+    logo: img/logo_hex8.png
+    background: "#BED5BE"
     
     contents:
     - section: "Informações do curso"

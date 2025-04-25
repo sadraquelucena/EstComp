@@ -1,0 +1,15 @@
+---
+title: ""
+format:
+  html:
+    toc: false
+    anchor-sections: false
+---
+
+# Bem-vindo(a)!
+
+Esta página foi criada pelo Prof. Dr. Sadraque E. F. Lucena para centralizar os conteúdos, atividades, cronograma e materiais da disciplina **ESTAT0090 – Estatística Computacional**, ofertada pelo Departamento de Estatística e Ciências Atuariais da Universidade Federal de Sergipe. Ao longo do semestre, vamos explorar ferramentas fundamentais para a prática da Estatística moderna, com ênfase em programação em R, Quarto, LaTeX, GitHub, simulação, métodos computacionais e reamostragem (como Bootstrap e Monte Carlo).
+
+A disciplina será conduzida com uma abordagem baseada em problemas (PBL), conectando a teoria à prática profissional do estatístico. A cada semana, novos desafios e projetos serão propostos, promovendo o aprendizado ativo e colaborativo.
+
+Fique atento(a) às atualizações — este espaço será constantemente revisado com avisos, novos materiais e mudanças no cronograma.

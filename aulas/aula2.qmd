@@ -8,4 +8,6 @@ format:
 
 ## 2 - Introdução ao RStudio + GitHub
 
-[2 - Introdução ao RStudio + GitHub](/slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html)
+- [Versão html](/slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html)
+
+- [Versão pdf](/slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.pdf)
