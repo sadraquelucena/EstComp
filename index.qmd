@@ -1,8 +1,0 @@
----
-title: "Meu Site com Quarto"
-format: html
----
-
-# Olá, mundo!
-
-Esse é meu primeiro site com Quarto.

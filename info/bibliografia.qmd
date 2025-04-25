@@ -1,0 +1,22 @@
+---
+title: ""
+format:
+  html:
+    toc: false
+    anchor-sections: false
+---
+
+## Bibliografia
+
+### Básica
+
+- DE ALMEIDA, Pedro Quaresma. Introduçao ao LATEX. Escolar Editora, 1996.
+- RUBINSTEIN, Reuven Y; KROESE, Dirk P. Simulation and Monte Carlo method. 2nd ed. New Jersey, Estados Unidos: Wiley-Interscience, 2008.
+- DAVISON, A. C; HINKLEY, D. V. Bootstrap methods and their application. New York, Estados Unidos: Cambridge University Press, 1997.
+- EFRON, Bradley; TIBSHIRANI, Robert. An introduction to the bootstrap. Boca Raton, Estados Unidos: Chapman & Hall/CRC, 1994.
+- VERZANI, John. Using R for introductory statistics. Boca Raton, Estados Unidos: Chapman & Hall/CRC, 2005.
+
+### Complementar
+
+- RIZZO, Maria L. Statistical computing with R. CRC Press, 2019.
+- GIVENS, Geof H.; HOETING, Jennifer A. Computational statistics. John Wiley & Sons, 2012.

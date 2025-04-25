@@ -1,0 +1,28 @@
+---
+title: ""
+format:
+  html:
+    toc: false
+    anchor-sections: false
+---
+
+## Ementa
+
+Editor de textos LATEX. Estruturas de repetições e funções no software R. Geração de
+Variáveis Aleatórias. Método de Monte Carlo. Bootstrap.
+
+
+## Objetivos
+
+Desenvolver habilidades essenciais para a aplicação de métodos computacionais na análise de dados e na obtenção de estimativas estatı́sticas confiáveis, bem como preparar estudantes para criar documentos de alta qualidade com notação matemática adequada e formatação profissional.
+
+## Metodologia
+
+Serão ministradas aulas teóricas expositivas; utilizados recursos visuais; resolução de exercı́cios em sala de aula; solicitação de atividades extraclasse. O cronograma de aulas encontra-se no Quadro 1.
+
+## Habilidades e Competências
+
+Ao término deste curso o aluno estará apto a realizar análises estatı́sticas avançadas, simulações e estimativas confiáveis, além de resolver problemas práticos no campo da Estatı́stica utilizando abordagens computacionais.
+
+## Avaliação
+Serão realizadas três avaliações ao longo do semestre. As avaliações poderão ser provas, trabalhos ou outras atividades solicitadas pelo professor.

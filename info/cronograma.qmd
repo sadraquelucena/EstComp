@@ -1,0 +1,12 @@
+---
+title: ""
+format:
+  html:
+    toc: false
+    anchor-sections: false
+---
+
+## Cronograma de Aulas
+
+Cronograma de aulas de Estatística Computacional para o período 2025-1.
+

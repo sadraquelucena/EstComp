@@ -3,12 +3,26 @@ project:
   output-dir: docs
 
 website:
-  title: "Meu site"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+  bread-crumbs: false
+  page-navigation: true
+  title: "ESTAT0090 - Estatística Computacional"
+  sidebar:
+    style: "docked"
+    search: true
+    
+    contents:
+    - section: "Informações do curso"
+      contents: 
+      - href: info/dados_gerais.qmd
+        text: "Dados gerais"
+      - href: info/ementa.qmd
+        text: "Ementa e objetivos"
+      - href: info/conteudo.qmd
+        text: "Conteúdo"
+      - href: info/bibliografia.qmd
+        text: "Bibliografia"
+      - href: info/cronograma.qmd
+        text: "Cronograma"
 
 format:
   html:

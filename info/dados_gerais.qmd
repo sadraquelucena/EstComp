@@ -1,0 +1,36 @@
+---
+title: ""
+format:
+  html:
+    toc: false
+    anchor-sections: false
+---
+
+## Dados Gerais da Disciplina
+
+**Componente curricular:**  
+**ESTAT0090 - Estatística Computacional**  
+*Disciplina obrigatória para o curso de Estatística da Universidade Federal de Sergipe*
+
+
+## Informações da Disciplina
+
+- **Carga Horária:** 60 horas (4 créditos)
+- **Unidade Responsável:** Departamento de Estatística e Ciências Atuariais (DECAT)
+- **Docente Responsável:** Prof. Dr. Sadraque E. F. Lucena
+- **Período Letivo:** 2025-1
+
+
+## Horários das Aulas
+
+As aulas ocorrerão nos seguintes horários:
+
+- **Terças**: 19h00 às 20h30
+- **Quintas**: 20h45 às 22h15
+
+**Local:** Laboratório de Estatística (DECAT)
+
+
+## Avaliações
+
+A disciplina contará com **3 avaliações** distribuídas ao longo do semestre.
