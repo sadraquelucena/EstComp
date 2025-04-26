@@ -1,0 +1,20 @@
+---
+title: ""
+format:
+  html:
+    toc: false
+    anchor-sections: false
+---
+
+# Conteúdo 1
+
+## Apresentação da Disciplina
+
+Como garantir que um trabalho estatístico seja organizado, reproduzível e protegido contra erros? A aula parte desse problema para apresentar o ambiente RStudio e as ferramentas Git e GitHub. A atividade será vivenciada de forma prática, onde será necessário versionar projetos e colaborar com colegas. Ao longo da aula, será possível aprender a integrar o RStudio com o Git e a criar repositórios no GitHub, desenvolvendo habilidades essenciais para o mercado de trabalho em Estatística e Ciência de Dados.
+
+Slides:
+
+- [Versão html](/slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html)
+
+- [Versão pdf](/slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.pdf)
+

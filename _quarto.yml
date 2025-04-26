@@ -26,10 +26,10 @@ website:
         text: "Cronograma"
     - section: "Material das aulas"
       contents: 
-      - href: aulas/aula1.qmd
-        text: "Aula 1"
-      - href: aulas/aula2.qmd
-        text: "Aula 2"
+      - href: conteudos/conteudo1.qmd
+        text: "Conteúdo 1"
+      - href: conteudos/conteudo2.qmd
+        text: "Conteúdo 2"
 
 format:
   html:

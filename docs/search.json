@@ -1,5 +1,27 @@
 [
   {
+    "objectID": "conteudos/conteudo1.html",
+    "href": "conteudos/conteudo1.html",
+    "title": "Conteúdo 1",
+    "section": "",
+    "text": "Como garantir que um trabalho estatístico seja organizado, reproduzível e protegido contra erros? A aula parte desse problema para apresentar o ambiente RStudio e as ferramentas Git e GitHub. A atividade será vivenciada de forma prática, onde será necessário versionar projetos e colaborar com colegas. Ao longo da aula, será possível aprender a integrar o RStudio com o Git e a criar repositórios no GitHub, desenvolvendo habilidades essenciais para o mercado de trabalho em Estatística e Ciência de Dados.\nSlides:\n\nVersão html\nVersão pdf",
+    "crumbs": [
+      "Material das aulas",
+      "Conteúdo 1"
+    ]
+  },
+  {
+    "objectID": "conteudos/conteudo1.html#apresentação-da-disciplina",
+    "href": "conteudos/conteudo1.html#apresentação-da-disciplina",
+    "title": "Conteúdo 1",
+    "section": "",
+    "text": "Como garantir que um trabalho estatístico seja organizado, reproduzível e protegido contra erros? A aula parte desse problema para apresentar o ambiente RStudio e as ferramentas Git e GitHub. A atividade será vivenciada de forma prática, onde será necessário versionar projetos e colaborar com colegas. Ao longo da aula, será possível aprender a integrar o RStudio com o Git e a criar repositórios no GitHub, desenvolvendo habilidades essenciais para o mercado de trabalho em Estatística e Ciência de Dados.\nSlides:\n\nVersão html\nVersão pdf",
+    "crumbs": [
+      "Material das aulas",
+      "Conteúdo 1"
+    ]
+  },
+  {
     "objectID": "info/bibliografia.html",
     "href": "info/bibliografia.html",
     "title": "Estatística Computacional",
@@ -49,28 +71,6 @@
     "title": "Bem-vindo(a)!",
     "section": "",
     "text": "Bem-vindo(a)!\nEsta página foi criada pelo Prof. Dr. Sadraque E. F. Lucena para centralizar os conteúdos, atividades, cronograma e materiais da disciplina ESTAT0090 – Estatística Computacional, ofertada pelo Departamento de Estatística e Ciências Atuariais da Universidade Federal de Sergipe. Ao longo do semestre, vamos explorar ferramentas fundamentais para a prática da Estatística moderna, com ênfase em programação em R, Quarto, LaTeX, GitHub, simulação, métodos computacionais e reamostragem (como Bootstrap e Monte Carlo).\nA disciplina será conduzida com uma abordagem baseada em problemas (PBL), conectando a teoria à prática profissional do estatístico. A cada semana, novos desafios e projetos serão propostos, promovendo o aprendizado ativo e colaborativo.\nFique atento(a) às atualizações — este espaço será constantemente revisado com avisos, novos materiais e mudanças no cronograma."
-  },
-  {
-    "objectID": "aulas/aula2.html",
-    "href": "aulas/aula2.html",
-    "title": "Estatística Computacional",
-    "section": "",
-    "text": "Slides:\n\nVersão html\nVersão pdf",
-    "crumbs": [
-      "Material das aulas",
-      "Aula 2"
-    ]
-  },
-  {
-    "objectID": "aulas/aula2.html#introdução-ao-rstudio-github",
-    "href": "aulas/aula2.html#introdução-ao-rstudio-github",
-    "title": "Estatística Computacional",
-    "section": "",
-    "text": "Slides:\n\nVersão html\nVersão pdf",
-    "crumbs": [
-      "Material das aulas",
-      "Aula 2"
-    ]
   },
   {
     "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#cenário-profissional",
@@ -346,7 +346,7 @@
     "href": "info/cronograma.html",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "Cronograma de aulas de Estatística Computacional para o período 2025-1.",
+    "text": "Cronograma de aulas de Estatística Computacional para o período 2025-1.\n\n\n\n\n\n\n\n\n\nData\nDia da semana\nAula\nAssunto Previsto\n\n\n\n\n13/05/2025\nTerça\n1\nRecepção dos alunos\n\n\n15/05/2025\nQuinta\n2\nRecepção dos alunos\n\n\n20/05/2025\nTerça\n3\nApresentação da disciplina\n\n\n22/05/2025\nQuinta\n4\nIntrodução ao RStudio + GitHub",
     "crumbs": [
       "Informações do curso",
       "Cronograma"
@@ -357,7 +357,7 @@
     "href": "info/cronograma.html#cronograma-de-aulas",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "Cronograma de aulas de Estatística Computacional para o período 2025-1.",
+    "text": "Cronograma de aulas de Estatística Computacional para o período 2025-1.\n\n\n\n\n\n\n\n\n\nData\nDia da semana\nAula\nAssunto Previsto\n\n\n\n\n13/05/2025\nTerça\n1\nRecepção dos alunos\n\n\n15/05/2025\nQuinta\n2\nRecepção dos alunos\n\n\n20/05/2025\nTerça\n3\nApresentação da disciplina\n\n\n22/05/2025\nQuinta\n4\nIntrodução ao RStudio + GitHub",
     "crumbs": [
       "Informações do curso",
       "Cronograma"
@@ -416,6 +416,28 @@
     "crumbs": [
       "Informações do curso",
       "Dados gerais"
+    ]
+  },
+  {
+    "objectID": "conteudos/conteudo2.html",
+    "href": "conteudos/conteudo2.html",
+    "title": "Conteúdo 2",
+    "section": "",
+    "text": "Como garantir que um trabalho estatístico seja organizado, reproduzível e protegido contra erros? A aula parte desse problema para apresentar o ambiente RStudio e as ferramentas Git e GitHub. A atividade será vivenciada de forma prática, onde será necessário versionar projetos e colaborar com colegas. Ao longo da aula, será possível aprender a integrar o RStudio com o Git e a criar repositórios no GitHub, desenvolvendo habilidades essenciais para o mercado de trabalho em Estatística e Ciência de Dados.\nSlides:\n\nVersão html\nVersão pdf",
+    "crumbs": [
+      "Material das aulas",
+      "Conteúdo 2"
+    ]
+  },
+  {
+    "objectID": "conteudos/conteudo2.html#introdução-ao-rstudio-github",
+    "href": "conteudos/conteudo2.html#introdução-ao-rstudio-github",
+    "title": "Conteúdo 2",
+    "section": "",
+    "text": "Como garantir que um trabalho estatístico seja organizado, reproduzível e protegido contra erros? A aula parte desse problema para apresentar o ambiente RStudio e as ferramentas Git e GitHub. A atividade será vivenciada de forma prática, onde será necessário versionar projetos e colaborar com colegas. Ao longo da aula, será possível aprender a integrar o RStudio com o Git e a criar repositórios no GitHub, desenvolvendo habilidades essenciais para o mercado de trabalho em Estatística e Ciência de Dados.\nSlides:\n\nVersão html\nVersão pdf",
+    "crumbs": [
+      "Material das aulas",
+      "Conteúdo 2"
     ]
   }
 ]
