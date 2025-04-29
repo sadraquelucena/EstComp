@@ -1,46 +1,46 @@
 [
   {
-    "objectID": "conteudos/conteudo1.html",
-    "href": "conteudos/conteudo1.html",
-    "title": "Conteúdo 1",
+    "objectID": "conteudos/3-Introducao_ao_LaTeX.html",
+    "href": "conteudos/3-Introducao_ao_LaTeX.html",
+    "title": "Conteúdo 3",
     "section": "",
-    "text": "Como garantir que um trabalho estatístico seja organizado, reproduzível e protegido contra erros? A aula parte desse problema para apresentar o ambiente RStudio e as ferramentas Git e GitHub. A atividade será vivenciada de forma prática, onde será necessário versionar projetos e colaborar com colegas. Ao longo da aula, será possível aprender a integrar o RStudio com o Git e a criar repositórios no GitHub, desenvolvendo habilidades essenciais para o mercado de trabalho em Estatística e Ciência de Dados.\nSlides:\n\nVersão html\nVersão pdf",
+    "text": "Como criar documentos científicos bem formatados, padronizados e prontos para publicação? Esta aula parte dessa questão para apresentar o LaTeX, uma linguagem de marcação voltada à produção de textos técnicos e acadêmicos. A atividade será conduzida de maneira prática, com foco no aprendizado dos comandos básicos de formatação, controle do tamanho da fonte e uso de cores no texto. Ao longo da aula, será possível experimentar o poder do LaTeX para organizar e apresentar conteúdos de forma profissional, desenvolvendo uma habilidade fundamental para a produção de relatórios, artigos e trabalhos em Estatística e Ciência de Dados.\nSlides:\n\nVersão html\nVersão pdf",
     "crumbs": [
       "Material das aulas",
-      "Conteúdo 1"
+      "3- Introdução ao LaTeX"
     ]
   },
   {
-    "objectID": "conteudos/conteudo1.html#apresentação-da-disciplina",
-    "href": "conteudos/conteudo1.html#apresentação-da-disciplina",
-    "title": "Conteúdo 1",
+    "objectID": "conteudos/3-Introducao_ao_LaTeX.html#introdução-ao-latex",
+    "href": "conteudos/3-Introducao_ao_LaTeX.html#introdução-ao-latex",
+    "title": "Conteúdo 3",
     "section": "",
-    "text": "Como garantir que um trabalho estatístico seja organizado, reproduzível e protegido contra erros? A aula parte desse problema para apresentar o ambiente RStudio e as ferramentas Git e GitHub. A atividade será vivenciada de forma prática, onde será necessário versionar projetos e colaborar com colegas. Ao longo da aula, será possível aprender a integrar o RStudio com o Git e a criar repositórios no GitHub, desenvolvendo habilidades essenciais para o mercado de trabalho em Estatística e Ciência de Dados.\nSlides:\n\nVersão html\nVersão pdf",
+    "text": "Como criar documentos científicos bem formatados, padronizados e prontos para publicação? Esta aula parte dessa questão para apresentar o LaTeX, uma linguagem de marcação voltada à produção de textos técnicos e acadêmicos. A atividade será conduzida de maneira prática, com foco no aprendizado dos comandos básicos de formatação, controle do tamanho da fonte e uso de cores no texto. Ao longo da aula, será possível experimentar o poder do LaTeX para organizar e apresentar conteúdos de forma profissional, desenvolvendo uma habilidade fundamental para a produção de relatórios, artigos e trabalhos em Estatística e Ciência de Dados.\nSlides:\n\nVersão html\nVersão pdf",
     "crumbs": [
       "Material das aulas",
-      "Conteúdo 1"
+      "3- Introdução ao LaTeX"
     ]
   },
   {
-    "objectID": "conteudos/conteudo2.html",
-    "href": "conteudos/conteudo2.html",
+    "objectID": "conteudos/2-Introducao_ao_RStudio+GitHub.html",
+    "href": "conteudos/2-Introducao_ao_RStudio+GitHub.html",
     "title": "Conteúdo 2",
     "section": "",
     "text": "Como garantir que um trabalho estatístico seja organizado, reproduzível e protegido contra erros? A aula parte desse problema para apresentar o ambiente RStudio e as ferramentas Git e GitHub. A atividade será vivenciada de forma prática, onde será necessário versionar projetos e colaborar com colegas. Ao longo da aula, será possível aprender a integrar o RStudio com o Git e a criar repositórios no GitHub, desenvolvendo habilidades essenciais para o mercado de trabalho em Estatística e Ciência de Dados.\n\nVersão html\nVersão pdf",
     "crumbs": [
       "Material das aulas",
-      "Conteúdo 2"
+      "2- Introdução ao RStudio + GitHub"
     ]
   },
   {
-    "objectID": "conteudos/conteudo2.html#introdução-ao-rstudio-github",
-    "href": "conteudos/conteudo2.html#introdução-ao-rstudio-github",
+    "objectID": "conteudos/2-Introducao_ao_RStudio+GitHub.html#introdução-ao-rstudio-github",
+    "href": "conteudos/2-Introducao_ao_RStudio+GitHub.html#introdução-ao-rstudio-github",
     "title": "Conteúdo 2",
     "section": "",
     "text": "Como garantir que um trabalho estatístico seja organizado, reproduzível e protegido contra erros? A aula parte desse problema para apresentar o ambiente RStudio e as ferramentas Git e GitHub. A atividade será vivenciada de forma prática, onde será necessário versionar projetos e colaborar com colegas. Ao longo da aula, será possível aprender a integrar o RStudio com o Git e a criar repositórios no GitHub, desenvolvendo habilidades essenciais para o mercado de trabalho em Estatística e Ciência de Dados.\n\nVersão html\nVersão pdf",
     "crumbs": [
       "Material das aulas",
-      "Conteúdo 2"
+      "2- Introdução ao RStudio + GitHub"
     ]
   },
   {
@@ -50,7 +50,7 @@
     "section": "",
     "text": "Componente curricular:\nESTAT0090 - Estatística Computacional\nDisciplina obrigatória para o curso de Estatística da Universidade Federal de Sergipe",
     "crumbs": [
-      "Informações do curso",
+      "Informações da disciplina",
       "Dados gerais"
     ]
   },
@@ -61,7 +61,7 @@
     "section": "",
     "text": "Componente curricular:\nESTAT0090 - Estatística Computacional\nDisciplina obrigatória para o curso de Estatística da Universidade Federal de Sergipe",
     "crumbs": [
-      "Informações do curso",
+      "Informações da disciplina",
       "Dados gerais"
     ]
   },
@@ -72,7 +72,7 @@
     "section": "Informações da Disciplina",
     "text": "Informações da Disciplina\n\nCarga Horária: 60 horas (4 créditos)\nUnidade Responsável: Departamento de Estatística e Ciências Atuariais (DECAT)\nDocente Responsável: Prof. Dr. Sadraque E. F. Lucena\nPeríodo Letivo: 2025-1",
     "crumbs": [
-      "Informações do curso",
+      "Informações da disciplina",
       "Dados gerais"
     ]
   },
@@ -83,7 +83,7 @@
     "section": "Horários das Aulas",
     "text": "Horários das Aulas\nAs aulas ocorrerão nos seguintes horários:\n\nTerças: 19h00 às 20h30\nQuintas: 20h45 às 22h15\n\nLocal: Laboratório de Estatística (DECAT)",
     "crumbs": [
-      "Informações do curso",
+      "Informações da disciplina",
       "Dados gerais"
     ]
   },
@@ -94,7 +94,7 @@
     "section": "Avaliações",
     "text": "Avaliações\nA disciplina contará com 3 avaliações distribuídas ao longo do semestre.",
     "crumbs": [
-      "Informações do curso",
+      "Informações da disciplina",
       "Dados gerais"
     ]
   },
@@ -103,9 +103,9 @@
     "href": "info/cronograma.html",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "Cronograma de aulas de Estatística Computacional para o período 2025-1.\n\n\n\n\n\n\n\n\n\nData\nDia da semana\nAula\nAssunto Previsto\n\n\n\n\n13/05/2025\nTerça\n1\nRecepção dos alunos\n\n\n15/05/2025\nQuinta\n2\nRecepção dos alunos\n\n\n20/05/2025\nTerça\n3\nApresentação da disciplina\n\n\n22/05/2025\nQuinta\n4\nIntrodução ao RStudio + GitHub",
+    "text": "Cronograma de aulas de Estatística Computacional para o período 2025-1.\n\n\n\n\n\n\n\n\nAula\nData\nAssunto Previsto\n\n\n\n\n1\nTerça, 13 de maio de 2025\nRecepção dos alunos\n\n\n2\nQuinta, 15 de maio de 2025\nRecepção dos alunos\n\n\n3\nTerça, 20 de maio de 2025\nApresentação da disciplina\n\n\n4\nQuinta, 22 de maio de 2025\nIntrodução ao RStudio + GitHub\n\n\n5\nTerça, 22 de maio de 2025\nIntrodução ao LaTeX",
     "crumbs": [
-      "Informações do curso",
+      "Informações da disciplina",
       "Cronograma"
     ]
   },
@@ -114,9 +114,9 @@
     "href": "info/cronograma.html#cronograma-de-aulas",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "Cronograma de aulas de Estatística Computacional para o período 2025-1.\n\n\n\n\n\n\n\n\n\nData\nDia da semana\nAula\nAssunto Previsto\n\n\n\n\n13/05/2025\nTerça\n1\nRecepção dos alunos\n\n\n15/05/2025\nQuinta\n2\nRecepção dos alunos\n\n\n20/05/2025\nTerça\n3\nApresentação da disciplina\n\n\n22/05/2025\nQuinta\n4\nIntrodução ao RStudio + GitHub",
+    "text": "Cronograma de aulas de Estatística Computacional para o período 2025-1.\n\n\n\n\n\n\n\n\nAula\nData\nAssunto Previsto\n\n\n\n\n1\nTerça, 13 de maio de 2025\nRecepção dos alunos\n\n\n2\nQuinta, 15 de maio de 2025\nRecepção dos alunos\n\n\n3\nTerça, 20 de maio de 2025\nApresentação da disciplina\n\n\n4\nQuinta, 22 de maio de 2025\nIntrodução ao RStudio + GitHub\n\n\n5\nTerça, 22 de maio de 2025\nIntrodução ao LaTeX",
     "crumbs": [
-      "Informações do curso",
+      "Informações da disciplina",
       "Cronograma"
     ]
   },
@@ -127,7 +127,7 @@
     "section": "",
     "text": "Geração de variáveis aleatórias\n1.1. Comandos básicos do R\n1.2. Estruturas de repetição no R\n1.3. Condições e sı́mbolos lógicos no\n1.4. Escrevendo funções no R\n1.5. Gerador de números aleatórios\n1.6. Método da Transformada inversa\n1.7. Método da Aceitação-Rejeição\n1.8. Outros métodos de geração de v.a.\nMétodos de Monte Carlo\n2.1. Conceito Geral\n2.2. Testes de Hipóteses e Erros\n2.3. Intervalos de confiança\n2.4. Viés e Erro quadrático Médio\n2.5. Método de Reamostragem: Bootstrap\n2.6. Método de Reamostragem: Jackknife\nO editor de textos LaTeX\n3.1. Comandos iniciais\n3.2. Formatação de texto, Tipos de Listas, Teoremas\n3.3. Fórmulas diversas, sı́mbolos matemáticos, escrevendo em ambiente de fórmulas\n3.4. Matrizes, equações alinhadas, tabelas e imagens\n3.5. Textos sem formatação (Para saı́das computacionais)\n3.6. Partes de documento: Tı́tulos, capı́tulos, sumários, cabeçalho e rodapé, bibliografia básica\n3.7. BibTeX (bibliografia externa)\n3.8. Criando Apresentações e Pôster",
     "crumbs": [
-      "Informações do curso",
+      "Informações da disciplina",
       "Conteúdo"
     ]
   },
@@ -138,7 +138,7 @@
     "section": "",
     "text": "Geração de variáveis aleatórias\n1.1. Comandos básicos do R\n1.2. Estruturas de repetição no R\n1.3. Condições e sı́mbolos lógicos no\n1.4. Escrevendo funções no R\n1.5. Gerador de números aleatórios\n1.6. Método da Transformada inversa\n1.7. Método da Aceitação-Rejeição\n1.8. Outros métodos de geração de v.a.\nMétodos de Monte Carlo\n2.1. Conceito Geral\n2.2. Testes de Hipóteses e Erros\n2.3. Intervalos de confiança\n2.4. Viés e Erro quadrático Médio\n2.5. Método de Reamostragem: Bootstrap\n2.6. Método de Reamostragem: Jackknife\nO editor de textos LaTeX\n3.1. Comandos iniciais\n3.2. Formatação de texto, Tipos de Listas, Teoremas\n3.3. Fórmulas diversas, sı́mbolos matemáticos, escrevendo em ambiente de fórmulas\n3.4. Matrizes, equações alinhadas, tabelas e imagens\n3.5. Textos sem formatação (Para saı́das computacionais)\n3.6. Partes de documento: Tı́tulos, capı́tulos, sumários, cabeçalho e rodapé, bibliografia básica\n3.7. BibTeX (bibliografia externa)\n3.8. Criando Apresentações e Pôster",
     "crumbs": [
-      "Informações do curso",
+      "Informações da disciplina",
       "Conteúdo"
     ]
   },
@@ -147,7 +147,7 @@
     "href": "index.html",
     "title": "Bem-vindo(a)!",
     "section": "",
-    "text": "Bem-vindo(a)!\nEsta página foi criada pelo Prof. Dr. Sadraque E. F. Lucena para centralizar os conteúdos, atividades, cronograma e materiais da disciplina ESTAT0090 – Estatística Computacional, ofertada pelo Departamento de Estatística e Ciências Atuariais da Universidade Federal de Sergipe. Ao longo do semestre, vamos explorar ferramentas fundamentais para a prática da Estatística moderna, com ênfase em programação em R, Quarto, LaTeX, GitHub, simulação, métodos computacionais e reamostragem (como Bootstrap e Monte Carlo).\nA disciplina será conduzida com uma abordagem baseada em problemas (PBL), conectando a teoria à prática profissional do estatístico. A cada semana, novos desafios e projetos serão propostos, promovendo o aprendizado ativo e colaborativo.\nFique atento(a) às atualizações — este espaço será constantemente revisado com avisos, novos materiais e mudanças no cronograma."
+    "text": "Bem-vindo(a)!\nEsta página foi criada pelo Prof. Dr. Sadraque E. F. Lucena para centralizar os conteúdos, atividades, cronograma e materiais da disciplina ESTAT0090 – Estatística Computacional, ofertada pelo Departamento de Estatística e Ciências Atuariais da Universidade Federal de Sergipe. Ao longo do semestre, vamos explorar ferramentas fundamentais para a prática da Estatística moderna, com ênfase em programação em R, Quarto, LaTeX, GitHub, simulação, métodos computacionais e reamostragem (como Bootstrap e Monte Carlo).\nA disciplina será conduzida com uma abordagem prática e orientada por problemas, livremente inspirada no Problem-Based Learning (PBL), conectando os conteúdos à atuação profissional em Estatística e Ciência de Dados. A cada semana, novos desafios e projetos serão propostos, promovendo o aprendizado ativo e colaborativo.\nFique atento(a) às atualizações — este espaço será constantemente revisado com avisos, novos materiais e mudanças no cronograma."
   },
   {
     "objectID": "slides/03-Introducao_ao_LaTeX/03-Introducao_ao_LaTeX.html#cenário",
@@ -534,7 +534,7 @@
     "section": "",
     "text": "Editor de textos LATEX. Estruturas de repetições e funções no software R. Geração de Variáveis Aleatórias. Método de Monte Carlo. Bootstrap.",
     "crumbs": [
-      "Informações do curso",
+      "Informações da disciplina",
       "Ementa e objetivos"
     ]
   },
@@ -545,7 +545,7 @@
     "section": "",
     "text": "Editor de textos LATEX. Estruturas de repetições e funções no software R. Geração de Variáveis Aleatórias. Método de Monte Carlo. Bootstrap.",
     "crumbs": [
-      "Informações do curso",
+      "Informações da disciplina",
       "Ementa e objetivos"
     ]
   },
@@ -556,7 +556,7 @@
     "section": "Objetivos",
     "text": "Objetivos\nDesenvolver habilidades essenciais para a aplicação de métodos computacionais na análise de dados e na obtenção de estimativas estatı́sticas confiáveis, bem como preparar estudantes para criar documentos de alta qualidade com notação matemática adequada e formatação profissional.",
     "crumbs": [
-      "Informações do curso",
+      "Informações da disciplina",
       "Ementa e objetivos"
     ]
   },
@@ -567,7 +567,7 @@
     "section": "Metodologia",
     "text": "Metodologia\nSerão ministradas aulas teóricas expositivas; utilizados recursos visuais; resolução de exercı́cios em sala de aula; solicitação de atividades extraclasse. O cronograma de aulas encontra-se no Quadro 1.",
     "crumbs": [
-      "Informações do curso",
+      "Informações da disciplina",
       "Ementa e objetivos"
     ]
   },
@@ -578,7 +578,7 @@
     "section": "Habilidades e Competências",
     "text": "Habilidades e Competências\nAo término deste curso o aluno estará apto a realizar análises estatı́sticas avançadas, simulações e estimativas confiáveis, além de resolver problemas práticos no campo da Estatı́stica utilizando abordagens computacionais.",
     "crumbs": [
-      "Informações do curso",
+      "Informações da disciplina",
       "Ementa e objetivos"
     ]
   },
@@ -589,7 +589,7 @@
     "section": "Avaliação",
     "text": "Avaliação\nSerão realizadas três avaliações ao longo do semestre. As avaliações poderão ser provas, trabalhos ou outras atividades solicitadas pelo professor.",
     "crumbs": [
-      "Informações do curso",
+      "Informações da disciplina",
       "Ementa e objetivos"
     ]
   },
@@ -600,7 +600,7 @@
     "section": "",
     "text": "Para acompanhar as atividades da disciplina, será necessário instalar os softwares listados abaixo. Todos são gratuitos e amplamente utilizados nas áreas de Estatística e Ciência de Dados:\n\n\n\nR é um ambiente computacional gratuito voltado para análises estatísticas e produção de visualizações gráficas. Link\n\n\n\nO RStudio consiste em um ambiente de desenvolvimento integrado (IDE) projetado para aumentar a produtividade no uso da linguagem R, oferecendo ferramentas especializadas para programação, depuração e visualização de dados. Link\n\n\n\nQuarto é um sistema de publicação técnico-científica de código aberto que integra análise computacional (Python, R, Julia) e produção de documentos dinâmicos em múltiplos formatos (HTML, PDF, Word). Combina escrita em Markdown com recursos avançados para equações, citações e visualizações reprodutíveis. Link\n\n\n\nMiKTeX é uma distribuição moderna do sistema TeX/LaTeX para ambiente Windows, fornecendo um conjunto completo de ferramentas para editoração técnica e científica de alta qualidade. Link\n\n\n\nTeXstudio é um ambiente integrado de edição para documentos LaTeX, oferecendo recursos como realce de sintaxe, visualizador incorporado, verificação de referências e assistentes para facilitar a escrita. Link",
     "crumbs": [
-      "Informações do curso",
+      "Informações da disciplina",
       "Softwares Necessários"
     ]
   },
@@ -611,7 +611,7 @@
     "section": "",
     "text": "Para acompanhar as atividades da disciplina, será necessário instalar os softwares listados abaixo. Todos são gratuitos e amplamente utilizados nas áreas de Estatística e Ciência de Dados:\n\n\n\nR é um ambiente computacional gratuito voltado para análises estatísticas e produção de visualizações gráficas. Link\n\n\n\nO RStudio consiste em um ambiente de desenvolvimento integrado (IDE) projetado para aumentar a produtividade no uso da linguagem R, oferecendo ferramentas especializadas para programação, depuração e visualização de dados. Link\n\n\n\nQuarto é um sistema de publicação técnico-científica de código aberto que integra análise computacional (Python, R, Julia) e produção de documentos dinâmicos em múltiplos formatos (HTML, PDF, Word). Combina escrita em Markdown com recursos avançados para equações, citações e visualizações reprodutíveis. Link\n\n\n\nMiKTeX é uma distribuição moderna do sistema TeX/LaTeX para ambiente Windows, fornecendo um conjunto completo de ferramentas para editoração técnica e científica de alta qualidade. Link\n\n\n\nTeXstudio é um ambiente integrado de edição para documentos LaTeX, oferecendo recursos como realce de sintaxe, visualizador incorporado, verificação de referências e assistentes para facilitar a escrita. Link",
     "crumbs": [
-      "Informações do curso",
+      "Informações da disciplina",
       "Softwares Necessários"
     ]
   },
@@ -622,7 +622,7 @@
     "section": "",
     "text": "DE ALMEIDA, Pedro Quaresma. Introduçao ao LATEX. Escolar Editora, 1996.\nRUBINSTEIN, Reuven Y; KROESE, Dirk P. Simulation and Monte Carlo method. 2nd ed. New Jersey, Estados Unidos: Wiley-Interscience, 2008.\nDAVISON, A. C; HINKLEY, D. V. Bootstrap methods and their application. New York, Estados Unidos: Cambridge University Press, 1997.\nEFRON, Bradley; TIBSHIRANI, Robert. An introduction to the bootstrap. Boca Raton, Estados Unidos: Chapman & Hall/CRC, 1994.\nVERZANI, John. Using R for introductory statistics. Boca Raton, Estados Unidos: Chapman & Hall/CRC, 2005.\n\n\n\n\n\nRIZZO, Maria L. Statistical computing with R. CRC Press, 2019.\nGIVENS, Geof H.; HOETING, Jennifer A. Computational statistics. John Wiley & Sons, 2012.",
     "crumbs": [
-      "Informações do curso",
+      "Informações da disciplina",
       "Bibliografia"
     ]
   },
@@ -633,30 +633,30 @@
     "section": "",
     "text": "DE ALMEIDA, Pedro Quaresma. Introduçao ao LATEX. Escolar Editora, 1996.\nRUBINSTEIN, Reuven Y; KROESE, Dirk P. Simulation and Monte Carlo method. 2nd ed. New Jersey, Estados Unidos: Wiley-Interscience, 2008.\nDAVISON, A. C; HINKLEY, D. V. Bootstrap methods and their application. New York, Estados Unidos: Cambridge University Press, 1997.\nEFRON, Bradley; TIBSHIRANI, Robert. An introduction to the bootstrap. Boca Raton, Estados Unidos: Chapman & Hall/CRC, 1994.\nVERZANI, John. Using R for introductory statistics. Boca Raton, Estados Unidos: Chapman & Hall/CRC, 2005.\n\n\n\n\n\nRIZZO, Maria L. Statistical computing with R. CRC Press, 2019.\nGIVENS, Geof H.; HOETING, Jennifer A. Computational statistics. John Wiley & Sons, 2012.",
     "crumbs": [
-      "Informações do curso",
+      "Informações da disciplina",
       "Bibliografia"
     ]
   },
   {
-    "objectID": "conteudos/conteudo3.html",
-    "href": "conteudos/conteudo3.html",
-    "title": "Conteúdo 3",
+    "objectID": "conteudos/1-Apresentacao_da_disciplina.html",
+    "href": "conteudos/1-Apresentacao_da_disciplina.html",
+    "title": "Conteúdo 1",
     "section": "",
-    "text": "Como criar documentos científicos bem formatados, padronizados e prontos para publicação? Esta aula parte dessa questão para apresentar o LaTeX, uma linguagem de marcação voltada à produção de textos técnicos e acadêmicos. A atividade será conduzida de maneira prática, com foco no aprendizado dos comandos básicos de formatação, controle do tamanho da fonte e uso de cores no texto. Ao longo da aula, será possível experimentar o poder do LaTeX para organizar e apresentar conteúdos de forma profissional, desenvolvendo uma habilidade fundamental para a produção de relatórios, artigos e trabalhos em Estatística e Ciência de Dados.\nSlides:\n\nVersão html\nVersão pdf",
+    "text": "Como garantir que um trabalho estatístico seja organizado, reproduzível e protegido contra erros? A aula parte desse problema para apresentar o ambiente RStudio e as ferramentas Git e GitHub. A atividade será vivenciada de forma prática, onde será necessário versionar projetos e colaborar com colegas. Ao longo da aula, será possível aprender a integrar o RStudio com o Git e a criar repositórios no GitHub, desenvolvendo habilidades essenciais para o mercado de trabalho em Estatística e Ciência de Dados.\nSlides:\n\nVersão html\nVersão pdf",
     "crumbs": [
       "Material das aulas",
-      "Conteúdo 3"
+      "1- Apresentação da Disciplina"
     ]
   },
   {
-    "objectID": "conteudos/conteudo3.html#introdução-ao-latex",
-    "href": "conteudos/conteudo3.html#introdução-ao-latex",
-    "title": "Conteúdo 3",
+    "objectID": "conteudos/1-Apresentacao_da_disciplina.html#apresentação-da-disciplina",
+    "href": "conteudos/1-Apresentacao_da_disciplina.html#apresentação-da-disciplina",
+    "title": "Conteúdo 1",
     "section": "",
-    "text": "Como criar documentos científicos bem formatados, padronizados e prontos para publicação? Esta aula parte dessa questão para apresentar o LaTeX, uma linguagem de marcação voltada à produção de textos técnicos e acadêmicos. A atividade será conduzida de maneira prática, com foco no aprendizado dos comandos básicos de formatação, controle do tamanho da fonte e uso de cores no texto. Ao longo da aula, será possível experimentar o poder do LaTeX para organizar e apresentar conteúdos de forma profissional, desenvolvendo uma habilidade fundamental para a produção de relatórios, artigos e trabalhos em Estatística e Ciência de Dados.\nSlides:\n\nVersão html\nVersão pdf",
+    "text": "Como garantir que um trabalho estatístico seja organizado, reproduzível e protegido contra erros? A aula parte desse problema para apresentar o ambiente RStudio e as ferramentas Git e GitHub. A atividade será vivenciada de forma prática, onde será necessário versionar projetos e colaborar com colegas. Ao longo da aula, será possível aprender a integrar o RStudio com o Git e a criar repositórios no GitHub, desenvolvendo habilidades essenciais para o mercado de trabalho em Estatística e Ciência de Dados.\nSlides:\n\nVersão html\nVersão pdf",
     "crumbs": [
       "Material das aulas",
-      "Conteúdo 3"
+      "1- Apresentação da Disciplina"
     ]
   }
 ]

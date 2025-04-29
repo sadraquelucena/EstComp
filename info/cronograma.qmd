@@ -11,10 +11,11 @@ format:
 Cronograma de aulas de Estatística Computacional para o período 2025-1.
 
 
-| Data       | Dia da semana | Aula   | Assunto Previsto                 |
-|:-----------|:--------------|:------:|:---------------------------------|
-| 13/05/2025 | Terça         | 1      | Recepção dos alunos              |
-| 15/05/2025 | Quinta        | 2      | Recepção dos alunos              |
-| 20/05/2025 | Terça         | 3      | Apresentação da disciplina       |
-| 22/05/2025 | Quinta        | 4      | Introdução ao RStudio + GitHub   |
+| Aula   | Data                       | Assunto Previsto                 |
+|:------:|:---------------------------|:---------------------------------|
+| 1      | Terça, 13 de maio de 2025  | Recepção dos alunos              |
+| 2      | Quinta, 15 de maio de 2025 | Recepção dos alunos              |
+| 3      | Terça, 20 de maio de 2025  | Apresentação da disciplina       |
+| 4      | Quinta, 22 de maio de 2025 | Introdução ao RStudio + GitHub   |
+| 5      | Terça, 22 de maio de 2025  | Introdução ao LaTeX              |
 
