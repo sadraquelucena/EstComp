@@ -1,0 +1,24 @@
+---
+title: ""
+format:
+  html:
+    toc: false
+    anchor-sections: false
+---
+
+# Conteúdo 4
+
+## Estrutura Básica do LaTeX
+
+Dando continuidade à aula sobre LaTeX, vamos explorar como organizar um relatório técnico de forma a facilitar a leitura e a navegação. Para isso, utilizaremos recursos que garantem a consistência e a clareza do documento, como a definição adequada de resumo, seções, subseções e parágrafos. O objetivo é resolver problemas comuns que podem prejudicar a apresentação do conteúdo, como formatação inconsistente, numeração errada e alinhamento irregular, através de comandos simples e eficazes no LaTeX. Além disso, abordaremos como incluir notas de rodapé, notas na margem e criar listas numeradas e não numeradas, tornando o relatório mais profissional e alinhado com as normas acadêmicas.
+
+Slides:
+
+- [Versão html](/slides/04-Estrutura_Basica_LaTeX/04-Estrutura-Basica-LaTeX.html){target="_blank"}
+
+- [Versão pdf](/PDF_slides/04-Estrutura-Basica-LaTeX.pdf){target="_blank"}
+
+
+## Atividade
+
+Reproduza em LaTeX o arquivo [04-Estrutura-Basica-LaTeX_Atv01.pdf](/PDF_slides/04-Estrutura-Basica-LaTeX_Atv01.pdf){target="_blank"}.

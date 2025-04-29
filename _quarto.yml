@@ -34,8 +34,8 @@ website:
         text: "2- Introdução ao RStudio + GitHub"
       - href: conteudos/3-Introducao_ao_LaTeX.qmd
         text: "3- Introdução ao LaTeX"
-      - href: conteudos/3-Introducao_ao_LaTeX.qmd
-        text: "3- Introdução ao LaTeX"
+      - href: conteudos/4-Estrutura_Basica_LaTeX.qmd
+        text: "4- Estrutura Básica do LaTeX"
 
 format:
   html:

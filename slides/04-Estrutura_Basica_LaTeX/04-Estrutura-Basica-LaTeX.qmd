@@ -1,0 +1,500 @@
+---
+title: "Como organizar um relatório técnico que facilite a leitura e a navegação?"
+subtitle: |
+  <span style="font-size:1.4em; font-weight:bold;">
+    Estrutura Básica do <img src="imagens/latexicon.png" style="width: 120px; vertical-align: middle; margin-left: 0px; margin-top: 11px;" />
+  </span>
+author:
+  name: | # indica que o campo name terá múltiplas linhas
+    ESTAT0090 -- Estatística Computacional<br>
+    Prof. Dr. Sadraque E. F. Lucena<br>
+    <span style="font-size:.8em;">sadraquelucena@academico.ufs.br</span>
+  
+format:
+  revealjs:
+    theme: meutema.scss
+    width: 1024
+    height: 768
+    margin: 0.1         # margem em torno do conteúdo
+    min-scale: 0.2       # escala mínima permitida
+    max-scale: 2.0       # escala máxima permitida
+    slide-number: true
+    code-line-numbers: false # sem numero das linhas nos code chunks
+    subtitle-style: "font-size: 2em; font-weight: bold;"  # Aqui é onde aumentamos o subtítulo
+    logo: imagens/ufs_horizontal_positiva.png
+    transition: fade
+    transition-speed: fast
+    scss: meutema.scss
+---
+
+
+## Cenário
+
+Você entregou a primeira versão do seu TCC para avaliação. Embora o conteúdo técnico esteja adequado, seu orientador(a) **pede correções imediatas** devido a falhas na estrutura e apresentação do texto, que podem prejudicar a avaliação formal:
+
+- A formatação está inconsistente, com variações de fonte e espaçamento ao longo do documento;
+
+- A numeração das seções apresenta erros: algumas estão em negrito, outras não, a numeração não está na seuqência correta e várias não aparecem no sumário;
+
+- Os parágrafos têm recuos irregulares, o alinhamento está comprometido e há espaçamento desigual entre as linhas.
+
+
+- Como resolver todos esses problemas no LaTeX de foram simples?
+
+
+
+
+## Cenário
+
+### Problemas Identificados
+
+|Área	       | Falha Observada	                         | Consequência                |
+|:-----------|:------------------------------------------|:----------------------------|
+|Resumo	     | Formatação inconsistente	                 | Parecer técnico prejudicado |
+|Seções	     | Numeração errática (ex.: 3.1 → 3.3)       | Leitura fragmentada         |
+| Parágrafos |	Recuos desiguais e espaçamento aleatório | Texto visualmente caótico   |
+|Listas	     | Marcadores não padronizados               | Dificuldade de compreensão  |
+
+
+
+### A Motivação
+- Evitar retrabalho desnecessário, pois automatiza ajustes que no Word exigem revisão manual.
+- Garantir consistência profissional.
+- Normas ABNT sem esforço.
+- Foco no que realmente importa.
+
+
+
+## Objetivo da aula
+
+Usar LaTeX para criar:
+
+- Resumo
+- Seções
+- Alinhamento e Indentação
+- Notas
+- Listas
+
+
+
+# Construindo a Estrutura do Documento
+
+
+
+
+## Resumo
+
+- O ambiente `abstract` no LaTeX é amplamente utilizado para criar um parágrafo com o título de resumo em documentos.
+- Normalmente, esse ambiente é colocado na página de título ou em uma página separada, permitindo ao autor fornecer uma breve explicação sobre o documento.
+- O ambiente `abstract` é válido nos estilos `report` e `article`.
+- Para utilizá-lo, basta envolver o conteúdo do resumo com o ambiente `abstract`:
+
+```{.latex}
+\begin{abstract}
+    Seu resumo aqui.
+\end{abstract}
+```
+
+
+
+
+## Atividade
+
+- Crie um documento da classe `article` em LaTeX com seu nome como autor(a), com título `Introdução ao LaTeX: Criando Documentos Profissionais` e com a data de hoje.
+- Adicione o seguinte resumo: `Neste documento estou aprendendo os conceitos básicos e explorando a estrutura de formatação de um documento em \LaTeX.`
+
+
+
+
+## Divisão e Organização de Conteúdo
+
+- Em textos mais extensos, é comum haver a necessidade de organizar o conteúdo em diferentes divisões e subdivisões.
+
+- O LaTeX oferece uma variedade de comandos para dividir o texto, proporcionando uma estrutura coerente e bem organizada.
+
+- A seguir vamos listar alguns desses comandos.
+
+
+
+
+## Divisão e Organização de Conteúdo
+
+- `\part{parte}`. Apenas nas classes `report` ou `book`. Divide o texto em partes principais. É útil em documentos extensos, como livros ou relatórios longos.
+
+- `\chapter{capítulo}`. Apenas nas classes `report` ou `book`. Divide o texto em capítulos dentro das partes. Essa divisão ajuda a organizar o conteúdo em seções significativas.
+
+- `\section{seção}`. Cria seções principais do texto. Cada seção é numerada automaticamente, seguindo uma estrutura lógica.
+
+- `\subsection{subseção}`. Cria subseções dentro de uma seção. As subseções são úteis para dividir o conteúdo em partes menores e mais específicas.
+
+- `\subsubsection{subsubseção}`. Cria subseções dentro de uma subseção. Essa divisão é útil quando é necessário um nível de detalhamento adidcional.
+
+- `\paragraph{parágrafo}`. Cria parágrafos numerados. Geralmente é usado para destacar tópicos importantes dentro de uma seção.
+
+- `\subparagraph{subparágrafo}`. Cria subparágrafos numerados. É útil quando é necessário um nível de detalhamento ainda menor.
+
+
+
+
+## Exemplo
+
+```{.latex}
+\documentclass{article}
+\title{Testando o LaTeX}
+\author{Fulana de Tal}
+\date{\today}
+			
+\begin{document}
+  \maketitle
+				
+	\begin{abstract}
+	  Aqui está o meu resumo.
+	\end{abstract}
+				
+	\section{Introdução}
+	  Aqui exploraremos conceitos básicos de \LaTeX.
+				
+	\section{Principais Recursos do LaTeX}
+	  \subsection{Composição Tipográfica}
+		  O \LaTeX\ oferece recursos avançados para criação de
+			documentos com excelente qualidade de impressão.
+				
+\end{document}
+```
+
+
+
+
+## Divisão e Organização de Conteúdo
+
+- Todas essas partes e subpartes são numeradas automaticamente pelo LaTeX, seguindo uma estrutura lógica.
+- No entanto, se você adicionar um asterisco ("*") após o comando, a numeração será omitida.
+- Por exemplo, ao utilizar `\section*{seção}`, não haverá numeração na seção.
+
+
+
+
+## Atividade
+
+Adicione ao documento que você está criando:
+
+1. Uma seção chamada `Introdução` com o seguinte texto: `Neste documento, exploraremos os conceitos básicos do \LaTeX e sua utilização para produzir documentos de alta qualidade.
+
+2. Outra seção chamada `Recursos úteis` seguida de uma subseção chamada `Fórmulas Matemáticas` com o seguinte texto: `O \LaTeX oferece recursos avançados de composição tipográfica, permitindo a criação de documentos com excelente qualidade de impressão.`
+
+3. Outra subseção chamada `Referências e Citações` com o texto `Com o \LaTeX, é possível gerenciar facilmente referências bibliográficas e realizar citações de acordo com diferentes estilos acadêmicos.`
+
+
+
+
+## Alinhamento e Indentação
+
+- **Alinhamento à esquerda:** para alinhar um bloco de texto à esquerda, você pode utilizar o ambiente `flushleft`.  Por exemplo:
+
+```{.latex}
+  \begin{flushleft}
+		Texto alinhado à esquerda.
+	\end{flushleft}
+```
+
+- **Alinhamento à direita:** para alinhar um bloco de texto à direita, você pode utilizar o ambiente `flushright`.  Por exemplo:
+
+```{.latex}
+  \begin{center}
+	  linha 1 \\ linha 2 \\ linha 3
+	\end{center}
+```
+
+
+
+
+## Alinhamento e Indentação
+
+- **Centralizando:** para centralizar um bloco de texto ou linhas específicas, você pode utilizar o ambiente `center`. Basta inserir o conteúdo que deseja centralizar dentro do ambiente. Por exemplo:
+
+```{.latex}
+  \begin{quote}
+		Texto a ser indentado.
+	\end{quote}
+```
+
+- **Parágrafo indentado:** para criar um parágrafo indentado, você pode usar o ambiente `quote`. Dentro desse ambiente, insira o texto que deseja indentar. Por exemplo:
+
+
+```{.latex}
+  \begin{quote}
+		Texto indentado.
+	\end{quote}
+```
+
+
+
+
+## Exercício
+
+No mesmo arquivo, crie uma nova seção chamada `Alinhamento de texto`.
+
+- Centralizando, escreva `É possível centralizar o texto.`
+- Alinhando à esquerda, escreva `Também é possível alinhar o texto à esquerda.`
+- Alinhando à direita, escreva `Alinhar à direita também é fácil de fazer.`
+- Indentando, escreva `Sem esquecer que é possível escrever um texto indentado. A indentação é uma técnica utilizada para destacar parágrafos ou citações.`
+
+
+
+
+
+## Notas
+
+### Notas de Rodapé de Página
+
+- Utilize o comando `\footnote{texto}` para inserir notas de rodapé de página.
+- As notas de rodapé aparecem na parte inferior da página em que são colocadas.
+- A nota de rodapé será exibida na parte inferior da página correspondente, fornecendo informações adicionais ou comentários relacionados ao texto principal.
+- Exemplo:
+
+```{.latex}
+  Esta frase possui uma nota no final da 
+  página\footnote{O LaTeX é mesmo incrível!}.
+```
+
+
+
+
+## Notas
+
+### Notas de Margem
+
+- Utilize o comando `\marginpar{texto}` para inserir notas na margem da página.
+- As notas na margem são posicionadas na margem lateral da página, ao lado da linha de texto em que o comando é utilizado.
+- A nota será exibida na margem lateral correspondente, na mesma altura da linha de texto em que o comando `\marginpar` foi utilizado.
+- Esse estilo de nota é útil para adicionar informações adicionais ou comentários relevantes ao texto principal, de forma que sejam facilmente visíveis. Exemplo:
+
+```{.latex}
+  Esta outra frase tem uma nota \marginpar{Eu amo o LaTeX.}
+  na margem.
+```
+
+
+
+
+## Atividade
+
+- No mesmo arquivo, crie uma nova seção chamada \texttt{Notas}.
+- Adicione o texto: `Este é um exemplo de texto com uma nota de rodapé. O texto continua normalmente.` Na palavra `rodapé` adicione o rodapé: `Essa é uma nota de rodapé, adicionando informações adicionais ao texto principal.`
+- Acrescente a nota na margem: `Essa é uma nota na margem.` no texto: `Este é um exemplo de texto com uma nota na margem. A nota aparece ao lado da linha de texto em que foi inserida.`
+
+
+
+
+## Listas
+
+## Ambiente itemize
+
+- O ambiente `itemize` é utilizado para criar listas não numeradas, em que os itens são precedidos por pontos.
+- Os itens são definidos utilizando o comando `\item`, e cada item é colocado em uma linha separada.
+- Os itens da lista são separados por espaço adicional vertical para melhorar a legibilidade. O LaTeX cuida automaticamente do espaçamento entre os itens.
+- Exemplo:
+
+```{.latex}
+\begin{itemize}
+  \item Item 1
+	\item Item 2
+	\item Item 3
+\end{itemize}
+```
+
+
+
+
+## Listas
+
+- No LaTeX, é possível aninhar o ambiente `itemize` dentro de outro ambiente `itemize`, permitindo criar listas hierárquicas com vários níveis de indentação.
+- Cada nível de aninhamento gera uma indentação adicional à esquerda. O LaTeX se encarrega automaticamente do espaçamento e da indentação corretos para cada nível.
+- Exemplo:
+
+```{.latex}
+\begin{itemize}
+  \item Item 1
+	\begin{itemize}
+	  \item subitem 1
+		\item subitem 2
+	\end{itemize}
+	\item Item 2
+	\item Item 3
+\end{itemize}
+```
+
+
+
+
+## Listas
+
+É possível utilizar marcadores personalizados nos itens da lista. Para isso, basta especificar o símbolo desejado entre colchetes após o comando `\item`.
+- Exemplo:
+
+```{.latex}
+\begin{itemize}
+  \item[$\diamond$] Item 1
+	\item[$\clubsuit$] Item 2
+	\item[$\rightarrow$] Item 3
+	\item[$\triangleright$] Item 4
+	\item[$\star$] Item 5
+	\item[it6] Item 6
+\end{itemize}
+```				
+
+
+
+
+
+## Listas
+
+- Se quisermos criar listas numeradas usamos o ambiente \texttt{enu\-me\-rate}. A sintaxe é similar ao ambiente \texttt{itemize}.
+- O LaTeX cuida automaticamente da numeração dos itens, atribuindo a eles números sequenciais. A numeração é atualizada automaticamente sempre que um novo item é adicionado ou removido.
+- Exemplo:
+
+```{.latex}
+\begin{enumerate}
+  \item Item 1
+	\item] Item 2
+	\begin{enumerate}
+	  \item Subitem 1
+		\item Subitem 2
+	\end{enumerate}
+	\item Item 3
+\end{enumerate}
+```
+
+
+
+
+## Listas
+
+A ordem de numeração padrão do \LaTeX\ é a seguinte:
+
+- Nível 1: Números arábicos (1, 2, 3, ...)
+- Nível 2: Letras minúsculas (a, b, c, ...)
+- Nível 3: Números romanos em minúsculas (i, ii, iii, ...)
+- Nível 4: Letras maiúsculas (A, B, C, ...)
+- Nível 5: Números romanos em maiúsculas (I, II, III, ...)
+
+- Exemplo:
+
+```{.latex}
+\begin{enumerate}
+  \item Item 1
+	\item Item 2
+	\begin{enumerate}
+	  \item Subitem 1
+	  \item Subitem 2
+	\end{enumerate}
+	\item Item 3
+\end{enumerate}
+```
+
+
+
+
+## Listas
+
+O ambiente `enumerate` oferece diferentes estilos de numeração, que podem ser especificados.
+- Exemplo:
+
+```{.latex}
+\begin{enumerate}[(a)]
+  \item Item 1
+	\item Item 2
+\end{enumerate}
+		   	
+\begin{enumerate}[1.]
+  \item Item 1
+	\item Item 2
+\end{enumerate}
+
+\begin{enumerate}[I-]
+  \item Item 1
+	\item Item 2
+\end{enumerate}
+```
+
+
+
+
+## Atividade
+
+No mesmo arquivo, crie uma nova seção chamada `Listas` e replique todos as listas apresentadas nos exemplos anteriores.
+
+
+
+
+## Exibindo Código Não Imterpretável
+
+- É possível exibir trechos de texto exatamente como eles são, sem que o LaTeX interprete ou formate o conteúdo. Fazemos isso usando o ambiente `verbatim` ou o comando `\verb`.
+- O ambiente `verbatim` é usado para exibir blocos de texto exatamente como são digitados, preservando espaços, quebras de linha e caracteres especiais.
+- Ele é especialmente útil para exibir código-fonte, comandos ou qualquer trecho de texto que precise ser mostrado sem alterações.
+- Exemplo:
+
+```{.latex}
+\begin{verbatim}
+  Este é um bloco de texto verbatim.
+	\textcolor{magenta}{Aqui você pode digitar qualquer coisa,}
+	\textbf{\Large sem que o \LaTeX interprete o conteúdo.}
+\end{verbatim}
+```
+
+
+
+
+## Exibindo Código Não Imterpretável
+
+- O comando `\verb|` é usado para exibir pequenos trechos de texto em linha, preservando caracteres especiais.
+- Ele permite que você especifique um caractere delimitador para indicar o início e o fim do trecho de texto que será exibido literalmente. Em geral usamos "`|`".
+- Exemplo:
+
+```{.latex}
+\begin{verbatim}
+  Aqui está um exemplo usando \verb|\verb| para exibir comandos
+  \LaTeX em linha.
+\end{verbatim}
+```
+
+
+
+
+## Atividade
+
+No mesmo arquivo, crie uma nova seção chamada `Exibindo Texto sem Formatação` e replique os exemplos anteriores.
+
+
+
+
+## Ganhos da aula
+
+- Domínio da criação e organização de seções, subseções e parágrafos com e sem numeração automática.
+
+- Capacidade de formatar corretamente resumo e texto com alinhamento, indentação e centralização.
+
+- Aprendizado de como inserir notas explicativas no rodapé e na margem do texto.
+
+- Criação de listas numeradas e não numeradas, com diferentes níveis e estilos de marcação.
+
+
+
+
+## Material Extra
+
+Aprofunde o que vimos em aula com esse link:
+
+- <https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes>
+
+
+
+
+## Atividade extraclasse
+
+Reproduza o arquivo `04-Estrutura-Basica-LaTeX_Atv01.pdf`.
+
+
+
+
+# Fim
