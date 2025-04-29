@@ -4,7 +4,7 @@
     "href": "conteudos/3-Introducao_ao_LaTeX.html",
     "title": "Conteúdo 3",
     "section": "",
-    "text": "Como criar documentos científicos bem formatados, padronizados e prontos para publicação? Esta aula parte dessa questão para apresentar o LaTeX, uma linguagem de marcação voltada à produção de textos técnicos e acadêmicos. A atividade será conduzida de maneira prática, com foco no aprendizado dos comandos básicos de formatação, controle do tamanho da fonte e uso de cores no texto. Ao longo da aula, será possível experimentar o poder do LaTeX para organizar e apresentar conteúdos de forma profissional, desenvolvendo uma habilidade fundamental para a produção de relatórios, artigos e trabalhos em Estatística e Ciência de Dados.\nSlides:\n\nVersão html\nVersão pdf",
+    "text": "Como criar documentos científicos bem formatados, padronizados e prontos para publicação? Esta aula parte dessa questão para apresentar o LaTeX, uma linguagem de marcação voltada à produção de textos técnicos e acadêmicos. A atividade será conduzida de maneira prática, com foco no aprendizado dos comandos básicos de formatação, controle do tamanho da fonte e uso de cores no texto. Ao longo da aula, será possível experimentar o poder do LaTeX para organizar e apresentar conteúdos de forma profissional, desenvolvendo uma habilidade fundamental para a produção de relatórios, artigos e trabalhos em Estatística e Ciência de Dados.\nSlides:\n\nVersão html\nVersão pdf\n\n\n\n\nReproduza em LaTeX o arquivo 03-Introducao_ao_LaTeX_Atv01.pdf.\nAlgumas configurações utilizadas:\n\ntamanho da fonte geral: 11pt\ncores: blue e red\ntamanho da fonte \\scriptsize e \\Large em algumas frases",
     "crumbs": [
       "Material das aulas",
       "3- Introdução ao LaTeX"
@@ -16,6 +16,17 @@
     "title": "Conteúdo 3",
     "section": "",
     "text": "Como criar documentos científicos bem formatados, padronizados e prontos para publicação? Esta aula parte dessa questão para apresentar o LaTeX, uma linguagem de marcação voltada à produção de textos técnicos e acadêmicos. A atividade será conduzida de maneira prática, com foco no aprendizado dos comandos básicos de formatação, controle do tamanho da fonte e uso de cores no texto. Ao longo da aula, será possível experimentar o poder do LaTeX para organizar e apresentar conteúdos de forma profissional, desenvolvendo uma habilidade fundamental para a produção de relatórios, artigos e trabalhos em Estatística e Ciência de Dados.\nSlides:\n\nVersão html\nVersão pdf",
+    "crumbs": [
+      "Material das aulas",
+      "3- Introdução ao LaTeX"
+    ]
+  },
+  {
+    "objectID": "conteudos/3-Introducao_ao_LaTeX.html#atividade",
+    "href": "conteudos/3-Introducao_ao_LaTeX.html#atividade",
+    "title": "Conteúdo 3",
+    "section": "",
+    "text": "Reproduza em LaTeX o arquivo 03-Introducao_ao_LaTeX_Atv01.pdf.\nAlgumas configurações utilizadas:\n\ntamanho da fonte geral: 11pt\ncores: blue e red\ntamanho da fonte \\scriptsize e \\Large em algumas frases",
     "crumbs": [
       "Material das aulas",
       "3- Introdução ao LaTeX"

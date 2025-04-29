@@ -14,7 +14,7 @@ Como garantir que um trabalho estatístico seja organizado, reproduzível e prot
 
 Slides:
 
-- [Versão html](/slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html)
+- [Versão html](/slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html){target="_blank"}
 
-- [Versão pdf](/slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.pdf)
+- [Versão pdf](/slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.pdf){target="_blank"}
 

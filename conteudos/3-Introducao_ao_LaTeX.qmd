@@ -14,6 +14,17 @@ Como criar documentos científicos bem formatados, padronizados e prontos para p
 
 Slides:
 
-- [Versão html](/slides/03-Introducao_ao_LaTeX/03-Introducao_ao_LaTeX.html)
+- [Versão html](/slides/03-Introducao_ao_LaTeX/03-Introducao_ao_LaTeX.html){target="_blank"}
 
-- [Versão pdf](/PDF_slides/03-Introducao_ao_LaTeX.pdf)
+- [Versão pdf](/PDF_slides/03-Introducao_ao_LaTeX.pdf){target="_blank"}
+
+
+## Atividade
+
+Reproduza em LaTeX o arquivo [03-Introducao_ao_LaTeX_Atv01.pdf](/PDF_slides/03-Introducao_ao_LaTeX_Atv01.pdf){target="_blank"}.
+
+Algumas configurações utilizadas:
+
+- tamanho da fonte geral: 11pt
+- cores: `blue` e `red`
+- tamanho da fonte `\scriptsize` e `\Large` em algumas frases
