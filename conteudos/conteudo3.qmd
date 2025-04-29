@@ -1,0 +1,19 @@
+---
+title: ""
+format:
+  html:
+    toc: false
+    anchor-sections: false
+---
+
+# Conteúdo 3
+
+## Introdução ao LaTeX
+
+Como criar documentos científicos bem formatados, padronizados e prontos para publicação? Esta aula parte dessa questão para apresentar o LaTeX, uma linguagem de marcação voltada à produção de textos técnicos e acadêmicos. A atividade será conduzida de maneira prática, com foco no aprendizado dos comandos básicos de formatação, controle do tamanho da fonte e uso de cores no texto. Ao longo da aula, será possível experimentar o poder do LaTeX para organizar e apresentar conteúdos de forma profissional, desenvolvendo uma habilidade fundamental para a produção de relatórios, artigos e trabalhos em Estatística e Ciência de Dados.
+
+Slides:
+
+- [Versão html](/slides/03-Introducao_ao_LaTeX/03-Introducao_ao_LaTeX.html)
+
+- [Versão pdf](/PDF_slides/03-Introducao_ao_LaTeX.pdf)

@@ -30,8 +30,12 @@ website:
         text: "Conteúdo 1"
       - href: conteudos/conteudo2.qmd
         text: "Conteúdo 2"
+      - href: conteudos/conteudo3.qmd
+        text: "Conteúdo 3"
 
 format:
   html:
     theme: yeti
     toc: true
+resources:
+  - PDF_slides/**

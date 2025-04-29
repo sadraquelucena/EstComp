@@ -1,0 +1,1042 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-b719d3d4935f2b08311a76135e2bf442.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.7.28">
+
+  <meta name="author" content="ESTAT0090 – Estatística Computacional  Prof.&nbsp;Dr.&nbsp;Sadraque E. F. Lucena  sadraquelucena@academico.ufs.br">
+  <title>Estatística Computacional – Como escrever relatórios de forma compreensível e profissional?</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
+  </style>
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-68af3715f02edbd778fab1d63f3de263.css">
+  <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Como escrever relatórios de forma compreensível e profissional?</h1>
+  <p class="subtitle"><span style="font-size:1.4em; font-weight:bold;">Introdução ao LaTeX</span></p>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+<p>ESTAT0090 – Estatística Computacional<br> Prof.&nbsp;Dr.&nbsp;Sadraque E. F. Lucena<br> <span style="font-size:.8em;">sadraquelucena@academico.ufs.br</span></p> 
+</div>
+</div>
+</div>
+
+</section>
+<section id="cenário" class="slide level2">
+<h2>Cenário</h2>
+<ul>
+<li><p>Imagine que você está finalizando o seu Trabalho de Conclusão de Curso (TCC).</p></li>
+<li><p>O prazo está se aproximando e você precisa entregar um relatório bem estruturado, seguindo todas as exigências acadêmicas: numeração correta de capítulos e seções, figuras organizadas, sumário atualizado e referências formatadas nas normas da ABNT.</p></li>
+<li><p>Você opta por usar um editor de texto comum e, conforme avança no trabalho, surgem dificuldades: ajustes manuais tomam tempo, pequenas mudanças bagunçam a numeração e o sumário precisa ser reconstruído a cada alteração.</p></li>
+<li><p>Organizar tudo de forma manual se torna um desafio enorme e aumenta o risco de erros que podem comprometer a qualidade do seu TCC.</p></li>
+<li><p>Existe uma forma mais inteligente e profissional de lidar com isso. Vamos descobrir qual é?</p></li>
+</ul>
+</section>
+<section id="cenário-1" class="slide level2">
+<h2>Cenário</h2>
+<h3 id="o-problema">O Problema</h3>
+<ul>
+<li><p>Produzir relatórios técnicos exige controle rigoroso da estrutura e da formatação.</p></li>
+<li><p>Fazer isso manualmente é demorado e propenso a erros:</p>
+<ul>
+<li><p>Numeração de capítulos, seções e figuras pode ficar incorreta.</p></li>
+<li><p>O sumário precisa ser atualizado à mão a cada mudança.</p></li>
+<li><p>Referências bibliográficas podem não seguir corretamente as normas da ABNT.</p></li>
+</ul></li>
+</ul>
+<h3 id="a-motivação">A Motivação</h3>
+<ul>
+<li><p>Usar uma ferramenta que automatize a estruturação do documento economiza tempo e evita erros.</p></li>
+<li><p>Trabalhar com padrões profissionais facilita a vida acadêmica e a atuação futura como estatístico(a).</p></li>
+</ul>
+<blockquote>
+<p><strong>Hoje, vamos conhecer o LaTeX</strong> — uma solução poderosa para essa tarefa!</p>
+</blockquote>
+</section>
+<section id="e-se-você-fizer-tudo-isso-com-o" class="slide level2">
+<h2>E se você fizer tudo isso com o <img src="imagens/latexicon.png" style="width: 120px; vertical-align: middle; margin-left: 0px; margin-top: 11px;">?</h2>
+<p>Com o LaTeX você terá:</p>
+<ul>
+<li><p>Numeração automática de capítulos, seções, subseções, figuras e tabelas, sem a necessidade de ajustes manuais.</p></li>
+<li><p>Sumário dinâmico que se atualiza automaticamente com a numeração e a localização das seções.</p></li>
+<li><p>Referências cruzadas atualizadas em tempo real, como “Figura 2.1” ou “Capítulo 3”.</p></li>
+<li><p>Referências bibliográficas formatadas corretamente nas normas da ABNT com o auxílio de pacotes específicos.</p></li>
+<li><p>Foco no conteúdo, sem se preocupar com detalhes de formatação.</p></li>
+</ul>
+<blockquote>
+<p>Com o LaTeX, você pode automatizar todo o trabalho de formatação e concentrar seu tempo no conteúdo do seu relatório.</p>
+</blockquote>
+</section>
+<section id="objetivo-da-aula" class="slide level2">
+<h2>Objetivo da aula</h2>
+<ul>
+<li>Entender o que é o LaTeX e como ele pode ser utilizado para escrever documentos técnicos e acadêmicos de maneira eficiente.</li>
+<li>Criar um arquivo LaTeX (.tex).</li>
+<li>Definir título e autor.</li>
+<li>Inserir sumário automático.</li>
+<li>Criar capítulos, seções e subseções com numeração.</li>
+</ul>
+</section>
+<section>
+<section id="breve-introdução-ao" class="title-slide slide level1 center">
+<h1>Breve introdução ao <img src="imagens/latexicon.png" style="width: 200px; vertical-align: middle; margin-left: 0px; margin-top: 11px;"></h1>
+
+</section>
+<section id="o-que-é-o" class="slide level2">
+<h2>O que é o <img src="imagens/latexicon.png" style="width: 100px; vertical-align: middle; margin-left: 0px; margin-top: 11px;">?</h2>
+<ul>
+<li><p>A pronúncia correta é <strong>``Lêitech’’</strong> e a forma de escrever é <strong>LaTeX</strong> (com “a” e “e” minúsculos).</p></li>
+<li><p>LaTeX é um pacote dedicado à produção de textos impressos de alta qualidade, com foco especial em textos matemáticos.</p></li>
+<li><p>LaTeX foi desenvolvido por Leslie Lamport como uma evolução do programa TeX, criado por Donald Knuth.</p></li>
+</ul>
+<div class="quarto-layout-panel" style="text-align: center;" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<p><img data-src="imagens/Leslie_Lamport.jpg" style="width:7cm"><br> Leslie Lamport</p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<p><img data-src="imagens/Donald_Ervin_Knuth.jpg" style="width:7cm"><br> Donald Knuth</p>
+</div>
+</div>
+</div>
+</section>
+<section id="origem-e-evolução-do" class="slide level2">
+<h2>Origem e Evolução do <img src="imagens/latexicon.png" style="width: 100px; vertical-align: middle; margin-left: 0px; margin-top: 11px;"></h2>
+<ul>
+<li><p>O TeX surgiu nos anos 1970 com o propósito de melhorar a qualidade de impressão, levando em consideração as limitações das impressoras daquela época.</p></li>
+<li><p>Na década de 1980 Leslie Lamport criou o LaTeX, com a intenção de simplificar o uso do TeX por meio de comandos que executam diferentes funções.</p></li>
+<li><p>O LaTeX é um editor de textos especialmente projetado para atender às necessidades da área matemática, oferecendo comandos para a composição de diversas fórmulas.</p></li>
+<li><p>Para entendermos melhor como o LaTeX funciona, precisamos conhecer as duas abordagens de processamento de texto: o <strong>estilo visual</strong> e o <strong>estilo lógico</strong>.</p></li>
+</ul>
+</section>
+<section id="estilos-de-processamento-de-texto" class="slide level2">
+<h2>Estilos de Processamento de Texto</h2>
+<h3 id="estilo-visual">Estilo Visual</h3>
+<p>Nestes processadores de texto, há um menu com recursos disponíveis para seleção através do mouse, mostrando na tela o texto digitado da mesma forma que será impresso, conhecido como WYSIWYG (What-You-See-Is-What-You-Get).</p>
+<ul>
+<li>Microsoft Word e Google Docs utilizam um estilo visual.</li>
+</ul>
+<h3 id="estilo-lógico">Estilo lógico</h3>
+<p>O processamento ocorre em duas etapas: o texto e os comandos de formatação são escritos em um arquivo fonte usando um editor, e em seguida o arquivo é compilado, gerando um arquivo de saída visualizável em formatos como HTML, DVI, PDF, etc.</p>
+<ul>
+<li>O LaTeX utiliza um estilo lógico.</li>
+</ul>
+</section>
+<section id="ferramentas-essenciais-para-trabalhar-com" class="slide level2">
+<h2>Ferramentas Essenciais para Trabalhar com <img src="imagens/latexicon.png" style="width: 100px; vertical-align: middle; margin-left: 0px; margin-top: 11px;"></h2>
+<p>Para usar o LaTeX, precisamos de duas ferramentas essenciais:</p>
+<h4 id="distribuição-tex">Distribuição TeX:</h4>
+<div class="quarto-layout-panel" style="text-align: center;" data-layout-ncol="2">
+<div class="quarto-layout-row quarto-layout-valign-bottom">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<p><img data-src="imagens/miktex.png" style="width:4cm"><br> MiKTeX</p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<p><img data-src="imagens/texlive.png" style="width:6cm"><br> TeX Live</p>
+</div>
+</div>
+</div>
+<h4 id="ambiente-de-desenvolvimento-integrado-ide">Ambiente de desenvolvimento integrado (IDE):</h4>
+<div class="quarto-layout-panel" style="text-align: center;" data-layout-ncol="2">
+<div class="quarto-layout-row quarto-layout-valign-bottom">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<p><img data-src="imagens/texstudio.png" style="width:4cm"><br> MiKTeX</p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<p><img data-src="imagens/texmaker.png" style="width:4cm"><br> TeX Live</p>
+</div>
+</div>
+</div>
+</section>
+<section id="ferramentas-essenciais-para-trabalhar-com-1" class="slide level2">
+<h2>Ferramentas Essenciais para Trabalhar com <img src="imagens/latexicon.png" style="width: 100px; vertical-align: middle; margin-left: 0px; margin-top: 11px;"></h2>
+<ul>
+<li>Há também uma plataforma online completa: <strong>Overleaf</strong>.</li>
+<li>Overleaf permite escrever, compilar e colaborar em documentos LaTeX diretamente no navegador da web (não precisa instalar nada).</li>
+<li>É especialmente útil para colaboração em tempo real e trabalho em equipe.</li>
+</ul>
+<div style="text-align: center;">
+<p><img src="imagens/overleaf.png" style="width: 500px;"></p>
+</div>
+<center>
+Overleaf
+</center>
+</section>
+<section id="como-um-documento-é-processado-em" class="slide level2">
+<h2>Como um documento é processado em <img src="imagens/latexicon.png" style="width: 100px; vertical-align: middle; margin-left: 0px; margin-top: 11px;">?</h2>
+<ol type="1">
+<li><p>O documento é escrito usando comandos no , e salvo em um arquivo com extensão <code>.tex</code>.</p></li>
+<li><p>O LaTeX interpreta os comandos e os transforma em uma linguagem compreensível pelo TeX.</p></li>
+<li><p>O documento LaTeX é processado por um compilador, que gera um arquivo com extensão <code>.dvi</code> (<em>device independent</em>).</p></li>
+<li><p>O arquivo <code>.dvi</code> pode ser visualizado em um visualizador específico ou convertido para extensão <code>.pdf</code> (<em>portable document format</em>).</p></li>
+</ol>
+</section></section>
+<section>
+<section id="primeiros-passos-em" class="title-slide slide level1 center">
+<h1>Primeiros Passos em <img src="imagens/latexicon.png" style="width: 200px; vertical-align: middle; margin-left: 0px; margin-top: 11px;"></h1>
+
+</section>
+<section id="documento-básico" class="slide level2">
+<h2>Documento Básico</h2>
+<div class="sourceCode" id="cb1"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb1-1"><a aria-hidden="true" tabindex="-1"></a><span class="bu">\documentclass</span>[12pt,a4paper]{<span class="ex">article</span>}</span>
+<span id="cb1-2"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a aria-hidden="true" tabindex="-1"></a><span class="bu">\usepackage</span>{<span class="ex">graphicx</span>}</span>
+<span id="cb1-4"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a aria-hidden="true" tabindex="-1"></a><span class="fu">\title</span>{Meu Primeiro Documento}</span>
+<span id="cb1-6"><a aria-hidden="true" tabindex="-1"></a><span class="fu">\author</span>{Seu Nome}</span>
+<span id="cb1-7"><a aria-hidden="true" tabindex="-1"></a><span class="fu">\date</span>{<span class="fu">\today</span>}</span>
+<span id="cb1-8"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a aria-hidden="true" tabindex="-1"></a><span class="kw">\begin</span>{<span class="ex">document</span>}</span>
+<span id="cb1-10"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a aria-hidden="true" tabindex="-1"></a>Meu primeiro documento em LaTeX.</span>
+<span id="cb1-12"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a aria-hidden="true" tabindex="-1"></a><span class="kw">\end</span>{<span class="ex">document</span>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="classe-do-documento" class="slide level2">
+<h2>Classe do Documento</h2>
+<div class="sourceCode" id="cb2"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb2-1"><a aria-hidden="true" tabindex="-1"></a><span class="bu">\documentclass</span>[12pt,a4paper]{<span class="ex">article</span>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li>Define o tipo de documento (classe).</li>
+<li>As classes mais usadas são: <code>article</code> (artigo), <code>report</code> (relatório) e <code>book</code> (livro).
+<ul>
+<li>Outras classes de documentos podem ser encontradas em <a href="https://www.ctan.org/topic/class" class="uri">https://www.ctan.org/topic/class</a>.</li>
+</ul></li>
+<li>As classes aceitam opções que controlam algumas formatações:
+<ul>
+<li>Tamanho da fonte (<code>10pt</code>, <code>11pt</code>, <code>12pt</code>, etc.)</li>
+<li>Tamanho do papel (<code>a4paper</code>, <code>letterpaper</code>, etc.)</li>
+<li>Múltiplas colunas (<code>onecolumn</code>, <code>twocolumn</code>)</li>
+<li>Opções para equações (<code>fleqn</code> and <code>leqno</code>)</li>
+<li>Impressão em um lado ou frente e verso (<code>oneside</code>, <code>twoside</code>)</li>
+<li>Comportamento da página de título (<code>notitlepage</code>, <code>titlepage</code>)</li>
+<li>Posição do capítulo (<code>openright</code>, <code>openany</code>)</li>
+</ul></li>
+</ul>
+</section>
+<section id="corpo-principal-do-documento" class="slide level2">
+<h2>Corpo principal do documento</h2>
+<div class="sourceCode" id="cb3"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb3-1"><a aria-hidden="true" tabindex="-1"></a><span class="kw">\begin</span>{<span class="ex">document</span>}</span>
+<span id="cb3-2"><a aria-hidden="true" tabindex="-1"></a>...</span>
+<span id="cb3-3"><a aria-hidden="true" tabindex="-1"></a><span class="kw">\end</span>{<span class="ex">document</span>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li>Tudo que estiver entre <code>\begin{document}</code> e <code>\end{document}</code> é o conteúdo visível no PDF.</li>
+<li>Tudo que está antes de <code>\begin{document}</code> é chamado <strong>preâmbulo</strong>.</li>
+<li>O que está após <code>\end{document}</code> é ignorado.</li>
+</ul>
+</section>
+<section id="metadados-do-documento-título-autor-data" class="slide level2">
+<h2>Metadados do Documento (Título, Autor, Data)</h2>
+<div class="sourceCode" id="cb4"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb4-1"><a aria-hidden="true" tabindex="-1"></a><span class="fu">\title</span>{Meu Primeiro Documento}</span>
+<span id="cb4-2"><a aria-hidden="true" tabindex="-1"></a><span class="fu">\author</span>{Seu Nome}</span>
+<span id="cb4-3"><a aria-hidden="true" tabindex="-1"></a><span class="fu">\date</span>{<span class="fu">\today</span>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li><code>\title{}</code>: Define o título do documento (usado com <code>\maketitle</code>).</li>
+<li><code>\author{}</code>: Nome do autor.</li>
+<li><code>\date{}</code>: Data (<code>\today</code> insere a data atual).
+<ul>
+<li>Use <code>\date{}</code> sem argumento para omitir a data.</li>
+</ul></li>
+</ul>
+<blockquote>
+<p>Obs.: Esses comandos só funcionam no preâmbulo ou antes de <code>\maketitle.</code></p>
+</blockquote>
+<ul>
+<li><p><code>\maketitle</code> gera o título formatado no PDF, usando os metadados definidos.</p>
+<ul>
+<li><p>Deve ser chamado após <code>\begin{document}</code>.</p></li>
+<li><p>Em classes como <code>article</code>, o texto continua na mesma página após o título (a menos que se use <code>\newpage</code>).</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="atividade" class="slide level2">
+<h2>Atividade</h2>
+<p>Crie documentos no latex e gere os respectivos PDFs. As características são:</p>
+<p><strong>Documento 1:</strong> O documento deve ser da classe <strong>artigo</strong> com tamanho de letra <strong>11</strong> e tamanho de folha <strong>a4</strong>. Escreva <code>Estou impressionado com essa aula excelente!</code>. Nomeie o arquivo de <code>texto1.tex</code>.</p>
+<p><strong>Documento 2.</strong> Use a classe <strong>relatório</strong> com tamanho de letra <strong>10</strong>, tamanho de folha <strong>carta</strong> e texto em <strong>duas colunas</strong>. Acrescente no preambulo o pacote <code>\usepackage{lipsum}</code> e use o comando <code>\lipsum</code> para escrever texto automático. Nomeie o arquivo de <code>texto2.tex</code>.</p>
+</section>
+<section id="sentenças-e-parágrafos" class="slide level2">
+<h2>Sentenças e Parágrafos</h2>
+<ul>
+<li>Em LaTeX espaçamento entre palavras é automático (ignora múltiplos espaços).</li>
+<li>“<code>\</code>” insere um espaço quando usado sozinho</li>
+<li><code>\indent</code> adiciona recuo | <code>\noindent</code> remove recuo</li>
+<li>“<code>\\</code>” quebra a linha</li>
+<li>Primeiro parágrafo não tem recuo por padrão</li>
+</ul>
+<blockquote>
+<p>O comportamento pode variar conforme classe do documento.</p>
+</blockquote>
+</section>
+<section id="controle-de-páginas-e-comentários" class="slide level2">
+<h2>Controle de Páginas e Comentários</h2>
+<p>Comandos úteis:</p>
+<ul>
+<li><code>\newpage</code>: Força nova página (útil para capítulos/seções)</li>
+<li><code>%</code>: Cria comentários (texto ignorado na compilação)</li>
+</ul>
+<p>Boas práticas:</p>
+<ul>
+<li>Use <code>%</code> para documentar seu código</li>
+<li>Comentários ajudam na organização e revisão</li>
+</ul>
+<p>Exemplo:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb5-1"><a aria-hidden="true" tabindex="-1"></a><span class="kw">\begin</span>{<span class="ex">document</span>}</span>
+<span id="cb5-2"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-3"><a aria-hidden="true" tabindex="-1"></a>Meu primeiro documento em LaTeX.</span>
+<span id="cb5-4"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-5"><a aria-hidden="true" tabindex="-1"></a><span class="fu">\newline</span> <span class="co">% Quebra para a pŕoxima página</span></span>
+<span id="cb5-6"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-7"><a aria-hidden="true" tabindex="-1"></a>Texto da nova página.</span>
+<span id="cb5-8"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-9"><a aria-hidden="true" tabindex="-1"></a><span class="kw">\end</span>{<span class="ex">document</span>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="estilos-de-fonte" class="slide level2">
+<h2>Estilos de fonte</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Comando</th>
+<th style="text-align: left;">Efeito visual</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><code>\textit{itálico}</code> ou <code>{\it itálico}</code></td>
+<td style="text-align: left;"><em>itálico</em></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>\textbf{negrito}</code> ou <code>{\bf negrito}</code></td>
+<td style="text-align: left;"><strong>negrito</strong></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>\emph{realçado}</code></td>
+<td style="text-align: left;"><strong><em>realçado</em></strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>\underline{sublinhado}</code></td>
+<td style="text-align: left;"><u>sublinhado</u></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>\texttt{datilografado}</code></td>
+<td style="text-align: left;"><span class="math inline">\(\texttt{datilografado}\)</span></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="tamanho-do-texto" class="slide level2">
+<h2>Tamanho do Texto</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 55%">
+<col style="width: 44%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Comando</th>
+<th style="text-align: center;">Efeito visual</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><code>{\tiny texto}</code></td>
+<td style="text-align: center;"><span style="font-size: 0.6em;">texto</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>{\scriptsize texto}</code></td>
+<td style="text-align: center;"><span style="font-size: 0.7em;">texto</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>{\footnotesize texto}</code></td>
+<td style="text-align: center;"><span style="font-size: 0.8em;">texto</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>{\small texto}</code></td>
+<td style="text-align: center;"><span style="font-size: 0.9em;">texto</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>{\normalsize texto}</code></td>
+<td style="text-align: center;">texto</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>{\large texto}</code></td>
+<td style="text-align: center;"><span style="font-size: 1.2em;">texto</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>{\Large texto}</code></td>
+<td style="text-align: center;"><span style="font-size: 1.5em;">texto</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>{\LARGE texto}</code></td>
+<td style="text-align: center;"><span style="font-size: 1.8em;">texto</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>{\huge texto}</code></td>
+<td style="text-align: center;"><span style="font-size: 2.2em;">texto</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>{\Huge texto}</code></td>
+<td style="text-align: center;"><span style="font-size: 2.5em;">texto</span></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="texto-colorido" class="slide level2">
+<h2>Texto Colorido</h2>
+<ul>
+<li>Para usar cores no LaTeX adicione <code>\usepackage{xcolor}</code> no preâmbulo.</li>
+<li>Em seguida, use o comando <code>\textcolor{cor}{texto}</code> para colorir o texto. Exemplo:</li>
+</ul>
+<table class="caption-top">
+<colgroup>
+<col style="width: 54%">
+<col style="width: 45%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Comando</th>
+<th style="text-align: center;">Efeito visual</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><code>\textcolor{red}{texto}</code></td>
+<td style="text-align: center;"><span style="color: red;">texto</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>\textcolor{blue}{texto}</code></td>
+<td style="text-align: center;"><span style="color: blue;">texto</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>\textcolor{brown}{texto}</code></td>
+<td style="text-align: center;"><span style="color: brown;">texto</span></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Cores pré-definidas (disponíveis sem opções adicionais):</li>
+</ul>
+<div style="text-align: center;">
+<p><img data-src="imagens/xcolorbase.png"></p>
+</div>
+</section>
+<section id="texto-colorido-1" class="slide level2">
+<h2>Texto Colorido</h2>
+<p>Nomes de cores adicionais podem ser usadas no pacote <code>xcolor</code> com as opções <code>dvipsnames</code>, <code>svgnames</code>e <code>x11names</code>.</p>
+<ul>
+<li>Por exemplo, se você escrever</li>
+</ul>
+<div class="sourceCode" id="cb6"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb6-1"><a aria-hidden="true" tabindex="-1"></a><span class="bu">\usepackage</span>[dvipsnames]{<span class="ex">xcolor</span>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>você pode acessar pelo nome as cores:</p>
+<div style="text-align: center;">
+<p><img src="imagens/xcolor.png" style="width: 75%;"></p>
+</div>
+</section>
+<section id="atividade-1" class="slide level2">
+<h2>Atividade</h2>
+<p>Reproduza o texto abaixo em LaTeX em um arquivo da classe <code>report</code> com tamanho de fonte <code>11pt.</code> <br><br><br></p>
+<p>Esta frase normal.<br> <em>Esta frase em itálico.</em><br> <strong>Esta frase em negrito.</strong><br> <u>Esta frase sublinhada</u><br> <span style="color: blue;">Esta frase em blue.</span><br> <span style="color: purple;">Esta parte purple</span> <span style="color: ForestGreen;">e esta ForestGreen.</span> <br> <span style="font-size: 0.9em;">Esta frase em tamanho small.</span><br> <span style="font-size: 0.7em;">Esta frase em tamanho scriptsize.</span><br> <span style="font-size: 1.5em;">Esta frase em atamanho Large.</span><br> <span style="font-size: 2.5em;">Esta frase em tamanho HUGE.</span><br></p>
+</section>
+<section id="ganhos-da-aula" class="slide level2">
+<h2>Ganhos da aula</h2>
+<ul>
+<li><p>Domínio de Formatação Básica</p></li>
+<li><p>Estilos de Fonte</p></li>
+<li><p>Tamanhos e cores de Texto</p></li>
+</ul>
+</section>
+<section id="material-extra" class="slide level2">
+<h2>Material Extra</h2>
+<p>Aprofunde o que vimos em aula com esse link:</p>
+<ul>
+<li><a href="https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes" class="uri">https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes</a></li>
+</ul>
+</section>
+<section id="atividade-extraclasse" class="slide level2">
+<h2>Atividade extraclasse</h2>
+<p>Reproduza o arquivo <code>03A - Exercício de Formatação no LaTeX.pdf</code>.</p>
+<p>Algumas configurações utilizadas:</p>
+<ul>
+<li>tamanho da fonte geral: 11pt</li>
+<li>cores: <code>blue</code> e <code>red</code></li>
+<li>tamanho da fonte <code>\scriptsize</code> e <code>\Large</code> em algumas frases</li>
+</ul>
+</section></section>
+<section id="fim" class="title-slide slide level1 center">
+<h1>Fim</h1>
+
+
+</section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<p><img src="imagens/ufs_horizontal_positiva.png" class="slide-logo"></p>
+<div class="footer footer-default">
+
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="../../site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../../site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="../../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../../site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'fade',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'fast',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1024,
+
+        height: 768,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        // Bounds for smallest/largest possible scale to apply to content
+        minScale: 0.2,
+
+        maxScale: 2,
+
+        math: {
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+            const codeEl = trigger.previousElementSibling.cloneNode(true);
+            for (const childEl of codeEl.children) {
+              if (isCodeAnnotation(childEl)) {
+                childEl.remove();
+              }
+            }
+            return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>

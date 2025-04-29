@@ -1,0 +1,462 @@
+---
+title: "Como escrever relatórios de forma compreensível e profissional?"
+subtitle: "<span style='font-size:1.4em; font-weight:bold;'>Introdução ao LaTeX</span>"
+author:
+  name: | # indica que o campo name terá múltiplas linhas
+    ESTAT0090 -- Estatística Computacional<br>
+    Prof. Dr. Sadraque E. F. Lucena<br>
+    <span style="font-size:.8em;">sadraquelucena@academico.ufs.br</span>
+  
+format:
+  revealjs:
+    theme: meutema.scss
+    width: 1024
+    height: 768
+    margin: 0.1         # margem em torno do conteúdo
+    min-scale: 0.2       # escala mínima permitida
+    max-scale: 2.0       # escala máxima permitida
+    slide-number: true
+    code-line-numbers: false # sem numero das linhas nos code chunks
+    subtitle-style: "font-size: 2em; font-weight: bold;"  # Aqui é onde aumentamos o subtítulo
+    logo: imagens/ufs_horizontal_positiva.png
+    transition: fade
+    transition-speed: fast
+    scss: meutema.scss
+---
+
+## Cenário
+
+- Imagine que você está finalizando o seu Trabalho de Conclusão de Curso (TCC).
+
+- O prazo está se aproximando e você precisa entregar um relatório bem estruturado, seguindo todas as exigências acadêmicas: numeração correta de capítulos e seções, figuras organizadas, sumário atualizado e referências formatadas nas normas da ABNT.
+
+- Você opta por usar um editor de texto comum e, conforme avança no trabalho, surgem dificuldades: ajustes manuais tomam tempo, pequenas mudanças bagunçam a numeração e o sumário precisa ser reconstruído a cada alteração.
+
+- Organizar tudo de forma manual se torna um desafio enorme e aumenta o risco de erros que podem comprometer a qualidade do seu TCC.
+
+- Existe uma forma mais inteligente e profissional de lidar com isso. Vamos descobrir qual é?
+
+
+
+
+## Cenário
+
+### O Problema
+
+- Produzir relatórios técnicos exige controle rigoroso da estrutura e da formatação.
+
+- Fazer isso manualmente é demorado e propenso a erros:
+
+    - Numeração de capítulos, seções e figuras pode ficar incorreta.
+
+    - O sumário precisa ser atualizado à mão a cada mudança.
+
+    - Referências bibliográficas podem não seguir corretamente as normas da ABNT.
+
+
+### A Motivação
+- Usar uma ferramenta que automatize a estruturação do documento economiza tempo e evita erros.
+
+- Trabalhar com padrões profissionais facilita a vida acadêmica e a atuação futura como estatístico(a).
+
+
+> **Hoje, vamos conhecer o LaTeX** — uma solução poderosa para essa tarefa!
+
+
+## E se você fizer tudo isso com o <img src="imagens/latexicon.png" style="width: 120px; vertical-align: middle; margin-left: 0px; margin-top: 11px;" />?
+
+Com o LaTeX você terá:
+
+- Numeração automática de capítulos, seções, subseções, figuras e tabelas, sem a necessidade de ajustes manuais.
+
+- Sumário dinâmico que se atualiza automaticamente com a numeração e a localização das seções.
+
+- Referências cruzadas atualizadas em tempo real, como "Figura 2.1" ou "Capítulo 3".
+
+- Referências bibliográficas formatadas corretamente nas normas da ABNT com o auxílio de pacotes específicos.
+
+- Foco no conteúdo, sem se preocupar com detalhes de formatação.
+
+> Com o LaTeX, você pode automatizar todo o trabalho de formatação e concentrar seu tempo no conteúdo do seu relatório.
+
+
+
+
+## Objetivo da aula
+
+- Entender o que é o LaTeX e como ele pode ser utilizado para escrever documentos técnicos e acadêmicos de maneira eficiente.
+- Criar um arquivo LaTeX (.tex).
+- Definir título e autor.
+- Inserir sumário automático.
+- Criar capítulos, seções e subseções com numeração.
+
+
+
+# Breve introdução ao <img src="imagens/latexicon.png" style="width: 200px; vertical-align: middle; margin-left: 0px; margin-top: 11px;" />
+
+
+
+
+## O que é o <img src="imagens/latexicon.png" style="width: 100px; vertical-align: middle; margin-left: 0px; margin-top: 11px;" />?
+
+- A pronúncia correta é **``Lêitech''** e a forma de escrever é **LaTeX** (com "a" e "e" minúsculos).
+
+-  LaTeX é um pacote dedicado à produção de textos impressos de alta qualidade, com foco especial em textos matemáticos.
+
+- LaTeX foi desenvolvido por Leslie Lamport como uma evolução do programa TeX, criado por Donald Knuth.
+
+::: {layout-ncol=2 style="text-align: center;"}
+
+![](imagens/Leslie_Lamport.jpg){width=7cm}<br>
+Leslie Lamport
+
+![](imagens/Donald_Ervin_Knuth.jpg){width=7cm}<br>
+Donald Knuth
+
+:::
+
+## Origem e Evolução do <img src="imagens/latexicon.png" style="width: 100px; vertical-align: middle; margin-left: 0px; margin-top: 11px;" />
+
+- O TeX surgiu nos anos 1970 com o propósito de melhorar a qualidade de impressão, levando em consideração as limitações das impressoras daquela época.
+		
+- Na década de 1980 Leslie Lamport criou o LaTeX, com a intenção de simplificar o uso do TeX por meio de comandos que executam diferentes funções.
+		
+- O LaTeX é um editor de textos especialmente projetado para atender às necessidades da área matemática, oferecendo comandos para a composição de diversas fórmulas.
+
+- Para entendermos melhor como o LaTeX funciona, precisamos conhecer as duas abordagens de processamento de texto: o **estilo visual** e o **estilo lógico**.
+
+
+## Estilos de Processamento de Texto
+
+### Estilo Visual
+Nestes processadores de texto, há um menu com recursos disponíveis para seleção através do mouse, mostrando na tela o texto digitado da mesma forma que será impresso, conhecido como WYSIWYG (What-You-See-Is-What-You-Get).
+
+- Microsoft Word e Google Docs utilizam um estilo visual.
+		
+### Estilo lógico
+O processamento ocorre em duas etapas: o texto e os comandos de formatação são escritos em um arquivo fonte usando um editor, e em seguida o arquivo é compilado, gerando um arquivo de saída visualizável em formatos como HTML, DVI, PDF, etc.
+
+- O LaTeX utiliza um estilo lógico.
+
+
+## Ferramentas Essenciais para Trabalhar com <img src="imagens/latexicon.png" style="width: 100px; vertical-align: middle; margin-left: 0px; margin-top: 11px;" />
+
+Para usar o LaTeX, precisamos de duas ferramentas essenciais:
+	
+#### Distribuição TeX:
+
+::: {layout-ncol=2 layout-valign="bottom" style="text-align: center;"}
+
+![](imagens/miktex.png){width=4cm}<br>
+MiKTeX
+
+![](imagens/texlive.png){width=6cm}<br>
+TeX Live
+
+:::
+
+
+#### Ambiente de desenvolvimento integrado (IDE):
+
+::: {layout-ncol=2 layout-valign="bottom" style="text-align: center;"}
+
+![](imagens/texstudio.png){width=4cm}<br>
+MiKTeX
+
+![](imagens/texmaker.png){width=4cm}<br>
+TeX Live
+
+:::
+
+
+
+
+## Ferramentas Essenciais para Trabalhar com <img src="imagens/latexicon.png" style="width: 100px; vertical-align: middle; margin-left: 0px; margin-top: 11px;" />
+
+- Há também uma plataforma online completa: **Overleaf**.
+- Overleaf permite escrever, compilar e colaborar em documentos LaTeX diretamente no navegador da web (não precisa instalar nada).
+- É especialmente útil para colaboração em tempo real e trabalho em equipe.
+
+<div style="text-align: center;">
+  <img src="imagens/overleaf.png" style="width: 500px;" />
+</div>
+<center>
+Overleaf
+</center>
+
+
+
+
+## Como um documento é processado em <img src="imagens/latexicon.png" style="width: 100px; vertical-align: middle; margin-left: 0px; margin-top: 11px;" />?
+
+1. O documento é escrito usando comandos no \LaTeX\, e salvo em um arquivo com extensão `.tex`.
+
+2. O LaTeX interpreta os comandos e os transforma em uma linguagem compreensível pelo TeX.
+
+3. O documento LaTeX é processado por um compilador, que gera um arquivo com extensão `.dvi` (*device independent*).
+
+4.  O arquivo `.dvi` pode ser visualizado em um visualizador específico ou convertido para extensão `.pdf` (*portable document format*).
+
+
+
+
+# Primeiros Passos em <img src="imagens/latexicon.png" style="width: 200px; vertical-align: middle; margin-left: 0px; margin-top: 11px;" />
+
+
+
+
+## Documento Básico
+
+```{.latex}
+\documentclass[12pt,a4paper]{article}
+
+\usepackage{graphicx}
+
+\title{Meu Primeiro Documento}
+\author{Seu Nome}
+\date{\today}
+
+\begin{document}
+
+Meu primeiro documento em LaTeX.
+
+\end{document}
+```
+
+
+
+
+## Classe do Documento
+
+
+```{.latex}
+\documentclass[12pt,a4paper]{article}
+```
+
+- Define o tipo de documento (classe).
+- As classes mais usadas são: `article` (artigo), `report` (relatório) e `book` (livro).
+  - Outras classes de documentos podem ser encontradas em <https://www.ctan.org/topic/class>.
+- As classes aceitam opções que controlam algumas formatações:
+  - Tamanho da fonte (`10pt`, `11pt`, `12pt`, etc.)
+  - Tamanho do papel (`a4paper`, `letterpaper`, etc.)
+  - Múltiplas colunas (`onecolumn`, `twocolumn`)
+  - Opções para equações (`fleqn` and `leqno`)
+  - Impressão em um lado ou frente e verso (`oneside`, `twoside`)
+  - Comportamento da página de título (`notitlepage`, `titlepage`)
+  - Posição do capítulo (`openright`, `openany`)
+
+
+
+
+## Corpo principal do documento
+
+```{.latex}
+\begin{document}
+...
+\end{document}
+```
+
+- Tudo que estiver entre `\begin{document}` e `\end{document}` é o conteúdo visível no PDF.
+- Tudo que está antes de `\begin{document}` é chamado **preâmbulo**.
+- O que está após `\end{document}` é ignorado.
+
+
+
+
+## Metadados do Documento (Título, Autor, Data)
+
+```{.latex}
+\title{Meu Primeiro Documento}
+\author{Seu Nome}
+\date{\today}
+```
+
+- `\title{}`: Define o título do documento (usado com `\maketitle`).
+- `\author{}`: Nome do autor.
+- `\date{}`: Data (`\today` insere a data atual).
+  - Use `\date{}` sem argumento para omitir a data.
+
+
+> Obs.: Esses comandos só funcionam no preâmbulo ou antes de `\maketitle.`
+
+- `\maketitle` gera o título formatado no PDF, usando os metadados definidos.
+
+  - Deve ser chamado após `\begin{document}`.
+
+  - Em classes como `article`, o texto continua na mesma página após o título (a menos que se use `\newpage`).
+
+
+
+
+## Atividade
+
+Crie documentos no latex e gere os respectivos PDFs. As características são:
+
+**Documento 1:** O documento deve ser da classe **artigo** com tamanho de letra **11** e tamanho de folha **a4**. Escreva `Estou impressionado com essa aula excelente!`. Nomeie o arquivo de `texto1.tex`.
+
+**Documento 2.** Use a classe **relatório** com tamanho de letra **10**, tamanho de folha **carta** e texto em **duas colunas**. Acrescente no preambulo o pacote `\usepackage{lipsum}` e use o comando `\lipsum` para escrever texto automático. Nomeie o arquivo de `texto2.tex`.
+
+
+
+
+## Sentenças e Parágrafos
+
+- Em LaTeX espaçamento entre palavras é automático (ignora múltiplos espaços).
+- "`\`" insere um espaço quando usado sozinho
+- `\indent` adiciona recuo | `\noindent` remove recuo
+- "`\\`" quebra a linha
+- Primeiro parágrafo não tem recuo por padrão
+
+> O comportamento pode variar conforme classe do documento.
+
+
+
+
+
+
+## Controle de Páginas e Comentários
+
+Comandos úteis:
+
+- `\newpage`: Força nova página (útil para capítulos/seções)
+- `%`: Cria comentários (texto ignorado na compilação)
+
+
+Boas práticas:
+
+- Use `%` para documentar seu código
+- Comentários ajudam na organização e revisão
+
+Exemplo:
+
+```{.latex}
+\begin{document}
+
+Meu primeiro documento em LaTeX.
+
+\newline % Quebra para a pŕoxima página
+
+Texto da nova página.
+
+\end{document}
+```
+
+
+## Estilos de fonte
+
+| Comando | Efeito visual|
+|:--------|:-------------|
+|`\textit{itálico}` ou `{\it itálico}` | *itálico* |
+|`\textbf{negrito}` ou `{\bf negrito}` | **negrito** |
+|`\emph{realçado}` | ***realçado*** |
+|`\underline{sublinhado}` | <u>sublinhado</u> |
+|`\texttt{datilografado}` | $\texttt{datilografado}$ |
+
+
+## Tamanho do Texto
+
+| Comando                 | Efeito visual                                |
+|:------------------------|:------------------:|
+| `{\tiny texto}`         | <span style="font-size: 0.6em;">texto</span> |
+| `{\scriptsize texto}`   | <span style="font-size: 0.7em;">texto</span> |
+| `{\footnotesize texto}` | <span style="font-size: 0.8em;">texto</span> |
+| `{\small texto}`        | <span style="font-size: 0.9em;">texto</span> |
+| `{\normalsize texto}`   | texto                                        |
+| `{\large texto}`        | <span style="font-size: 1.2em;">texto</span> |
+| `{\Large texto}`        | <span style="font-size: 1.5em;">texto</span> |
+| `{\LARGE texto}`        | <span style="font-size: 1.8em;">texto</span> |
+| `{\huge texto}`         | <span style="font-size: 2.2em;">texto</span> |
+| `{\Huge texto}`         | <span style="font-size: 2.5em;">texto</span> |
+
+
+
+
+## Texto Colorido
+
+- Para usar cores no LaTeX adicione `\usepackage{xcolor}` no preâmbulo.
+- Em seguida, use o comando `\textcolor{cor}{texto}` para colorir o texto. Exemplo:
+
+| Comando                    | Efeito visual                            |
+|:---------------------------|:---------------------:|
+| `\textcolor{red}{texto}`   | <span style="color: red;">texto</span>   |
+| `\textcolor{blue}{texto}`  | <span style="color: blue;">texto</span>  |
+| `\textcolor{brown}{texto}` | <span style="color: brown;">texto</span> |
+
+- Cores pré-definidas (disponíveis sem opções adicionais):
+
+<div style="text-align: center;">
+  ![](imagens/xcolorbase.png)
+</div>
+
+
+## Texto Colorido
+
+Nomes de cores adicionais podem ser usadas no pacote `xcolor` com as opções `dvipsnames`, `svgnames`e `x11names`.
+
+- Por exemplo, se você escrever
+
+```{.latex}
+\usepackage[dvipsnames]{xcolor}
+```
+você pode acessar pelo nome as cores:
+
+<div style="text-align: center;">
+  <img src="imagens/xcolor.png" style="width: 75%;" />
+</div>
+
+
+
+
+## Atividade
+
+Reproduza o texto abaixo em LaTeX em um arquivo da classe `report` com tamanho de fonte `11pt.`
+<br><br><br>
+
+Esta frase normal.<br>
+*Esta frase em itálico.*<br>
+**Esta frase em negrito.**<br>
+<u>Esta frase sublinhada</u><br>
+<span style="color: blue;">Esta frase em blue.</span><br>
+<span style="color: purple;">Esta parte purple</span> <span style="color: ForestGreen;">e esta ForestGreen.</span> <br>
+<span style="font-size: 0.9em;">Esta frase em tamanho small.</span><br>
+<span style="font-size: 0.7em;">Esta frase em tamanho scriptsize.</span><br>
+<span style="font-size: 1.5em;">Esta frase em atamanho Large.</span><br>
+<span style="font-size: 2.5em;">Esta frase em tamanho HUGE.</span><br>
+
+
+
+
+## Ganhos da aula
+
+- Domínio de Formatação Básica
+
+- Estilos de Fonte
+
+- Tamanhos e cores de Texto
+
+
+
+
+## Material Extra
+
+Aprofunde o que vimos em aula com esse link:
+
+- <https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes>
+
+
+
+
+## Atividade extraclasse
+
+Reproduza o arquivo `03A - Exercício de Formatação no LaTeX.pdf`.
+
+Algumas configurações utilizadas:
+
+- tamanho da fonte geral: 11pt
+- cores: `blue` e `red`
+- tamanho da fonte `\scriptsize` e `\Large` em algumas frases
+
+
+
+
+# Fim

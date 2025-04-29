@@ -1,0 +1,10 @@
+/*-- scss:defaults --*/
+
+$presentation-font-size-root: 22pt;
+$presentation-title-slide-text-align: "left";
+
+
+/* Tamanho da fonte dos code chunks */
+pre code {
+  font-size: 1.5em !important;  /* Força a aplicação do estilo */
+}
