@@ -1,0 +1,20 @@
+---
+title: ""
+format:
+  html:
+    toc: false
+    anchor-sections: false
+---
+
+# Conteúdo 5
+
+## Ambiente Matemático no LaTeX
+
+Vamos dominar o uso do ambiente matemático no LaTeX para criar equações profissionais em documentos técnicos, aprendendo desde fórmulas simples até estruturas complexas como frações, somatórios e integrais, com numeração automática e referências cruzadas. Descobriremos como formatar símbolos, funções matemáticas e teoremas, garantindo clareza e precisão em artigos, relatórios e apresentações, seguindo os padrões acadêmicos.
+
+Slides:
+
+- [Versão html](/slides/05-Ambiente_Matematico_LaTeX/05-Ambiente-Matematico-LaTeX.html){target="_blank"}
+
+- [Versão pdf](/PDF_slides/05-Ambiente-Matematico-LaTeX.pdf){target="_blank"}
+

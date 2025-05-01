@@ -1,0 +1,649 @@
+---
+title: "Como escrever equações em documentos técnicos sem complicação?"
+subtitle: |
+  <span style="font-size:1.4em; font-weight:bold;">
+    Ambiente Matemático no <img src="imagens/latexicon.png" style="width: 120px; vertical-align: middle; margin-left: 0px; margin-top: 11px;" />
+  </span>
+author:
+  name: | # indica que o campo name terá múltiplas linhas
+    ESTAT0090 -- Estatística Computacional<br>
+    Prof. Dr. Sadraque E. F. Lucena<br>
+    <span style="font-size:.8em;">sadraquelucena@academico.ufs.br</span>
+  
+format:
+  revealjs:
+    theme: meutema.scss
+    width: 1024
+    height: 768
+    margin: 0.1         # margem em torno do conteúdo
+    min-scale: 0.2       # escala mínima permitida
+    max-scale: 2.0       # escala máxima permitida
+    slide-number: true
+    code-line-numbers: false # sem numero das linhas nos code chunks
+    subtitle-style: "font-size: 2em; font-weight: bold;"  # Aqui é onde aumentamos o subtítulo
+    logo: imagens/ufs_horizontal_positiva.png
+    transition: fade
+    transition-speed: fast
+    scss: meutema.scss
+
+lang: pt-BR
+---
+
+
+## Cenário
+
+Seu orientador acaba de devolver seu artigo com um alerta:
+
+>"As equações estão ilegíveis e amadoras. Corrija URGENTE ou não poderemos submeter ao evento!"
+
+O que deu errado?
+
+- Os símbolos estão sobrepostos e as frações mudam aleatoriamente de tamanho ao editar o texto.
+
+- A numeração das equações não segue uma sequência e referências no texto apontam para equações que não existem.
+
+- O evento exige LaTeX e você usou Word.
+
+
+
+
+## Cenário
+
+### O Problema
+
+- Equações quebram ao mudar margens ou versões do software.
+- Inserir uma nova equação desatualiza a numeração de TODAS as seqguintes.
+- Símbolos desproporcionais (ex.: $\int$ pequeno, frações gigantes)
+
+
+### A Motivação
+- Equações sempre perfeitas (mesmo em 50 páginas).
+- Numeração automática e sem erros.
+- Aceito pelas principais revistas científicas.
+
+
+
+
+## Objetivo da aula
+
+Na aula de hoje aprenderemos a criar:
+
+- O ambiente matemático
+- Exponentes e índices
+- Frações e raízes
+- Somatórios e integrais
+- Formatação de espaçamento e pontos
+- Teoremas
+- Símbolos matemáticos
+- Funções matemáticas
+- Fórmulas com til, barra, chapéu, etc.
+
+
+
+
+# O Ambiente Matemático no <img src="imagens/latexicon.png" style="width: 200px; vertical-align: middle; margin-left: 0px; margin-top: 11px;" />
+
+
+
+
+## O Ambiente Matemático
+
+- No LaTeX, as fórmulas matemáticas são inseridas no arquivo fonte por meio de comandos específicos.
+
+- É importante informar ao LaTeX quando o texto seguinte é uma fórmula e quando ela termina para que o processamento seja feito corretamente.
+
+- As fórmulas podem ocorrer *inline*, ou seja, incorporadas em uma linha de texto, como por exemplo $ax^2 + bx + c = 0$.
+
+- Também é possível destacar as fórmulas do texto principal, apresentando-as em uma linha separada, como:
+
+  $$x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}$$
+
+
+
+
+## O Ambiente Matemático
+
+- No LaTeX, o modo matemático é iniciado e terminado com o uso do cifrão (`$`) no meio do texto.
+- Por exemplo, $ax^2+bx+c=0$ pode ser produzida com `$ax^2+bx+c=0$`.
+- Quando as fórmulas são destacadas do texto principal, pode-se usar
+
+  - `$$` antes e depois da equação, ou
+  - `\[` para iniciar e `\]` para terminar o modo matemático.
+  
+- A segunda fórmula no slide anterior foi obtida com: 
+
+```{.latex}
+$$ x=\frac{-b \pm \sqrt{b^2-4ac}}{2a} $$
+```
+
+- Para numerar as fórmulas destacadas, é possível utilizar o ambiente `equation` da seguinte forma:
+
+```{.latex}
+\begin{equation}
+  x=\frac{-b \pm \sqrt{b^2-4ac}}{2a}
+\end{equation}
+```
+
+
+
+
+## O Ambiente Matemático
+
+- Ao digitar espaços dentro das fórmulas, eles são ignorados pelo LaTeX. Para adicionar espaçamento, pode-se utilizar `~` ou `\quad`.
+- Dica: se quiser dar espaço negativo, use `\!`.
+- Os símbolos
+$$
++\quad -\quad =\quad <\quad >\quad /\quad :\quad !\quad [\quad ]\quad (\quad )\quad |
+$$
+podem ser digitados diretamente do teclado.
+
+- Exemplo: $|x|<a$ pode ser digitado diretamente como `$|x|<a$`.
+- As chaves "`{}`" servem para agrupar logicamente partes da fórmula, mas elas não são impressas diretamente.
+
+  - Se você deseja incluir chaves em uma fórmula, deve-se utilizar `\{` e `\}` para que sejam interpretadas como parte da fórmula.
+
+
+
+
+## Expoentes e Índices
+
+- O LaTeX facilita a produção de combinações de expoentes e índices com o tamanho correto.
+- O caractere `^` indica um expoente e `_` indica um índice.
+- Exemplo:
+		$$x^2 \quad a_n \quad x_i^2 \quad x^2_i \quad x^{2n} \quad x^{y^2} \quad x^{y_1}$$
+é obtido com o código
+```{.latex}
+$$
+  x^2 \quad a_n \quad x_i^2 \quad x^2_i \quad x^{2n} \quad x^{y^2}
+  \quad x^{y_1}
+$$
+```
+- Observe que a ordem dos índices e expoentes não importa quando eles ocorrem juntos. Além disso, quando o índice ou expoente possui mais de um caractere, eles devem ser colocados entre chaves.
+
+
+
+
+## Atividade
+
+Reproduza no LaTeX o texto abaixo:
+<br><br>
+
+>Seja $X$ com distribuição $U(a,b)$. A função de densidade de probabilidade (PDF) de $X$ é dada por
+$$
+	f(x) = 1/(b-a),
+$$
+para $a\leq x \leq b$. A esperança, $E(X)$, e a variância, $V(X)$, são respectivamente dadas por:
+$$
+  E(X) = (a + b)/2, \quad V(X) = (b - a)^2/12.
+$$
+
+
+
+
+## Frações e Raízes}
+
+- Frações simples podem ser escritas utilizando o caractere /, por exemplo: `$(a+b)/2$`, que resulta em $(a + b)/2$.
+- Para frações mais complexas, você pode usar o comando `\frac{num}{den}`, onde `num` representa o numerador e `den` o denominador.
+
+  - Por exemplo: `$\frac{a+b}{2}$`.
+
+- Para representar raízes, utilize o comando`\sqrt[n]{radicando}`.
+
+  - Por exemplo: `$\sqrt[3]{8}=2$`.
+
+- Se o argumento opcional `[n]` for omitido, a raiz quadrada é gerada. Exemplo: `$\sqrt{4}=2$`.
+- O tamanho e o comprimento do radical são automaticamente ajustados de acordo com o tamanho do radicando.
+
+
+
+
+## Atividade
+
+Reproduza no LaTeX o texto abaixo:
+
+>Seja $X$ com distribuição $U(a,b)$. A função de densidade de probabilidade (PDF) de $X$ é dada por
+$$
+  \frac{1}{b-a},
+$$
+para $a\leq x \leq b$. A esperança, $E(X)$, e a variância, $V(X)$, são respectivamente dadas por:
+$$
+	E(X) = \frac{a + b}{2}, \quad V(X) = \frac{(b - a)^2}{12}.
+$$
+
+
+
+
+## Somatórios e Integrais
+
+- Os somatórios e as integrais são operações fundamentais na matemática, frequentemente representados por meio dos comandos `\sum` e `\int`. Exemplos:
+
+  - `$\sum_{i=1}^n a_i$` produz $\sum_{i=1}^n a_i$.
+  - Podemos destacar um somatório com o uso do comando `\limits`, da seguinte forma: `sum\limits_{i=1}^n a_i$` produz $\sum\limits_{i=1}^n a_i$.
+
+- Da mesma forma, podemos expressar uma integral:
+
+  - `$\int_a^b f(x) dx$` produz $\int_a^b f(x) dx$.
+  - `$\int\limits_a^b f(x) dx$` produz $\int\limits_a^b f(x) dx$.
+
+
+
+
+## Atividade
+
+Reproduza no LaTeX o texto abaixo:
+
+>Considerando uma progressão geométrica (PG) com o primeiro termo $a_1$, a razão $r$, e um total de $n$ termos. A soma dos termos pode ser expressa da seguinte forma:
+$$
+	S_n = \frac{{a_1 (r^n - 1)}}{{r - 1}}.
+$$
+Nessa fórmula, $S_n$ representa a soma dos $n$ termos da PG. O termo $a_1$ é o primeiro termo da sequência, $r$ é a razão com a qual os termos consecutivos são multiplicados, e $n$ é o número total de termos na sequência.
+
+
+
+
+## Atividade
+
+Reproduza no LaTeX o texto abaixo:
+
+>A função de densidade de probabilidade (pdf) da distribuição exponencial pode ser expressa como:
+$$
+	f(x) = a e^{-a x},
+$$
+para $x$ maior ou igual a zero. A probabilidade de $X<b$ é calculada como
+$$
+	P(X <b) = \int_{0}^{b} a e^{-a x}, dx.
+$$
+
+
+
+
+## Coeficientes Binomiais
+
+- Os coeficientes binomiais são obtidos com o comando `\choose` ou com `\binom{}{}`.
+- Exemplo:
+
+  - `${a\choose b}$` produz ${a\choose b}$
+  - `$\binom{a}{b}$` produz $\binom{a}{b}$
+
+
+
+
+## Atividade
+
+Reproduza no LaTeX o texto abaixo:
+
+>Seja $X$ com distribuição Binomial($n,p$). Para calcularmos a probabilidade de $X=k$, usamos
+$$
+	P(X = k) = \binom{n}{k}  p^k (1 - p)^{n - k},
+$$
+em que ${n \choose k} = \frac{n!}{k!(n - k)!}.$
+
+
+
+
+
+## Equações Numeradas		
+
+- Para numerar e referenciar equações no LaTeX, usamos o ambiente `equation` com o comando `\label{}`.
+- O `\label{}` atribui uma "etiqueta" à equação que pode ser referenciada em qualquer parte do texto.
+- O `\ref{}` mostra apenas o número da equação.
+- O `\eqref{}` mostra o número da equação **entre parênteses**, como é comum em textos científicos.
+- Exemplo:
+```{.latex}
+A equação de uma reta é dada por:
+\begin{equation}
+  y = ax + b
+  \label{eq:reta}
+\end{equation}
+
+Como visto na Equação \eqref{eq:exemplo}...
+```
+
+
+
+
+## Atividade
+
+Reproduza no LaTeX o texto abaixo:
+
+>A fórmula de Bhaskara resolve equações do tipo $ax^2 + bx + c = 0$. A solução é dada por:
+$$
+  x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+$$ {#eq-bhaskara}
+>Veja que a Equação (1) depende dos coeficientes $a$, $b$ e $c$.
+
+
+
+
+
+## Formatação de Espaçamento e Pontos
+
+- Para inserir três pontos horizontais, use os comandos `\ldots` ou `\cdots`. Exemplos:
+
+  - `$a_1+\cdots+a_n$` produz $a_1+\cdots+a_n$
+  - `$x_1,\ldots,x_n$` produz $x_1,\ldots,x_n$
+
+- Para inserir três pontos verticais, utilize o comando `\vdots`, que produz $\vdots$
+- Para usar um único ponto use `\cdot`. Exemplo:
+
+  - `$x \cdot y$` produz $x \cdot y$
+
+
+
+
+
+## Formatação de Espaçamento e Pontos
+
+- O comando `\quad` produz um espaço médio.
+- O comando `\qquad` produz um espaço maior
+- O comando `\,` dá um pequeno espaço.
+- O comando `\:` dá um espaço médio.
+- O comando `\;` dá um espaço grande.
+- O comando `\!` dá um espaço negativo (*backspace*).
+<br><br>
+- Se você precisar incluir texto no meio das fórmulas matemáticas, o comando `\mbox{texto}` ou `\text{texto}` pode ser usado. Exemplo:
+
+- `$IMC = \frac{\text{altura}}{\text{peso}^2}$` produz $IMC = \frac{\text{altura}}{\text{peso}^2}$
+
+
+
+
+
+## Atividade
+
+Reproduza no LaTeX:
+
+>$$
+  x_1=\frac{-b-\sqrt{b^2-4ac}}{2a}\quad\mbox{e}\quad
+	x_2=\frac{-b+\sqrt{b^2-4ac}}{2a}.
+$$
+
+
+
+
+
+## Teoremas
+
+- Um texto matemático frequentemente inclui teoremas, proposições e outros tipos de estruturas. O LaTeX oferece um comando que permite a definição de um ambiente específico para essas estruturas.
+- Para criar um novo ambiente, é necessário usar o comando no preâmbulo `\newtheorem{ambiente}{título}[numeração]`.
+
+  - `ambiente` é o nome escolhido para o novo ambiente;
+  - `título` é a denominação que aparecerá, como `teorema`, `lei`, `axioma`, etc.;
+	- `numeração` é a sequência da numeração que o ambiente irá seguir, como `chapter`, `section`, etc.
+
+- Após a declaração do ambiente, é possível utilizá-lo para escrever o texto desejado.
+```{.latex}
+\begin{ambiente}[nome do teorema]
+  texto
+\end{ambiente}
+```
+
+
+
+
+
+## Exemplo
+
+```{.latex}
+\documentclass{report}
+			
+\newtheorem{teo}{Teorema}[section]
+			
+\begin{document}
+				
+  \begin{teo}[Pitágoras]
+	  Em todo triângulo retângulo o quadrado do comprimento da
+	  hipotenusa é igual a soma dos quadrados dos comprimentos
+	  dos catetos.
+	\end{teo}
+			
+\end{document}
+```
+
+
+
+
+
+## Teoremas
+
+Outros exemplos:
+
+- `\newtheorem{teo}{Teorema}[section]`
+- `\newtheorem{lema}[teo]{Lema}`
+- `\newtheorem{cor}[teo]{Corolário}`
+- `\newtheorem{prop}[teo]{Proposição}`
+
+
+
+
+
+## O Pacote `amsthm`
+
+- O pacote `amsthm` da *American Mathematical Society* oferece recursos adicionais para escrever textos matemáticos.
+- Por exemplo, para as demonstrações, pode-se utilizar o ambiente `proof`, que é utilizado da seguinte forma:
+
+```{.latex}
+\begin{proof}
+  Para demonstrar o Teorema de Pitágoras\ldots
+\end{proof}
+```
+
+produz
+
+>**Demonstração.**<br>
+> Para demonstrar o Teorema de Pitágoras...   <span style="margin-left: 14em;"> □
+
+
+
+
+
+## Símbolos
+
+![](imagens/letrasgregas.png)
+
+
+
+
+## Símbolos
+
+![](imagens/operadoresbinarios.png)
+
+
+
+
+
+## Símbolos
+
+![](imagens/setas.png)
+
+
+
+
+## Símbolos
+
+![](imagens/outrossimbolos.png)
+
+
+
+
+## Símbolos
+
+Os símbolos que existem em dois tamanhos podem ser acrescentados limites inferiores e superiores. Exemplos:
+
+- `$$\bigcup_{i=0}^n A_i$$` produz $$\bigcup_{i=0}^n A_i$$
+- `$$\int\limits_{-\infty}^\infty f(t)dt$$` produz
+		$$\int\limits_{-\infty}^\infty f(t)dt$$
+
+
+
+
+## Funções Matemáticas
+
+- Ao invés de escrever variáveis e funções matemáticas em texto normal, é recomendado utilizar formatação matemática para destacá-las.
+
+  - Incorreto: `$cos x$` produz $cos x$
+	- Correto: `$\cos x$` produz $\cos x$
+
+- É recomendado usar os comandos LaTeX para os nomes de funções pré-definidas:
+
+:::: {.columns}
+
+::: {.column width="10%"}
+
+:::
+
+::: {.column width="30%"}
+- `\arccos`
+- `\arctan`
+- `\cos`
+- `\cot`
+- `\coth`
+- `\csc`
+:::
+
+::: {.column width="30%"}
+- `\det`
+- `\exp`
+- `\lim`
+- `\ln`
+- `\log`
+- `\max`
+:::
+
+::: {.column width="30%"}
+- `\min`
+- `\sec`
+- `\tan`
+- `\tanh`
+:::
+
+::::
+
+- `$\lim_{x\to 0}\frac{\cos x}{x}$` produz $\lim_{x\to 0}\frac{\cos x}{x}$
+
+
+
+
+
+## Funções Matemáticas
+
+- Para definir nomes personalizados para algumas funções, é necessário defini-los no preâmbulo do arquivo.
+- Exemplo:
+
+```{.latex}
+\documentclass{report}
+				
+\usepackage{amsmath}
+				
+\DeclareMathOperator{\sen}{sen}
+				
+\begin{document}
+  $$
+    \lim_{x\to 0}\frac{\sen x}{x}
+  $$
+\end{document}
+```
+produz 
+$$\lim_{x\to 0}\frac{\text{sen}\, x}{x}$$
+
+
+
+
+## Fórmulas com Til, Barra, Chapéu, etc.
+
+Existem diversos comandos no LaTeX para adicionar diferentes tipos de marcações em cima ou embaixo de letras ou fórmulas.
+
+- Para colocar uma barra em cima ou embaixo de uma letra ou fórmula, podemos utilizar os comandos `\overline{formula}` e `\underline{formula}`.
+
+  - `$\overline{X}^2$` produz $\overline{X}^2$
+  - `$\underline{bc}$` produz $\underline{bc}$
+
+- Para uma barra pequena apenas em cima de uma letra, podemos usar o comando `\bar{letra}`.
+
+  - `$\bar{X}$` produz $\bar{X}$
+
+## Fórmulas com Til, Barra, Chapéu, etc.
+
+- Para colocar chaves em cima ou embaixo de fórmulas, utilizamos os comandos `\overbrace{formula}` e `\underbrace{formula}`.
+
+  - `$$\overbrace{x_1 + \underbrace{x_2 + \ldots + x_{n-1}}_{n-2} + x_n}^n$$` produz $$\overbrace{x_1 + \underbrace{x_2 + \ldots + x_{n-1}}_{n-2} + x_n}^n$$
+
+- Para adicionar uma seta em cima de uma letra, usamos o comando `\vec{letra}`
+
+  - `$\vec{v}$` produz $\vec{v}$
+
+
+
+
+## Fórmulas com Til, Barra, Chapéu, etc.
+
+- É possível colocar setas sobre duas ou mais letras utilizando o comando `\stackrel{\longrightarrow}{letras}`.
+
+  - `$V = \stackrel{\longrightarrow}{AB}$$` ~ produz $V = \stackrel{\longrightarrow}{AB}$
+
+- Para adicionar acentos circunflexos e tis sobre letras, usamos os comandos `\hat`, `\widehat`, `\tilde` e `\widetilde`.
+
+  - `$\hat{\mu}$` produz $\hat{\mu}$
+	- `$\widehat{\mu}$` produz $\widehat{\mu}$
+	- `$\tilde{ABC}$` produz $\tilde{ABC}$
+	- `$\widetilde{ABC}$` produz $\widetilde{ABC}$
+
+
+
+
+## Atividade
+
+Reproduza no LaTeX o texto abaixo:
+
+
+>Seja $X$ uma v.a. discreta que assume valores em $R_x = \{x_1 , x_2 , \ldots, x_n , \ldots\}$. A cada possível resultado $x_i$ associamos a um número
+$$
+  p(x_i) = P(X(\omega_i) = x_i), \omega_i \in \Omega \text{ e } x_i \in R_x
+$$
+dita probabilidade de $x_i$. A função $p(x)$ é definida como função massa de probabilidade de $X$ (f.m.p ou f.p de $X$).<br><br>
+As probabilidades $p(x_i)$ devem satisfazer as seguintes condições:<br><br>
+1. $p(x_i) \geq 0, \forall x_i \in R_x$,<br>
+2. $\sum\limits_{i=1}^\infty p(x_i) = 1$.
+
+
+
+
+## Atividade
+
+Reproduza no LaTeX o texto abaixo:
+
+>Seja $X$ uma v.a. contínua que assume valores em $R_x$. A função $f_X(x)$ é a função densidade de probabilidade (f.d.p.) para $X$, se  satisfaz as seguintes propriedades:<br><br>
+1. $f_X(x) \geq 0, \forall x \in R_x$,<br>
+2. $\int\limits_{R_x} f_X(x)dx = 1$ ou $\int\limits_{-\infty}^\infty f_X(x)dx = 1$,<br>
+3. $P(a<X<b) = \int\limits_a^b f_X(x)dx, ~\forall a,b \in R_x$.
+
+
+
+
+## Ganhos da aula
+
+- Domínio do ambiente matemático no LaTeX.
+
+- Criação de equações inline e destacadas, com numeração automática e referências cruzadas.
+
+- Criação de elementos matemáticos complexos e formatação avançada do modo matemático.
+
+
+
+## Material Extra
+
+Aprofunde o que vimos em aula com esse link:
+
+- <https://www.overleaf.com/learn/latex/Mathematical_expressions>
+
+
+
+
+## Atividade extraclasse
+
+Reproduza todas as atividades da aula.
+
+
+
+
+# Fim

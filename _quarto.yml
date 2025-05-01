@@ -36,6 +36,8 @@ website:
         text: "3- Introdução ao LaTeX"
       - href: conteudos/4-Estrutura_Basica_LaTeX.qmd
         text: "4- Estrutura Básica do LaTeX"
+      - href: conteudos/5-Ambiente_Matematico_LaTeX.qmd
+        text: "5- Ambiente Matemático no LaTeX"
 
 format:
   html:
