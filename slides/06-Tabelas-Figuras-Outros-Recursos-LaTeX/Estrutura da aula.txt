@@ -1,0 +1,164 @@
+🎯 Tema da Aula
+Introdução ao LaTeX – Estrutura de documentos e formatação básica
+
+📌 Problema Norteador
+"Como escrever relatórios técnicos de forma clara e profissional?"
+
+⏱️ Duração Total: 1h30
+📚 Atividade Extra (fora da sala): 30 min
+📋 Estrutura da Aula
+1. Boas-vindas e Revisão Rápida (10 min)
+Relembrar a aula anterior:
+
+Uso do RStudio + GitHub.
+
+Importância de versionamento para relatórios técnicos.
+
+Apresentar o problema da aula atual:
+
+Por que a formatação importa?
+
+Exemplos de relatórios mal formatados vs bem formatados (mostrar imagens ou PDFs rápidos se possível).
+
+2. Introdução ao LaTeX (15 min)
+O que é LaTeX e por que usar?
+
+Comparação com editores de texto comuns (Word vs LaTeX).
+
+Vantagens para relatórios técnicos/científicos.
+
+Estrutura básica de um documento LaTeX:
+
+latex
+Copiar
+Editar
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+
+\title{Título do Relatório}
+\author{Nome do Aluno}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\newpage
+
+\section{Introdução}
+Texto da introdução.
+
+\section{Desenvolvimento}
+Texto do desenvolvimento.
+
+\section{Conclusão}
+Texto da conclusão.
+
+\end{document}
+3. Partes de um Documento (20 min)
+Estrutura de títulos e seções:
+
+\section{}, \subsection{}, \subsubsection{}
+
+Sumário automático:
+
+\tableofcontents e como ele funciona.
+
+Cabeçalho e rodapé:
+
+Introdução ao pacote fancyhdr para personalização básica.
+
+latex
+Copiar
+Editar
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Relatório Técnico}
+\rhead{Nome do Aluno}
+\cfoot{\thepage}
+Outros elementos básicos:
+
+Listas (itemize, enumerate)
+
+Inserção de figuras/tabelas (apenas mencionar que será aprofundado depois).
+
+4. Demonstração Prática (15 min)
+Criando um documento simples:
+
+Abrir um editor online (Overleaf) ou local (RStudio com suporte LaTeX).
+
+Montar um pequeno relatório com:
+
+Título
+
+Sumário
+
+Três seções (Introdução, Desenvolvimento, Conclusão)
+
+Cabeçalho e rodapé personalizados.
+
+Mostrar como compilar e gerar o PDF.
+
+5. Atividade em Sala (20 min)
+Dividir em pequenos grupos ou individual:
+
+Cada aluno cria a estrutura de um relatório com base em algum trabalho já realizado (pode ser um relatório simples de uma prática de R da aula anterior).
+
+Elementos obrigatórios:
+
+Título
+
+Autor/Data
+
+Sumário
+
+Pelo menos duas seções e subseções.
+
+Cabeçalho e rodapé personalizados.
+
+Acompanhar dúvidas e ajudar na configuração.
+
+6. Encerramento e Atividade Extra (10 min)
+Recapitular pontos importantes:
+
+Estrutura básica e importância de cada elemento.
+
+Benefícios de usar LaTeX para relatórios técnicos.
+
+Apresentar a atividade extra (30 min):
+
+Descrição:
+Criar um relatório simples (1-2 páginas) sobre um tema de interesse (pode ser um resumo da aula anterior ou uma análise de dados simples).
+
+Elementos obrigatórios:
+
+Estrutura completa (título, autor, data, sumário, seções).
+
+Cabeçalho/rodapé personalizados.
+
+Entrega via GitHub:
+Repositório com o código .tex e PDF gerado.
+
+Prazo: (definir conforme cronograma).
+
+Perguntas finais e esclarecimento de dúvidas.
+
+📂 Materiais Necessários
+Computadores com editor LaTeX (Overleaf ou RStudio configurado).
+
+Exemplos de relatórios para inspiração.
+
+Slides ou documento com comandos básicos de LaTeX (pode ser compartilhado via GitHub).
+
+💡 Dicas Extras
+Incentivar o uso de templates simples para facilitar a adaptação inicial.
+
+Mostrar como versionar documentos LaTeX com GitHub para reforçar a integração de ferramentas vistas na aula anterior.
+
+🌱 Próximos Passos (Próxima Aula)
+Formatação de texto (itálico, negrito, citações).
+
+Inserção de figuras e tabelas.

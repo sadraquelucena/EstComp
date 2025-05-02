@@ -38,6 +38,8 @@ website:
         text: "4- Estrutura Básica do LaTeX"
       - href: conteudos/5-Ambiente_Matematico_LaTeX.qmd
         text: "5- Ambiente Matemático no LaTeX"
+      - href: conteudos/6-Tabelas-Figuras-Outros-Recursos-LaTeX.qmd
+        text: "6- Tabelas, Figuras e Outros Recursos no LaTeX"
 
 format:
   html:

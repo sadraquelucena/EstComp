@@ -1,0 +1,622 @@
+---
+title: "E quando só palavras não bastam para comunicar seus dados?"
+subtitle: |
+  <span style="font-size:1.4em; font-weight:bold;">
+    Tabelas, Figuras e Outros Recursos em <img src="imagens/latexicon.png" style="width: 120px; vertical-align: middle; margin-left: 0px; margin-top: 11px;" />
+  </span>
+author:
+  name: | # indica que o campo name terá múltiplas linhas
+    ESTAT0090 -- Estatística Computacional<br>
+    Prof. Dr. Sadraque E. F. Lucena<br>
+    <span style="font-size:.8em;">sadraquelucena@academico.ufs.br</span>
+  
+format:
+  revealjs:
+    theme: meutema.scss
+    width: 1024
+    height: 768
+    margin: 0.1         # margem em torno do conteúdo
+    min-scale: 0.2       # escala mínima permitida
+    max-scale: 2.0       # escala máxima permitida
+    slide-number: true
+    code-line-numbers: false # sem numero das linhas nos code chunks
+    subtitle-style: "font-size: 2em; font-weight: bold;"  # Aqui é onde aumentamos o subtítulo
+    logo: imagens/ufs_horizontal_positiva.png
+    transition: fade
+    transition-speed: fast
+    scss: meutema.scss
+
+lang: pt-BR
+---
+
+
+## Cenário
+
+Você está fazendo um relatório e percebe que os dados analisados são importantes demais para ficarem escondidos em parágrafos longos. Eles precisam ser:
+
+- **Organizados em tabelas** para facilitar comparações e permitir leitura rápida.
+- **Apresentados em gráficos** para destacar padrões, tendências e relações.
+
+Além disso, você precisa garantir que:
+
+- Cada **tabela** e **figura** tenha uma **numeração automática** e clara.
+- O **sumário** e a **lista de figuras/tabelas** indiquem as **páginas corretas**.
+- O documento mantenha uma **aparência profissional** e consistente.
+
+Com LaTeX você não precisa perder tempo ajustando manualmente numeração, posição e referências.
+
+
+
+
+## Objetivo da aula
+
+Na aula de hoje aprenderemos a criar no LaTeX:
+
+- Tabelas
+- Figuras
+- Outros recursos úteis
+
+
+
+
+# Formatando Tabelas, Figuras e Outros Elementos no <img src="imagens/latexicon.png" style="width: 200px; vertical-align: middle; margin-left: 0px; margin-top: 11px;" />
+
+
+
+
+## Tabelas
+
+- Tabelas são feitas nos ambientes `tabbing` e `tabular`.
+- O ambiente `tabbing` pode ser usado somente no modo texto.
+- O ambiente `tabular` pode ser usado em qualquer modo (texto, matemático etc.).
+- A altura e largura da tabela são definidas automaticamente pelo TeX.
+- Por ter maior flexibilidade, focaremos no ambiente `tabular`.
+
+
+
+
+## Tabelas
+
+Exemplo com o ambiente `tabular`:
+
+```{.latex}
+\begin{center}	
+  \begin{tabular}{|c|l|rc|}
+    \hline
+    jan & fev & mar & abr \\ \hline
+    mai & jun & jul & ago \\ \cline{1-1} \cline{3-4}
+    set & out & nov & dez \\ \hline \hline
+  \end{tabular}
+\end{center}
+```
+produz:
+
+<div style="text-align: center; font-size: 1.15em;">
+  <table style="border-collapse: collapse; display: inline-block; margin: 0 auto; font-size: 1.1em;">
+    <tr>
+      <td style="border: 1.5px solid; padding: 6px 12px; text-align: center;">jan</td>
+      <td style="border: 1.5px solid; padding: 6px 12px; text-align: left;">fev</td>
+      <td style="border-top: 1.5px solid; padding: 6px 12px; text-align: right;">mar</td>
+      <td style="border-right: 1.5px solid; border-top: 1.5px solid; padding: 6px 12px; text-align: center;">abr</td>
+    </tr>
+    <tr>
+      <td style="border-left: 1.5px solid; border-right: 1.5px solid; border-top: 1.5px solid; padding: 6px 12px; text-align: center;">mai</td>
+      <td style="border-right: 1.5px solid; border-top: 1.5px solid; border-bottom: 0px solid; padding: 6px 12px; text-align: left;">jun</td>
+      <td style="border-top: 1.5px solid; padding: 6px 12px; text-align: right;">jul</td>
+      <td style="border-right: 1.5px solid; border-top: 1.5px solid; padding: 6px 12px; text-align: center;">ago</td>
+    </tr>
+    <tr>
+      <td style="border-left: 1.5px solid; border-right: 1.5px solid; border-bottom: 1.5px solid; padding: 6px 12px; text-align: center;">set</td>
+      <td style="border-left: 0px solid; padding: 6px 12px; text-align: left;">out</td>
+      <td style="border-left: 1.5px solid; border-bottom: 1.5px solid; padding: 6px 12px; text-align: right;">nov</td>
+      <td style="border-right: 1.5px solid; border-bottom: 1.5px solid; padding: 6px 12px; text-align: center;">dez</td>
+    </tr>
+    <tr>
+      <td colspan="4" style="border-top: 0px double; padding: 0px;">
+        <div style="height: 1px; background: white; margin-bottom: 4px;"></div>
+        <div style="height: 1px; background: black;"></div>
+      </td>
+    </tr>
+  </table>
+</div>
+
+
+
+
+## Tabelas
+
+- As letras `c`, `l` e `r` significam centro, esquerda e direita respectivamente (center, left e right). Isto indica a posição do texto em relação a célula.
+- As barras verticais `|` são usadas para fazer linhas verticais na tabela.
+- `\hline` cria linhas horizontais ao longo da tabela.
+- `\cline{i-j}` cria linhas horizontais apenas entre as colunas `i` e `j`.
+- `&` divide os elementos de cada linha.
+- `\\` indica o início de uma nova linha na tabela.
+
+
+
+
+
+## Tabelas
+
+- A largura da coluna pode ser determinada utilizando o comando `p{medida}`, ele deve ser colocado no lugar das letras `c`, `l` ou `r`.
+
+```latex
+\begin{tabular}{|l|c|p{3cm}|}
+  \hline
+  col 1 & col 2 & coluna com 3 cm \\
+  \hline
+  col 1 & col 2 & podemos colocar uma frase nesta coluna e ela será
+  quebrada quando o tamanho for maior que 3 cm.\\
+  \hline
+  isso não acontece nesta coluna & col 2 & \\ \hline
+\end{tabular}
+```
+
+
+
+
+
+## Tabelas
+
+- Para mesclar colunas usamos o comando `\multicolumn{n}{pos}{item}`.
+
+```{.latex}
+\begin{tabular}{|l|ll|}
+  \hline
+  segunda & \multicolumn{2}{|c|}{terça}\\
+  \hline
+  10 & 15 & 20 \\
+  15 & 10 & 25 \\
+  \hline
+\end{tabular}
+```
+produz 
+
+<div style="text-align: center; margin: 20px 0;">
+  <table style="border-collapse: collapse; border: 2px solid #333; font-family: Arial, sans-serif; margin: 0 auto;">
+    <tr>
+      <td style="border: 1px solid #333; padding: 8px 12px; text-align: left;">segunda</td>
+      <td colspan="2" style="border: 1px solid #333; padding: 8px 12px; text-align: center;">terça</td>
+    </tr>
+    <tr>
+      <td style="border-right: 1px solid #333; border-bottom: 0px solid #333; padding: 8px 12px; text-align: left;">10</td>
+      <td style="border: 0px solid #333; padding: 8px 12px; text-align: left;">15</td>
+      <td style="border: 0px solid #333; padding: 8px 12px; text-align: left;">20</td>
+    </tr>
+    <tr>
+      <td style="border-right: 1px solid #333; padding: 8px 12px; text-align: left;">15</td>
+      <td style="border-left: 0px solid #333; padding: 8px 12px; text-align: left;">10</td>
+      <td style="border: 0px solid #333; padding: 8px 12px; text-align: left;">25</td>
+    </tr>
+  </table>
+</div>
+
+
+
+
+
+## Tabelas
+
+- Para mesclar linhas usamos o comando `\multicolumn{n}{pos}{item}` do pacote `multirow`.
+
+```{.latex}
+\begin{tabular}{|l|ll|}
+  \hline
+  segunda & \multicolumn{2}{|c|}{terça}\\
+  \hline
+  \multirow{2}{*}{10} & 15 & 20 \\
+  & 10 & 25 \\
+  \hline
+\end{tabular}
+```
+produz
+
+<div style="text-align: center; margin: 20px 0;">
+  <table style="border-collapse: collapse; border: 1px solid black; margin: 0 auto;">
+    <tr>
+      <th style="border: 1px solid black; padding: 5px 10px;">segunda</th>
+      <th colspan="2" style="border: 1px solid black; padding: 5px 10px;">terça</th>
+    </tr>
+    <tr>
+      <td rowspan="2" style="border: 1px solid black; padding: 5px 10px; vertical-align: middle;">10</td>
+      <td style="border: 0px solid black; padding: 5px 10px;">15</td>
+      <td style="border: 0px solid black; padding: 5px 10px;">20</td>
+    </tr>
+    <tr>
+      <!-- First cell omitted because it's spanned from above -->
+      <td style="border: 0px solid black; padding: 5px 10px;">10</td>
+      <td style="border: 0px solid black; padding: 5px 10px;">25</td>
+    </tr>
+  </table>
+</div>
+
+
+
+
+
+## Tabela
+
+- A tabela pode ser transformada em elemento flutuante, ou seja, ela será colocada pelo LaTeX no local de melhor visualização quando o ambiente tabular é colocado dentro do ambiente `table`;
+
+- Para definir o local da página em que a tabela ficará situada pode-se colocar:
+
+  - `h:` ficará onde foi digitado;
+  - `b:` ficará na parte inferior da página;
+  - `t`: ficará na parte superior da página;
+  - `p`: Ficará em página separada;
+  - `!`: o LaTeX escolhe automaticamente.
+
+```{.latex}
+\begin{table}[b]
+  tabela ...
+\end{table}
+```			
+
+
+
+
+
+
+## Tabela 
+
+- Para centralizarmos a tabela usamos `\centering`.
+- Para adicionarmos legenda usamos `\caption`.
+
+```{.latex}
+\begin{table}[b]
+  \centering
+	\caption{Exemplo de Tabela no Latex}
+	tabela ...
+\end{table}
+```
+
+
+
+
+## Tabela
+
+- Se a tabela for muito grande e ocupar mais de uma página, devemos usar o pacote `longtable` e seu ambiente `longtable` no lugar de `tabular`.
+
+  - Nesse caso não é necessário usar o ambiente `table`;
+  - Os comandos de `longtable` são os mesmos de tabular.
+
+```{.latex}
+\begin{longtable}{|c|c|}
+  ...
+\end{longtable}
+```
+
+
+
+
+## Tabela
+
+- Se a tabela for muito larga podemos colocá-la no modo paisagem utilizando o pacote `landscape`.
+
+```{.latex}
+\begin{landscape}
+  \begin{table}
+    \begin{center}
+		  ...
+    \end{center}
+  \end{table}
+\end{landscape}
+```
+
+
+
+
+## Atividade
+
+Reproduza no LaTeX a tabela abaixo.
+
+<div style="overflow-x: auto;">
+  <table style="border-collapse: collapse; width: 100%; margin: 20px 0; font-family: Arial, sans-serif;">
+    <!-- Double top border -->
+    <tr>
+      <td colspan="5" style="border-top: 1px solid black;"></td>
+    </tr>
+    
+    <!-- Header row 1 -->
+    <tr>
+      <td style="border: 0px solid black; padding: 0px;"></td>
+      <td rowspan="2" style="border-top: 1px solid black; padding: 8px; text-align: center; vertical-align: middle;">Nome do filósofo</td>
+      <td colspan="2" style="border-top: 1px solid black; padding: 8px; text-align: center;">Nascimento</td>
+      <td rowspan="2" style="border-top: 1px solid black; padding: 8px; text-align: center; vertical-align: middle;">Falecimento</td>
+    </tr>
+    
+    <!-- Header row 2 -->
+    <tr>
+      <td style="border: 0px solid black; padding: 8px;"></td>
+      <td style="border-top: 1px solid black; padding: 8px; text-align: center;">Data</td>
+      <td style="border-top: 1px solid black; padding: 8px; text-align: center;">Cidade</td>
+    </tr>
+    
+    <!-- Greek philosophers -->
+    <tr>
+      <td rowspan="2" style="border-top: 1px solid black; border-bottom: 0px solid black; padding: 8px; vertical-align: middle;">Gregos</td>
+      <td style="border-top: 1px solid black; border-bottom: 0px solid black; padding: 8px;">Aristóteles</td>
+      <td style="border-top: 1px solid black; border-bottom: 0px solid black; padding: 8px; text-align: center;">384 a.C.</td>
+      <td style="border-top: 1px solid black; border-bottom: 0px solid black; padding: 8px; text-align: center;">Estagira</td>
+      <td style="border-top: 1px solid black; border-bottom: 0px solid black; padding: 8px; text-align: center;">322 a.C.</td>
+    </tr>
+    <tr>
+      <td style="border-top: 0px solid black; border-bottom: 0px solid black; padding: 8px;">Demócrito</td>
+      <td style="border-top: 0px solid black; border-bottom: 0px solid black; padding: 8px; text-align: center;">460 a.C.</td>
+      <td style="border-top: 0px solid black; border-bottom: 0px solid black; padding: 8px; text-align: center;">Abdeira</td>
+      <td style="border-top: 0px solid black; border-bottom: 0px solid black; padding: 8px; text-align: center;">370 a.C.</td>
+    </tr>
+    
+    <!-- French philosophers -->
+    <tr>
+      <td rowspan="2" style="border-bottom: 1px solid black; padding: 8px; vertical-align: middle;">Franceses</td>
+      <td style="border-top: 0px solid black; border-bottom: 0px solid black; padding: 8px;">René Descartes</td>
+      <td style="border-top: 0px solid black; border-bottom: 0px solid black; padding: 8px; text-align: center;">1592</td>
+      <td style="border-top: 0px solid black; border-bottom: 0px solid black; padding: 8px; text-align: center;">Descartes</td>
+      <td style="border-top: 0px solid black; border-bottom: 0px solid black; padding: 8px; text-align: center;">1650</td>
+    </tr>
+    <tr>
+      <td style="border-bottom: 1px solid black; padding: 8px;">Michel Foucault</td>
+      <td style="border-bottom: 1px solid black; padding: 8px; text-align: center;">1926</td>
+      <td style="border-bottom: 1px solid black; padding: 8px; text-align: center;">Poitiers</td>
+      <td style="border-bottom: 1px solid black; padding: 8px; text-align: center;">1984</td>
+    </tr>
+    
+    <!-- Double bottom border -->
+    <tr>
+      <td colspan="5" style="border-top: 1px solid black; border-bottom: 1px solid black;"></td>
+    </tr>
+  </table>
+</div>
+
+
+
+
+
+## Figuras
+
+- Para inserir figuras em um documento LaTeX, usamos no preâmbulo `\usepackage{graphicx}`;
+- O comando para colocar a figura é `\includegraphics[height=altura]{nome do arquivo}`.
+- Exemplo: `\includegraphics[height=5cm]{normal.png}`
+
+  - `width` = largura da imagem;
+  - `height` = altura da imagem;
+  - `angle` = rotaciona a imagem no sentido anti-horário;
+  - `scale` = muda a escala da imagem
+
+
+
+
+
+## Figuras
+
+- No LaTeX é possível incluir legenda de uma figura. Para isso usamos o ambiente `figure` e a função `\caption`.
+- A sintaxe é a seguinte:
+
+```{.latex}
+\begin{figure}[local]
+  figura
+  \caption{Texto da figura}
+\end{figure}
+```
+
+
+
+## Figuras
+
+### Exemplo
+
+```{.latex}
+\begin{figure}[h]
+  \includegraphics[height=.5\textheight]{ufs_vertical_positiva.png}
+  \caption{Brasão da UFS}
+\end{figure}
+```
+
+produz
+
+<div style="text-align: center; margin: 20px 0;">
+  <figure>
+    <img src="imagens/ufs_vertical_positiva.png" alt="Brasão da UFS" style="max-width: 200px; height: auto; display: block; margin: 0 auto;">
+    <figcaption style="margin-top: 10px; text-align: center;">
+      <strong>Figura 1:</strong> Brasão da UFS
+    </figcaption>
+  </figure>
+</div>
+
+
+
+
+
+## Figuras
+
+- LaTeX define aonde as figuras devem se posicionar no texto.
+- O comando `\clearpage` força que todas as as figuras pendentes (isto é, as que não foram impressas até o aparecimento do comando) sejam impressas;
+- Existe um pacote chamado `subfigure` que permite ao ambiente figure possuir mais de uma figura;
+- Antes de qualquer coisa deve-se declarar no preâmbulo o comando: `\usepackage{subfigure}`.
+
+
+
+
+
+## Figuras
+
+### Exemplo
+
+```{.latex}
+\documentclass{report}
+
+\usepackage{graphicx}
+\usepackage{subfigure}
+
+\begin{document}
+
+  \begin{figure}[h]
+    \subfigure[colorido]{\includegraphics[scale=0.2]{1-title-page/uf
+    s_vertical_positiva.png}}\quad
+    \subfigure[p\&b]{\includegraphics[scale=0.2]{ufs_vertical_meiost
+    ons.png}}\quad
+    \subfigure[meios tons]{\includegraphics[scale=0.2]{ufs_vertical_
+    pb.png}}\quad
+    \subfigure[logo]{\includegraphics[scale=0.2]{ufs_logotipo.png}}
+    \caption{Exemplo de um conjunto de figuras.}
+  \end{figure}
+
+\end{document}
+```
+
+
+
+
+## Figuras
+
+::: {.columns align="center"}
+
+::: {.column width="21%"}
+![](imagens/ufs_vertical_positiva.png){width=70%}<br>(a) colorido
+:::
+
+::: {.column width="21%"}
+![](imagens/ufs_vertical_meiostons.png){width=70%}<br><span style="display: inline-block; transform: translateX(-9px);">
+  (b) meios tons
+</span>
+:::
+
+::: {.column width="21%"}
+![](imagens/ufs_vertical_pb.png){width=70%}<br><span style="display: inline-block; transform: translateX(25px);">
+  (c) p&b
+</span>
+:::
+
+::: {.column width="27%"}
+<br><div style="height: 0.5em; display: block; content: ''"></div>
+![](imagens/ufs_logotipo.png){width=100%}<br><div style="text-align: center;">&#40;d&#41; logo</div>
+:::
+
+:::
+
+<span style="display: inline-block; transform: translateX(180px);">
+  <strong>Figura 2</strong>: Exemplo de um conjunto de figuras.
+</span>
+
+
+
+
+## Outros Recursos
+
+### Aspas
+- Use duas crases ` `` ` e dois apóstrofos `''`
+
+  - Exemplo: ` ``aspas''` produz "aspas".
+
+### Referenciamento
+
+- Para fazer referência a figuras, tabelas, seções ou equações, use o comando `\label{rotulo_equacao}` e referencia no teto usando `\ref{rotulo_equacao}`.
+- Exemplo:
+
+```{.latex}
+\begin{equation}
+  aˆ{2}+ bˆ{2}=cˆ{2} \label{eq:pitagoras}
+\end{equation}
+
+Consulte a Equação (\ref{eq:pitagoras}) que é a equação de Pitágoras.
+```
+
+
+
+
+## Referenciamento
+
+- Exemplo com uma seção:
+
+```{.latex}
+\section{Introdução}\label{sec:introducao}
+  ...
+  Aqui estou realizando a citação da introdução que	está na
+  Seção \ref{sec:introducao}.
+```
+
+- Uma dica para não se perder com a quantidade de rótulos diferentes é identificar a referência com:
+  - `eq:` (equação)
+  - `fig:` (figura)
+  - `tab:` (tabela)
+  - `teo:` (teorema)
+
+
+
+
+## Espaçamento
+
+- Para produzir espaçamento horizontal usamos os comandos `\hspace{tamanho}` e `\hspace*{tamanho}`.
+
+  - Exemplo: `\hspace{1cm}`
+	- O tamanho pode ser negativo.
+
+- Para espaço vertical use `\vspace{tamanho}`.
+- Uma quebra de linha com espaço adicional pode ser conseguida com `\\[tamanho]`.
+- O comando `\newpage` força mudança de página.
+- Dois comandos preenchem o espaço com pontos e linha são `\dotfill` e `\hrulefill`, respectivamente.
+- O comando `\noindent\hrulefill` produz uma linha horizontal que ocupa toda a extensão do texto.
+
+
+
+
+## Texto em Duas Colunas
+
+- O comando `\twocolumn[tıtulo]` termina a página atual e inicia uma nova página com duas colunas por página.
+
+- O argumento opcional `título` é escrito no início da página em uma coluna com a largura da página.
+
+- O comando \verb|\onecolumn| termina o modo de duas colunas.
+- Para se escrever somente dois parágrafos um do lado do outro pode ser usado o ambiente `minipage`.
+
+```{.latex}
+\begin{minipage}{7cm}
+  Parágrafo do lado esquerdo.
+\end{minipage}\hfill
+\begin{minipage}{7cm}
+  Parágrafo do lado direito.
+\end{minipage}
+```
+
+
+
+## Atividade
+
+Reproduza no LaTeX o texto abaixo:
+
+>Seja $X$ uma v.a. contínua que assume valores em $R_x$. A função $f_X(x)$ é a função densidade de probabilidade (f.d.p.) para $X$, se  satisfaz as seguintes propriedades:<br><br>
+1. $f_X(x) \geq 0, \forall x \in R_x$,<br>
+2. $\int\limits_{R_x} f_X(x)dx = 1$ ou $\int\limits_{-\infty}^\infty f_X(x)dx = 1$,<br>
+3. $P(a<X<b) = \int\limits_a^b f_X(x)dx, ~\forall a,b \in R_x$.
+
+
+
+
+## Ganhos da aula
+
+- Criar e personalizar tabelas no LaTeX.
+
+- Inserir e posicionar figuras com legenda automática.
+
+- Organizar bem o documento com listas de tabelas e figuras.
+
+
+
+## Material Extra
+
+Aprofunde o que vimos em aula com esse link:
+
+- <https://www.overleaf.com/learn/latex/Inserting_Images>
+
+
+
+
+## Atividade extraclasse
+
+Reproduza o arquivo `06-Tabelas-Figuras-Outros-Recursos-LaTeX_Atv01.pdf`.
+
+
+
+
+# Fim

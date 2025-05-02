@@ -8,14 +8,17 @@ format:
 
 ## Cronograma de Aulas
 
-Cronograma de aulas de Estatística Computacional para o período 2025-1.
+Cronograma de aulas de Estatística Computacional seguindo o [calendário acadêmico do período 2025-1](https://prograd.ufs.br/uploads/content_attach/path/39591/Portaria_71_2025_GR_calend_rio_academico_campus_S_o_Crist_v_o_2025.1_e_2025.2.pdf).
 
 
-| Aula   | Data                       | Assunto Previsto                 |
-|:------:|:---------------------------|:---------------------------------|
-| 1      | Terça, 13 de maio de 2025  | Recepção dos alunos              |
-| 2      | Quinta, 15 de maio de 2025 | Recepção dos alunos              |
-| 3      | Terça, 20 de maio de 2025  | Apresentação da disciplina       |
-| 4      | Quinta, 22 de maio de 2025 | Introdução ao RStudio + GitHub   |
-| 5      | Terça, 22 de maio de 2025  | Introdução ao LaTeX              |
+| Aula   | Data                        | Assunto Previsto                 |
+|:------:|:----------------------------|:---------------------------------|
+| 1      | Terça, 13 de maio de 2025   | Recepção dos alunos              |
+| 2      | Quinta, 15 de maio de 2025  | Recepção dos alunos              |
+| 3      | Terça, 20 de maio de 2025   | Apresentação da disciplina       |
+| 4      | Quinta, 22 de maio de 2025  | Introdução ao RStudio + GitHub   |
+| 5      | Terça, 27 de maio de 2025   | Introdução ao LaTeX              |
+| 6      | Quinta, 29 de maio de 2025  | Estrutura básico do LaTeX        |
+| 7      | Terça, 03 de junho de 2025  | Ambiente matemático no LaTeX     |
+| 8      | Quinta, 05 de junho de 2025 | Ambiente matemático no LaTeX     |
 

@@ -22,165 +22,372 @@
     ]
   },
   {
-    "objectID": "conteudos/3-Introducao_ao_LaTeX.html",
-    "href": "conteudos/3-Introducao_ao_LaTeX.html",
-    "title": "Conteúdo 3",
+    "objectID": "conteudos/4-Estrutura_Basica_LaTeX.html",
+    "href": "conteudos/4-Estrutura_Basica_LaTeX.html",
+    "title": "Conteúdo 4",
     "section": "",
-    "text": "Como criar documentos científicos bem formatados, padronizados e prontos para publicação? Esta aula parte dessa questão para apresentar o LaTeX, uma linguagem de marcação voltada à produção de textos técnicos e acadêmicos. A atividade será conduzida de maneira prática, com foco no aprendizado dos comandos básicos de formatação, controle do tamanho da fonte e uso de cores no texto. Ao longo da aula, será possível experimentar o poder do LaTeX para organizar e apresentar conteúdos de forma profissional, desenvolvendo uma habilidade fundamental para a produção de relatórios, artigos e trabalhos em Estatística e Ciência de Dados.\nSlides:\n\nVersão html\nVersão pdf\n\n\n\n\nReproduza em LaTeX o arquivo 03-Introducao_ao_LaTeX_Atv01.pdf.\nAlgumas configurações utilizadas:\n\ntamanho da fonte geral: 11pt\ncores: blue e red\ntamanho da fonte \\scriptsize e \\Large em algumas frases",
+    "text": "Dando continuidade à aula sobre LaTeX, vamos explorar como organizar um relatório técnico de forma a facilitar a leitura e a navegação. Para isso, utilizaremos recursos que garantem a consistência e a clareza do documento, como a definição adequada de resumo, seções, subseções e parágrafos. O objetivo é resolver problemas comuns que podem prejudicar a apresentação do conteúdo, como formatação inconsistente, numeração errada e alinhamento irregular, através de comandos simples e eficazes no LaTeX. Além disso, abordaremos como incluir notas de rodapé, notas na margem e criar listas numeradas e não numeradas, tornando o relatório mais profissional e alinhado com as normas acadêmicas.\nSlides:\n\nVersão html\nVersão pdf\n\n\n\n\nReproduza em LaTeX o arquivo 04-Estrutura-Basica-LaTeX_Atv01.pdf.",
     "crumbs": [
       "Material das aulas",
-      "3- Introdução ao LaTeX"
+      "4- Estrutura Básica do LaTeX"
     ]
   },
   {
-    "objectID": "conteudos/3-Introducao_ao_LaTeX.html#introdução-ao-latex",
-    "href": "conteudos/3-Introducao_ao_LaTeX.html#introdução-ao-latex",
-    "title": "Conteúdo 3",
+    "objectID": "conteudos/4-Estrutura_Basica_LaTeX.html#estrutura-básica-do-latex",
+    "href": "conteudos/4-Estrutura_Basica_LaTeX.html#estrutura-básica-do-latex",
+    "title": "Conteúdo 4",
     "section": "",
-    "text": "Como criar documentos científicos bem formatados, padronizados e prontos para publicação? Esta aula parte dessa questão para apresentar o LaTeX, uma linguagem de marcação voltada à produção de textos técnicos e acadêmicos. A atividade será conduzida de maneira prática, com foco no aprendizado dos comandos básicos de formatação, controle do tamanho da fonte e uso de cores no texto. Ao longo da aula, será possível experimentar o poder do LaTeX para organizar e apresentar conteúdos de forma profissional, desenvolvendo uma habilidade fundamental para a produção de relatórios, artigos e trabalhos em Estatística e Ciência de Dados.\nSlides:\n\nVersão html\nVersão pdf",
+    "text": "Dando continuidade à aula sobre LaTeX, vamos explorar como organizar um relatório técnico de forma a facilitar a leitura e a navegação. Para isso, utilizaremos recursos que garantem a consistência e a clareza do documento, como a definição adequada de resumo, seções, subseções e parágrafos. O objetivo é resolver problemas comuns que podem prejudicar a apresentação do conteúdo, como formatação inconsistente, numeração errada e alinhamento irregular, através de comandos simples e eficazes no LaTeX. Além disso, abordaremos como incluir notas de rodapé, notas na margem e criar listas numeradas e não numeradas, tornando o relatório mais profissional e alinhado com as normas acadêmicas.\nSlides:\n\nVersão html\nVersão pdf",
     "crumbs": [
       "Material das aulas",
-      "3- Introdução ao LaTeX"
+      "4- Estrutura Básica do LaTeX"
     ]
   },
   {
-    "objectID": "conteudos/3-Introducao_ao_LaTeX.html#atividade",
-    "href": "conteudos/3-Introducao_ao_LaTeX.html#atividade",
-    "title": "Conteúdo 3",
+    "objectID": "conteudos/4-Estrutura_Basica_LaTeX.html#atividade",
+    "href": "conteudos/4-Estrutura_Basica_LaTeX.html#atividade",
+    "title": "Conteúdo 4",
     "section": "",
-    "text": "Reproduza em LaTeX o arquivo 03-Introducao_ao_LaTeX_Atv01.pdf.\nAlgumas configurações utilizadas:\n\ntamanho da fonte geral: 11pt\ncores: blue e red\ntamanho da fonte \\scriptsize e \\Large em algumas frases",
+    "text": "Reproduza em LaTeX o arquivo 04-Estrutura-Basica-LaTeX_Atv01.pdf.",
     "crumbs": [
       "Material das aulas",
-      "3- Introdução ao LaTeX"
+      "4- Estrutura Básica do LaTeX"
     ]
   },
   {
-    "objectID": "conteudos/2-Introducao_ao_RStudio+GitHub.html",
-    "href": "conteudos/2-Introducao_ao_RStudio+GitHub.html",
-    "title": "Conteúdo 2",
+    "objectID": "conteudos/1-Apresentacao_da_disciplina.html",
+    "href": "conteudos/1-Apresentacao_da_disciplina.html",
+    "title": "Conteúdo 1",
     "section": "",
-    "text": "Como garantir que um trabalho estatístico seja organizado, reproduzível e protegido contra erros? A aula parte desse problema para apresentar o ambiente RStudio e as ferramentas Git e GitHub. A atividade será vivenciada de forma prática, onde será necessário versionar projetos e colaborar com colegas. Ao longo da aula, será possível aprender a integrar o RStudio com o Git e a criar repositórios no GitHub, desenvolvendo habilidades essenciais para o mercado de trabalho em Estatística e Ciência de Dados.\n\nVersão html\nVersão pdf",
+    "text": "Como garantir que um trabalho estatístico seja organizado, reproduzível e protegido contra erros? A aula parte desse problema para apresentar o ambiente RStudio e as ferramentas Git e GitHub. A atividade será vivenciada de forma prática, onde será necessário versionar projetos e colaborar com colegas. Ao longo da aula, será possível aprender a integrar o RStudio com o Git e a criar repositórios no GitHub, desenvolvendo habilidades essenciais para o mercado de trabalho em Estatística e Ciência de Dados.\nSlides:\n\nVersão html\nVersão pdf",
     "crumbs": [
       "Material das aulas",
-      "2- Introdução ao RStudio + GitHub"
+      "1- Apresentação da Disciplina"
     ]
   },
   {
-    "objectID": "conteudos/2-Introducao_ao_RStudio+GitHub.html#introdução-ao-rstudio-github",
-    "href": "conteudos/2-Introducao_ao_RStudio+GitHub.html#introdução-ao-rstudio-github",
-    "title": "Conteúdo 2",
+    "objectID": "conteudos/1-Apresentacao_da_disciplina.html#apresentação-da-disciplina",
+    "href": "conteudos/1-Apresentacao_da_disciplina.html#apresentação-da-disciplina",
+    "title": "Conteúdo 1",
     "section": "",
-    "text": "Como garantir que um trabalho estatístico seja organizado, reproduzível e protegido contra erros? A aula parte desse problema para apresentar o ambiente RStudio e as ferramentas Git e GitHub. A atividade será vivenciada de forma prática, onde será necessário versionar projetos e colaborar com colegas. Ao longo da aula, será possível aprender a integrar o RStudio com o Git e a criar repositórios no GitHub, desenvolvendo habilidades essenciais para o mercado de trabalho em Estatística e Ciência de Dados.\n\nVersão html\nVersão pdf",
+    "text": "Como garantir que um trabalho estatístico seja organizado, reproduzível e protegido contra erros? A aula parte desse problema para apresentar o ambiente RStudio e as ferramentas Git e GitHub. A atividade será vivenciada de forma prática, onde será necessário versionar projetos e colaborar com colegas. Ao longo da aula, será possível aprender a integrar o RStudio com o Git e a criar repositórios no GitHub, desenvolvendo habilidades essenciais para o mercado de trabalho em Estatística e Ciência de Dados.\nSlides:\n\nVersão html\nVersão pdf",
     "crumbs": [
       "Material das aulas",
-      "2- Introdução ao RStudio + GitHub"
+      "1- Apresentação da Disciplina"
     ]
   },
   {
-    "objectID": "info/dados_gerais.html",
-    "href": "info/dados_gerais.html",
+    "objectID": "info/bibliografia.html",
+    "href": "info/bibliografia.html",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "Componente curricular:\nESTAT0090 - Estatística Computacional\nDisciplina obrigatória para o curso de Estatística da Universidade Federal de Sergipe",
+    "text": "DE ALMEIDA, Pedro Quaresma. Introduçao ao LATEX. Escolar Editora, 1996.\nRUBINSTEIN, Reuven Y; KROESE, Dirk P. Simulation and Monte Carlo method. 2nd ed. New Jersey, Estados Unidos: Wiley-Interscience, 2008.\nDAVISON, A. C; HINKLEY, D. V. Bootstrap methods and their application. New York, Estados Unidos: Cambridge University Press, 1997.\nEFRON, Bradley; TIBSHIRANI, Robert. An introduction to the bootstrap. Boca Raton, Estados Unidos: Chapman & Hall/CRC, 1994.\nVERZANI, John. Using R for introductory statistics. Boca Raton, Estados Unidos: Chapman & Hall/CRC, 2005.\n\n\n\n\n\nRIZZO, Maria L. Statistical computing with R. CRC Press, 2019.\nGIVENS, Geof H.; HOETING, Jennifer A. Computational statistics. John Wiley & Sons, 2012.",
     "crumbs": [
       "Informações da disciplina",
-      "Dados gerais"
+      "Bibliografia"
     ]
   },
   {
-    "objectID": "info/dados_gerais.html#dados-gerais-da-disciplina",
-    "href": "info/dados_gerais.html#dados-gerais-da-disciplina",
+    "objectID": "info/bibliografia.html#bibliografia",
+    "href": "info/bibliografia.html#bibliografia",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "Componente curricular:\nESTAT0090 - Estatística Computacional\nDisciplina obrigatória para o curso de Estatística da Universidade Federal de Sergipe",
+    "text": "DE ALMEIDA, Pedro Quaresma. Introduçao ao LATEX. Escolar Editora, 1996.\nRUBINSTEIN, Reuven Y; KROESE, Dirk P. Simulation and Monte Carlo method. 2nd ed. New Jersey, Estados Unidos: Wiley-Interscience, 2008.\nDAVISON, A. C; HINKLEY, D. V. Bootstrap methods and their application. New York, Estados Unidos: Cambridge University Press, 1997.\nEFRON, Bradley; TIBSHIRANI, Robert. An introduction to the bootstrap. Boca Raton, Estados Unidos: Chapman & Hall/CRC, 1994.\nVERZANI, John. Using R for introductory statistics. Boca Raton, Estados Unidos: Chapman & Hall/CRC, 2005.\n\n\n\n\n\nRIZZO, Maria L. Statistical computing with R. CRC Press, 2019.\nGIVENS, Geof H.; HOETING, Jennifer A. Computational statistics. John Wiley & Sons, 2012.",
     "crumbs": [
       "Informações da disciplina",
-      "Dados gerais"
+      "Bibliografia"
     ]
   },
   {
-    "objectID": "info/dados_gerais.html#informações-da-disciplina",
-    "href": "info/dados_gerais.html#informações-da-disciplina",
-    "title": "Estatística Computacional",
-    "section": "Informações da Disciplina",
-    "text": "Informações da Disciplina\n\nCarga Horária: 60 horas (4 créditos)\nUnidade Responsável: Departamento de Estatística e Ciências Atuariais (DECAT)\nDocente Responsável: Prof. Dr. Sadraque E. F. Lucena\nPeríodo Letivo: 2025-1",
-    "crumbs": [
-      "Informações da disciplina",
-      "Dados gerais"
-    ]
-  },
-  {
-    "objectID": "info/dados_gerais.html#horários-das-aulas",
-    "href": "info/dados_gerais.html#horários-das-aulas",
-    "title": "Estatística Computacional",
-    "section": "Horários das Aulas",
-    "text": "Horários das Aulas\nAs aulas ocorrerão nos seguintes horários:\n\nTerças: 19h00 às 20h30\nQuintas: 20h45 às 22h15\n\nLocal: Laboratório de Estatística (DECAT)",
-    "crumbs": [
-      "Informações da disciplina",
-      "Dados gerais"
-    ]
-  },
-  {
-    "objectID": "info/dados_gerais.html#avaliações",
-    "href": "info/dados_gerais.html#avaliações",
-    "title": "Estatística Computacional",
-    "section": "Avaliações",
-    "text": "Avaliações\nA disciplina contará com 3 avaliações distribuídas ao longo do semestre.",
-    "crumbs": [
-      "Informações da disciplina",
-      "Dados gerais"
-    ]
-  },
-  {
-    "objectID": "info/cronograma.html",
-    "href": "info/cronograma.html",
+    "objectID": "info/softwares.html",
+    "href": "info/softwares.html",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "Cronograma de aulas de Estatística Computacional para o período 2025-1.\n\n\n\n\n\n\n\n\nAula\nData\nAssunto Previsto\n\n\n\n\n1\nTerça, 13 de maio de 2025\nRecepção dos alunos\n\n\n2\nQuinta, 15 de maio de 2025\nRecepção dos alunos\n\n\n3\nTerça, 20 de maio de 2025\nApresentação da disciplina\n\n\n4\nQuinta, 22 de maio de 2025\nIntrodução ao RStudio + GitHub\n\n\n5\nTerça, 22 de maio de 2025\nIntrodução ao LaTeX",
+    "text": "Para acompanhar as atividades da disciplina, será necessário instalar os softwares listados abaixo. Todos são gratuitos e amplamente utilizados nas áreas de Estatística e Ciência de Dados:\n\n\n\nR é um ambiente computacional gratuito voltado para análises estatísticas e produção de visualizações gráficas. Link\n\n\n\nO RStudio consiste em um ambiente de desenvolvimento integrado (IDE) projetado para aumentar a produtividade no uso da linguagem R, oferecendo ferramentas especializadas para programação, depuração e visualização de dados. Link\n\n\n\nQuarto é um sistema de publicação técnico-científica de código aberto que integra análise computacional (Python, R, Julia) e produção de documentos dinâmicos em múltiplos formatos (HTML, PDF, Word). Combina escrita em Markdown com recursos avançados para equações, citações e visualizações reprodutíveis. Link\n\n\n\nMiKTeX é uma distribuição moderna do sistema TeX/LaTeX para ambiente Windows, fornecendo um conjunto completo de ferramentas para editoração técnica e científica de alta qualidade. Link\n\n\n\nTeXstudio é um ambiente integrado de edição para documentos LaTeX, oferecendo recursos como realce de sintaxe, visualizador incorporado, verificação de referências e assistentes para facilitar a escrita. Link",
     "crumbs": [
       "Informações da disciplina",
-      "Cronograma"
+      "Softwares Necessários"
     ]
   },
   {
-    "objectID": "info/cronograma.html#cronograma-de-aulas",
-    "href": "info/cronograma.html#cronograma-de-aulas",
+    "objectID": "info/softwares.html#softwares-necessários",
+    "href": "info/softwares.html#softwares-necessários",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "Cronograma de aulas de Estatística Computacional para o período 2025-1.\n\n\n\n\n\n\n\n\nAula\nData\nAssunto Previsto\n\n\n\n\n1\nTerça, 13 de maio de 2025\nRecepção dos alunos\n\n\n2\nQuinta, 15 de maio de 2025\nRecepção dos alunos\n\n\n3\nTerça, 20 de maio de 2025\nApresentação da disciplina\n\n\n4\nQuinta, 22 de maio de 2025\nIntrodução ao RStudio + GitHub\n\n\n5\nTerça, 22 de maio de 2025\nIntrodução ao LaTeX",
+    "text": "Para acompanhar as atividades da disciplina, será necessário instalar os softwares listados abaixo. Todos são gratuitos e amplamente utilizados nas áreas de Estatística e Ciência de Dados:\n\n\n\nR é um ambiente computacional gratuito voltado para análises estatísticas e produção de visualizações gráficas. Link\n\n\n\nO RStudio consiste em um ambiente de desenvolvimento integrado (IDE) projetado para aumentar a produtividade no uso da linguagem R, oferecendo ferramentas especializadas para programação, depuração e visualização de dados. Link\n\n\n\nQuarto é um sistema de publicação técnico-científica de código aberto que integra análise computacional (Python, R, Julia) e produção de documentos dinâmicos em múltiplos formatos (HTML, PDF, Word). Combina escrita em Markdown com recursos avançados para equações, citações e visualizações reprodutíveis. Link\n\n\n\nMiKTeX é uma distribuição moderna do sistema TeX/LaTeX para ambiente Windows, fornecendo um conjunto completo de ferramentas para editoração técnica e científica de alta qualidade. Link\n\n\n\nTeXstudio é um ambiente integrado de edição para documentos LaTeX, oferecendo recursos como realce de sintaxe, visualizador incorporado, verificação de referências e assistentes para facilitar a escrita. Link",
     "crumbs": [
       "Informações da disciplina",
-      "Cronograma"
+      "Softwares Necessários"
     ]
   },
   {
-    "objectID": "info/conteudo.html",
-    "href": "info/conteudo.html",
+    "objectID": "info/ementa.html",
+    "href": "info/ementa.html",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "Geração de variáveis aleatórias\n1.1. Comandos básicos do R\n1.2. Estruturas de repetição no R\n1.3. Condições e sı́mbolos lógicos no\n1.4. Escrevendo funções no R\n1.5. Gerador de números aleatórios\n1.6. Método da Transformada inversa\n1.7. Método da Aceitação-Rejeição\n1.8. Outros métodos de geração de v.a.\nMétodos de Monte Carlo\n2.1. Conceito Geral\n2.2. Testes de Hipóteses e Erros\n2.3. Intervalos de confiança\n2.4. Viés e Erro quadrático Médio\n2.5. Método de Reamostragem: Bootstrap\n2.6. Método de Reamostragem: Jackknife\nO editor de textos LaTeX\n3.1. Comandos iniciais\n3.2. Formatação de texto, Tipos de Listas, Teoremas\n3.3. Fórmulas diversas, sı́mbolos matemáticos, escrevendo em ambiente de fórmulas\n3.4. Matrizes, equações alinhadas, tabelas e imagens\n3.5. Textos sem formatação (Para saı́das computacionais)\n3.6. Partes de documento: Tı́tulos, capı́tulos, sumários, cabeçalho e rodapé, bibliografia básica\n3.7. BibTeX (bibliografia externa)\n3.8. Criando Apresentações e Pôster",
+    "text": "Editor de textos LATEX. Estruturas de repetições e funções no software R. Geração de Variáveis Aleatórias. Método de Monte Carlo. Bootstrap.",
     "crumbs": [
       "Informações da disciplina",
-      "Conteúdo"
+      "Ementa e objetivos"
     ]
   },
   {
-    "objectID": "info/conteudo.html#conteudo",
-    "href": "info/conteudo.html#conteudo",
+    "objectID": "info/ementa.html#ementa",
+    "href": "info/ementa.html#ementa",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "Geração de variáveis aleatórias\n1.1. Comandos básicos do R\n1.2. Estruturas de repetição no R\n1.3. Condições e sı́mbolos lógicos no\n1.4. Escrevendo funções no R\n1.5. Gerador de números aleatórios\n1.6. Método da Transformada inversa\n1.7. Método da Aceitação-Rejeição\n1.8. Outros métodos de geração de v.a.\nMétodos de Monte Carlo\n2.1. Conceito Geral\n2.2. Testes de Hipóteses e Erros\n2.3. Intervalos de confiança\n2.4. Viés e Erro quadrático Médio\n2.5. Método de Reamostragem: Bootstrap\n2.6. Método de Reamostragem: Jackknife\nO editor de textos LaTeX\n3.1. Comandos iniciais\n3.2. Formatação de texto, Tipos de Listas, Teoremas\n3.3. Fórmulas diversas, sı́mbolos matemáticos, escrevendo em ambiente de fórmulas\n3.4. Matrizes, equações alinhadas, tabelas e imagens\n3.5. Textos sem formatação (Para saı́das computacionais)\n3.6. Partes de documento: Tı́tulos, capı́tulos, sumários, cabeçalho e rodapé, bibliografia básica\n3.7. BibTeX (bibliografia externa)\n3.8. Criando Apresentações e Pôster",
+    "text": "Editor de textos LATEX. Estruturas de repetições e funções no software R. Geração de Variáveis Aleatórias. Método de Monte Carlo. Bootstrap.",
     "crumbs": [
       "Informações da disciplina",
-      "Conteúdo"
+      "Ementa e objetivos"
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Bem-vindo(a)!",
+    "objectID": "info/ementa.html#objetivos",
+    "href": "info/ementa.html#objetivos",
+    "title": "Estatística Computacional",
+    "section": "Objetivos",
+    "text": "Objetivos\nDesenvolver habilidades essenciais para a aplicação de métodos computacionais na análise de dados e na obtenção de estimativas estatı́sticas confiáveis, bem como preparar estudantes para criar documentos de alta qualidade com notação matemática adequada e formatação profissional.",
+    "crumbs": [
+      "Informações da disciplina",
+      "Ementa e objetivos"
+    ]
+  },
+  {
+    "objectID": "info/ementa.html#metodologia",
+    "href": "info/ementa.html#metodologia",
+    "title": "Estatística Computacional",
+    "section": "Metodologia",
+    "text": "Metodologia\nSerão ministradas aulas teóricas expositivas; utilizados recursos visuais; resolução de exercı́cios em sala de aula; solicitação de atividades extraclasse. O cronograma de aulas encontra-se no Quadro 1.",
+    "crumbs": [
+      "Informações da disciplina",
+      "Ementa e objetivos"
+    ]
+  },
+  {
+    "objectID": "info/ementa.html#habilidades-e-competências",
+    "href": "info/ementa.html#habilidades-e-competências",
+    "title": "Estatística Computacional",
+    "section": "Habilidades e Competências",
+    "text": "Habilidades e Competências\nAo término deste curso o aluno estará apto a realizar análises estatı́sticas avançadas, simulações e estimativas confiáveis, além de resolver problemas práticos no campo da Estatı́stica utilizando abordagens computacionais.",
+    "crumbs": [
+      "Informações da disciplina",
+      "Ementa e objetivos"
+    ]
+  },
+  {
+    "objectID": "info/ementa.html#avaliação",
+    "href": "info/ementa.html#avaliação",
+    "title": "Estatística Computacional",
+    "section": "Avaliação",
+    "text": "Avaliação\nSerão realizadas três avaliações ao longo do semestre. As avaliações poderão ser provas, trabalhos ou outras atividades solicitadas pelo professor.",
+    "crumbs": [
+      "Informações da disciplina",
+      "Ementa e objetivos"
+    ]
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#cenário-profissional",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#cenário-profissional",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Cenário profissional",
+    "text": "Cenário profissional\nUma História Real (ou quase)\n\nImagine que você é contratado por uma empresa para analisar dados de clientes e construir relatórios periódicos.\nVocê começa empolgado, faz seu código em R, roda tudo no seu computador e entrega um relatório lindo.\nUm mês depois, o gerente pede que você refaça a análise com os novos dados.\nSó tem um problema:\n\nvocê não lembra qual script usou.\nOs arquivos estão todos em “versão final_v3_final_real.R”.\nE o relatório? Foi feito no Word e agora está com outro estagiário."
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#cenário-profissional-1",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#cenário-profissional-1",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Cenário profissional",
+    "text": "Cenário profissional\nO Problema\nVocê percebe que:\n\nSeus scripts estão bagunçados.\nO histórico do que foi feito se perdeu.\nO relatório não é reprodutível.\nNinguém (nem você mesmo) entende o que foi feito.\n\nA Motivação\nComo resolver isso? Você precisa de:\n\nUm ambiente organizado para escrever e executar código (RStudio).\nUm jeito de acompanhar o histórico do seu trabalho (Git).\nUma forma de colaborar e compartilhar com outras pessoas (GitHub).\nRelatórios que podem ser reproduzidos a qualquer momento (Quarto)."
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#um-exemplo-da-nossa-própria-disciplina",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#um-exemplo-da-nossa-própria-disciplina",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Um Exemplo da Nossa Própria Disciplina",
+    "text": "Um Exemplo da Nossa Própria Disciplina\nCenário:\n\nVocê está cursando Estatística Computacional.\nA cada aula, o professor entrega:\n\nSlides da aula com explicações e um código em R.\nUm problema para você resolver, adaptando e expandindo o código.\n\nVocê modifica, testa, ajusta e responde o problema.\nNa aula seguinte, você parte exatamente de onde parou."
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#e-se-você-fizer-tudo-isso-com-e",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#e-se-você-fizer-tudo-isso-com-e",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "E se você fizer tudo isso com  e ?",
+    "text": "E se você fizer tudo isso com  e ?\nVocê terá:\n\nUm histórico completo de aprendizagem.\nUm repositório que mostra sua evolução.\nUma base reutilizável para projetos futuros.\n\n\nÉ como criar seu próprio material interativo de Estatística Computacional!"
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#objetivo-da-aula",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#objetivo-da-aula",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Objetivo da aula",
+    "text": "Objetivo da aula\n\nEntender o que é e para que serve o Git e o GitHub.\nSaber como criar um repositório de projeto.\nAtualizar repositório no GitHub via Studio."
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#o-que-é-o",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#o-que-é-o",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "O que é o ?",
+    "text": "O que é o ?\n\nGit é uma ferramenta que ajuda a controlar e gerenciar mudanças em arquivos ao longo do tempo.\nEle permite que você salve versões diferentes de um trabalho à medida que faz alterações, de modo que possa voltar para versões anteriores se algo der errado ou se precisar revisar mudanças feitas.\n\nPor que o  é importante?\n\nEvita perda de trabalho: Se você estiver escrevendo código ou criando qualquer tipo de documento, o Git permite que você salve diferentes versões do seu trabalho. Assim, se algo der errado, você pode voltar a uma versão anterior.\nFacilita o trabalho em equipe: Quando várias pessoas estão trabalhando no mesmo projeto, o Git permite que cada uma trabalhe de forma independente e depois una os trabalhos de maneira organizada. Isso evita que as alterações de uma pessoa sobrescrevam as de outra.\nOrganização e rastreamento: O Git mantém um histórico completo de todas as mudanças feitas em um projeto, permitindo saber quem fez o quê e quando."
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#o-que-é-o-1",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#o-que-é-o-1",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "O que é o ?",
+    "text": "O que é o ?\n\nGitHub é uma plataforma online que armazena e organiza projetos que utilizam Git.\nEle permite que você publique seu código, compartilhe arquivos e colabore com outras pessoas em projetos de forma fácil e eficiente.\n\nPor que o  é importante?\n\nArmazenamento seguro: Com o GitHub, seus projetos ficam seguramente armazenados na nuvem. Isso significa que você pode acessar seu trabalho de qualquer lugar e sempre terá uma cópia segura.\nColaboração em equipe: GitHub permite que várias pessoas trabalhem no mesmo projeto ao mesmo tempo. Cada pessoa pode fazer mudanças no código, e o GitHub ajuda a gerenciar essas mudanças sem que uma sobrescreva a outra.\nHistórico e transparência: O GitHub mantém um histórico completo de todas as alterações feitas no seu projeto. Isso permite ver quem fez o quê e quando, facilitando o acompanhamento e revisão do trabalho de equipe."
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#como-e-por-que-usar-o-na-disciplina",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#como-e-por-que-usar-o-na-disciplina",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Como e por que usar o  na disciplina?",
+    "text": "Como e por que usar o  na disciplina?\n\nVocê receberá um script em R a cada aula\nDurante a aula, vai editar esse script no RStudio, testando e resolvendo problemas\nNo final da aula, envia suas alterações para seu repositório (push) — tudo salvo e organizado\nPode acessar seu trabalho de qualquer lugar, com segurança e histórico garantido\n\n\nGitHub será seu caderno digital de códigos — inteligente, seguro e acessível para a disciplina"
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#primeiros-passos",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#primeiros-passos",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Primeiros passos",
+    "text": "Primeiros passos\n\nBaixar e instalar o Git: https://happygitwithr.com/install-git.html\nCriar uma conta no GitHub: https://github.com/\nCriar um reposítório Git\nClone esse repositório para sua máquina usando o RStudio\nTrabalhe no projeto e envie as atualizações de volta ao GitHub\n\n\nDesenvolva o hábito de buscar soluções por conta própria. Isso faz parte do dia a dia de quem trabalha com dados. Comece agora a desenvolver essa autonomia."
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-repositório-no",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-repositório-no",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Criando um repositório  no ",
+    "text": "Criando um repositório  no \n\nApós fazer login no GitHub, Clique em + no canto superior direito\nEm seguida, clique em New repository"
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-repositório-no-1",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-repositório-no-1",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Criando um repositório  no ",
+    "text": "Criando um repositório  no \n\n\n\nEm Repository name dê um anome ao repositóro\nEm Description faça uma descrição do repositório\nMarque a opção Public ou Private\nEm Initialize this repository with: marque a opção Add a README file\nClique em Create repository"
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#section",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#section",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
     "section": "",
-    "text": "Bem-vindo(a)!\nEsta página foi criada pelo Prof. Dr. Sadraque E. F. Lucena para centralizar os conteúdos, atividades, cronograma e materiais da disciplina ESTAT0090 – Estatística Computacional, ofertada pelo Departamento de Estatística e Ciências Atuariais da Universidade Federal de Sergipe. Ao longo do semestre, vamos explorar ferramentas fundamentais para a prática da Estatística moderna, com ênfase em programação em R, Quarto, LaTeX, GitHub, simulação, métodos computacionais e reamostragem (como Bootstrap e Monte Carlo).\nA disciplina será conduzida com uma abordagem prática e orientada por problemas, livremente inspirada no Problem-Based Learning (PBL), conectando os conteúdos à atuação profissional em Estatística e Ciência de Dados. A cada semana, novos desafios e projetos serão propostos, promovendo o aprendizado ativo e colaborativo.\nFique atento(a) às atualizações — este espaço será constantemente revisado com avisos, novos materiais e mudanças no cronograma."
+    "text": "Com o repositório já criado no GitHub, agora vamos usar o RStudio para ligar o projeto local ao repositório remoto.\nAssim, todas as alterações feitas no RStudio poderão ser salvas na nuvem e versionadas automaticamente.\nPara enviar essas alterações ao GitHub, será necessário se autenticar — com login e senha ou com um token de acesso.\n\nVamos ver como criar um token de acesso no GitHub."
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-token-de-acesso-no",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-token-de-acesso-no",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Criando um token de acesso no ",
+    "text": "Criando um token de acesso no \n\nEstando logado no GitHub, clique na sua foto de perfil no canto superior direito\n\nClique em Settings"
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-token-de-acesso-no-1",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-token-de-acesso-no-1",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Criando um token de acesso no ",
+    "text": "Criando um token de acesso no \n\nNo canto inferior esquerdo da tela clique em Developer settings"
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-token-de-acesso-no-2",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-token-de-acesso-no-2",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Criando um token de acesso no ",
+    "text": "Criando um token de acesso no \n\nNo canto superior esquerdo da tela clique em Personal access tokens\nClique em Tokens (classic)\n\n\n\n\n\nEm Expiration selecione a data em que o token irá expirar\nMarque todas as opções em Select scopes\nClique em Generate token\n\n\nO token será gerado uma única vez. Guarde-o com cuidado, pois não será possível visualizá-lo novamente no GitHub. Você usará esse token quando for solicitada autenticação."
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#integração-prática",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#integração-prática",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": " + : integração prática",
+    "text": "+ : integração prática\n\nO RStudio possui integração nativa com o Git e GitHub\n\nOu seja, é possível sincronizar um repositório GitHub a um repositório local\nIsso significa que você pode ligar o repositório do GitHub (na nuvem) ao seu projeto no computador. Assim, o que você altera localmente pode ser enviado para o GitHub — e vice-versa.\n\nPara isso, seguimos os seguintes passos:\n\n\nFazemos uma cópia do repositório do GitHub na máquina local usando o RStudio.\n\nQuando já há uma cópia na máquina, começamos o trabalho atualizando o projeto local com as alterações que estão no GitHub (pull).\n\nTrabalhamos normalmente no projeto: scripts, análises, relatórios…\nUsamos o Git para registrar as alterações (commit) e enviar para o GitHub (push)."
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-o-projeto-local",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-o-projeto-local",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": " + : criando o projeto local",
+    "text": "+ : criando o projeto local\n\nNo canto superior direito do RStudio clique em File &gt; New Project\n\n\n\nClique em Version control"
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-o-projeto-local-1",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-o-projeto-local-1",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": " + : criando o projeto local",
+    "text": "+ : criando o projeto local\n\nClique em Git"
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-o-projeto-local-2",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-o-projeto-local-2",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": " + : criando o projeto local",
+    "text": "+ : criando o projeto local\n\nNo campo Repository URL, cole a URL do repositório que você criou no GitHub\nEm Create project as subdirectory of, escolha o diretório em que o repositório do GitHub será copiado na máquina local\nClique em Create Project"
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-o-projeto-local-3",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-o-projeto-local-3",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": " + : criando o projeto local",
+    "text": "+ : criando o projeto local\n\nSe você estiver clonando um repositório público, o RStudio irá criar uma cópia do projeto localmente, sem exigir login.\nSe o repositório for privado, o GitHub pedirá que você se autentique (login e senha ou token)."
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Enviando alterações para o  via ",
+    "text": "Enviando alterações para o  via \n\nDepois de salvar as atualizações do seu projeto local, você pode enviar essas alterações para o repositório no GitHub diretamente pelo RStudio.\nVocê deve fazer:\n\n\nNo quadrante superior direito clique em Commit"
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-1",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-1",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Enviando alterações para o  via ",
+    "text": "Enviando alterações para o  via \n\nRStudio mostra os arquivos que foram alterados. Selecione-os\nNo campo Commit message escreva um comentário contendo o que foi atualizado\nClique em Commit"
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-2",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-2",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Enviando alterações para o  via ",
+    "text": "Enviando alterações para o  via \n\nClique em Close"
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-3",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-3",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Enviando alterações para o  via ",
+    "text": "Enviando alterações para o  via \n\nNote que irá aparecer a mensagem Your branch is ahead of 'origin/master' by 1 commit\nClique em Push\n\n\n\n\n\nNo campo Username for 'https://github.com' coloque login e clique em OK"
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-4",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-4",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Enviando alterações para o  via ",
+    "text": "Enviando alterações para o  via \n\nNo campo Personal Access Token insira o token criado no GitHub\nClique em OK"
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-5",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-5",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Enviando alterações para o  via ",
+    "text": "Enviando alterações para o  via \n\nCaso apareça a mensagem abaixo, os arquivos foram atualizados no repositório do GitHub."
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#material-extra",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#material-extra",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Material Extra",
+    "text": "Material Extra\nAprofunde o que vimos em aula com esses vídeos no YouTube:\n\nCurso completo de Git e GitHub: &lt;http://tiny.cc/GitGitHub:\nIntegração do RStudio com o GitHub:\n\nParte 1: http://tiny.cc/RStudioGitHub1\nParte 2: http://tiny.cc/RStudioGitHub2"
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#ganhos-da-aula",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#ganhos-da-aula",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Ganhos da aula",
+    "text": "Ganhos da aula\n\nVersionamento de cpodigo e arquivos com GitHub\nIntegração do RStudio com GitHub\nExperiência com ferramentas do mercado"
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#atividade-extraclasse",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#atividade-extraclasse",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Atividade extraclasse",
+    "text": "Atividade extraclasse\nConfigure seu ambiente de trabalho pessoal\nObjetivo\nDeixar seu computador pessoal pronto para continuar os trabalhos da disciplina fora do laboratório, de forma independente.\nEtapas:\n\nInstalar o Git: https://happygitwithr.com/install-git.html\nInstalar o R: https://cran.r-project.org\nInstalar o RStudio: https://posit.co/download/rstudio-desktop\nFazer uma cópia (clone) do repositório da disciplina no GitHub para o seu computador.\n\nCriar um repositório de teste, clonar no RStudio e fazer seu primeiro commit."
   },
   {
     "objectID": "slides/04-Estrutura_Basica_LaTeX/04-Estrutura-Basica-LaTeX.html#cenário",
@@ -841,371 +1048,386 @@
     "text": "Atividade extraclasse\nReproduza o arquivo 03A - Exercício de Formatação no LaTeX.pdf.\nAlgumas configurações utilizadas:\n\ntamanho da fonte geral: 11pt\ncores: blue e red\ntamanho da fonte \\scriptsize e \\Large em algumas frases"
   },
   {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#cenário-profissional",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#cenário-profissional",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": "Cenário profissional",
-    "text": "Cenário profissional\nUma História Real (ou quase)\n\nImagine que você é contratado por uma empresa para analisar dados de clientes e construir relatórios periódicos.\nVocê começa empolgado, faz seu código em R, roda tudo no seu computador e entrega um relatório lindo.\nUm mês depois, o gerente pede que você refaça a análise com os novos dados.\nSó tem um problema:\n\nvocê não lembra qual script usou.\nOs arquivos estão todos em “versão final_v3_final_real.R”.\nE o relatório? Foi feito no Word e agora está com outro estagiário."
+    "objectID": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#cenário",
+    "href": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#cenário",
+    "title": "E quando só palavras não bastam para comunicar seus dados?",
+    "section": "Cenário",
+    "text": "Cenário\nVocê está fazendo um relatório e percebe que os dados analisados são importantes demais para ficarem escondidos em parágrafos longos. Eles precisam ser:\n\nOrganizados em tabelas para facilitar comparações e permitir leitura rápida.\nApresentados em gráficos para destacar padrões, tendências e relações.\n\nAlém disso, você precisa garantir que:\n\nCada tabela e figura tenha uma numeração automática e clara.\nO sumário e a lista de figuras/tabelas indiquem as páginas corretas.\nO documento mantenha uma aparência profissional e consistente.\n\nCom LaTeX você não precisa perder tempo ajustando manualmente numeração, posição e referências."
   },
   {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#cenário-profissional-1",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#cenário-profissional-1",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": "Cenário profissional",
-    "text": "Cenário profissional\nO Problema\nVocê percebe que:\n\nSeus scripts estão bagunçados.\nO histórico do que foi feito se perdeu.\nO relatório não é reprodutível.\nNinguém (nem você mesmo) entende o que foi feito.\n\nA Motivação\nComo resolver isso? Você precisa de:\n\nUm ambiente organizado para escrever e executar código (RStudio).\nUm jeito de acompanhar o histórico do seu trabalho (Git).\nUma forma de colaborar e compartilhar com outras pessoas (GitHub).\nRelatórios que podem ser reproduzidos a qualquer momento (Quarto)."
-  },
-  {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#um-exemplo-da-nossa-própria-disciplina",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#um-exemplo-da-nossa-própria-disciplina",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": "Um Exemplo da Nossa Própria Disciplina",
-    "text": "Um Exemplo da Nossa Própria Disciplina\nCenário:\n\nVocê está cursando Estatística Computacional.\nA cada aula, o professor entrega:\n\nSlides da aula com explicações e um código em R.\nUm problema para você resolver, adaptando e expandindo o código.\n\nVocê modifica, testa, ajusta e responde o problema.\nNa aula seguinte, você parte exatamente de onde parou."
-  },
-  {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#e-se-você-fizer-tudo-isso-com-e",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#e-se-você-fizer-tudo-isso-com-e",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": "E se você fizer tudo isso com  e ?",
-    "text": "E se você fizer tudo isso com  e ?\nVocê terá:\n\nUm histórico completo de aprendizagem.\nUm repositório que mostra sua evolução.\nUma base reutilizável para projetos futuros.\n\n\nÉ como criar seu próprio material interativo de Estatística Computacional!"
-  },
-  {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#objetivo-da-aula",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#objetivo-da-aula",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "objectID": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#objetivo-da-aula",
+    "href": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#objetivo-da-aula",
+    "title": "E quando só palavras não bastam para comunicar seus dados?",
     "section": "Objetivo da aula",
-    "text": "Objetivo da aula\n\nEntender o que é e para que serve o Git e o GitHub.\nSaber como criar um repositório de projeto.\nAtualizar repositório no GitHub via Studio."
+    "text": "Objetivo da aula\nNa aula de hoje aprenderemos a criar no LaTeX:\n\nTabelas\nFiguras\nOutros recursos úteis"
   },
   {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#o-que-é-o",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#o-que-é-o",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": "O que é o ?",
-    "text": "O que é o ?\n\nGit é uma ferramenta que ajuda a controlar e gerenciar mudanças em arquivos ao longo do tempo.\nEle permite que você salve versões diferentes de um trabalho à medida que faz alterações, de modo que possa voltar para versões anteriores se algo der errado ou se precisar revisar mudanças feitas.\n\nPor que o  é importante?\n\nEvita perda de trabalho: Se você estiver escrevendo código ou criando qualquer tipo de documento, o Git permite que você salve diferentes versões do seu trabalho. Assim, se algo der errado, você pode voltar a uma versão anterior.\nFacilita o trabalho em equipe: Quando várias pessoas estão trabalhando no mesmo projeto, o Git permite que cada uma trabalhe de forma independente e depois una os trabalhos de maneira organizada. Isso evita que as alterações de uma pessoa sobrescrevam as de outra.\nOrganização e rastreamento: O Git mantém um histórico completo de todas as mudanças feitas em um projeto, permitindo saber quem fez o quê e quando."
+    "objectID": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#tabelas",
+    "href": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#tabelas",
+    "title": "E quando só palavras não bastam para comunicar seus dados?",
+    "section": "Tabelas",
+    "text": "Tabelas\n\nTabelas são feitas nos ambientes tabbing e tabular.\nO ambiente tabbing pode ser usado somente no modo texto.\nO ambiente tabular pode ser usado em qualquer modo (texto, matemático etc.).\nA altura e largura da tabela são definidas automaticamente pelo TeX.\nPor ter maior flexibilidade, focaremos no ambiente tabular."
   },
   {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#o-que-é-o-1",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#o-que-é-o-1",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": "O que é o ?",
-    "text": "O que é o ?\n\nGitHub é uma plataforma online que armazena e organiza projetos que utilizam Git.\nEle permite que você publique seu código, compartilhe arquivos e colabore com outras pessoas em projetos de forma fácil e eficiente.\n\nPor que o  é importante?\n\nArmazenamento seguro: Com o GitHub, seus projetos ficam seguramente armazenados na nuvem. Isso significa que você pode acessar seu trabalho de qualquer lugar e sempre terá uma cópia segura.\nColaboração em equipe: GitHub permite que várias pessoas trabalhem no mesmo projeto ao mesmo tempo. Cada pessoa pode fazer mudanças no código, e o GitHub ajuda a gerenciar essas mudanças sem que uma sobrescreva a outra.\nHistórico e transparência: O GitHub mantém um histórico completo de todas as alterações feitas no seu projeto. Isso permite ver quem fez o quê e quando, facilitando o acompanhamento e revisão do trabalho de equipe."
+    "objectID": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#tabelas-1",
+    "href": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#tabelas-1",
+    "title": "E quando só palavras não bastam para comunicar seus dados?",
+    "section": "Tabelas",
+    "text": "Tabelas\nExemplo com o ambiente tabular:\n\\begin{center}  \n  \\begin{tabular}{|c|l|rc|}\n    \\hline\n    jan & fev & mar & abr \\\\ \\hline\n    mai & jun & jul & ago \\\\ \\cline{1-1} \\cline{3-4}\n    set & out & nov & dez \\\\ \\hline \\hline\n  \\end{tabular}\n\\end{center}\nproduz:\n\n\n\n\njan\n\n\nfev\n\n\nmar\n\n\nabr\n\n\n\n\nmai\n\n\njun\n\n\njul\n\n\nago\n\n\n\n\nset\n\n\nout\n\n\nnov\n\n\ndez"
   },
   {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#como-e-por-que-usar-o-na-disciplina",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#como-e-por-que-usar-o-na-disciplina",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": "Como e por que usar o  na disciplina?",
-    "text": "Como e por que usar o  na disciplina?\n\nVocê receberá um script em R a cada aula\nDurante a aula, vai editar esse script no RStudio, testando e resolvendo problemas\nNo final da aula, envia suas alterações para seu repositório (push) — tudo salvo e organizado\nPode acessar seu trabalho de qualquer lugar, com segurança e histórico garantido\n\n\nGitHub será seu caderno digital de códigos — inteligente, seguro e acessível para a disciplina"
+    "objectID": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#tabelas-2",
+    "href": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#tabelas-2",
+    "title": "E quando só palavras não bastam para comunicar seus dados?",
+    "section": "Tabelas",
+    "text": "Tabelas\n\nAs letras c, l e r significam centro, esquerda e direita respectivamente (center, left e right). Isto indica a posição do texto em relação a célula.\nAs barras verticais | são usadas para fazer linhas verticais na tabela.\n\\hline cria linhas horizontais ao longo da tabela.\n\\cline{i-j} cria linhas horizontais apenas entre as colunas i e j.\n& divide os elementos de cada linha.\n\\\\ indica o início de uma nova linha na tabela."
   },
   {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#primeiros-passos",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#primeiros-passos",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": "Primeiros passos",
-    "text": "Primeiros passos\n\nBaixar e instalar o Git: https://happygitwithr.com/install-git.html\nCriar uma conta no GitHub: https://github.com/\nCriar um reposítório Git\nClone esse repositório para sua máquina usando o RStudio\nTrabalhe no projeto e envie as atualizações de volta ao GitHub\n\n\nDesenvolva o hábito de buscar soluções por conta própria. Isso faz parte do dia a dia de quem trabalha com dados. Comece agora a desenvolver essa autonomia."
+    "objectID": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#tabelas-3",
+    "href": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#tabelas-3",
+    "title": "E quando só palavras não bastam para comunicar seus dados?",
+    "section": "Tabelas",
+    "text": "Tabelas\n\nA largura da coluna pode ser determinada utilizando o comando p{medida}, ele deve ser colocado no lugar das letras c, l ou r.\n\n\\begin{tabular}{|l|c|p{3cm}|}\n  \\hline\n  col 1 & col 2 & coluna com 3 cm \\\\\n  \\hline\n  col 1 & col 2 & podemos colocar uma frase nesta coluna e ela será\n  quebrada quando o tamanho for maior que 3 cm.\\\\\n  \\hline\n  isso não acontece nesta coluna & col 2 & \\\\ \\hline\n\\end{tabular}"
   },
   {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-repositório-no",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-repositório-no",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": "Criando um repositório  no ",
-    "text": "Criando um repositório  no \n\nApós fazer login no GitHub, Clique em + no canto superior direito\nEm seguida, clique em New repository"
+    "objectID": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#tabelas-4",
+    "href": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#tabelas-4",
+    "title": "E quando só palavras não bastam para comunicar seus dados?",
+    "section": "Tabelas",
+    "text": "Tabelas\n\nPara mesclar colunas usamos o comando \\multicolumn{n}{pos}{item}.\n\n\\begin{tabular}{|l|ll|}\n  \\hline\n  segunda & \\multicolumn{2}{|c|}{terça}\\\\\n  \\hline\n  10 & 15 & 20 \\\\\n  15 & 10 & 25 \\\\\n  \\hline\n\\end{tabular}\nproduz\n\n\n\n\nsegunda\n\n\nterça\n\n\n\n\n10\n\n\n15\n\n\n20\n\n\n\n\n15\n\n\n10\n\n\n25"
   },
   {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-repositório-no-1",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-repositório-no-1",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": "Criando um repositório  no ",
-    "text": "Criando um repositório  no \n\n\n\nEm Repository name dê um anome ao repositóro\nEm Description faça uma descrição do repositório\nMarque a opção Public ou Private\nEm Initialize this repository with: marque a opção Add a README file\nClique em Create repository"
+    "objectID": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#tabelas-5",
+    "href": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#tabelas-5",
+    "title": "E quando só palavras não bastam para comunicar seus dados?",
+    "section": "Tabelas",
+    "text": "Tabelas\n\nPara mesclar linhas usamos o comando \\multicolumn{n}{pos}{item} do pacote multirow.\n\n\\begin{tabular}{|l|ll|}\n  \\hline\n  segunda & \\multicolumn{2}{|c|}{terça}\\\\\n  \\hline\n  \\multirow{2}{*}{10} & 15 & 20 \\\\\n  & 10 & 25 \\\\\n  \\hline\n\\end{tabular}\nproduz\n\n\n\n\nsegunda\n\n\nterça\n\n\n\n\n10\n\n\n15\n\n\n20\n\n\n\n\n\n10\n\n\n25"
   },
   {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#section",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#section",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": "",
-    "text": "Com o repositório já criado no GitHub, agora vamos usar o RStudio para ligar o projeto local ao repositório remoto.\nAssim, todas as alterações feitas no RStudio poderão ser salvas na nuvem e versionadas automaticamente.\nPara enviar essas alterações ao GitHub, será necessário se autenticar — com login e senha ou com um token de acesso.\n\nVamos ver como criar um token de acesso no GitHub."
+    "objectID": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#tabela",
+    "href": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#tabela",
+    "title": "E quando só palavras não bastam para comunicar seus dados?",
+    "section": "Tabela",
+    "text": "Tabela\n\nA tabela pode ser transformada em elemento flutuante, ou seja, ela será colocada pelo LaTeX no local de melhor visualização quando o ambiente tabular é colocado dentro do ambiente table;\nPara definir o local da página em que a tabela ficará situada pode-se colocar:\n\nh: ficará onde foi digitado;\nb: ficará na parte inferior da página;\nt: ficará na parte superior da página;\np: Ficará em página separada;\n!: o LaTeX escolhe automaticamente.\n\n\n\\begin{table}[b]\n  tabela ...\n\\end{table}"
   },
   {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-token-de-acesso-no",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-token-de-acesso-no",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": "Criando um token de acesso no ",
-    "text": "Criando um token de acesso no \n\nEstando logado no GitHub, clique na sua foto de perfil no canto superior direito\n\nClique em Settings"
+    "objectID": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#tabela-1",
+    "href": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#tabela-1",
+    "title": "E quando só palavras não bastam para comunicar seus dados?",
+    "section": "Tabela",
+    "text": "Tabela\n\nPara centralizarmos a tabela usamos \\centering.\nPara adicionarmos legenda usamos \\caption.\n\n\\begin{table}[b]\n  \\centering\n    \\caption{Exemplo de Tabela no Latex}\n    tabela ...\n\\end{table}"
   },
   {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-token-de-acesso-no-1",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-token-de-acesso-no-1",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": "Criando um token de acesso no ",
-    "text": "Criando um token de acesso no \n\nNo canto inferior esquerdo da tela clique em Developer settings"
+    "objectID": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#tabela-2",
+    "href": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#tabela-2",
+    "title": "E quando só palavras não bastam para comunicar seus dados?",
+    "section": "Tabela",
+    "text": "Tabela\n\nSe a tabela for muito grande e ocupar mais de uma página, devemos usar o pacote longtable e seu ambiente longtable no lugar de tabular.\n\nNesse caso não é necessário usar o ambiente table;\nOs comandos de longtable são os mesmos de tabular.\n\n\n\\begin{longtable}{|c|c|}\n  ...\n\\end{longtable}"
   },
   {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-token-de-acesso-no-2",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-token-de-acesso-no-2",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": "Criando um token de acesso no ",
-    "text": "Criando um token de acesso no \n\nNo canto superior esquerdo da tela clique em Personal access tokens\nClique em Tokens (classic)\n\n\n\n\n\nEm Expiration selecione a data em que o token irá expirar\nMarque todas as opções em Select scopes\nClique em Generate token\n\n\nO token será gerado uma única vez. Guarde-o com cuidado, pois não será possível visualizá-lo novamente no GitHub. Você usará esse token quando for solicitada autenticação."
+    "objectID": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#tabela-3",
+    "href": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#tabela-3",
+    "title": "E quando só palavras não bastam para comunicar seus dados?",
+    "section": "Tabela",
+    "text": "Tabela\n\nSe a tabela for muito larga podemos colocá-la no modo paisagem utilizando o pacote landscape.\n\n\\begin{landscape}\n  \\begin{table}\n    \\begin{center}\n          ...\n    \\end{center}\n  \\end{table}\n\\end{landscape}"
   },
   {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#integração-prática",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#integração-prática",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": " + : integração prática",
-    "text": "+ : integração prática\n\nO RStudio possui integração nativa com o Git e GitHub\n\nOu seja, é possível sincronizar um repositório GitHub a um repositório local\nIsso significa que você pode ligar o repositório do GitHub (na nuvem) ao seu projeto no computador. Assim, o que você altera localmente pode ser enviado para o GitHub — e vice-versa.\n\nPara isso, seguimos os seguintes passos:\n\n\nFazemos uma cópia do repositório do GitHub na máquina local usando o RStudio.\n\nQuando já há uma cópia na máquina, começamos o trabalho atualizando o projeto local com as alterações que estão no GitHub (pull).\n\nTrabalhamos normalmente no projeto: scripts, análises, relatórios…\nUsamos o Git para registrar as alterações (commit) e enviar para o GitHub (push)."
+    "objectID": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#atividade",
+    "href": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#atividade",
+    "title": "E quando só palavras não bastam para comunicar seus dados?",
+    "section": "Atividade",
+    "text": "Atividade\nReproduza no LaTeX a tabela abaixo.\n\n\n\n\n\n\n\n\n\n\n\n\nNome do filósofo\n\n\nNascimento\n\n\nFalecimento\n\n\n\n\n\n\n\nData\n\n\nCidade\n\n\n\n\n\nGregos\n\n\nAristóteles\n\n\n384 a.C.\n\n\nEstagira\n\n\n322 a.C.\n\n\n\n\nDemócrito\n\n\n460 a.C.\n\n\nAbdeira\n\n\n370 a.C.\n\n\n\n\n\nFranceses\n\n\nRené Descartes\n\n\n1592\n\n\nDescartes\n\n\n1650\n\n\n\n\nMichel Foucault\n\n\n1926\n\n\nPoitiers\n\n\n1984"
   },
   {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-o-projeto-local",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-o-projeto-local",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": " + : criando o projeto local",
-    "text": "+ : criando o projeto local\n\nNo canto superior direito do RStudio clique em File &gt; New Project\n\n\n\nClique em Version control"
+    "objectID": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#figuras",
+    "href": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#figuras",
+    "title": "E quando só palavras não bastam para comunicar seus dados?",
+    "section": "Figuras",
+    "text": "Figuras\n\nPara inserir figuras em um documento LaTeX, usamos no preâmbulo \\usepackage{graphicx};\nO comando para colocar a figura é \\includegraphics[height=altura]{nome do arquivo}.\nExemplo: \\includegraphics[height=5cm]{normal.png}\n\nwidth = largura da imagem;\nheight = altura da imagem;\nangle = rotaciona a imagem no sentido anti-horário;\nscale = muda a escala da imagem"
   },
   {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-o-projeto-local-1",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-o-projeto-local-1",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": " + : criando o projeto local",
-    "text": "+ : criando o projeto local\n\nClique em Git"
+    "objectID": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#figuras-1",
+    "href": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#figuras-1",
+    "title": "E quando só palavras não bastam para comunicar seus dados?",
+    "section": "Figuras",
+    "text": "Figuras\n\nNo LaTeX é possível incluir legenda de uma figura. Para isso usamos o ambiente figure e a função \\caption.\nA sintaxe é a seguinte:\n\n\\begin{figure}[local]\n  figura\n  \\caption{Texto da figura}\n\\end{figure}"
   },
   {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-o-projeto-local-2",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-o-projeto-local-2",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": " + : criando o projeto local",
-    "text": "+ : criando o projeto local\n\nNo campo Repository URL, cole a URL do repositório que você criou no GitHub\nEm Create project as subdirectory of, escolha o diretório em que o repositório do GitHub será copiado na máquina local\nClique em Create Project"
+    "objectID": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#figuras-2",
+    "href": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#figuras-2",
+    "title": "E quando só palavras não bastam para comunicar seus dados?",
+    "section": "Figuras",
+    "text": "Figuras\nExemplo\n\\begin{figure}[h]\n  \\includegraphics[height=.5\\textheight]{ufs_vertical_positiva.png}\n  \\caption{Brasão da UFS}\n\\end{figure}\nproduz\n\n\n\n\nFigura 1: Brasão da UFS"
   },
   {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-o-projeto-local-3",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-o-projeto-local-3",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": " + : criando o projeto local",
-    "text": "+ : criando o projeto local\n\nSe você estiver clonando um repositório público, o RStudio irá criar uma cópia do projeto localmente, sem exigir login.\nSe o repositório for privado, o GitHub pedirá que você se autentique (login e senha ou token)."
+    "objectID": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#figuras-3",
+    "href": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#figuras-3",
+    "title": "E quando só palavras não bastam para comunicar seus dados?",
+    "section": "Figuras",
+    "text": "Figuras\n\nLaTeX define aonde as figuras devem se posicionar no texto.\nO comando \\clearpage força que todas as as figuras pendentes (isto é, as que não foram impressas até o aparecimento do comando) sejam impressas;\nExiste um pacote chamado subfigure que permite ao ambiente figure possuir mais de uma figura;\nAntes de qualquer coisa deve-se declarar no preâmbulo o comando: \\usepackage{subfigure}."
   },
   {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": "Enviando alterações para o  via ",
-    "text": "Enviando alterações para o  via \n\nDepois de salvar as atualizações do seu projeto local, você pode enviar essas alterações para o repositório no GitHub diretamente pelo RStudio.\nVocê deve fazer:\n\n\nNo quadrante superior direito clique em Commit"
+    "objectID": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#figuras-4",
+    "href": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#figuras-4",
+    "title": "E quando só palavras não bastam para comunicar seus dados?",
+    "section": "Figuras",
+    "text": "Figuras\nExemplo\n\\documentclass{report}\n\n\\usepackage{graphicx}\n\\usepackage{subfigure}\n\n\\begin{document}\n\n  \\begin{figure}[h]\n    \\subfigure[colorido]{\\includegraphics[scale=0.2]{1-title-page/uf\n    s_vertical_positiva.png}}\\quad\n    \\subfigure[p\\&b]{\\includegraphics[scale=0.2]{ufs_vertical_meiost\n    ons.png}}\\quad\n    \\subfigure[meios tons]{\\includegraphics[scale=0.2]{ufs_vertical_\n    pb.png}}\\quad\n    \\subfigure[logo]{\\includegraphics[scale=0.2]{ufs_logotipo.png}}\n    \\caption{Exemplo de um conjunto de figuras.}\n  \\end{figure}\n\n\\end{document}"
   },
   {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-1",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-1",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": "Enviando alterações para o  via ",
-    "text": "Enviando alterações para o  via \n\nRStudio mostra os arquivos que foram alterados. Selecione-os\nNo campo Commit message escreva um comentário contendo o que foi atualizado\nClique em Commit"
+    "objectID": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#figuras-5",
+    "href": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#figuras-5",
+    "title": "E quando só palavras não bastam para comunicar seus dados?",
+    "section": "Figuras",
+    "text": "Figuras\n\n\n(a) colorido\n\n (b) meios tons \n\n (c) p&b \n\n\n\n\n\n\n\n(d) logo\n\n\n Figura 2: Exemplo de um conjunto de figuras."
   },
   {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-2",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-2",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": "Enviando alterações para o  via ",
-    "text": "Enviando alterações para o  via \n\nClique em Close"
+    "objectID": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#outros-recursos",
+    "href": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#outros-recursos",
+    "title": "E quando só palavras não bastam para comunicar seus dados?",
+    "section": "Outros Recursos",
+    "text": "Outros Recursos\nAspas\n\nUse duas crases `` e dois apóstrofos ''\n\nExemplo: ``aspas'' produz “aspas”.\n\n\nReferenciamento\n\nPara fazer referência a figuras, tabelas, seções ou equações, use o comando \\label{rotulo_equacao} e referencia no teto usando \\ref{rotulo_equacao}.\nExemplo:\n\n\\begin{equation}\n  aˆ{2}+ bˆ{2}=cˆ{2} \\label{eq:pitagoras}\n\\end{equation}\n\nConsulte a Equação (\\ref{eq:pitagoras}) que é a equação de Pitágoras."
   },
   {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-3",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-3",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": "Enviando alterações para o  via ",
-    "text": "Enviando alterações para o  via \n\nNote que irá aparecer a mensagem Your branch is ahead of 'origin/master' by 1 commit\nClique em Push\n\n\n\n\n\nNo campo Username for 'https://github.com' coloque login e clique em OK"
+    "objectID": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#referenciamento-1",
+    "href": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#referenciamento-1",
+    "title": "E quando só palavras não bastam para comunicar seus dados?",
+    "section": "Referenciamento",
+    "text": "Referenciamento\n\nExemplo com uma seção:\n\n\\section{Introdução}\\label{sec:introducao}\n  ...\n  Aqui estou realizando a citação da introdução que está na\n  Seção \\ref{sec:introducao}.\n\nUma dica para não se perder com a quantidade de rótulos diferentes é identificar a referência com:\n\neq: (equação)\nfig: (figura)\ntab: (tabela)\nteo: (teorema)"
   },
   {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-4",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-4",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": "Enviando alterações para o  via ",
-    "text": "Enviando alterações para o  via \n\nNo campo Personal Access Token insira o token criado no GitHub\nClique em OK"
+    "objectID": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#espaçamento",
+    "href": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#espaçamento",
+    "title": "E quando só palavras não bastam para comunicar seus dados?",
+    "section": "Espaçamento",
+    "text": "Espaçamento\n\nPara produzir espaçamento horizontal usamos os comandos \\hspace{tamanho} e \\hspace*{tamanho}.\n\nExemplo: \\hspace{1cm}\n\nO tamanho pode ser negativo.\n\n\nPara espaço vertical use \\vspace{tamanho}.\nUma quebra de linha com espaço adicional pode ser conseguida com \\\\[tamanho].\nO comando \\newpage força mudança de página.\nDois comandos preenchem o espaço com pontos e linha são \\dotfill e \\hrulefill, respectivamente.\nO comando \\noindent\\hrulefill produz uma linha horizontal que ocupa toda a extensão do texto."
   },
   {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-5",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-5",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": "Enviando alterações para o  via ",
-    "text": "Enviando alterações para o  via \n\nCaso apareça a mensagem abaixo, os arquivos foram atualizados no repositório do GitHub."
+    "objectID": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#texto-em-duas-colunas",
+    "href": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#texto-em-duas-colunas",
+    "title": "E quando só palavras não bastam para comunicar seus dados?",
+    "section": "Texto em Duas Colunas",
+    "text": "Texto em Duas Colunas\n\nO comando \\twocolumn[tıtulo] termina a página atual e inicia uma nova página com duas colunas por página.\nO argumento opcional título é escrito no início da página em uma coluna com a largura da página.\nO comando termina o modo de duas colunas.\nPara se escrever somente dois parágrafos um do lado do outro pode ser usado o ambiente minipage.\n\n\\begin{minipage}{7cm}\n  Parágrafo do lado esquerdo.\n\\end{minipage}\\hfill\n\\begin{minipage}{7cm}\n  Parágrafo do lado direito.\n\\end{minipage}"
   },
   {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#material-extra",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#material-extra",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": "Material Extra",
-    "text": "Material Extra\nAprofunde o que vimos em aula com esses vídeos no YouTube:\n\nCurso completo de Git e GitHub: &lt;http://tiny.cc/GitGitHub:\nIntegração do RStudio com o GitHub:\n\nParte 1: http://tiny.cc/RStudioGitHub1\nParte 2: http://tiny.cc/RStudioGitHub2"
+    "objectID": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#atividade-1",
+    "href": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#atividade-1",
+    "title": "E quando só palavras não bastam para comunicar seus dados?",
+    "section": "Atividade",
+    "text": "Atividade\nReproduza no LaTeX o texto abaixo:\n\nSeja \\(X\\) uma v.a. contínua que assume valores em \\(R_x\\). A função \\(f_X(x)\\) é a função densidade de probabilidade (f.d.p.) para \\(X\\), se satisfaz as seguintes propriedades: 1. \\(f_X(x) \\geq 0, \\forall x \\in R_x\\), 2. \\(\\int\\limits_{R_x} f_X(x)dx = 1\\) ou \\(\\int\\limits_{-\\infty}^\\infty f_X(x)dx = 1\\), 3. \\(P(a&lt;X&lt;b) = \\int\\limits_a^b f_X(x)dx, ~\\forall a,b \\in R_x\\)."
   },
   {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#ganhos-da-aula",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#ganhos-da-aula",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "objectID": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#ganhos-da-aula",
+    "href": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#ganhos-da-aula",
+    "title": "E quando só palavras não bastam para comunicar seus dados?",
     "section": "Ganhos da aula",
-    "text": "Ganhos da aula\n\nVersionamento de cpodigo e arquivos com GitHub\nIntegração do RStudio com GitHub\nExperiência com ferramentas do mercado"
+    "text": "Ganhos da aula\n\nCriar e personalizar tabelas no LaTeX.\nInserir e posicionar figuras com legenda automática.\nOrganizar bem o documento com listas de tabelas e figuras."
   },
   {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#atividade-extraclasse",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#atividade-extraclasse",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "objectID": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#material-extra",
+    "href": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#material-extra",
+    "title": "E quando só palavras não bastam para comunicar seus dados?",
+    "section": "Material Extra",
+    "text": "Material Extra\nAprofunde o que vimos em aula com esse link:\n\nhttps://www.overleaf.com/learn/latex/Inserting_Images"
+  },
+  {
+    "objectID": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#atividade-extraclasse",
+    "href": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#atividade-extraclasse",
+    "title": "E quando só palavras não bastam para comunicar seus dados?",
     "section": "Atividade extraclasse",
-    "text": "Atividade extraclasse\nConfigure seu ambiente de trabalho pessoal\nObjetivo\nDeixar seu computador pessoal pronto para continuar os trabalhos da disciplina fora do laboratório, de forma independente.\nEtapas:\n\nInstalar o Git: https://happygitwithr.com/install-git.html\nInstalar o R: https://cran.r-project.org\nInstalar o RStudio: https://posit.co/download/rstudio-desktop\nFazer uma cópia (clone) do repositório da disciplina no GitHub para o seu computador.\n\nCriar um repositório de teste, clonar no RStudio e fazer seu primeiro commit."
+    "text": "Atividade extraclasse\nReproduza o arquivo 06-Tabelas-Figuras-Outros-Recursos-LaTeX_Atv01.pdf."
   },
   {
-    "objectID": "info/ementa.html",
-    "href": "info/ementa.html",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Bem-vindo(a)!",
+    "section": "",
+    "text": "Bem-vindo(a)!\nEsta página foi criada pelo Prof. Dr. Sadraque E. F. Lucena para centralizar os conteúdos, atividades, cronograma e materiais da disciplina ESTAT0090 – Estatística Computacional, ofertada pelo Departamento de Estatística e Ciências Atuariais da Universidade Federal de Sergipe. Ao longo do semestre, vamos explorar ferramentas fundamentais para a prática da Estatística moderna, com ênfase em programação em R, Quarto, LaTeX, GitHub, simulação, métodos computacionais e reamostragem (como Bootstrap e Monte Carlo).\nA disciplina será conduzida com uma abordagem prática e orientada por problemas, livremente inspirada no Problem-Based Learning (PBL), conectando os conteúdos à atuação profissional em Estatística e Ciência de Dados. A cada semana, novos desafios e projetos serão propostos, promovendo o aprendizado ativo e colaborativo.\nFique atento(a) às atualizações — este espaço será constantemente revisado com avisos, novos materiais e mudanças no cronograma."
+  },
+  {
+    "objectID": "info/conteudo.html",
+    "href": "info/conteudo.html",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "Editor de textos LATEX. Estruturas de repetições e funções no software R. Geração de Variáveis Aleatórias. Método de Monte Carlo. Bootstrap.",
+    "text": "Geração de variáveis aleatórias\n1.1. Comandos básicos do R\n1.2. Estruturas de repetição no R\n1.3. Condições e sı́mbolos lógicos no\n1.4. Escrevendo funções no R\n1.5. Gerador de números aleatórios\n1.6. Método da Transformada inversa\n1.7. Método da Aceitação-Rejeição\n1.8. Outros métodos de geração de v.a.\nMétodos de Monte Carlo\n2.1. Conceito Geral\n2.2. Testes de Hipóteses e Erros\n2.3. Intervalos de confiança\n2.4. Viés e Erro quadrático Médio\n2.5. Método de Reamostragem: Bootstrap\n2.6. Método de Reamostragem: Jackknife\nO editor de textos LaTeX\n3.1. Comandos iniciais\n3.2. Formatação de texto, Tipos de Listas, Teoremas\n3.3. Fórmulas diversas, sı́mbolos matemáticos, escrevendo em ambiente de fórmulas\n3.4. Matrizes, equações alinhadas, tabelas e imagens\n3.5. Textos sem formatação (Para saı́das computacionais)\n3.6. Partes de documento: Tı́tulos, capı́tulos, sumários, cabeçalho e rodapé, bibliografia básica\n3.7. BibTeX (bibliografia externa)\n3.8. Criando Apresentações e Pôster",
     "crumbs": [
       "Informações da disciplina",
-      "Ementa e objetivos"
+      "Conteúdo"
     ]
   },
   {
-    "objectID": "info/ementa.html#ementa",
-    "href": "info/ementa.html#ementa",
+    "objectID": "info/conteudo.html#conteudo",
+    "href": "info/conteudo.html#conteudo",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "Editor de textos LATEX. Estruturas de repetições e funções no software R. Geração de Variáveis Aleatórias. Método de Monte Carlo. Bootstrap.",
+    "text": "Geração de variáveis aleatórias\n1.1. Comandos básicos do R\n1.2. Estruturas de repetição no R\n1.3. Condições e sı́mbolos lógicos no\n1.4. Escrevendo funções no R\n1.5. Gerador de números aleatórios\n1.6. Método da Transformada inversa\n1.7. Método da Aceitação-Rejeição\n1.8. Outros métodos de geração de v.a.\nMétodos de Monte Carlo\n2.1. Conceito Geral\n2.2. Testes de Hipóteses e Erros\n2.3. Intervalos de confiança\n2.4. Viés e Erro quadrático Médio\n2.5. Método de Reamostragem: Bootstrap\n2.6. Método de Reamostragem: Jackknife\nO editor de textos LaTeX\n3.1. Comandos iniciais\n3.2. Formatação de texto, Tipos de Listas, Teoremas\n3.3. Fórmulas diversas, sı́mbolos matemáticos, escrevendo em ambiente de fórmulas\n3.4. Matrizes, equações alinhadas, tabelas e imagens\n3.5. Textos sem formatação (Para saı́das computacionais)\n3.6. Partes de documento: Tı́tulos, capı́tulos, sumários, cabeçalho e rodapé, bibliografia básica\n3.7. BibTeX (bibliografia externa)\n3.8. Criando Apresentações e Pôster",
     "crumbs": [
       "Informações da disciplina",
-      "Ementa e objetivos"
+      "Conteúdo"
     ]
   },
   {
-    "objectID": "info/ementa.html#objetivos",
-    "href": "info/ementa.html#objetivos",
-    "title": "Estatística Computacional",
-    "section": "Objetivos",
-    "text": "Objetivos\nDesenvolver habilidades essenciais para a aplicação de métodos computacionais na análise de dados e na obtenção de estimativas estatı́sticas confiáveis, bem como preparar estudantes para criar documentos de alta qualidade com notação matemática adequada e formatação profissional.",
-    "crumbs": [
-      "Informações da disciplina",
-      "Ementa e objetivos"
-    ]
-  },
-  {
-    "objectID": "info/ementa.html#metodologia",
-    "href": "info/ementa.html#metodologia",
-    "title": "Estatística Computacional",
-    "section": "Metodologia",
-    "text": "Metodologia\nSerão ministradas aulas teóricas expositivas; utilizados recursos visuais; resolução de exercı́cios em sala de aula; solicitação de atividades extraclasse. O cronograma de aulas encontra-se no Quadro 1.",
-    "crumbs": [
-      "Informações da disciplina",
-      "Ementa e objetivos"
-    ]
-  },
-  {
-    "objectID": "info/ementa.html#habilidades-e-competências",
-    "href": "info/ementa.html#habilidades-e-competências",
-    "title": "Estatística Computacional",
-    "section": "Habilidades e Competências",
-    "text": "Habilidades e Competências\nAo término deste curso o aluno estará apto a realizar análises estatı́sticas avançadas, simulações e estimativas confiáveis, além de resolver problemas práticos no campo da Estatı́stica utilizando abordagens computacionais.",
-    "crumbs": [
-      "Informações da disciplina",
-      "Ementa e objetivos"
-    ]
-  },
-  {
-    "objectID": "info/ementa.html#avaliação",
-    "href": "info/ementa.html#avaliação",
-    "title": "Estatística Computacional",
-    "section": "Avaliação",
-    "text": "Avaliação\nSerão realizadas três avaliações ao longo do semestre. As avaliações poderão ser provas, trabalhos ou outras atividades solicitadas pelo professor.",
-    "crumbs": [
-      "Informações da disciplina",
-      "Ementa e objetivos"
-    ]
-  },
-  {
-    "objectID": "info/softwares.html",
-    "href": "info/softwares.html",
+    "objectID": "info/cronograma.html",
+    "href": "info/cronograma.html",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "Para acompanhar as atividades da disciplina, será necessário instalar os softwares listados abaixo. Todos são gratuitos e amplamente utilizados nas áreas de Estatística e Ciência de Dados:\n\n\n\nR é um ambiente computacional gratuito voltado para análises estatísticas e produção de visualizações gráficas. Link\n\n\n\nO RStudio consiste em um ambiente de desenvolvimento integrado (IDE) projetado para aumentar a produtividade no uso da linguagem R, oferecendo ferramentas especializadas para programação, depuração e visualização de dados. Link\n\n\n\nQuarto é um sistema de publicação técnico-científica de código aberto que integra análise computacional (Python, R, Julia) e produção de documentos dinâmicos em múltiplos formatos (HTML, PDF, Word). Combina escrita em Markdown com recursos avançados para equações, citações e visualizações reprodutíveis. Link\n\n\n\nMiKTeX é uma distribuição moderna do sistema TeX/LaTeX para ambiente Windows, fornecendo um conjunto completo de ferramentas para editoração técnica e científica de alta qualidade. Link\n\n\n\nTeXstudio é um ambiente integrado de edição para documentos LaTeX, oferecendo recursos como realce de sintaxe, visualizador incorporado, verificação de referências e assistentes para facilitar a escrita. Link",
+    "text": "Cronograma de aulas de Estatística Computacional seguindo o calendário acadêmico do período 2025-1.\n\n\n\n\n\n\n\n\nAula\nData\nAssunto Previsto\n\n\n\n\n1\nTerça, 13 de maio de 2025\nRecepção dos alunos\n\n\n2\nQuinta, 15 de maio de 2025\nRecepção dos alunos\n\n\n3\nTerça, 20 de maio de 2025\nApresentação da disciplina\n\n\n4\nQuinta, 22 de maio de 2025\nIntrodução ao RStudio + GitHub\n\n\n5\nTerça, 27 de maio de 2025\nIntrodução ao LaTeX\n\n\n6\nQuinta, 29 de maio de 2025\nEstrutura básico do LaTeX\n\n\n7\nTerça, 03 de junho de 2025\nAmbiente matemático no LaTeX\n\n\n8\nQuinta, 05 de junho de 2025\nAmbiente matemático no LaTeX",
     "crumbs": [
       "Informações da disciplina",
-      "Softwares Necessários"
+      "Cronograma"
     ]
   },
   {
-    "objectID": "info/softwares.html#softwares-necessários",
-    "href": "info/softwares.html#softwares-necessários",
+    "objectID": "info/cronograma.html#cronograma-de-aulas",
+    "href": "info/cronograma.html#cronograma-de-aulas",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "Para acompanhar as atividades da disciplina, será necessário instalar os softwares listados abaixo. Todos são gratuitos e amplamente utilizados nas áreas de Estatística e Ciência de Dados:\n\n\n\nR é um ambiente computacional gratuito voltado para análises estatísticas e produção de visualizações gráficas. Link\n\n\n\nO RStudio consiste em um ambiente de desenvolvimento integrado (IDE) projetado para aumentar a produtividade no uso da linguagem R, oferecendo ferramentas especializadas para programação, depuração e visualização de dados. Link\n\n\n\nQuarto é um sistema de publicação técnico-científica de código aberto que integra análise computacional (Python, R, Julia) e produção de documentos dinâmicos em múltiplos formatos (HTML, PDF, Word). Combina escrita em Markdown com recursos avançados para equações, citações e visualizações reprodutíveis. Link\n\n\n\nMiKTeX é uma distribuição moderna do sistema TeX/LaTeX para ambiente Windows, fornecendo um conjunto completo de ferramentas para editoração técnica e científica de alta qualidade. Link\n\n\n\nTeXstudio é um ambiente integrado de edição para documentos LaTeX, oferecendo recursos como realce de sintaxe, visualizador incorporado, verificação de referências e assistentes para facilitar a escrita. Link",
+    "text": "Cronograma de aulas de Estatística Computacional seguindo o calendário acadêmico do período 2025-1.\n\n\n\n\n\n\n\n\nAula\nData\nAssunto Previsto\n\n\n\n\n1\nTerça, 13 de maio de 2025\nRecepção dos alunos\n\n\n2\nQuinta, 15 de maio de 2025\nRecepção dos alunos\n\n\n3\nTerça, 20 de maio de 2025\nApresentação da disciplina\n\n\n4\nQuinta, 22 de maio de 2025\nIntrodução ao RStudio + GitHub\n\n\n5\nTerça, 27 de maio de 2025\nIntrodução ao LaTeX\n\n\n6\nQuinta, 29 de maio de 2025\nEstrutura básico do LaTeX\n\n\n7\nTerça, 03 de junho de 2025\nAmbiente matemático no LaTeX\n\n\n8\nQuinta, 05 de junho de 2025\nAmbiente matemático no LaTeX",
     "crumbs": [
       "Informações da disciplina",
-      "Softwares Necessários"
+      "Cronograma"
     ]
   },
   {
-    "objectID": "info/bibliografia.html",
-    "href": "info/bibliografia.html",
+    "objectID": "info/dados_gerais.html",
+    "href": "info/dados_gerais.html",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "DE ALMEIDA, Pedro Quaresma. Introduçao ao LATEX. Escolar Editora, 1996.\nRUBINSTEIN, Reuven Y; KROESE, Dirk P. Simulation and Monte Carlo method. 2nd ed. New Jersey, Estados Unidos: Wiley-Interscience, 2008.\nDAVISON, A. C; HINKLEY, D. V. Bootstrap methods and their application. New York, Estados Unidos: Cambridge University Press, 1997.\nEFRON, Bradley; TIBSHIRANI, Robert. An introduction to the bootstrap. Boca Raton, Estados Unidos: Chapman & Hall/CRC, 1994.\nVERZANI, John. Using R for introductory statistics. Boca Raton, Estados Unidos: Chapman & Hall/CRC, 2005.\n\n\n\n\n\nRIZZO, Maria L. Statistical computing with R. CRC Press, 2019.\nGIVENS, Geof H.; HOETING, Jennifer A. Computational statistics. John Wiley & Sons, 2012.",
+    "text": "Componente curricular:\nESTAT0090 - Estatística Computacional\nDisciplina obrigatória para o curso de Estatística da Universidade Federal de Sergipe",
     "crumbs": [
       "Informações da disciplina",
-      "Bibliografia"
+      "Dados gerais"
     ]
   },
   {
-    "objectID": "info/bibliografia.html#bibliografia",
-    "href": "info/bibliografia.html#bibliografia",
+    "objectID": "info/dados_gerais.html#dados-gerais-da-disciplina",
+    "href": "info/dados_gerais.html#dados-gerais-da-disciplina",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "DE ALMEIDA, Pedro Quaresma. Introduçao ao LATEX. Escolar Editora, 1996.\nRUBINSTEIN, Reuven Y; KROESE, Dirk P. Simulation and Monte Carlo method. 2nd ed. New Jersey, Estados Unidos: Wiley-Interscience, 2008.\nDAVISON, A. C; HINKLEY, D. V. Bootstrap methods and their application. New York, Estados Unidos: Cambridge University Press, 1997.\nEFRON, Bradley; TIBSHIRANI, Robert. An introduction to the bootstrap. Boca Raton, Estados Unidos: Chapman & Hall/CRC, 1994.\nVERZANI, John. Using R for introductory statistics. Boca Raton, Estados Unidos: Chapman & Hall/CRC, 2005.\n\n\n\n\n\nRIZZO, Maria L. Statistical computing with R. CRC Press, 2019.\nGIVENS, Geof H.; HOETING, Jennifer A. Computational statistics. John Wiley & Sons, 2012.",
+    "text": "Componente curricular:\nESTAT0090 - Estatística Computacional\nDisciplina obrigatória para o curso de Estatística da Universidade Federal de Sergipe",
     "crumbs": [
       "Informações da disciplina",
-      "Bibliografia"
+      "Dados gerais"
     ]
   },
   {
-    "objectID": "conteudos/1-Apresentacao_da_disciplina.html",
-    "href": "conteudos/1-Apresentacao_da_disciplina.html",
-    "title": "Conteúdo 1",
+    "objectID": "info/dados_gerais.html#informações-da-disciplina",
+    "href": "info/dados_gerais.html#informações-da-disciplina",
+    "title": "Estatística Computacional",
+    "section": "Informações da Disciplina",
+    "text": "Informações da Disciplina\n\nCarga Horária: 60 horas (4 créditos)\nUnidade Responsável: Departamento de Estatística e Ciências Atuariais (DECAT)\nDocente Responsável: Prof. Dr. Sadraque E. F. Lucena\nPeríodo Letivo: 2025-1",
+    "crumbs": [
+      "Informações da disciplina",
+      "Dados gerais"
+    ]
+  },
+  {
+    "objectID": "info/dados_gerais.html#horários-das-aulas",
+    "href": "info/dados_gerais.html#horários-das-aulas",
+    "title": "Estatística Computacional",
+    "section": "Horários das Aulas",
+    "text": "Horários das Aulas\nAs aulas ocorrerão nos seguintes horários:\n\nTerças: 19h00 às 20h30\nQuintas: 20h45 às 22h15\n\nLocal: Laboratório de Estatística (DECAT)",
+    "crumbs": [
+      "Informações da disciplina",
+      "Dados gerais"
+    ]
+  },
+  {
+    "objectID": "info/dados_gerais.html#avaliações",
+    "href": "info/dados_gerais.html#avaliações",
+    "title": "Estatística Computacional",
+    "section": "Avaliações",
+    "text": "Avaliações\nA disciplina contará com 3 avaliações distribuídas ao longo do semestre.",
+    "crumbs": [
+      "Informações da disciplina",
+      "Dados gerais"
+    ]
+  },
+  {
+    "objectID": "conteudos/2-Introducao_ao_RStudio+GitHub.html",
+    "href": "conteudos/2-Introducao_ao_RStudio+GitHub.html",
+    "title": "Conteúdo 2",
     "section": "",
-    "text": "Como garantir que um trabalho estatístico seja organizado, reproduzível e protegido contra erros? A aula parte desse problema para apresentar o ambiente RStudio e as ferramentas Git e GitHub. A atividade será vivenciada de forma prática, onde será necessário versionar projetos e colaborar com colegas. Ao longo da aula, será possível aprender a integrar o RStudio com o Git e a criar repositórios no GitHub, desenvolvendo habilidades essenciais para o mercado de trabalho em Estatística e Ciência de Dados.\nSlides:\n\nVersão html\nVersão pdf",
+    "text": "Como garantir que um trabalho estatístico seja organizado, reproduzível e protegido contra erros? A aula parte desse problema para apresentar o ambiente RStudio e as ferramentas Git e GitHub. A atividade será vivenciada de forma prática, onde será necessário versionar projetos e colaborar com colegas. Ao longo da aula, será possível aprender a integrar o RStudio com o Git e a criar repositórios no GitHub, desenvolvendo habilidades essenciais para o mercado de trabalho em Estatística e Ciência de Dados.\n\nVersão html\nVersão pdf",
     "crumbs": [
       "Material das aulas",
-      "1- Apresentação da Disciplina"
+      "2- Introdução ao RStudio + GitHub"
     ]
   },
   {
-    "objectID": "conteudos/1-Apresentacao_da_disciplina.html#apresentação-da-disciplina",
-    "href": "conteudos/1-Apresentacao_da_disciplina.html#apresentação-da-disciplina",
-    "title": "Conteúdo 1",
+    "objectID": "conteudos/2-Introducao_ao_RStudio+GitHub.html#introdução-ao-rstudio-github",
+    "href": "conteudos/2-Introducao_ao_RStudio+GitHub.html#introdução-ao-rstudio-github",
+    "title": "Conteúdo 2",
     "section": "",
-    "text": "Como garantir que um trabalho estatístico seja organizado, reproduzível e protegido contra erros? A aula parte desse problema para apresentar o ambiente RStudio e as ferramentas Git e GitHub. A atividade será vivenciada de forma prática, onde será necessário versionar projetos e colaborar com colegas. Ao longo da aula, será possível aprender a integrar o RStudio com o Git e a criar repositórios no GitHub, desenvolvendo habilidades essenciais para o mercado de trabalho em Estatística e Ciência de Dados.\nSlides:\n\nVersão html\nVersão pdf",
+    "text": "Como garantir que um trabalho estatístico seja organizado, reproduzível e protegido contra erros? A aula parte desse problema para apresentar o ambiente RStudio e as ferramentas Git e GitHub. A atividade será vivenciada de forma prática, onde será necessário versionar projetos e colaborar com colegas. Ao longo da aula, será possível aprender a integrar o RStudio com o Git e a criar repositórios no GitHub, desenvolvendo habilidades essenciais para o mercado de trabalho em Estatística e Ciência de Dados.\n\nVersão html\nVersão pdf",
     "crumbs": [
       "Material das aulas",
-      "1- Apresentação da Disciplina"
+      "2- Introdução ao RStudio + GitHub"
     ]
   },
   {
-    "objectID": "conteudos/4-Estrutura_Basica_LaTeX.html",
-    "href": "conteudos/4-Estrutura_Basica_LaTeX.html",
+    "objectID": "conteudos/3-Introducao_ao_LaTeX.html",
+    "href": "conteudos/3-Introducao_ao_LaTeX.html",
+    "title": "Conteúdo 3",
+    "section": "",
+    "text": "Como criar documentos científicos bem formatados, padronizados e prontos para publicação? Esta aula parte dessa questão para apresentar o LaTeX, uma linguagem de marcação voltada à produção de textos técnicos e acadêmicos. A atividade será conduzida de maneira prática, com foco no aprendizado dos comandos básicos de formatação, controle do tamanho da fonte e uso de cores no texto. Ao longo da aula, será possível experimentar o poder do LaTeX para organizar e apresentar conteúdos de forma profissional, desenvolvendo uma habilidade fundamental para a produção de relatórios, artigos e trabalhos em Estatística e Ciência de Dados.\nSlides:\n\nVersão html\nVersão pdf\n\n\n\n\nReproduza em LaTeX o arquivo 03-Introducao_ao_LaTeX_Atv01.pdf.\nAlgumas configurações utilizadas:\n\ntamanho da fonte geral: 11pt\ncores: blue e red\ntamanho da fonte \\scriptsize e \\Large em algumas frases",
+    "crumbs": [
+      "Material das aulas",
+      "3- Introdução ao LaTeX"
+    ]
+  },
+  {
+    "objectID": "conteudos/3-Introducao_ao_LaTeX.html#introdução-ao-latex",
+    "href": "conteudos/3-Introducao_ao_LaTeX.html#introdução-ao-latex",
+    "title": "Conteúdo 3",
+    "section": "",
+    "text": "Como criar documentos científicos bem formatados, padronizados e prontos para publicação? Esta aula parte dessa questão para apresentar o LaTeX, uma linguagem de marcação voltada à produção de textos técnicos e acadêmicos. A atividade será conduzida de maneira prática, com foco no aprendizado dos comandos básicos de formatação, controle do tamanho da fonte e uso de cores no texto. Ao longo da aula, será possível experimentar o poder do LaTeX para organizar e apresentar conteúdos de forma profissional, desenvolvendo uma habilidade fundamental para a produção de relatórios, artigos e trabalhos em Estatística e Ciência de Dados.\nSlides:\n\nVersão html\nVersão pdf",
+    "crumbs": [
+      "Material das aulas",
+      "3- Introdução ao LaTeX"
+    ]
+  },
+  {
+    "objectID": "conteudos/3-Introducao_ao_LaTeX.html#atividade",
+    "href": "conteudos/3-Introducao_ao_LaTeX.html#atividade",
+    "title": "Conteúdo 3",
+    "section": "",
+    "text": "Reproduza em LaTeX o arquivo 03-Introducao_ao_LaTeX_Atv01.pdf.\nAlgumas configurações utilizadas:\n\ntamanho da fonte geral: 11pt\ncores: blue e red\ntamanho da fonte \\scriptsize e \\Large em algumas frases",
+    "crumbs": [
+      "Material das aulas",
+      "3- Introdução ao LaTeX"
+    ]
+  },
+  {
+    "objectID": "conteudos/6-Tabelas-Figuras-Outros-Recursos-LaTeX.html",
+    "href": "conteudos/6-Tabelas-Figuras-Outros-Recursos-LaTeX.html",
     "title": "Conteúdo 4",
     "section": "",
-    "text": "Dando continuidade à aula sobre LaTeX, vamos explorar como organizar um relatório técnico de forma a facilitar a leitura e a navegação. Para isso, utilizaremos recursos que garantem a consistência e a clareza do documento, como a definição adequada de resumo, seções, subseções e parágrafos. O objetivo é resolver problemas comuns que podem prejudicar a apresentação do conteúdo, como formatação inconsistente, numeração errada e alinhamento irregular, através de comandos simples e eficazes no LaTeX. Além disso, abordaremos como incluir notas de rodapé, notas na margem e criar listas numeradas e não numeradas, tornando o relatório mais profissional e alinhado com as normas acadêmicas.\nSlides:\n\nVersão html\nVersão pdf\n\n\n\n\nReproduza em LaTeX o arquivo 04-Estrutura-Basica-LaTeX_Atv01.pdf.",
+    "text": "Nesta aula, exploramos o potencial do LaTeX como uma ferramenta robusta para a comunicação de dados, especialmente por meio de tabelas, figuras e elementos visuais cuidadosamente formatados. Demonstramos também como o LaTeX automatiza processos como numeração, posicionamento e formatação, promovendo precisão, clareza e rigor estético na apresentação das informações.\nSlides:\n\nVersão html\nVersão pdf\n\n\n\n\nReproduza em LaTeX o arquivo 06-Tabelas-Figuras-Outros-Recursos-LaTeX_Atv01.pdf.",
     "crumbs": [
       "Material das aulas",
-      "4- Estrutura Básica do LaTeX"
+      "6- Tabelas, Figuras e Outros Recursos no LaTeX"
     ]
   },
   {
-    "objectID": "conteudos/4-Estrutura_Basica_LaTeX.html#estrutura-básica-do-latex",
-    "href": "conteudos/4-Estrutura_Basica_LaTeX.html#estrutura-básica-do-latex",
+    "objectID": "conteudos/6-Tabelas-Figuras-Outros-Recursos-LaTeX.html#estrutura-básica-do-latex",
+    "href": "conteudos/6-Tabelas-Figuras-Outros-Recursos-LaTeX.html#estrutura-básica-do-latex",
     "title": "Conteúdo 4",
     "section": "",
-    "text": "Dando continuidade à aula sobre LaTeX, vamos explorar como organizar um relatório técnico de forma a facilitar a leitura e a navegação. Para isso, utilizaremos recursos que garantem a consistência e a clareza do documento, como a definição adequada de resumo, seções, subseções e parágrafos. O objetivo é resolver problemas comuns que podem prejudicar a apresentação do conteúdo, como formatação inconsistente, numeração errada e alinhamento irregular, através de comandos simples e eficazes no LaTeX. Além disso, abordaremos como incluir notas de rodapé, notas na margem e criar listas numeradas e não numeradas, tornando o relatório mais profissional e alinhado com as normas acadêmicas.\nSlides:\n\nVersão html\nVersão pdf",
+    "text": "Nesta aula, exploramos o potencial do LaTeX como uma ferramenta robusta para a comunicação de dados, especialmente por meio de tabelas, figuras e elementos visuais cuidadosamente formatados. Demonstramos também como o LaTeX automatiza processos como numeração, posicionamento e formatação, promovendo precisão, clareza e rigor estético na apresentação das informações.\nSlides:\n\nVersão html\nVersão pdf",
     "crumbs": [
       "Material das aulas",
-      "4- Estrutura Básica do LaTeX"
+      "6- Tabelas, Figuras e Outros Recursos no LaTeX"
     ]
   },
   {
-    "objectID": "conteudos/4-Estrutura_Basica_LaTeX.html#atividade",
-    "href": "conteudos/4-Estrutura_Basica_LaTeX.html#atividade",
+    "objectID": "conteudos/6-Tabelas-Figuras-Outros-Recursos-LaTeX.html#atividade",
+    "href": "conteudos/6-Tabelas-Figuras-Outros-Recursos-LaTeX.html#atividade",
     "title": "Conteúdo 4",
     "section": "",
-    "text": "Reproduza em LaTeX o arquivo 04-Estrutura-Basica-LaTeX_Atv01.pdf.",
+    "text": "Reproduza em LaTeX o arquivo 06-Tabelas-Figuras-Outros-Recursos-LaTeX_Atv01.pdf.",
     "crumbs": [
       "Material das aulas",
-      "4- Estrutura Básica do LaTeX"
+      "6- Tabelas, Figuras e Outros Recursos no LaTeX"
     ]
   }
 ]
