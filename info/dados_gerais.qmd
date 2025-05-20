@@ -19,6 +19,7 @@ format:
 - **Unidade Responsável:** Departamento de Estatística e Ciências Atuariais (DECAT)
 - **Docente Responsável:** Prof. Dr. Sadraque E. F. Lucena
 - **Período Letivo:** 2025-1
+- **Plano de Ensino da Disciplina:**  [pdf](/PDF_slides/plano_de_ensino_estatistica_computacional.pdf){target="_blank"}
 
 
 ## Horários das Aulas
@@ -33,4 +34,15 @@ As aulas ocorrerão nos seguintes horários:
 
 ## Avaliações
 
-A disciplina contará com **3 avaliações** distribuídas ao longo do semestre.
+A disciplina contará com **3 avaliações** distribuídas ao longo do semestre nas seguintes datas:
+
+- **Avaliação 1:** 17/06/2025 (terça)
+- **Avaliação 2:** 29/07/2025 (terça)
+- **Avaliação 3:** 02/09/2025 (terça)
+
+
+## Não haverá aula
+
+- **19/06/2025:** Corpus Christi (ponto facultativo)
+- **24/06/2025:** Sâo João (feriado municipal)
+- **08/07/2025:** Independência de Sergipe (feriado estadual)

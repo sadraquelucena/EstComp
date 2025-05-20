@@ -1440,7 +1440,7 @@
     "href": "info/dados_gerais.html#informações-da-disciplina",
     "title": "Estatística Computacional",
     "section": "Informações da Disciplina",
-    "text": "Informações da Disciplina\n\nCarga Horária: 60 horas (4 créditos)\nUnidade Responsável: Departamento de Estatística e Ciências Atuariais (DECAT)\nDocente Responsável: Prof. Dr. Sadraque E. F. Lucena\nPeríodo Letivo: 2025-1",
+    "text": "Informações da Disciplina\n\nCarga Horária: 60 horas (4 créditos)\nUnidade Responsável: Departamento de Estatística e Ciências Atuariais (DECAT)\nDocente Responsável: Prof. Dr. Sadraque E. F. Lucena\nPeríodo Letivo: 2025-1\nPlano de Ensino da Disciplina: pdf",
     "crumbs": [
       "Informações da disciplina",
       "Dados gerais"
@@ -1462,7 +1462,18 @@
     "href": "info/dados_gerais.html#avaliações",
     "title": "Estatística Computacional",
     "section": "Avaliações",
-    "text": "Avaliações\nA disciplina contará com 3 avaliações distribuídas ao longo do semestre.",
+    "text": "Avaliações\nA disciplina contará com 3 avaliações distribuídas ao longo do semestre nas seguintes datas:\n\nAvaliação 1: 17/06/2025 (terça)\nAvaliação 2: 29/07/2025 (terça)\nAvaliação 3: 02/09/2025 (terça)",
+    "crumbs": [
+      "Informações da disciplina",
+      "Dados gerais"
+    ]
+  },
+  {
+    "objectID": "info/dados_gerais.html#não-haverá-aula",
+    "href": "info/dados_gerais.html#não-haverá-aula",
+    "title": "Estatística Computacional",
+    "section": "Não haverá aula",
+    "text": "Não haverá aula\n\n19/06/2025: Corpus Christi (ponto facultativo)\n24/06/2025: Sâo João (feriado municipal)\n08/07/2025: Independência de Sergipe (feriado estadual)",
     "crumbs": [
       "Informações da disciplina",
       "Dados gerais"
