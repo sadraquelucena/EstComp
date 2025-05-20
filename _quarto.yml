@@ -39,7 +39,7 @@ website:
       - href: conteudos/5-Ambiente_Matematico_LaTeX.qmd
         text: "5- Ambiente Matemático no LaTeX"
       - href: conteudos/6-Tabelas-Figuras-Outros-Recursos-LaTeX.qmd
-        text: "6- Tabelas, Figuras e Outros Recursos no LaTeX"
+        text: "6- Tabelas, Figuras e Outros Recursos em LaTeX"
 
 format:
   html:

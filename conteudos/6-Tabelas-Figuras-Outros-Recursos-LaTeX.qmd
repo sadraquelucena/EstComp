@@ -6,9 +6,9 @@ format:
     anchor-sections: false
 ---
 
-# Conteúdo 4
+# Conteúdo 6
 
-## Estrutura Básica do LaTeX
+## Tabelas, Figuras e Outros Recursos em LaTeX
 
 Nesta aula, exploramos o potencial do LaTeX como uma ferramenta robusta para a comunicação de dados, especialmente por meio de tabelas, figuras e elementos visuais cuidadosamente formatados. Demonstramos também como o LaTeX automatiza processos como numeração, posicionamento e formatação, promovendo precisão, clareza e rigor estético na apresentação das informações.
 
