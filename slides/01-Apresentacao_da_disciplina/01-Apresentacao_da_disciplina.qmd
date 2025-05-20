@@ -1,0 +1,273 @@
+---
+title: "Apresentação da Disciplina"
+subtitle: "ESTAT0090 -- Estatística Computational"
+author:
+  name: | # indica que o campo name terá múltiplas linhas
+    Prof. Dr. Sadraque E. F. Lucena<br>
+    <span style="font-size:.8em;">sadraquelucena@academico.ufs.br</span>
+  
+format:
+  revealjs:
+    theme: meutema.scss
+    width: 1024
+    height: 768
+    margin: 0.1         # margem em torno do conteúdo
+    min-scale: 0.2       # escala mínima permitida
+    max-scale: 2.0       # escala máxima permitida
+    slide-number: true
+    code-line-numbers: false # sem numero das linhas nos code chunks
+    subtitle-style: "font-size: 2em; font-weight: bold;"  # Aqui é onde aumentamos o subtítulo
+    logo: imagens/ufs_horizontal_positiva.png
+    transition: fade
+    transition-speed: fast
+    scss: meutema.scss
+
+lang: pt-BR
+---
+
+##
+
+- Material da disciplina: <https://sadraquelucena.github.io/EstComp/>
+- Grupo no WhatsApp: <http://tiny.cc/EstCompWpp>
+
+
+![](imagens/WhatsApp.jpeg){fig-align="center"}
+
+
+
+
+## Informações da disciplina
+
+- **Componente curricular:** ESTAT0090 -- Estatística Computacional
+- **Período:** 7º semestre
+- **Carga horária:** 60 horas (4 créditos)
+- **Horário:**
+  - Terças - 19h00 às 20h30
+  - Quintas - 20h45 às 22h15
+- **Docente:** Prof. Dr. Sadraque E. F. Lucena
+
+
+## Objetivos
+
+- Aplicar métodos de simulação, como Monte Carlo e Bootstrap, na resolução de problemas estatísticos.
+
+- Utilizar ferramentas computacionais (R, LaTeX, Quarto e GitHub) para realizar análises estatísticas avançadas e criar relatórios reprodutíveis.
+
+- Criar documentos de alta qualidade com notação matemática precisa, formatação profissional e relatórios interativos, utilizando LaTeX e Quarto.
+
+- Desenvolver um portfólio online profissional, utilizando GitHub Pages, para documentar e compartilhar projetos, simulações e resultados de análises.
+
+
+## Ementa
+
+- Editor de textos <img src="imagens/latexicon.png" style="width: 100px; vertical-align: middle; margin-left: 0px; margin-top: 0px;" />.
+- Estruturas de repetições e funções no *software* R.
+- Geração de Variáveis Aleatórias.
+- Método de Monte Carlo.
+- *Bootstrap*.
+
+
+
+
+## Editor de textos <img src="imagens/latexicon.png" style="width: 150px; vertical-align: middle; margin-left: 0px; margin-top: 11px;" />
+
+- LaTeX é o padrão para documentos acadêmicos e científicos (artigos, teses, relatórios técnicos).
+
+- Oferece formatação profissional automática, especialmente para fórmulas matemáticas.
+
+- Facilita a colaboração e a padronização em projetos.
+
+
+
+
+## Estruturas de repetições e funções no *software* R
+
+- Automatiza tarefas repetitivas (ex.: simulações, análises de dados).
+
+    - **Automatizar limpeza de dados:** aplicar a mesma transformação em 100 arquivos de clientes.
+
+    - **Simular cenários:** testar 1.000 combinações de hiperparâmetros para um modelo de ML.
+
+    - **Criar funções personalizadas:** calcular métricas de negócio específicas (ex.: Lifetime Value de usuários).
+
+
+
+
+## Geração de Variáveis Aleatórias
+
+- **Testar modelos** sob diferentes distribuições (ex.: simular falhas em equipamentos com distribuição Poisson).
+
+- **Gerar dados sintéticos** para treinar modelos quando os dados reais são escassos (ex.: dados médicos anônimos).
+
+- **Prever cenários extremos** (ex.: perdas financeiras usando distribuição Pareto).
+
+- Exemplo:
+
+    - Simular tempos de atendimento em um call center com distribuição exponencial para otimizar escalas.
+
+
+
+
+## Método de Monte Carlo
+
+- **Avaliar risco financeiro:** calcular o Value at Risk (VaR) de uma carteira de investimentos.
+
+- **Otimizar recursos:** estimar o número ideal de caixas em um supermercado para minimizar filas.
+
+- **Calibrar modelos complexos:** inferir parâmetros em epidemilogia (ex.: propagação de uma doença).
+
+- Exemplo:
+
+    - Simular 10.000 cenários de preços de ações para decidir se um derivativo é viável.
+
+
+
+
+## *Bootstrap*
+
+- **Validar modelos** quando a distribuição é desconhecida (ex.: intervalos de confiança para árvores de decisão).
+
+- **Comparar algoritmos:** testar se a diferença entre dois modelos de ML é significativa.
+
+- **Estimar incerteza** em métricas de negócio (ex.: margem de erro da receita prevista).
+
+- Exemplo:
+
+    - Usar bootstrap para estimar a variação do ROI de uma campanha de marketing com dados limitados.
+
+
+
+## Conteúdo programático
+
+1. LaTeX
+
+    1.1. Introdução ao LATEX.
+    
+    1.2. Partes de um documento: Títulos, sumários, cabeçalho e rodapés.
+    
+    1.3. Fórmulas diversas, estrutura de um texto.
+    
+    1.4. Matrizes e equações alinhadas.
+    
+    1.5. Tabelas e Imagens. Bibtex. Criação de apresentações e pôster
+
+
+
+
+## Conteúdo programático
+
+2. Técnicas de Geração de Números Aleatórios
+
+    2.1. Gerador de números aleatórios.
+    
+    2.2. Método da Transformada inversa.
+    
+    2.3. Método da Aceitação-Rejeição.
+    
+    2.4. Outros métodos de geração de v.a's
+
+
+
+
+## Conteúdo programático
+
+3. Simulação, Testes e Reamostragem
+
+    3.1. Métodos de Simulação.
+    
+    3.2. Método de Monte Carlo.
+    
+    3.3. Testes de hipóteses e erros.
+
+    3.4. Viés e Erro quadrático médio.
+    
+    3.5. Métodos de Reamostragem: Bootstrap e Jackknife.
+
+
+
+
+## Bibliografia Recomendada
+
+::: {.columns}
+::: {.column width="33%"}
+![](imagens/quaresma.jpg)
+:::
+::: {.column width="33%"}
+![](imagens/RUBINSTEIN.jpg)
+:::
+::: {.column width="33%"}
+![](imagens/DAVISON.jpg)
+:::
+:::
+
+
+
+
+## Bibliografia Recomendada
+
+::: {.columns}
+::: {.column width="33%"}
+![](imagens/efron.jpg)
+:::
+::: {.column width="33%"}
+![](imagens/VERZANI.jpg)
+:::
+::: {.column width="33%"}
+
+:::
+:::
+
+
+## Metodologia
+
+- 2 encontros semanais, com 90 minutos de aula presencial cada
+- 30 minutos de atividades extraclasse (hora-trabalho) para cada aula, indicadas pelo docente
+- Aulas organizadas com base em Aprendizado Baseado em Problemas (PBL)
+- Ênfase em situações reais da prática profissional em Estatística
+
+
+## Ferramentas que iremos usar
+
+- R + RStudio
+- Quarto
+- LaTeX
+- GitHub e GitHub Pages
+
+## Datas Importantes
+
+### Avaliações
+
+- **Avaliação 1:** 17/06/2025 (terça)
+- **Avaliação 2:** 29/07/2025 (quinta)
+- **Avaliação 3:** 26/08/2025 (quinta)
+- **Avaliação Repositiva:** 02/09/2025 (terça)
+
+
+### Não haverá aula
+
+- **19/06/2025:** Corpus Christi (ponto facultativo)
+- **24/06/2025:** Sâo João (feriado municipal)
+- **08/07/2025:** Independência de Sergipe (feriado estadual)
+
+
+
+## Para a pŕoxima aula...
+
+- Criar uma conta no <img src="imagens/github-logo.png" style="width: 160px; vertical-align: middle; margin-left: 8px; margin-top: -5px;" />: <https://github.com/>
+- Instale na sua máquina:
+
+::: {.columns}
+::: {.column width="33%"}
+<img src="imagens/git-logo.png" style="width: 300px; vertical-align: middle; margin-left: 10px; margin-top: 20px;" />
+:::
+::: {.column width="33%"}
+<img src="imagens/R_logo.png" style="width: 200px; vertical-align: middle; margin-left: 60px; margin-top: 0px;" />
+:::
+::: {.column width="33%"}
+<img src="imagens/rstudio-logo.svg" style="width: 300px; vertical-align: middle; margin-left: 10px; margin-top: 30px;" />
+:::
+:::
+
+
+
+# Fim

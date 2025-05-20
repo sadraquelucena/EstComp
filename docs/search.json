@@ -59,7 +59,7 @@
     "href": "conteudos/1-Apresentacao_da_disciplina.html",
     "title": "Conteúdo 1",
     "section": "",
-    "text": "Como garantir que um trabalho estatístico seja organizado, reproduzível e protegido contra erros? A aula parte desse problema para apresentar o ambiente RStudio e as ferramentas Git e GitHub. A atividade será vivenciada de forma prática, onde será necessário versionar projetos e colaborar com colegas. Ao longo da aula, será possível aprender a integrar o RStudio com o Git e a criar repositórios no GitHub, desenvolvendo habilidades essenciais para o mercado de trabalho em Estatística e Ciência de Dados.\nSlides:\n\nVersão html\nVersão pdf",
+    "text": "Neste primeiro encontro, vamos apresentar os objetivos da disciplina, a forma como as aulas serão conduzidas, os temas que vamos explorar e como será a avaliação ao longo do semestre. Também vamos conversar sobre o papel da Estatística Computacional na formação em Estatísica e Ciência de Dados, bem como sua importância no mundo do trabalho.\nA proposta do componente é dinâmica e baseada em resolução de problemas reais, com atividades que estimulam a autonomia, a criatividade e o uso prático das ferramentas computacionais.\nSlides:\n\nVersão html\nVersão pdf",
     "crumbs": [
       "Material das aulas",
       "1- Apresentação da Disciplina"
@@ -70,7 +70,7 @@
     "href": "conteudos/1-Apresentacao_da_disciplina.html#apresentação-da-disciplina",
     "title": "Conteúdo 1",
     "section": "",
-    "text": "Como garantir que um trabalho estatístico seja organizado, reproduzível e protegido contra erros? A aula parte desse problema para apresentar o ambiente RStudio e as ferramentas Git e GitHub. A atividade será vivenciada de forma prática, onde será necessário versionar projetos e colaborar com colegas. Ao longo da aula, será possível aprender a integrar o RStudio com o Git e a criar repositórios no GitHub, desenvolvendo habilidades essenciais para o mercado de trabalho em Estatística e Ciência de Dados.\nSlides:\n\nVersão html\nVersão pdf",
+    "text": "Neste primeiro encontro, vamos apresentar os objetivos da disciplina, a forma como as aulas serão conduzidas, os temas que vamos explorar e como será a avaliação ao longo do semestre. Também vamos conversar sobre o papel da Estatística Computacional na formação em Estatísica e Ciência de Dados, bem como sua importância no mundo do trabalho.\nA proposta do componente é dinâmica e baseada em resolução de problemas reais, com atividades que estimulam a autonomia, a criatividade e o uso prático das ferramentas computacionais.\nSlides:\n\nVersão html\nVersão pdf",
     "crumbs": [
       "Material das aulas",
       "1- Apresentação da Disciplina"
@@ -598,6 +598,132 @@
     "title": "Como organizar um relatório técnico que facilite a leitura e a navegação?",
     "section": "Atividade extraclasse",
     "text": "Atividade extraclasse\nReproduza o arquivo 04-Estrutura-Basica-LaTeX_Atv01.pdf."
+  },
+  {
+    "objectID": "slides/01-Apresentacao_da_disciplina/01-Apresentacao_da_disciplina.html#section",
+    "href": "slides/01-Apresentacao_da_disciplina/01-Apresentacao_da_disciplina.html#section",
+    "title": "Apresentação da Disciplina",
+    "section": "",
+    "text": "Material da disciplina: https://sadraquelucena.github.io/EstComp/\nGrupo no WhatsApp: http://tiny.cc/EstCompWpp"
+  },
+  {
+    "objectID": "slides/01-Apresentacao_da_disciplina/01-Apresentacao_da_disciplina.html#informações-da-disciplina",
+    "href": "slides/01-Apresentacao_da_disciplina/01-Apresentacao_da_disciplina.html#informações-da-disciplina",
+    "title": "Apresentação da Disciplina",
+    "section": "Informações da disciplina",
+    "text": "Informações da disciplina\n\nComponente curricular: ESTAT0090 – Estatística Computacional\nPeríodo: 7º semestre\nCarga horária: 60 horas (4 créditos)\nHorário:\n\nTerças - 19h00 às 20h30\nQuintas - 20h45 às 22h15\n\nDocente: Prof. Dr. Sadraque E. F. Lucena"
+  },
+  {
+    "objectID": "slides/01-Apresentacao_da_disciplina/01-Apresentacao_da_disciplina.html#objetivos",
+    "href": "slides/01-Apresentacao_da_disciplina/01-Apresentacao_da_disciplina.html#objetivos",
+    "title": "Apresentação da Disciplina",
+    "section": "Objetivos",
+    "text": "Objetivos\n\nAplicar métodos de simulação, como Monte Carlo e Bootstrap, na resolução de problemas estatísticos.\nUtilizar ferramentas computacionais (R, LaTeX, Quarto e GitHub) para realizar análises estatísticas avançadas e criar relatórios reprodutíveis.\nCriar documentos de alta qualidade com notação matemática precisa, formatação profissional e relatórios interativos, utilizando LaTeX e Quarto.\nDesenvolver um portfólio online profissional, utilizando GitHub Pages, para documentar e compartilhar projetos, simulações e resultados de análises."
+  },
+  {
+    "objectID": "slides/01-Apresentacao_da_disciplina/01-Apresentacao_da_disciplina.html#ementa",
+    "href": "slides/01-Apresentacao_da_disciplina/01-Apresentacao_da_disciplina.html#ementa",
+    "title": "Apresentação da Disciplina",
+    "section": "Ementa",
+    "text": "Ementa\n\nEditor de textos .\nEstruturas de repetições e funções no software R.\nGeração de Variáveis Aleatórias.\nMétodo de Monte Carlo.\nBootstrap."
+  },
+  {
+    "objectID": "slides/01-Apresentacao_da_disciplina/01-Apresentacao_da_disciplina.html#editor-de-textos",
+    "href": "slides/01-Apresentacao_da_disciplina/01-Apresentacao_da_disciplina.html#editor-de-textos",
+    "title": "Apresentação da Disciplina",
+    "section": "Editor de textos ",
+    "text": "Editor de textos \n\nLaTeX é o padrão para documentos acadêmicos e científicos (artigos, teses, relatórios técnicos).\nOferece formatação profissional automática, especialmente para fórmulas matemáticas.\nFacilita a colaboração e a padronização em projetos."
+  },
+  {
+    "objectID": "slides/01-Apresentacao_da_disciplina/01-Apresentacao_da_disciplina.html#estruturas-de-repetições-e-funções-no-software-r",
+    "href": "slides/01-Apresentacao_da_disciplina/01-Apresentacao_da_disciplina.html#estruturas-de-repetições-e-funções-no-software-r",
+    "title": "Apresentação da Disciplina",
+    "section": "Estruturas de repetições e funções no software R",
+    "text": "Estruturas de repetições e funções no software R\n\nAutomatiza tarefas repetitivas (ex.: simulações, análises de dados).\n\nAutomatizar limpeza de dados: aplicar a mesma transformação em 100 arquivos de clientes.\nSimular cenários: testar 1.000 combinações de hiperparâmetros para um modelo de ML.\nCriar funções personalizadas: calcular métricas de negócio específicas (ex.: Lifetime Value de usuários)."
+  },
+  {
+    "objectID": "slides/01-Apresentacao_da_disciplina/01-Apresentacao_da_disciplina.html#geração-de-variáveis-aleatórias",
+    "href": "slides/01-Apresentacao_da_disciplina/01-Apresentacao_da_disciplina.html#geração-de-variáveis-aleatórias",
+    "title": "Apresentação da Disciplina",
+    "section": "Geração de Variáveis Aleatórias",
+    "text": "Geração de Variáveis Aleatórias\n\nTestar modelos sob diferentes distribuições (ex.: simular falhas em equipamentos com distribuição Poisson).\nGerar dados sintéticos para treinar modelos quando os dados reais são escassos (ex.: dados médicos anônimos).\nPrever cenários extremos (ex.: perdas financeiras usando distribuição Pareto).\nExemplo:\n\nSimular tempos de atendimento em um call center com distribuição exponencial para otimizar escalas."
+  },
+  {
+    "objectID": "slides/01-Apresentacao_da_disciplina/01-Apresentacao_da_disciplina.html#método-de-monte-carlo",
+    "href": "slides/01-Apresentacao_da_disciplina/01-Apresentacao_da_disciplina.html#método-de-monte-carlo",
+    "title": "Apresentação da Disciplina",
+    "section": "Método de Monte Carlo",
+    "text": "Método de Monte Carlo\n\nAvaliar risco financeiro: calcular o Value at Risk (VaR) de uma carteira de investimentos.\nOtimizar recursos: estimar o número ideal de caixas em um supermercado para minimizar filas.\nCalibrar modelos complexos: inferir parâmetros em epidemilogia (ex.: propagação de uma doença).\nExemplo:\n\nSimular 10.000 cenários de preços de ações para decidir se um derivativo é viável."
+  },
+  {
+    "objectID": "slides/01-Apresentacao_da_disciplina/01-Apresentacao_da_disciplina.html#bootstrap",
+    "href": "slides/01-Apresentacao_da_disciplina/01-Apresentacao_da_disciplina.html#bootstrap",
+    "title": "Apresentação da Disciplina",
+    "section": "Bootstrap",
+    "text": "Bootstrap\n\nValidar modelos quando a distribuição é desconhecida (ex.: intervalos de confiança para árvores de decisão).\nComparar algoritmos: testar se a diferença entre dois modelos de ML é significativa.\nEstimar incerteza em métricas de negócio (ex.: margem de erro da receita prevista).\nExemplo:\n\nUsar bootstrap para estimar a variação do ROI de uma campanha de marketing com dados limitados."
+  },
+  {
+    "objectID": "slides/01-Apresentacao_da_disciplina/01-Apresentacao_da_disciplina.html#conteúdo-programático",
+    "href": "slides/01-Apresentacao_da_disciplina/01-Apresentacao_da_disciplina.html#conteúdo-programático",
+    "title": "Apresentação da Disciplina",
+    "section": "Conteúdo programático",
+    "text": "Conteúdo programático\n\nLaTeX\n1.1. Introdução ao LATEX.\n1.2. Partes de um documento: Títulos, sumários, cabeçalho e rodapés.\n1.3. Fórmulas diversas, estrutura de um texto.\n1.4. Matrizes e equações alinhadas.\n1.5. Tabelas e Imagens. Bibtex. Criação de apresentações e pôster"
+  },
+  {
+    "objectID": "slides/01-Apresentacao_da_disciplina/01-Apresentacao_da_disciplina.html#conteúdo-programático-1",
+    "href": "slides/01-Apresentacao_da_disciplina/01-Apresentacao_da_disciplina.html#conteúdo-programático-1",
+    "title": "Apresentação da Disciplina",
+    "section": "Conteúdo programático",
+    "text": "Conteúdo programático\n\nTécnicas de Geração de Números Aleatórios\n2.1. Gerador de números aleatórios.\n2.2. Método da Transformada inversa.\n2.3. Método da Aceitação-Rejeição.\n2.4. Outros métodos de geração de v.a’s"
+  },
+  {
+    "objectID": "slides/01-Apresentacao_da_disciplina/01-Apresentacao_da_disciplina.html#conteúdo-programático-2",
+    "href": "slides/01-Apresentacao_da_disciplina/01-Apresentacao_da_disciplina.html#conteúdo-programático-2",
+    "title": "Apresentação da Disciplina",
+    "section": "Conteúdo programático",
+    "text": "Conteúdo programático\n\nSimulação, Testes e Reamostragem\n3.1. Métodos de Simulação.\n3.2. Método de Monte Carlo.\n3.3. Testes de hipóteses e erros.\n3.4. Viés e Erro quadrático médio.\n3.5. Métodos de Reamostragem: Bootstrap e Jackknife."
+  },
+  {
+    "objectID": "slides/01-Apresentacao_da_disciplina/01-Apresentacao_da_disciplina.html#bibliografia-recomendada",
+    "href": "slides/01-Apresentacao_da_disciplina/01-Apresentacao_da_disciplina.html#bibliografia-recomendada",
+    "title": "Apresentação da Disciplina",
+    "section": "Bibliografia Recomendada",
+    "text": "Bibliografia Recomendada"
+  },
+  {
+    "objectID": "slides/01-Apresentacao_da_disciplina/01-Apresentacao_da_disciplina.html#bibliografia-recomendada-1",
+    "href": "slides/01-Apresentacao_da_disciplina/01-Apresentacao_da_disciplina.html#bibliografia-recomendada-1",
+    "title": "Apresentação da Disciplina",
+    "section": "Bibliografia Recomendada",
+    "text": "Bibliografia Recomendada"
+  },
+  {
+    "objectID": "slides/01-Apresentacao_da_disciplina/01-Apresentacao_da_disciplina.html#metodologia",
+    "href": "slides/01-Apresentacao_da_disciplina/01-Apresentacao_da_disciplina.html#metodologia",
+    "title": "Apresentação da Disciplina",
+    "section": "Metodologia",
+    "text": "Metodologia\n\n2 encontros semanais, com 90 minutos de aula presencial cada\n30 minutos de atividades extraclasse (hora-trabalho) para cada aula, indicadas pelo docente\nAulas organizadas com base em Aprendizado Baseado em Problemas (PBL)\nÊnfase em situações reais da prática profissional em Estatística"
+  },
+  {
+    "objectID": "slides/01-Apresentacao_da_disciplina/01-Apresentacao_da_disciplina.html#ferramentas-que-iremos-usar",
+    "href": "slides/01-Apresentacao_da_disciplina/01-Apresentacao_da_disciplina.html#ferramentas-que-iremos-usar",
+    "title": "Apresentação da Disciplina",
+    "section": "Ferramentas que iremos usar",
+    "text": "Ferramentas que iremos usar\n\nR + RStudio\nQuarto\nLaTeX\nGitHub e GitHub Pages"
+  },
+  {
+    "objectID": "slides/01-Apresentacao_da_disciplina/01-Apresentacao_da_disciplina.html#datas-importantes",
+    "href": "slides/01-Apresentacao_da_disciplina/01-Apresentacao_da_disciplina.html#datas-importantes",
+    "title": "Apresentação da Disciplina",
+    "section": "Datas Importantes",
+    "text": "Datas Importantes\nAvaliações\n\nAvaliação 1: 17/06/2025 (terça)\nAvaliação 2: 29/07/2025 (quinta)\nAvaliação 3: 26/08/2025 (quinta)\nAvaliação Repositiva: 02/09/2025 (terça)\n\nNão haverá aula\n\n19/06/2025: Corpus Christi (ponto facultativo)\n24/06/2025: Sâo João (feriado municipal)\n08/07/2025: Independência de Sergipe (feriado estadual)"
+  },
+  {
+    "objectID": "slides/01-Apresentacao_da_disciplina/01-Apresentacao_da_disciplina.html#para-a-pŕoxima-aula",
+    "href": "slides/01-Apresentacao_da_disciplina/01-Apresentacao_da_disciplina.html#para-a-pŕoxima-aula",
+    "title": "Apresentação da Disciplina",
+    "section": "Para a pŕoxima aula…",
+    "text": "Para a pŕoxima aula…\n\nCriar uma conta no : https://github.com/\nInstale na sua máquina:"
   },
   {
     "objectID": "slides/05-Ambiente_Matematico_LaTeX/05-Ambiente-Matematico-LaTeX.html#cenário",
@@ -1409,14 +1535,14 @@
     ]
   },
   {
-    "objectID": "conteudos/6-Tabelas-Figuras-Outros-Recursos-LaTeX.html#estrutura-básica-do-latex",
-    "href": "conteudos/6-Tabelas-Figuras-Outros-Recursos-LaTeX.html#estrutura-básica-do-latex",
-    "title": "Conteúdo 4",
+    "objectID": "conteudos/6-Tabelas-Figuras-Outros-Recursos-LaTeX.html#tabelas-figuras-e-outros-recursos-em-latex",
+    "href": "conteudos/6-Tabelas-Figuras-Outros-Recursos-LaTeX.html#tabelas-figuras-e-outros-recursos-em-latex",
+    "title": "Conteúdo 6",
     "section": "",
     "text": "Nesta aula, exploramos o potencial do LaTeX como uma ferramenta robusta para a comunicação de dados, especialmente por meio de tabelas, figuras e elementos visuais cuidadosamente formatados. Demonstramos também como o LaTeX automatiza processos como numeração, posicionamento e formatação, promovendo precisão, clareza e rigor estético na apresentação das informações.\nSlides:\n\nVersão html\nVersão pdf",
     "crumbs": [
       "Material das aulas",
-      "6- Tabelas, Figuras e Outros Recursos no LaTeX"
+      "6- Tabelas, Figuras e Outros Recursos em LaTeX"
     ]
   },
   {
@@ -1425,17 +1551,6 @@
     "title": "Conteúdo 6",
     "section": "",
     "text": "Reproduza em LaTeX o arquivo 06-Tabelas-Figuras-Outros-Recursos-LaTeX_Atv01.pdf.",
-    "crumbs": [
-      "Material das aulas",
-      "6- Tabelas, Figuras e Outros Recursos em LaTeX"
-    ]
-  },
-  {
-    "objectID": "conteudos/6-Tabelas-Figuras-Outros-Recursos-LaTeX.html#tabelas-figuras-e-outros-recursos-em-latex",
-    "href": "conteudos/6-Tabelas-Figuras-Outros-Recursos-LaTeX.html#tabelas-figuras-e-outros-recursos-em-latex",
-    "title": "Conteúdo 6",
-    "section": "",
-    "text": "Nesta aula, exploramos o potencial do LaTeX como uma ferramenta robusta para a comunicação de dados, especialmente por meio de tabelas, figuras e elementos visuais cuidadosamente formatados. Demonstramos também como o LaTeX automatiza processos como numeração, posicionamento e formatação, promovendo precisão, clareza e rigor estético na apresentação das informações.\nSlides:\n\nVersão html\nVersão pdf",
     "crumbs": [
       "Material das aulas",
       "6- Tabelas, Figuras e Outros Recursos em LaTeX"

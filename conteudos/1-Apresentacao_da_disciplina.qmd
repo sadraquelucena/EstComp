@@ -10,11 +10,13 @@ format:
 
 ## Apresentação da Disciplina
 
-Como garantir que um trabalho estatístico seja organizado, reproduzível e protegido contra erros? A aula parte desse problema para apresentar o ambiente RStudio e as ferramentas Git e GitHub. A atividade será vivenciada de forma prática, onde será necessário versionar projetos e colaborar com colegas. Ao longo da aula, será possível aprender a integrar o RStudio com o Git e a criar repositórios no GitHub, desenvolvendo habilidades essenciais para o mercado de trabalho em Estatística e Ciência de Dados.
+Neste primeiro encontro, vamos apresentar os objetivos da disciplina, a forma como as aulas serão conduzidas, os temas que vamos explorar e como será a avaliação ao longo do semestre. Também vamos conversar sobre o papel da Estatística Computacional na formação em Estatísica e Ciência de Dados, bem como sua importância no mundo do trabalho.
+
+A proposta do componente é dinâmica e baseada em resolução de problemas reais, com atividades que estimulam a autonomia, a criatividade e o uso prático das ferramentas computacionais.
 
 Slides:
 
-- [Versão html](/slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html){target="_blank"}
+- [Versão html](/slides/01-Apresentacao_da_disciplina/01-Apresentacao_da_disciplina.html){target="_blank"}
 
-- [Versão pdf](/slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.pdf){target="_blank"}
+- [Versão pdf](/PDF_slides/01-Apresentacao_da_disciplina.pdf){target="_blank"}
 
