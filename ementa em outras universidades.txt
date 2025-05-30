@@ -1,0 +1,144 @@
+📘 Conteúdos e Abordagens de Cursos de Estatística Aplicada
+MIT – 18.650: Statistics for Applications
+Nível: Graduação
+
+Pré-requisitos: Probabilidade e Álgebra Linear
+
+Tópicos Principais:
+
+Inferência Paramétrica
+
+Estimativa por Máxima Verossimilhança
+
+Método dos Momentos
+
+Testes de Hipóteses
+
+Regressão Linear
+
+Estatística Bayesiana
+
+Análise de Componentes Principais (PCA)
+
+Modelos Lineares Generalizados (GLMs)
+
+Recursos: Notas de aula, vídeos, listas de exercícios e provas disponíveis gratuitamente via MIT OpenCourseWare. 
+Wikipedia
+opencw.aprende.org
++2
+MIT OpenCourseWare
++2
+mitocw.ups.edu.ec
++2
+opencw.aprende.org
++2
+imai.fas.harvard.edu
++2
+Stanford University
++2
+mitocw.ups.edu.ec
++1
+MIT OpenCourseWare
++1
+
+Stanford – STATS 191: Introduction to Applied Statistics
+Nível: Graduação
+
+Pré-requisitos: Curso introdutório de estatística
+
+Tópicos Principais:
+
+Testes t de uma e duas amostras
+
+Regressão linear e logística
+
+ANOVA
+
+Modelos de Poisson
+
+Seleção de modelos
+
+Diagnóstico de modelos
+
+Ferramentas: Uso intensivo de R, com materiais em RMarkdown e Jupyter Notebooks. 
+imai.fas.harvard.edu
+Stanford University
++3
+Stanford University
++3
+MIT OpenCourseWare
++3
+
+Harvard – POL 571: Quantitative Analysis I
+Nível: Pós-graduação (Ciência Política)
+
+Tópicos Principais:
+
+Probabilidade
+
+Inferência Estatística
+
+Modelos Lineares
+
+Modelos Lineares Generalizados
+
+Ênfase: Análise prática de dados, programação estatística e inferência causal. 
+mitocw.ups.edu.ec
+
+Cambridge – Estatística Aplicada (Mathematics Tripos)
+Nível: Graduação
+
+Tópicos Comuns:
+
+Inferência Estatística
+
+Regressão
+
+Modelos Lineares Generalizados
+
+Estatística Bayesiana
+
+Observação: Os detalhes específicos do curso podem variar e não estão amplamente disponíveis online.
+Wikipedia
++1
+Stanford University
++1
+MIT OpenCourseWare
++5
+Stanford University
++5
+mitocw.ups.edu.ec
++5
+MIT OpenCourseWare
+
+🧩 Sugestões para Atualizar Sua Disciplina na UFS
+Estrutura Modular:
+
+Divida o curso em módulos temáticos, como Inferência Estatística, Regressão, Estatística Bayesiana, etc.
+
+Integração de Ferramentas Computacionais:
+
+Incorpore o uso de R e RStudio para análises práticas, seguindo o exemplo de Stanford e MIT.
+Stanford University
++1
+mitocw.ups.edu.ec
++1
+
+Recursos Educacionais Abertos:
+
+Utilize materiais disponíveis no MIT OpenCourseWare, como vídeos e listas de exercícios, para complementar suas aulas.
+
+Projetos Práticos:
+
+Inclua projetos que envolvam análise de conjuntos de dados reais, promovendo a aplicação dos conceitos aprendidos.
+
+Avaliações Diversificadas:
+
+Combine avaliações tradicionais com projetos práticos e apresentações para avaliar a compreensão teórica e a aplicação prática.
+
+🔗 Recursos Online para Consulta
+MIT OpenCourseWare – Statistics for Applications: https://ocw.mit.edu/courses/18-650-statistics-for-applications-fall-2016/
+
+Stanford STATS 191: https://web.stanford.edu/class/stats191/intro.html
+
+Harvard – Kosuke Imai's Teaching Page: https://imai.fas.harvard.edu/teaching/index.html

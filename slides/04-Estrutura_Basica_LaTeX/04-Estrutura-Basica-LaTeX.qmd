@@ -57,11 +57,15 @@ Você entregou a primeira versão do seu TCC para avaliação. Embora o conteúd
 
 
 
+
+## Cenário
+
 ### A Motivação
 - Evitar retrabalho desnecessário, pois automatiza ajustes que no Word exigem revisão manual.
 - Garantir consistência profissional.
 - Normas ABNT sem esforço.
 - Foco no que realmente importa.
+
 
 
 
@@ -74,6 +78,7 @@ Usar LaTeX para criar:
 - Alinhamento e Indentação
 - Notas
 - Listas
+
 
 
 
@@ -178,7 +183,7 @@ Usar LaTeX para criar:
 
 Adicione ao documento que você está criando:
 
-1. Uma seção chamada `Introdução` com o seguinte texto: `Neste documento, exploraremos os conceitos básicos do \LaTeX e sua utilização para produzir documentos de alta qualidade.
+1. Uma seção chamada `Introdução` com o seguinte texto: `Neste documento, exploraremos os conceitos básicos do \LaTeX e sua utilização para produzir documentos de alta qualidade.`
 
 2. Outra seção chamada `Recursos úteis` seguida de uma subseção chamada `Fórmulas Matemáticas` com o seguinte texto: `O \LaTeX oferece recursos avançados de composição tipográfica, permitindo a criação de documentos com excelente qualidade de impressão.`
 
@@ -192,17 +197,17 @@ Adicione ao documento que você está criando:
 - **Alinhamento à esquerda:** para alinhar um bloco de texto à esquerda, você pode utilizar o ambiente `flushleft`.  Por exemplo:
 
 ```{.latex}
-  \begin{flushleft}
-		Texto alinhado à esquerda.
-	\end{flushleft}
+\begin{flushleft}
+	Texto alinhado à esquerda.
+\end{flushleft}
 ```
 
 - **Alinhamento à direita:** para alinhar um bloco de texto à direita, você pode utilizar o ambiente `flushright`.  Por exemplo:
 
 ```{.latex}
-  \begin{center}
-	  linha 1 \\ linha 2 \\ linha 3
-	\end{center}
+\begin{flushright}
+  linha 1 \\ linha 2 \\ linha 3
+\end{flushright}
 ```
 
 
@@ -213,18 +218,18 @@ Adicione ao documento que você está criando:
 - **Centralizando:** para centralizar um bloco de texto ou linhas específicas, você pode utilizar o ambiente `center`. Basta inserir o conteúdo que deseja centralizar dentro do ambiente. Por exemplo:
 
 ```{.latex}
-  \begin{quote}
-		Texto a ser indentado.
-	\end{quote}
+\begin{center}
+	Texto a ser indentado.
+\end{center}
 ```
 
 - **Parágrafo indentado:** para criar um parágrafo indentado, você pode usar o ambiente `quote`. Dentro desse ambiente, insira o texto que deseja indentar. Por exemplo:
 
 
 ```{.latex}
-  \begin{quote}
-		Texto indentado.
-	\end{quote}
+\begin{quote}
+  Texto indentado.
+\end{quote}
 ```
 
 
@@ -288,7 +293,7 @@ No mesmo arquivo, crie uma nova seção chamada `Alinhamento de texto`.
 
 ## Listas
 
-## Ambiente itemize
+### Ambiente `itemize`
 
 - O ambiente `itemize` é utilizado para criar listas não numeradas, em que os itens são precedidos por pontos.
 - Os itens são definidos utilizando o comando `\item`, e cada item é colocado em uma linha separada.
@@ -307,6 +312,8 @@ No mesmo arquivo, crie uma nova seção chamada `Alinhamento de texto`.
 
 
 ## Listas
+
+### Ambiente `itemize`
 
 - No LaTeX, é possível aninhar o ambiente `itemize` dentro de outro ambiente `itemize`, permitindo criar listas hierárquicas com vários níveis de indentação.
 - Cada nível de aninhamento gera uma indentação adicional à esquerda. O LaTeX se encarrega automaticamente do espaçamento e da indentação corretos para cada nível.
@@ -329,6 +336,8 @@ No mesmo arquivo, crie uma nova seção chamada `Alinhamento de texto`.
 
 ## Listas
 
+### Ambiente `itemize`
+
 É possível utilizar marcadores personalizados nos itens da lista. Para isso, basta especificar o símbolo desejado entre colchetes após o comando `\item`.
 - Exemplo:
 
@@ -348,6 +357,8 @@ No mesmo arquivo, crie uma nova seção chamada `Alinhamento de texto`.
 
 
 ## Listas
+
+### Ambiente `enumerate`
 
 - Se quisermos criar listas numeradas usamos o ambiente \texttt{enu\-me\-rate}. A sintaxe é similar ao ambiente \texttt{itemize}.
 - O LaTeX cuida automaticamente da numeração dos itens, atribuindo a eles números sequenciais. A numeração é atualizada automaticamente sempre que um novo item é adicionado ou removido.
@@ -369,6 +380,8 @@ No mesmo arquivo, crie uma nova seção chamada `Alinhamento de texto`.
 
 
 ## Listas
+
+### Ambiente `enumerate`
 
 A ordem de numeração padrão do \LaTeX\ é a seguinte:
 
@@ -396,6 +409,8 @@ A ordem de numeração padrão do \LaTeX\ é a seguinte:
 
 
 ## Listas
+
+### Ambiente `enumerate`
 
 O ambiente `enumerate` oferece diferentes estilos de numeração, que podem ser especificados.
 - Exemplo:
