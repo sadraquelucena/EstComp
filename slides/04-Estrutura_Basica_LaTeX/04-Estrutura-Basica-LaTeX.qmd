@@ -173,7 +173,7 @@ Usar LaTeX para criar:
 ## Divisão e Organização de Conteúdo
 
 - Todas essas partes e subpartes são numeradas automaticamente pelo LaTeX, seguindo uma estrutura lógica.
-- No entanto, se você adicionar um asterisco ("*") após o comando, a numeração será omitida.
+- No entanto, se você adicionar um asterisco (`*`) após o comando, a numeração será omitida.
 - Por exemplo, ao utilizar `\section*{seção}`, não haverá numeração na seção.
 
 
@@ -183,9 +183,9 @@ Usar LaTeX para criar:
 
 Adicione ao documento que você está criando:
 
-1. Uma seção chamada `Introdução` com o seguinte texto: `Neste documento, exploraremos os conceitos básicos do \LaTeX e sua utilização para produzir documentos de alta qualidade.`
+1. Uma seção chamada `Introdução` com o seguinte texto: `Neste documento, exploraremos os conceitos básicos do \LaTeX\ e sua utilização para produzir documentos de alta qualidade.`
 
-2. Outra seção chamada `Recursos úteis` seguida de uma subseção chamada `Fórmulas Matemáticas` com o seguinte texto: `O \LaTeX oferece recursos avançados de composição tipográfica, permitindo a criação de documentos com excelente qualidade de impressão.`
+2. Outra seção chamada `Recursos úteis` seguida de uma subseção chamada `Fórmulas Matemáticas` com o seguinte texto: `O \LaTeX\ oferece recursos avançados de composição tipográfica, permitindo a criação de documentos com excelente qualidade de impressão.`
 
 3. Outra subseção chamada `Referências e Citações` com o texto `Com o \LaTeX, é possível gerenciar facilmente referências bibliográficas e realizar citações de acordo com diferentes estilos acadêmicos.`
 
@@ -219,7 +219,7 @@ Adicione ao documento que você está criando:
 
 ```{.latex}
 \begin{center}
-	Texto a ser indentado.
+	Texto a ser centralizado.
 \end{center}
 ```
 
@@ -284,8 +284,8 @@ No mesmo arquivo, crie uma nova seção chamada `Alinhamento de texto`.
 
 ## Atividade
 
-- No mesmo arquivo, crie uma nova seção chamada \texttt{Notas}.
-- Adicione o texto: `Este é um exemplo de texto com uma nota de rodapé. O texto continua normalmente.` Na palavra `rodapé` adicione o rodapé: `Essa é uma nota de rodapé, adicionando informações adicionais ao texto principal.`
+- No mesmo arquivo, crie uma nova seção chamada `Notas`.
+- Adicione o texto: `Este é um exemplo de texto com uma nota de rodapé. O texto continua normalmente.` Na palavra `rodapé` adicione o rodapé: `Essa é uma nota de rodapé, adicionando informações ao texto principal.`
 - Acrescente a nota na margem: `Essa é uma nota na margem.` no texto: `Este é um exemplo de texto com uma nota na margem. A nota aparece ao lado da linha de texto em que foi inserida.`
 
 
@@ -408,33 +408,6 @@ A ordem de numeração padrão do \LaTeX\ é a seguinte:
 
 
 
-## Listas
-
-### Ambiente `enumerate`
-
-O ambiente `enumerate` oferece diferentes estilos de numeração, que podem ser especificados.
-- Exemplo:
-
-```{.latex}
-\begin{enumerate}[(a)]
-  \item Item 1
-	\item Item 2
-\end{enumerate}
-		   	
-\begin{enumerate}[1.]
-  \item Item 1
-	\item Item 2
-\end{enumerate}
-
-\begin{enumerate}[I-]
-  \item Item 1
-	\item Item 2
-\end{enumerate}
-```
-
-
-
-
 ## Atividade
 
 No mesmo arquivo, crie uma nova seção chamada `Listas` e replique todos as listas apresentadas nos exemplos anteriores.
@@ -442,7 +415,7 @@ No mesmo arquivo, crie uma nova seção chamada `Listas` e replique todos as lis
 
 
 
-## Exibindo Código Não Imterpretável
+## Exibindo Código Não Interpretável
 
 - É possível exibir trechos de texto exatamente como eles são, sem que o LaTeX interprete ou formate o conteúdo. Fazemos isso usando o ambiente `verbatim` ou o comando `\verb`.
 - O ambiente `verbatim` é usado para exibir blocos de texto exatamente como são digitados, preservando espaços, quebras de linha e caracteres especiais.
@@ -460,9 +433,9 @@ No mesmo arquivo, crie uma nova seção chamada `Listas` e replique todos as lis
 
 
 
-## Exibindo Código Não Imterpretável
+## Exibindo Código Não Interpretável
 
-- O comando `\verb|` é usado para exibir pequenos trechos de texto em linha, preservando caracteres especiais.
+- O comando `\verb` é usado para exibir pequenos trechos de texto em linha, preservando caracteres especiais.
 - Ele permite que você especifique um caractere delimitador para indicar o início e o fim do trecho de texto que será exibido literalmente. Em geral usamos "`|`".
 - Exemplo:
 
