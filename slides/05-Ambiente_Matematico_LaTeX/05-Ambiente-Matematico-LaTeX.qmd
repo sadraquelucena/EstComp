@@ -90,7 +90,7 @@ Na aula de hoje aprenderemos a criar:
 
 - No LaTeX, as fórmulas matemáticas são inseridas no arquivo fonte por meio de comandos específicos.
 
-- É importante informar ao LaTeX quando o texto seguinte é uma fórmula e quando ela termina para que o processamento seja feito corretamente.
+- É importante informar ao LaTeX quando cmeça e termina uma fórmula para que o processamento seja feito corretamente.
 
 - As fórmulas podem ocorrer *inline*, ou seja, incorporadas em uma linha de texto, como por exemplo $ax^2 + bx + c = 0$.
 
@@ -180,18 +180,21 @@ $$
 
 
 
-## Frações e Raízes}
+## Frações e Raízes
 
-- Frações simples podem ser escritas utilizando o caractere /, por exemplo: `$(a+b)/2$`, que resulta em $(a + b)/2$.
-- Para frações mais complexas, você pode usar o comando `\frac{num}{den}`, onde `num` representa o numerador e `den` o denominador.
+- Frações simples podem ser escritas utilizando o caractere `/`.
+
+    - Por exemplo: `$(a+b)/2$`, que resulta em $(a + b)/2$.
+    
+- Para frações mais complexas, você pode usar o comando `\frac{numerador}{denominador}`.
 
   - Por exemplo: `$\frac{a+b}{2}$`.
 
 - Para representar raízes, utilize o comando`\sqrt[n]{radicando}`.
 
-  - Por exemplo: `$\sqrt[3]{8}=2$`.
+  - Por exemplo: `$\sqrt[3]{8}=2$` produz $\sqrt[3]{8}=2$.
 
-- Se o argumento opcional `[n]` for omitido, a raiz quadrada é gerada. Exemplo: `$\sqrt{4}=2$`.
+- Se o argumento opcional `[n]` for omitido, a raiz quadrada é gerada. Exemplo: `$\sqrt{4}=2$` produz $\sqrt{4}=2$.
 - O tamanho e o comprimento do radical são automaticamente ajustados de acordo com o tamanho do radicando.
 
 
@@ -224,19 +227,6 @@ $$
 
   - `$\int_a^b f(x) dx$` produz $\int_a^b f(x) dx$.
   - `$\int\limits_a^b f(x) dx$` produz $\int\limits_a^b f(x) dx$.
-
-
-
-
-## Atividade
-
-Reproduza no LaTeX o texto abaixo:
-
->Considerando uma progressão geométrica (PG) com o primeiro termo $a_1$, a razão $r$, e um total de $n$ termos. A soma dos termos pode ser expressa da seguinte forma:
-$$
-	S_n = \frac{{a_1 (r^n - 1)}}{{r - 1}}.
-$$
-Nessa fórmula, $S_n$ representa a soma dos $n$ termos da PG. O termo $a_1$ é o primeiro termo da sequência, $r$ é a razão com a qual os termos consecutivos são multiplicados, e $n$ é o número total de termos na sequência.
 
 
 
