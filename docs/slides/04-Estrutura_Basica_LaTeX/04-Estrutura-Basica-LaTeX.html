@@ -254,6 +254,9 @@
 </tr>
 </tbody>
 </table>
+</section>
+<section id="cenário-2" class="slide level2">
+<h2>Cenário</h2>
 <h3 id="a-motivação">A Motivação</h3>
 <ul>
 <li>Evitar retrabalho desnecessário, pois automatiza ajustes que no Word exigem revisão manual.</li>
@@ -345,7 +348,7 @@
 <h2>Divisão e Organização de Conteúdo</h2>
 <ul>
 <li>Todas essas partes e subpartes são numeradas automaticamente pelo LaTeX, seguindo uma estrutura lógica.</li>
-<li>No entanto, se você adicionar um asterisco (“*“) após o comando, a numeração será omitida.</li>
+<li>No entanto, se você adicionar um asterisco (<code>*</code>) após o comando, a numeração será omitida.</li>
 <li>Por exemplo, ao utilizar <code>\section*{seção}</code>, não haverá numeração na seção.</li>
 </ul>
 </section>
@@ -353,8 +356,8 @@
 <h2>Atividade</h2>
 <p>Adicione ao documento que você está criando:</p>
 <ol type="1">
-<li><p>Uma seção chamada <code>Introdução</code> com o seguinte texto: `Neste documento, exploraremos os conceitos básicos do e sua utilização para produzir documentos de alta qualidade.</p></li>
-<li><p>Outra seção chamada <code>Recursos úteis</code> seguida de uma subseção chamada <code>Fórmulas Matemáticas</code> com o seguinte texto: <code>O \LaTeX oferece recursos avançados de composição tipográfica, permitindo a criação de documentos com excelente qualidade de impressão.</code></p></li>
+<li><p>Uma seção chamada <code>Introdução</code> com o seguinte texto: <code>Neste documento, exploraremos os conceitos básicos do \LaTeX\ e sua utilização para produzir documentos de alta qualidade.</code></p></li>
+<li><p>Outra seção chamada <code>Recursos úteis</code> seguida de uma subseção chamada <code>Fórmulas Matemáticas</code> com o seguinte texto: <code>O \LaTeX\ oferece recursos avançados de composição tipográfica, permitindo a criação de documentos com excelente qualidade de impressão.</code></p></li>
 <li><p>Outra subseção chamada <code>Referências e Citações</code> com o texto <code>Com o \LaTeX, é possível gerenciar facilmente referências bibliográficas e realizar citações de acordo com diferentes estilos acadêmicos.</code></p></li>
 </ol>
 </section>
@@ -363,30 +366,30 @@
 <ul>
 <li><strong>Alinhamento à esquerda:</strong> para alinhar um bloco de texto à esquerda, você pode utilizar o ambiente <code>flushleft</code>. Por exemplo:</li>
 </ul>
-<div class="sourceCode" id="cb3"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb3-1"><a aria-hidden="true" tabindex="-1"></a>  <span class="kw">\begin</span>{<span class="ex">flushleft</span>}</span>
-<span id="cb3-2"><a aria-hidden="true" tabindex="-1"></a>        Texto alinhado à esquerda.</span>
-<span id="cb3-3"><a aria-hidden="true" tabindex="-1"></a>    <span class="kw">\end</span>{<span class="ex">flushleft</span>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb3-1"><a aria-hidden="true" tabindex="-1"></a><span class="kw">\begin</span>{<span class="ex">flushleft</span>}</span>
+<span id="cb3-2"><a aria-hidden="true" tabindex="-1"></a>    Texto alinhado à esquerda.</span>
+<span id="cb3-3"><a aria-hidden="true" tabindex="-1"></a><span class="kw">\end</span>{<span class="ex">flushleft</span>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
 <li><strong>Alinhamento à direita:</strong> para alinhar um bloco de texto à direita, você pode utilizar o ambiente <code>flushright</code>. Por exemplo:</li>
 </ul>
-<div class="sourceCode" id="cb4"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb4-1"><a aria-hidden="true" tabindex="-1"></a>  <span class="kw">\begin</span>{<span class="ex">center</span>}</span>
-<span id="cb4-2"><a aria-hidden="true" tabindex="-1"></a>      linha 1 <span class="fu">\\</span> linha 2 <span class="fu">\\</span> linha 3</span>
-<span id="cb4-3"><a aria-hidden="true" tabindex="-1"></a>    <span class="kw">\end</span>{<span class="ex">center</span>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb4-1"><a aria-hidden="true" tabindex="-1"></a><span class="kw">\begin</span>{<span class="ex">flushright</span>}</span>
+<span id="cb4-2"><a aria-hidden="true" tabindex="-1"></a>  linha 1 <span class="fu">\\</span> linha 2 <span class="fu">\\</span> linha 3</span>
+<span id="cb4-3"><a aria-hidden="true" tabindex="-1"></a><span class="kw">\end</span>{<span class="ex">flushright</span>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="alinhamento-e-indentação-1" class="slide level2">
 <h2>Alinhamento e Indentação</h2>
 <ul>
 <li><strong>Centralizando:</strong> para centralizar um bloco de texto ou linhas específicas, você pode utilizar o ambiente <code>center</code>. Basta inserir o conteúdo que deseja centralizar dentro do ambiente. Por exemplo:</li>
 </ul>
-<div class="sourceCode" id="cb5"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb5-1"><a aria-hidden="true" tabindex="-1"></a>  <span class="kw">\begin</span>{<span class="ex">quote</span>}</span>
-<span id="cb5-2"><a aria-hidden="true" tabindex="-1"></a>        Texto a ser indentado.</span>
-<span id="cb5-3"><a aria-hidden="true" tabindex="-1"></a>    <span class="kw">\end</span>{<span class="ex">quote</span>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb5-1"><a aria-hidden="true" tabindex="-1"></a><span class="kw">\begin</span>{<span class="ex">center</span>}</span>
+<span id="cb5-2"><a aria-hidden="true" tabindex="-1"></a>    Texto a ser centralizado.</span>
+<span id="cb5-3"><a aria-hidden="true" tabindex="-1"></a><span class="kw">\end</span>{<span class="ex">center</span>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
 <li><strong>Parágrafo indentado:</strong> para criar um parágrafo indentado, você pode usar o ambiente <code>quote</code>. Dentro desse ambiente, insira o texto que deseja indentar. Por exemplo:</li>
 </ul>
-<div class="sourceCode" id="cb6"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb6-1"><a aria-hidden="true" tabindex="-1"></a>  <span class="kw">\begin</span>{<span class="ex">quote</span>}</span>
-<span id="cb6-2"><a aria-hidden="true" tabindex="-1"></a>        Texto indentado.</span>
-<span id="cb6-3"><a aria-hidden="true" tabindex="-1"></a>    <span class="kw">\end</span>{<span class="ex">quote</span>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb6-1"><a aria-hidden="true" tabindex="-1"></a><span class="kw">\begin</span>{<span class="ex">quote</span>}</span>
+<span id="cb6-2"><a aria-hidden="true" tabindex="-1"></a>  Texto indentado.</span>
+<span id="cb6-3"><a aria-hidden="true" tabindex="-1"></a><span class="kw">\end</span>{<span class="ex">quote</span>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="exercício" class="slide level2">
 <h2>Exercício</h2>
@@ -425,16 +428,14 @@
 <section id="atividade-2" class="slide level2">
 <h2>Atividade</h2>
 <ul>
-<li>No mesmo arquivo, crie uma nova seção chamada .</li>
-<li>Adicione o texto: <code>Este é um exemplo de texto com uma nota de rodapé. O texto continua normalmente.</code> Na palavra <code>rodapé</code> adicione o rodapé: <code>Essa é uma nota de rodapé, adicionando informações adicionais ao texto principal.</code></li>
+<li>No mesmo arquivo, crie uma nova seção chamada <code>Notas</code>.</li>
+<li>Adicione o texto: <code>Este é um exemplo de texto com uma nota de rodapé. O texto continua normalmente.</code> Na palavra <code>rodapé</code> adicione o rodapé: <code>Essa é uma nota de rodapé, adicionando informações ao texto principal.</code></li>
 <li>Acrescente a nota na margem: <code>Essa é uma nota na margem.</code> no texto: <code>Este é um exemplo de texto com uma nota na margem. A nota aparece ao lado da linha de texto em que foi inserida.</code></li>
 </ul>
 </section>
 <section id="listas" class="slide level2">
 <h2>Listas</h2>
-</section>
-<section id="ambiente-itemize" class="slide level2">
-<h2>Ambiente itemize</h2>
+<h3 id="ambiente-itemize">Ambiente <code>itemize</code></h3>
 <ul>
 <li>O ambiente <code>itemize</code> é utilizado para criar listas não numeradas, em que os itens são precedidos por pontos.</li>
 <li>Os itens são definidos utilizando o comando <code>\item</code>, e cada item é colocado em uma linha separada.</li>
@@ -449,6 +450,7 @@
 </section>
 <section id="listas-1" class="slide level2">
 <h2>Listas</h2>
+<h3 id="ambiente-itemize-1">Ambiente <code>itemize</code></h3>
 <ul>
 <li>No LaTeX, é possível aninhar o ambiente <code>itemize</code> dentro de outro ambiente <code>itemize</code>, permitindo criar listas hierárquicas com vários níveis de indentação.</li>
 <li>Cada nível de aninhamento gera uma indentação adicional à esquerda. O LaTeX se encarrega automaticamente do espaçamento e da indentação corretos para cada nível.</li>
@@ -466,6 +468,7 @@
 </section>
 <section id="listas-2" class="slide level2">
 <h2>Listas</h2>
+<h3 id="ambiente-itemize-2">Ambiente <code>itemize</code></h3>
 <p>É possível utilizar marcadores personalizados nos itens da lista. Para isso, basta especificar o símbolo desejado entre colchetes após o comando <code>\item</code>. - Exemplo:</p>
 <div class="sourceCode" id="cb11"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb11-1"><a aria-hidden="true" tabindex="-1"></a><span class="kw">\begin</span>{<span class="ex">itemize</span>}</span>
 <span id="cb11-2"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">\item</span>[<span class="ss">$</span><span class="sc">\diamond</span><span class="ss">$</span>] Item 1</span>
@@ -478,6 +481,7 @@
 </section>
 <section id="listas-3" class="slide level2">
 <h2>Listas</h2>
+<h3 id="ambiente-enumerate">Ambiente <code>enumerate</code></h3>
 <ul>
 <li>Se quisermos criar listas numeradas usamos o ambiente . A sintaxe é similar ao ambiente .</li>
 <li>O LaTeX cuida automaticamente da numeração dos itens, atribuindo a eles números sequenciais. A numeração é atualizada automaticamente sempre que um novo item é adicionado ou removido.</li>
@@ -495,6 +499,7 @@
 </section>
 <section id="listas-4" class="slide level2">
 <h2>Listas</h2>
+<h3 id="ambiente-enumerate-1">Ambiente <code>enumerate</code></h3>
 <p>A ordem de numeração padrão do &nbsp;é a seguinte:</p>
 <ul>
 <li><p>Nível 1: Números arábicos (1, 2, 3, …)</p></li>
@@ -514,53 +519,35 @@
 <span id="cb13-8"><a aria-hidden="true" tabindex="-1"></a>    <span class="fu">\item</span> Item 3</span>
 <span id="cb13-9"><a aria-hidden="true" tabindex="-1"></a><span class="kw">\end</span>{<span class="ex">enumerate</span>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="listas-5" class="slide level2">
-<h2>Listas</h2>
-<p>O ambiente <code>enumerate</code> oferece diferentes estilos de numeração, que podem ser especificados. - Exemplo:</p>
-<div class="sourceCode" id="cb14"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb14-1"><a aria-hidden="true" tabindex="-1"></a><span class="kw">\begin</span>{<span class="ex">enumerate</span>}[(a)]</span>
-<span id="cb14-2"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">\item</span> Item 1</span>
-<span id="cb14-3"><a aria-hidden="true" tabindex="-1"></a>    <span class="fu">\item</span> Item 2</span>
-<span id="cb14-4"><a aria-hidden="true" tabindex="-1"></a><span class="kw">\end</span>{<span class="ex">enumerate</span>}</span>
-<span id="cb14-5"><a aria-hidden="true" tabindex="-1"></a>            </span>
-<span id="cb14-6"><a aria-hidden="true" tabindex="-1"></a><span class="kw">\begin</span>{<span class="ex">enumerate</span>}[1.]</span>
-<span id="cb14-7"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">\item</span> Item 1</span>
-<span id="cb14-8"><a aria-hidden="true" tabindex="-1"></a>    <span class="fu">\item</span> Item 2</span>
-<span id="cb14-9"><a aria-hidden="true" tabindex="-1"></a><span class="kw">\end</span>{<span class="ex">enumerate</span>}</span>
-<span id="cb14-10"><a aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-11"><a aria-hidden="true" tabindex="-1"></a><span class="kw">\begin</span>{<span class="ex">enumerate</span>}[I-]</span>
-<span id="cb14-12"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">\item</span> Item 1</span>
-<span id="cb14-13"><a aria-hidden="true" tabindex="-1"></a>    <span class="fu">\item</span> Item 2</span>
-<span id="cb14-14"><a aria-hidden="true" tabindex="-1"></a><span class="kw">\end</span>{<span class="ex">enumerate</span>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
 <section id="atividade-3" class="slide level2">
 <h2>Atividade</h2>
 <p>No mesmo arquivo, crie uma nova seção chamada <code>Listas</code> e replique todos as listas apresentadas nos exemplos anteriores.</p>
 </section>
-<section id="exibindo-código-não-imterpretável" class="slide level2">
-<h2>Exibindo Código Não Imterpretável</h2>
+<section id="exibindo-código-não-interpretável" class="slide level2">
+<h2>Exibindo Código Não Interpretável</h2>
 <ul>
 <li>É possível exibir trechos de texto exatamente como eles são, sem que o LaTeX interprete ou formate o conteúdo. Fazemos isso usando o ambiente <code>verbatim</code> ou o comando <code>\verb</code>.</li>
 <li>O ambiente <code>verbatim</code> é usado para exibir blocos de texto exatamente como são digitados, preservando espaços, quebras de linha e caracteres especiais.</li>
 <li>Ele é especialmente útil para exibir código-fonte, comandos ou qualquer trecho de texto que precise ser mostrado sem alterações.</li>
 <li>Exemplo:</li>
 </ul>
-<div class="sourceCode" id="cb15"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb15-1"><a aria-hidden="true" tabindex="-1"></a><span class="kw">\begin</span>{<span class="ex">verbatim</span>}</span>
-<span id="cb15-2"><a aria-hidden="true" tabindex="-1"></a><span class="vs">  Este é um bloco de texto verbatim.</span></span>
-<span id="cb15-3"><a aria-hidden="true" tabindex="-1"></a><span class="vs">    \textcolor{magenta}{Aqui você pode digitar qualquer coisa,}</span></span>
-<span id="cb15-4"><a aria-hidden="true" tabindex="-1"></a><span class="vs">    \textbf{\Large sem que o \LaTeX interprete o conteúdo.}</span></span>
-<span id="cb15-5"><a aria-hidden="true" tabindex="-1"></a><span class="kw">\end</span>{<span class="ex">verbatim</span>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb14"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb14-1"><a aria-hidden="true" tabindex="-1"></a><span class="kw">\begin</span>{<span class="ex">verbatim</span>}</span>
+<span id="cb14-2"><a aria-hidden="true" tabindex="-1"></a><span class="vs">  Este é um bloco de texto verbatim.</span></span>
+<span id="cb14-3"><a aria-hidden="true" tabindex="-1"></a><span class="vs">    \textcolor{magenta}{Aqui você pode digitar qualquer coisa,}</span></span>
+<span id="cb14-4"><a aria-hidden="true" tabindex="-1"></a><span class="vs">    \textbf{\Large sem que o \LaTeX interprete o conteúdo.}</span></span>
+<span id="cb14-5"><a aria-hidden="true" tabindex="-1"></a><span class="kw">\end</span>{<span class="ex">verbatim</span>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="exibindo-código-não-imterpretável-1" class="slide level2">
-<h2>Exibindo Código Não Imterpretável</h2>
+<section id="exibindo-código-não-interpretável-1" class="slide level2">
+<h2>Exibindo Código Não Interpretável</h2>
 <ul>
-<li>O comando <code>\verb|</code> é usado para exibir pequenos trechos de texto em linha, preservando caracteres especiais.</li>
+<li>O comando <code>\verb</code> é usado para exibir pequenos trechos de texto em linha, preservando caracteres especiais.</li>
 <li>Ele permite que você especifique um caractere delimitador para indicar o início e o fim do trecho de texto que será exibido literalmente. Em geral usamos “<code>|</code>”.</li>
 <li>Exemplo:</li>
 </ul>
-<div class="sourceCode" id="cb16"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb16-1"><a aria-hidden="true" tabindex="-1"></a><span class="kw">\begin</span>{<span class="ex">verbatim</span>}</span>
-<span id="cb16-2"><a aria-hidden="true" tabindex="-1"></a><span class="vs">  Aqui está um exemplo usando \verb|\verb| para exibir comandos</span></span>
-<span id="cb16-3"><a aria-hidden="true" tabindex="-1"></a><span class="vs">  \LaTeX em linha.</span></span>
-<span id="cb16-4"><a aria-hidden="true" tabindex="-1"></a><span class="kw">\end</span>{<span class="ex">verbatim</span>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb15"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb15-1"><a aria-hidden="true" tabindex="-1"></a><span class="kw">\begin</span>{<span class="ex">verbatim</span>}</span>
+<span id="cb15-2"><a aria-hidden="true" tabindex="-1"></a><span class="vs">  Aqui está um exemplo usando \verb|\verb| para exibir comandos</span></span>
+<span id="cb15-3"><a aria-hidden="true" tabindex="-1"></a><span class="vs">  \LaTeX em linha.</span></span>
+<span id="cb15-4"><a aria-hidden="true" tabindex="-1"></a><span class="kw">\end</span>{<span class="ex">verbatim</span>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="atividade-4" class="slide level2">
 <h2>Atividade</h2>

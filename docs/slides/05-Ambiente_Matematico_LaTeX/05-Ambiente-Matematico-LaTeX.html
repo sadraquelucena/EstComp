@@ -257,7 +257,7 @@
 <h2>O Ambiente Matemático</h2>
 <ul>
 <li><p>No LaTeX, as fórmulas matemáticas são inseridas no arquivo fonte por meio de comandos específicos.</p></li>
-<li><p>É importante informar ao LaTeX quando o texto seguinte é uma fórmula e quando ela termina para que o processamento seja feito corretamente.</p></li>
+<li><p>É importante informar ao LaTeX quando cmeça e termina uma fórmula para que o processamento seja feito corretamente.</p></li>
 <li><p>As fórmulas podem ocorrer <em>inline</em>, ou seja, incorporadas em uma linha de texto, como por exemplo <span class="math inline">\(ax^2 + bx + c = 0\)</span>.</p></li>
 <li><p>Também é possível destacar as fórmulas do texto principal, apresentando-as em uma linha separada, como:</p>
 <p><span class="math display">\[x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}\]</span></p></li>
@@ -319,24 +319,27 @@
 <blockquote>
 <p>Seja <span class="math inline">\(X\)</span> com distribuição <span class="math inline">\(U(a,b)\)</span>. A função de densidade de probabilidade (PDF) de <span class="math inline">\(X\)</span> é dada por <span class="math display">\[
 f(x) = 1/(b-a),
-\]</span> para <span class="math inline">\(a\leq x \leq b\)</span>. A esperança, <span class="math inline">\(E(X)\)</span>, e a variância, <span class="math inline">\(V(X)\)</span>, são respectivamente dadas por: <span class="math display">\[
-E(X) = (a + b)/2, \quad V(X) = (b - a)^2/12.
+\]</span> para <span class="math inline">\(a&lt; x &lt; b\)</span>. A esperança, <span class="math inline">\(E(X)\)</span>, e a variância, <span class="math inline">\(V(X)\)</span>, são respectivamente dadas por: <span class="math display">\[
+E(X) = (a + b)/2 \quad \text{e} \quad V(X) = (b - a)^2/12.
 \]</span></p>
 </blockquote>
 </section>
 <section id="frações-e-raízes" class="slide level2">
-<h2>Frações e Raízes}</h2>
+<h2>Frações e Raízes</h2>
 <ul>
-<li><p>Frações simples podem ser escritas utilizando o caractere /, por exemplo: <code>$(a+b)/2$</code>, que resulta em <span class="math inline">\((a + b)/2\)</span>.</p></li>
-<li><p>Para frações mais complexas, você pode usar o comando <code>\frac{num}{den}</code>, onde <code>num</code> representa o numerador e <code>den</code> o denominador.</p>
+<li><p>Frações simples podem ser escritas utilizando o caractere <code>/</code>.</p>
+<ul>
+<li>Por exemplo: <code>$(a+b)/2$</code>, que resulta em <span class="math inline">\((a + b)/2\)</span>.</li>
+</ul></li>
+<li><p>Para frações mais complexas, você pode usar o comando <code>\frac{numerador}{denominador}</code>.</p>
 <ul>
 <li>Por exemplo: <code>$\frac{a+b}{2}$</code>.</li>
 </ul></li>
 <li><p>Para representar raízes, utilize o comando<code>\sqrt[n]{radicando}</code>.</p>
 <ul>
-<li>Por exemplo: <code>$\sqrt[3]{8}=2$</code>.</li>
+<li>Por exemplo: <code>$\sqrt[3]{8}=2$</code> produz <span class="math inline">\(\sqrt[3]{8}=2\)</span>.</li>
 </ul></li>
-<li><p>Se o argumento opcional <code>[n]</code> for omitido, a raiz quadrada é gerada. Exemplo: <code>$\sqrt{4}=2$</code>.</p></li>
+<li><p>Se o argumento opcional <code>[n]</code> for omitido, a raiz quadrada é gerada. Exemplo: <code>$\sqrt{4}=2$</code> produz <span class="math inline">\(\sqrt{4}=2\)</span>.</p></li>
 <li><p>O tamanho e o comprimento do radical são automaticamente ajustados de acordo com o tamanho do radicando.</p></li>
 </ul>
 </section>
@@ -346,8 +349,8 @@ E(X) = (a + b)/2, \quad V(X) = (b - a)^2/12.
 <blockquote>
 <p>Seja <span class="math inline">\(X\)</span> com distribuição <span class="math inline">\(U(a,b)\)</span>. A função de densidade de probabilidade (PDF) de <span class="math inline">\(X\)</span> é dada por <span class="math display">\[
 \frac{1}{b-a},
-\]</span> para <span class="math inline">\(a\leq x \leq b\)</span>. A esperança, <span class="math inline">\(E(X)\)</span>, e a variância, <span class="math inline">\(V(X)\)</span>, são respectivamente dadas por: <span class="math display">\[
-E(X) = \frac{a + b}{2}, \quad V(X) = \frac{(b - a)^2}{12}.
+\]</span> para <span class="math inline">\(a&lt; x &lt; b\)</span>. A esperança, <span class="math inline">\(E(X)\)</span>, e a variância, <span class="math inline">\(V(X)\)</span>, são respectivamente dadas por: <span class="math display">\[
+E(X) = \frac{a + b}{2} \quad \text{e} \quad V(X) = \frac{(b - a)^2}{12}.
 \]</span></p>
 </blockquote>
 </section>
@@ -357,7 +360,7 @@ E(X) = \frac{a + b}{2}, \quad V(X) = \frac{(b - a)^2}{12}.
 <li><p>Os somatórios e as integrais são operações fundamentais na matemática, frequentemente representados por meio dos comandos <code>\sum</code> e <code>\int</code>. Exemplos:</p>
 <ul>
 <li><code>$\sum_{i=1}^n a_i$</code> produz <span class="math inline">\(\sum_{i=1}^n a_i\)</span>.</li>
-<li>Podemos destacar um somatório com o uso do comando <code>\limits</code>, da seguinte forma: <code>sum\limits_{i=1}^n a_i$</code> produz <span class="math inline">\(\sum\limits_{i=1}^n a_i\)</span>.</li>
+<li>Podemos destacar um somatório com o uso do comando <code>\limits</code>, da seguinte forma: <code>\sum\limits_{i=1}^n a_i$</code> produz <span class="math inline">\(\sum\limits_{i=1}^n a_i\)</span>.</li>
 </ul></li>
 <li><p>Da mesma forma, podemos expressar uma integral:</p>
 <ul>
@@ -370,19 +373,10 @@ E(X) = \frac{a + b}{2}, \quad V(X) = \frac{(b - a)^2}{12}.
 <h2>Atividade</h2>
 <p>Reproduza no LaTeX o texto abaixo:</p>
 <blockquote>
-<p>Considerando uma progressão geométrica (PG) com o primeiro termo <span class="math inline">\(a_1\)</span>, a razão <span class="math inline">\(r\)</span>, e um total de <span class="math inline">\(n\)</span> termos. A soma dos termos pode ser expressa da seguinte forma: <span class="math display">\[
-S_n = \frac{{a_1 (r^n - 1)}}{{r - 1}}.
-\]</span> Nessa fórmula, <span class="math inline">\(S_n\)</span> representa a soma dos <span class="math inline">\(n\)</span> termos da PG. O termo <span class="math inline">\(a_1\)</span> é o primeiro termo da sequência, <span class="math inline">\(r\)</span> é a razão com a qual os termos consecutivos são multiplicados, e <span class="math inline">\(n\)</span> é o número total de termos na sequência.</p>
-</blockquote>
-</section>
-<section id="atividade-3" class="slide level2">
-<h2>Atividade</h2>
-<p>Reproduza no LaTeX o texto abaixo:</p>
-<blockquote>
 <p>A função de densidade de probabilidade (pdf) da distribuição exponencial pode ser expressa como: <span class="math display">\[
 f(x) = a e^{-a x},
 \]</span> para <span class="math inline">\(x\)</span> maior ou igual a zero. A probabilidade de <span class="math inline">\(X&lt;b\)</span> é calculada como <span class="math display">\[
-P(X &lt;b) = \int_{0}^{b} a e^{-a x}, dx.
+P(X &lt;b) = \int_{0}^{b} a e^{-a x} dx.
 \]</span></p>
 </blockquote>
 </section>
@@ -397,7 +391,7 @@ P(X &lt;b) = \int_{0}^{b} a e^{-a x}, dx.
 </ul></li>
 </ul>
 </section>
-<section id="atividade-4" class="slide level2">
+<section id="atividade-3" class="slide level2">
 <h2>Atividade</h2>
 <p>Reproduza no LaTeX o texto abaixo:</p>
 <blockquote>
@@ -421,9 +415,9 @@ P(X = k) = \binom{n}{k}  p^k (1 - p)^{n - k},
 <span id="cb4-4"><a aria-hidden="true" tabindex="-1"></a><span class="ss">  </span><span class="sc">\label</span><span class="ss">{eq:reta}</span></span>
 <span id="cb4-5"><a aria-hidden="true" tabindex="-1"></a><span class="kw">\end</span>{<span class="ex">equation</span>}</span>
 <span id="cb4-6"><a aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-7"><a aria-hidden="true" tabindex="-1"></a>Como visto na Equação <span class="kw">\eqref</span>{<span class="ex">eq:exemplo</span>}...</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb4-7"><a aria-hidden="true" tabindex="-1"></a>Como visto na Equação <span class="kw">\eqref</span>{<span class="ex">eq:reta</span>}...</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="atividade-5" class="slide level2">
+<section id="atividade-4" class="slide level2">
 <h2>Atividade</h2>
 <p>Reproduza no LaTeX o texto abaixo:</p>
 <blockquote>
@@ -460,7 +454,7 @@ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
 <li><p><code>$IMC = \frac{\text{altura}}{\text{peso}^2}$</code> produz <span class="math inline">\(IMC = \frac{\text{altura}}{\text{peso}^2}\)</span></p></li>
 </ul>
 </section>
-<section id="atividade-6" class="slide level2">
+<section id="atividade-5" class="slide level2">
 <h2>Atividade</h2>
 <p>Reproduza no LaTeX:</p>
 <blockquote>
@@ -662,7 +656,7 @@ x_2=\frac{-b+\sqrt{b^2-4ac}}{2a}.
 </ul></li>
 </ul>
 </section>
-<section id="atividade-7" class="slide level2">
+<section id="atividade-6" class="slide level2">
 <h2>Atividade</h2>
 <p>Reproduza no LaTeX o texto abaixo:</p>
 <blockquote>
@@ -671,7 +665,7 @@ p(x_i) = P(X(\omega_i) = x_i), \omega_i \in \Omega \text{ e } x_i \in R_x
 \]</span> dita probabilidade de <span class="math inline">\(x_i\)</span>. A função <span class="math inline">\(p(x)\)</span> é definida como função massa de probabilidade de <span class="math inline">\(X\)</span> (f.m.p ou f.p de <span class="math inline">\(X\)</span>).<br><br> As probabilidades <span class="math inline">\(p(x_i)\)</span> devem satisfazer as seguintes condições:<br><br> 1. <span class="math inline">\(p(x_i) \geq 0, \forall x_i \in R_x\)</span>,<br> 2. <span class="math inline">\(\sum\limits_{i=1}^\infty p(x_i) = 1\)</span>.</p>
 </blockquote>
 </section>
-<section id="atividade-8" class="slide level2">
+<section id="atividade-7" class="slide level2">
 <h2>Atividade</h2>
 <p>Reproduza no LaTeX o texto abaixo:</p>
 <blockquote>
@@ -691,6 +685,10 @@ p(x_i) = P(X(\omega_i) = x_i), \omega_i \in \Omega \text{ e } x_i \in R_x
 <p>Aprofunde o que vimos em aula com esse link:</p>
 <ul>
 <li><a href="https://www.overleaf.com/learn/latex/Mathematical_expressions" class="uri">https://www.overleaf.com/learn/latex/Mathematical_expressions</a></li>
+</ul>
+<p>Site para detectar símbolos do LaTeX:</p>
+<ul>
+<li><a href="https://detexify.kirelabs.org/classify.html" class="uri">https://detexify.kirelabs.org/classify.html</a></li>
 </ul>
 </section>
 <section id="atividade-extraclasse" class="slide level2">

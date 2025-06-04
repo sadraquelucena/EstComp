@@ -18,3 +18,17 @@ Slides:
 
 - [Versão pdf](/PDF_slides/05-Ambiente-Matematico-LaTeX.pdf){target="_blank"}
 
+
+## Dica útil: Detexify
+
+Para quem trabalha com LaTeX e busca agilidade, o Detexify é uma ferramenta indispensável.
+
+Acesse: <https://detexify.kirelabs.org/classify.html>
+
+Este recurso permite que você desenhe um símbolo matemático ou especial diretamente na tela. Em resposta, ele identifica o desenho e sugere os comandos LaTeX correspondentes, otimizando significativamente o processo de inserção de símbolos e aumentando a produtividade.
+
+
+
+## Atividade
+
+Reproduza todas as atividades dos slides.

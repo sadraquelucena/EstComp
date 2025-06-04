@@ -26,10 +26,10 @@ format:
 
 As aulas ocorrerão nos seguintes horários:
 
-- **Terças**: 19h00 às 20h30
-- **Quintas**: 20h45 às 22h15
+- **Terças**: 19h00 às 20h30 no LEA01 (Laboratório de Informática 01 do DECAT)
+- **Quintas**: 20h45 às 22h15 no LEA02 (Laboratório de Informática 02 do DECAT)
 
-**Local:** Laboratório de Estatística (DECAT)
+
 
 
 ## Avaliações

@@ -4,7 +4,7 @@
     "href": "conteudos/5-Ambiente_Matematico_LaTeX.html",
     "title": "Conteúdo 5",
     "section": "",
-    "text": "Vamos dominar o uso do ambiente matemático no LaTeX para criar equações profissionais em documentos técnicos, aprendendo desde fórmulas simples até estruturas complexas como frações, somatórios e integrais, com numeração automática e referências cruzadas. Descobriremos como formatar símbolos, funções matemáticas e teoremas, garantindo clareza e precisão em artigos, relatórios e apresentações, seguindo os padrões acadêmicos.\nSlides:\n\nVersão html\nVersão pdf",
+    "text": "Vamos dominar o uso do ambiente matemático no LaTeX para criar equações profissionais em documentos técnicos, aprendendo desde fórmulas simples até estruturas complexas como frações, somatórios e integrais, com numeração automática e referências cruzadas. Descobriremos como formatar símbolos, funções matemáticas e teoremas, garantindo clareza e precisão em artigos, relatórios e apresentações, seguindo os padrões acadêmicos.\nSlides:\n\nVersão html\nVersão pdf\n\n\n\n\nPara quem trabalha com LaTeX e busca agilidade, o Detexify é uma ferramenta indispensável.\nAcesse: https://detexify.kirelabs.org/classify.html\nEste recurso permite que você desenhe um símbolo matemático ou especial diretamente na tela. Em resposta, ele identifica o desenho e sugere os comandos LaTeX correspondentes, otimizando significativamente o processo de inserção de símbolos e aumentando a produtividade.\n\n\n\nReproduza todas as atividades dos slides.",
     "crumbs": [
       "Material das aulas",
       "5- Ambiente Matemático no LaTeX"
@@ -16,6 +16,28 @@
     "title": "Conteúdo 5",
     "section": "",
     "text": "Vamos dominar o uso do ambiente matemático no LaTeX para criar equações profissionais em documentos técnicos, aprendendo desde fórmulas simples até estruturas complexas como frações, somatórios e integrais, com numeração automática e referências cruzadas. Descobriremos como formatar símbolos, funções matemáticas e teoremas, garantindo clareza e precisão em artigos, relatórios e apresentações, seguindo os padrões acadêmicos.\nSlides:\n\nVersão html\nVersão pdf",
+    "crumbs": [
+      "Material das aulas",
+      "5- Ambiente Matemático no LaTeX"
+    ]
+  },
+  {
+    "objectID": "conteudos/5-Ambiente_Matematico_LaTeX.html#dica-útil-detexify",
+    "href": "conteudos/5-Ambiente_Matematico_LaTeX.html#dica-útil-detexify",
+    "title": "Conteúdo 5",
+    "section": "",
+    "text": "Para quem trabalha com LaTeX e busca agilidade, o Detexify é uma ferramenta indispensável.\nAcesse: https://detexify.kirelabs.org/classify.html\nEste recurso permite que você desenhe um símbolo matemático ou especial diretamente na tela. Em resposta, ele identifica o desenho e sugere os comandos LaTeX correspondentes, otimizando significativamente o processo de inserção de símbolos e aumentando a produtividade.",
+    "crumbs": [
+      "Material das aulas",
+      "5- Ambiente Matemático no LaTeX"
+    ]
+  },
+  {
+    "objectID": "conteudos/5-Ambiente_Matematico_LaTeX.html#atividade",
+    "href": "conteudos/5-Ambiente_Matematico_LaTeX.html#atividade",
+    "title": "Conteúdo 5",
+    "section": "",
+    "text": "Reproduza todas as atividades dos slides.",
     "crumbs": [
       "Material das aulas",
       "5- Ambiente Matemático no LaTeX"
@@ -401,7 +423,14 @@
     "href": "slides/04-Estrutura_Basica_LaTeX/04-Estrutura-Basica-LaTeX.html#cenário-1",
     "title": "Como organizar um relatório técnico que facilite a leitura e a navegação?",
     "section": "Cenário",
-    "text": "Cenário\nProblemas Identificados\n\n\n\n\n\n\n\n\nÁrea\nFalha Observada\nConsequência\n\n\n\n\nResumo\nFormatação inconsistente\nParecer técnico prejudicado\n\n\nSeções\nNumeração errática (ex.: 3.1 → 3.3)\nLeitura fragmentada\n\n\nParágrafos\nRecuos desiguais e espaçamento aleatório\nTexto visualmente caótico\n\n\nListas\nMarcadores não padronizados\nDificuldade de compreensão\n\n\n\nA Motivação\n\nEvitar retrabalho desnecessário, pois automatiza ajustes que no Word exigem revisão manual.\nGarantir consistência profissional.\nNormas ABNT sem esforço.\nFoco no que realmente importa."
+    "text": "Cenário\nProblemas Identificados\n\n\n\n\n\n\n\n\nÁrea\nFalha Observada\nConsequência\n\n\n\n\nResumo\nFormatação inconsistente\nParecer técnico prejudicado\n\n\nSeções\nNumeração errática (ex.: 3.1 → 3.3)\nLeitura fragmentada\n\n\nParágrafos\nRecuos desiguais e espaçamento aleatório\nTexto visualmente caótico\n\n\nListas\nMarcadores não padronizados\nDificuldade de compreensão"
+  },
+  {
+    "objectID": "slides/04-Estrutura_Basica_LaTeX/04-Estrutura-Basica-LaTeX.html#cenário-2",
+    "href": "slides/04-Estrutura_Basica_LaTeX/04-Estrutura-Basica-LaTeX.html#cenário-2",
+    "title": "Como organizar um relatório técnico que facilite a leitura e a navegação?",
+    "section": "Cenário",
+    "text": "Cenário\nA Motivação\n\nEvitar retrabalho desnecessário, pois automatiza ajustes que no Word exigem revisão manual.\nGarantir consistência profissional.\nNormas ABNT sem esforço.\nFoco no que realmente importa."
   },
   {
     "objectID": "slides/04-Estrutura_Basica_LaTeX/04-Estrutura-Basica-LaTeX.html#objetivo-da-aula",
@@ -450,28 +479,28 @@
     "href": "slides/04-Estrutura_Basica_LaTeX/04-Estrutura-Basica-LaTeX.html#divisão-e-organização-de-conteúdo-2",
     "title": "Como organizar um relatório técnico que facilite a leitura e a navegação?",
     "section": "Divisão e Organização de Conteúdo",
-    "text": "Divisão e Organização de Conteúdo\n\nTodas essas partes e subpartes são numeradas automaticamente pelo LaTeX, seguindo uma estrutura lógica.\nNo entanto, se você adicionar um asterisco (“*“) após o comando, a numeração será omitida.\nPor exemplo, ao utilizar \\section*{seção}, não haverá numeração na seção."
+    "text": "Divisão e Organização de Conteúdo\n\nTodas essas partes e subpartes são numeradas automaticamente pelo LaTeX, seguindo uma estrutura lógica.\nNo entanto, se você adicionar um asterisco (*) após o comando, a numeração será omitida.\nPor exemplo, ao utilizar \\section*{seção}, não haverá numeração na seção."
   },
   {
     "objectID": "slides/04-Estrutura_Basica_LaTeX/04-Estrutura-Basica-LaTeX.html#atividade-1",
     "href": "slides/04-Estrutura_Basica_LaTeX/04-Estrutura-Basica-LaTeX.html#atividade-1",
     "title": "Como organizar um relatório técnico que facilite a leitura e a navegação?",
     "section": "Atividade",
-    "text": "Atividade\nAdicione ao documento que você está criando:\n\nUma seção chamada Introdução com o seguinte texto: `Neste documento, exploraremos os conceitos básicos do e sua utilização para produzir documentos de alta qualidade.\nOutra seção chamada Recursos úteis seguida de uma subseção chamada Fórmulas Matemáticas com o seguinte texto: O \\LaTeX oferece recursos avançados de composição tipográfica, permitindo a criação de documentos com excelente qualidade de impressão.\nOutra subseção chamada Referências e Citações com o texto Com o \\LaTeX, é possível gerenciar facilmente referências bibliográficas e realizar citações de acordo com diferentes estilos acadêmicos."
+    "text": "Atividade\nAdicione ao documento que você está criando:\n\nUma seção chamada Introdução com o seguinte texto: Neste documento, exploraremos os conceitos básicos do \\LaTeX\\ e sua utilização para produzir documentos de alta qualidade.\nOutra seção chamada Recursos úteis seguida de uma subseção chamada Fórmulas Matemáticas com o seguinte texto: O \\LaTeX\\ oferece recursos avançados de composição tipográfica, permitindo a criação de documentos com excelente qualidade de impressão.\nOutra subseção chamada Referências e Citações com o texto Com o \\LaTeX, é possível gerenciar facilmente referências bibliográficas e realizar citações de acordo com diferentes estilos acadêmicos."
   },
   {
     "objectID": "slides/04-Estrutura_Basica_LaTeX/04-Estrutura-Basica-LaTeX.html#alinhamento-e-indentação",
     "href": "slides/04-Estrutura_Basica_LaTeX/04-Estrutura-Basica-LaTeX.html#alinhamento-e-indentação",
     "title": "Como organizar um relatório técnico que facilite a leitura e a navegação?",
     "section": "Alinhamento e Indentação",
-    "text": "Alinhamento e Indentação\n\nAlinhamento à esquerda: para alinhar um bloco de texto à esquerda, você pode utilizar o ambiente flushleft. Por exemplo:\n\n  \\begin{flushleft}\n        Texto alinhado à esquerda.\n    \\end{flushleft}\n\nAlinhamento à direita: para alinhar um bloco de texto à direita, você pode utilizar o ambiente flushright. Por exemplo:\n\n  \\begin{center}\n      linha 1 \\\\ linha 2 \\\\ linha 3\n    \\end{center}"
+    "text": "Alinhamento e Indentação\n\nAlinhamento à esquerda: para alinhar um bloco de texto à esquerda, você pode utilizar o ambiente flushleft. Por exemplo:\n\n\\begin{flushleft}\n    Texto alinhado à esquerda.\n\\end{flushleft}\n\nAlinhamento à direita: para alinhar um bloco de texto à direita, você pode utilizar o ambiente flushright. Por exemplo:\n\n\\begin{flushright}\n  linha 1 \\\\ linha 2 \\\\ linha 3\n\\end{flushright}"
   },
   {
     "objectID": "slides/04-Estrutura_Basica_LaTeX/04-Estrutura-Basica-LaTeX.html#alinhamento-e-indentação-1",
     "href": "slides/04-Estrutura_Basica_LaTeX/04-Estrutura-Basica-LaTeX.html#alinhamento-e-indentação-1",
     "title": "Como organizar um relatório técnico que facilite a leitura e a navegação?",
     "section": "Alinhamento e Indentação",
-    "text": "Alinhamento e Indentação\n\nCentralizando: para centralizar um bloco de texto ou linhas específicas, você pode utilizar o ambiente center. Basta inserir o conteúdo que deseja centralizar dentro do ambiente. Por exemplo:\n\n  \\begin{quote}\n        Texto a ser indentado.\n    \\end{quote}\n\nParágrafo indentado: para criar um parágrafo indentado, você pode usar o ambiente quote. Dentro desse ambiente, insira o texto que deseja indentar. Por exemplo:\n\n  \\begin{quote}\n        Texto indentado.\n    \\end{quote}"
+    "text": "Alinhamento e Indentação\n\nCentralizando: para centralizar um bloco de texto ou linhas específicas, você pode utilizar o ambiente center. Basta inserir o conteúdo que deseja centralizar dentro do ambiente. Por exemplo:\n\n\\begin{center}\n    Texto a ser centralizado.\n\\end{center}\n\nParágrafo indentado: para criar um parágrafo indentado, você pode usar o ambiente quote. Dentro desse ambiente, insira o texto que deseja indentar. Por exemplo:\n\n\\begin{quote}\n  Texto indentado.\n\\end{quote}"
   },
   {
     "objectID": "slides/04-Estrutura_Basica_LaTeX/04-Estrutura-Basica-LaTeX.html#exercício",
@@ -499,56 +528,42 @@
     "href": "slides/04-Estrutura_Basica_LaTeX/04-Estrutura-Basica-LaTeX.html#atividade-2",
     "title": "Como organizar um relatório técnico que facilite a leitura e a navegação?",
     "section": "Atividade",
-    "text": "Atividade\n\nNo mesmo arquivo, crie uma nova seção chamada .\nAdicione o texto: Este é um exemplo de texto com uma nota de rodapé. O texto continua normalmente. Na palavra rodapé adicione o rodapé: Essa é uma nota de rodapé, adicionando informações adicionais ao texto principal.\nAcrescente a nota na margem: Essa é uma nota na margem. no texto: Este é um exemplo de texto com uma nota na margem. A nota aparece ao lado da linha de texto em que foi inserida."
+    "text": "Atividade\n\nNo mesmo arquivo, crie uma nova seção chamada Notas.\nAdicione o texto: Este é um exemplo de texto com uma nota de rodapé. O texto continua normalmente. Na palavra rodapé adicione o rodapé: Essa é uma nota de rodapé, adicionando informações ao texto principal.\nAcrescente a nota na margem: Essa é uma nota na margem. no texto: Este é um exemplo de texto com uma nota na margem. A nota aparece ao lado da linha de texto em que foi inserida."
   },
   {
     "objectID": "slides/04-Estrutura_Basica_LaTeX/04-Estrutura-Basica-LaTeX.html#listas",
     "href": "slides/04-Estrutura_Basica_LaTeX/04-Estrutura-Basica-LaTeX.html#listas",
     "title": "Como organizar um relatório técnico que facilite a leitura e a navegação?",
     "section": "Listas",
-    "text": "Listas"
-  },
-  {
-    "objectID": "slides/04-Estrutura_Basica_LaTeX/04-Estrutura-Basica-LaTeX.html#ambiente-itemize",
-    "href": "slides/04-Estrutura_Basica_LaTeX/04-Estrutura-Basica-LaTeX.html#ambiente-itemize",
-    "title": "Como organizar um relatório técnico que facilite a leitura e a navegação?",
-    "section": "Ambiente itemize",
-    "text": "Ambiente itemize\n\nO ambiente itemize é utilizado para criar listas não numeradas, em que os itens são precedidos por pontos.\nOs itens são definidos utilizando o comando \\item, e cada item é colocado em uma linha separada.\nOs itens da lista são separados por espaço adicional vertical para melhorar a legibilidade. O LaTeX cuida automaticamente do espaçamento entre os itens.\nExemplo:\n\n\\begin{itemize}\n  \\item Item 1\n    \\item Item 2\n    \\item Item 3\n\\end{itemize}"
+    "text": "Listas\nAmbiente itemize\n\nO ambiente itemize é utilizado para criar listas não numeradas, em que os itens são precedidos por pontos.\nOs itens são definidos utilizando o comando \\item, e cada item é colocado em uma linha separada.\nOs itens da lista são separados por espaço adicional vertical para melhorar a legibilidade. O LaTeX cuida automaticamente do espaçamento entre os itens.\nExemplo:\n\n\\begin{itemize}\n  \\item Item 1\n    \\item Item 2\n    \\item Item 3\n\\end{itemize}"
   },
   {
     "objectID": "slides/04-Estrutura_Basica_LaTeX/04-Estrutura-Basica-LaTeX.html#listas-1",
     "href": "slides/04-Estrutura_Basica_LaTeX/04-Estrutura-Basica-LaTeX.html#listas-1",
     "title": "Como organizar um relatório técnico que facilite a leitura e a navegação?",
     "section": "Listas",
-    "text": "Listas\n\nNo LaTeX, é possível aninhar o ambiente itemize dentro de outro ambiente itemize, permitindo criar listas hierárquicas com vários níveis de indentação.\nCada nível de aninhamento gera uma indentação adicional à esquerda. O LaTeX se encarrega automaticamente do espaçamento e da indentação corretos para cada nível.\nExemplo:\n\n\\begin{itemize}\n  \\item Item 1\n    \\begin{itemize}\n      \\item subitem 1\n        \\item subitem 2\n    \\end{itemize}\n    \\item Item 2\n    \\item Item 3\n\\end{itemize}"
+    "text": "Listas\nAmbiente itemize\n\nNo LaTeX, é possível aninhar o ambiente itemize dentro de outro ambiente itemize, permitindo criar listas hierárquicas com vários níveis de indentação.\nCada nível de aninhamento gera uma indentação adicional à esquerda. O LaTeX se encarrega automaticamente do espaçamento e da indentação corretos para cada nível.\nExemplo:\n\n\\begin{itemize}\n  \\item Item 1\n    \\begin{itemize}\n      \\item subitem 1\n        \\item subitem 2\n    \\end{itemize}\n    \\item Item 2\n    \\item Item 3\n\\end{itemize}"
   },
   {
     "objectID": "slides/04-Estrutura_Basica_LaTeX/04-Estrutura-Basica-LaTeX.html#listas-2",
     "href": "slides/04-Estrutura_Basica_LaTeX/04-Estrutura-Basica-LaTeX.html#listas-2",
     "title": "Como organizar um relatório técnico que facilite a leitura e a navegação?",
     "section": "Listas",
-    "text": "Listas\nÉ possível utilizar marcadores personalizados nos itens da lista. Para isso, basta especificar o símbolo desejado entre colchetes após o comando \\item. - Exemplo:\n\\begin{itemize}\n  \\item[$\\diamond$] Item 1\n    \\item[$\\clubsuit$] Item 2\n    \\item[$\\rightarrow$] Item 3\n    \\item[$\\triangleright$] Item 4\n    \\item[$\\star$] Item 5\n    \\item[it6] Item 6\n\\end{itemize}"
+    "text": "Listas\nAmbiente itemize\nÉ possível utilizar marcadores personalizados nos itens da lista. Para isso, basta especificar o símbolo desejado entre colchetes após o comando \\item. - Exemplo:\n\\begin{itemize}\n  \\item[$\\diamond$] Item 1\n    \\item[$\\clubsuit$] Item 2\n    \\item[$\\rightarrow$] Item 3\n    \\item[$\\triangleright$] Item 4\n    \\item[$\\star$] Item 5\n    \\item[it6] Item 6\n\\end{itemize}"
   },
   {
     "objectID": "slides/04-Estrutura_Basica_LaTeX/04-Estrutura-Basica-LaTeX.html#listas-3",
     "href": "slides/04-Estrutura_Basica_LaTeX/04-Estrutura-Basica-LaTeX.html#listas-3",
     "title": "Como organizar um relatório técnico que facilite a leitura e a navegação?",
     "section": "Listas",
-    "text": "Listas\n\nSe quisermos criar listas numeradas usamos o ambiente . A sintaxe é similar ao ambiente .\nO LaTeX cuida automaticamente da numeração dos itens, atribuindo a eles números sequenciais. A numeração é atualizada automaticamente sempre que um novo item é adicionado ou removido.\nExemplo:\n\n\\begin{enumerate}\n  \\item Item 1\n    \\item] Item 2\n    \\begin{enumerate}\n      \\item Subitem 1\n        \\item Subitem 2\n    \\end{enumerate}\n    \\item Item 3\n\\end{enumerate}"
+    "text": "Listas\nAmbiente enumerate\n\nSe quisermos criar listas numeradas usamos o ambiente . A sintaxe é similar ao ambiente .\nO LaTeX cuida automaticamente da numeração dos itens, atribuindo a eles números sequenciais. A numeração é atualizada automaticamente sempre que um novo item é adicionado ou removido.\nExemplo:\n\n\\begin{enumerate}\n  \\item Item 1\n    \\item] Item 2\n    \\begin{enumerate}\n      \\item Subitem 1\n        \\item Subitem 2\n    \\end{enumerate}\n    \\item Item 3\n\\end{enumerate}"
   },
   {
     "objectID": "slides/04-Estrutura_Basica_LaTeX/04-Estrutura-Basica-LaTeX.html#listas-4",
     "href": "slides/04-Estrutura_Basica_LaTeX/04-Estrutura-Basica-LaTeX.html#listas-4",
     "title": "Como organizar um relatório técnico que facilite a leitura e a navegação?",
     "section": "Listas",
-    "text": "Listas\nA ordem de numeração padrão do  é a seguinte:\n\nNível 1: Números arábicos (1, 2, 3, …)\nNível 2: Letras minúsculas (a, b, c, …)\nNível 3: Números romanos em minúsculas (i, ii, iii, …)\nNível 4: Letras maiúsculas (A, B, C, …)\nNível 5: Números romanos em maiúsculas (I, II, III, …)\nExemplo:\n\n\\begin{enumerate}\n  \\item Item 1\n    \\item Item 2\n    \\begin{enumerate}\n      \\item Subitem 1\n      \\item Subitem 2\n    \\end{enumerate}\n    \\item Item 3\n\\end{enumerate}"
-  },
-  {
-    "objectID": "slides/04-Estrutura_Basica_LaTeX/04-Estrutura-Basica-LaTeX.html#listas-5",
-    "href": "slides/04-Estrutura_Basica_LaTeX/04-Estrutura-Basica-LaTeX.html#listas-5",
-    "title": "Como organizar um relatório técnico que facilite a leitura e a navegação?",
-    "section": "Listas",
-    "text": "Listas\nO ambiente enumerate oferece diferentes estilos de numeração, que podem ser especificados. - Exemplo:\n\\begin{enumerate}[(a)]\n  \\item Item 1\n    \\item Item 2\n\\end{enumerate}\n            \n\\begin{enumerate}[1.]\n  \\item Item 1\n    \\item Item 2\n\\end{enumerate}\n\n\\begin{enumerate}[I-]\n  \\item Item 1\n    \\item Item 2\n\\end{enumerate}"
+    "text": "Listas\nAmbiente enumerate\nA ordem de numeração padrão do  é a seguinte:\n\nNível 1: Números arábicos (1, 2, 3, …)\nNível 2: Letras minúsculas (a, b, c, …)\nNível 3: Números romanos em minúsculas (i, ii, iii, …)\nNível 4: Letras maiúsculas (A, B, C, …)\nNível 5: Números romanos em maiúsculas (I, II, III, …)\nExemplo:\n\n\\begin{enumerate}\n  \\item Item 1\n    \\item Item 2\n    \\begin{enumerate}\n      \\item Subitem 1\n      \\item Subitem 2\n    \\end{enumerate}\n    \\item Item 3\n\\end{enumerate}"
   },
   {
     "objectID": "slides/04-Estrutura_Basica_LaTeX/04-Estrutura-Basica-LaTeX.html#atividade-3",
@@ -558,18 +573,18 @@
     "text": "Atividade\nNo mesmo arquivo, crie uma nova seção chamada Listas e replique todos as listas apresentadas nos exemplos anteriores."
   },
   {
-    "objectID": "slides/04-Estrutura_Basica_LaTeX/04-Estrutura-Basica-LaTeX.html#exibindo-código-não-imterpretável",
-    "href": "slides/04-Estrutura_Basica_LaTeX/04-Estrutura-Basica-LaTeX.html#exibindo-código-não-imterpretável",
+    "objectID": "slides/04-Estrutura_Basica_LaTeX/04-Estrutura-Basica-LaTeX.html#exibindo-código-não-interpretável",
+    "href": "slides/04-Estrutura_Basica_LaTeX/04-Estrutura-Basica-LaTeX.html#exibindo-código-não-interpretável",
     "title": "Como organizar um relatório técnico que facilite a leitura e a navegação?",
-    "section": "Exibindo Código Não Imterpretável",
-    "text": "Exibindo Código Não Imterpretável\n\nÉ possível exibir trechos de texto exatamente como eles são, sem que o LaTeX interprete ou formate o conteúdo. Fazemos isso usando o ambiente verbatim ou o comando \\verb.\nO ambiente verbatim é usado para exibir blocos de texto exatamente como são digitados, preservando espaços, quebras de linha e caracteres especiais.\nEle é especialmente útil para exibir código-fonte, comandos ou qualquer trecho de texto que precise ser mostrado sem alterações.\nExemplo:\n\n\\begin{verbatim}\n  Este é um bloco de texto verbatim.\n    \\textcolor{magenta}{Aqui você pode digitar qualquer coisa,}\n    \\textbf{\\Large sem que o \\LaTeX interprete o conteúdo.}\n\\end{verbatim}"
+    "section": "Exibindo Código Não Interpretável",
+    "text": "Exibindo Código Não Interpretável\n\nÉ possível exibir trechos de texto exatamente como eles são, sem que o LaTeX interprete ou formate o conteúdo. Fazemos isso usando o ambiente verbatim ou o comando \\verb.\nO ambiente verbatim é usado para exibir blocos de texto exatamente como são digitados, preservando espaços, quebras de linha e caracteres especiais.\nEle é especialmente útil para exibir código-fonte, comandos ou qualquer trecho de texto que precise ser mostrado sem alterações.\nExemplo:\n\n\\begin{verbatim}\n  Este é um bloco de texto verbatim.\n    \\textcolor{magenta}{Aqui você pode digitar qualquer coisa,}\n    \\textbf{\\Large sem que o \\LaTeX interprete o conteúdo.}\n\\end{verbatim}"
   },
   {
-    "objectID": "slides/04-Estrutura_Basica_LaTeX/04-Estrutura-Basica-LaTeX.html#exibindo-código-não-imterpretável-1",
-    "href": "slides/04-Estrutura_Basica_LaTeX/04-Estrutura-Basica-LaTeX.html#exibindo-código-não-imterpretável-1",
+    "objectID": "slides/04-Estrutura_Basica_LaTeX/04-Estrutura-Basica-LaTeX.html#exibindo-código-não-interpretável-1",
+    "href": "slides/04-Estrutura_Basica_LaTeX/04-Estrutura-Basica-LaTeX.html#exibindo-código-não-interpretável-1",
     "title": "Como organizar um relatório técnico que facilite a leitura e a navegação?",
-    "section": "Exibindo Código Não Imterpretável",
-    "text": "Exibindo Código Não Imterpretável\n\nO comando \\verb| é usado para exibir pequenos trechos de texto em linha, preservando caracteres especiais.\nEle permite que você especifique um caractere delimitador para indicar o início e o fim do trecho de texto que será exibido literalmente. Em geral usamos “|”.\nExemplo:\n\n\\begin{verbatim}\n  Aqui está um exemplo usando \\verb|\\verb| para exibir comandos\n  \\LaTeX em linha.\n\\end{verbatim}"
+    "section": "Exibindo Código Não Interpretável",
+    "text": "Exibindo Código Não Interpretável\n\nO comando \\verb é usado para exibir pequenos trechos de texto em linha, preservando caracteres especiais.\nEle permite que você especifique um caractere delimitador para indicar o início e o fim do trecho de texto que será exibido literalmente. Em geral usamos “|”.\nExemplo:\n\n\\begin{verbatim}\n  Aqui está um exemplo usando \\verb|\\verb| para exibir comandos\n  \\LaTeX em linha.\n\\end{verbatim}"
   },
   {
     "objectID": "slides/04-Estrutura_Basica_LaTeX/04-Estrutura-Basica-LaTeX.html#atividade-4",
@@ -751,7 +766,7 @@
     "href": "slides/05-Ambiente_Matematico_LaTeX/05-Ambiente-Matematico-LaTeX.html#o-ambiente-matemático",
     "title": "Como escrever equações em documentos técnicos sem complicação?",
     "section": "O Ambiente Matemático",
-    "text": "O Ambiente Matemático\n\nNo LaTeX, as fórmulas matemáticas são inseridas no arquivo fonte por meio de comandos específicos.\nÉ importante informar ao LaTeX quando o texto seguinte é uma fórmula e quando ela termina para que o processamento seja feito corretamente.\nAs fórmulas podem ocorrer inline, ou seja, incorporadas em uma linha de texto, como por exemplo \\(ax^2 + bx + c = 0\\).\nTambém é possível destacar as fórmulas do texto principal, apresentando-as em uma linha separada, como:\n\\[x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}\\]"
+    "text": "O Ambiente Matemático\n\nNo LaTeX, as fórmulas matemáticas são inseridas no arquivo fonte por meio de comandos específicos.\nÉ importante informar ao LaTeX quando cmeça e termina uma fórmula para que o processamento seja feito corretamente.\nAs fórmulas podem ocorrer inline, ou seja, incorporadas em uma linha de texto, como por exemplo \\(ax^2 + bx + c = 0\\).\nTambém é possível destacar as fórmulas do texto principal, apresentando-as em uma linha separada, como:\n\\[x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}\\]"
   },
   {
     "objectID": "slides/05-Ambiente_Matematico_LaTeX/05-Ambiente-Matematico-LaTeX.html#o-ambiente-matemático-1",
@@ -779,42 +794,35 @@
     "href": "slides/05-Ambiente_Matematico_LaTeX/05-Ambiente-Matematico-LaTeX.html#atividade",
     "title": "Como escrever equações em documentos técnicos sem complicação?",
     "section": "Atividade",
-    "text": "Atividade\nReproduza no LaTeX o texto abaixo: \n\nSeja \\(X\\) com distribuição \\(U(a,b)\\). A função de densidade de probabilidade (PDF) de \\(X\\) é dada por \\[\nf(x) = 1/(b-a),\n\\] para \\(a\\leq x \\leq b\\). A esperança, \\(E(X)\\), e a variância, \\(V(X)\\), são respectivamente dadas por: \\[\nE(X) = (a + b)/2, \\quad V(X) = (b - a)^2/12.\n\\]"
+    "text": "Atividade\nReproduza no LaTeX o texto abaixo: \n\nSeja \\(X\\) com distribuição \\(U(a,b)\\). A função de densidade de probabilidade (PDF) de \\(X\\) é dada por \\[\nf(x) = 1/(b-a),\n\\] para \\(a&lt; x &lt; b\\). A esperança, \\(E(X)\\), e a variância, \\(V(X)\\), são respectivamente dadas por: \\[\nE(X) = (a + b)/2 \\quad \\text{e} \\quad V(X) = (b - a)^2/12.\n\\]"
   },
   {
     "objectID": "slides/05-Ambiente_Matematico_LaTeX/05-Ambiente-Matematico-LaTeX.html#frações-e-raízes",
     "href": "slides/05-Ambiente_Matematico_LaTeX/05-Ambiente-Matematico-LaTeX.html#frações-e-raízes",
     "title": "Como escrever equações em documentos técnicos sem complicação?",
-    "section": "Frações e Raízes}",
-    "text": "Frações e Raízes}\n\nFrações simples podem ser escritas utilizando o caractere /, por exemplo: $(a+b)/2$, que resulta em \\((a + b)/2\\).\nPara frações mais complexas, você pode usar o comando \\frac{num}{den}, onde num representa o numerador e den o denominador.\n\nPor exemplo: $\\frac{a+b}{2}$.\n\nPara representar raízes, utilize o comando\\sqrt[n]{radicando}.\n\nPor exemplo: $\\sqrt[3]{8}=2$.\n\nSe o argumento opcional [n] for omitido, a raiz quadrada é gerada. Exemplo: $\\sqrt{4}=2$.\nO tamanho e o comprimento do radical são automaticamente ajustados de acordo com o tamanho do radicando."
+    "section": "Frações e Raízes",
+    "text": "Frações e Raízes\n\nFrações simples podem ser escritas utilizando o caractere /.\n\nPor exemplo: $(a+b)/2$, que resulta em \\((a + b)/2\\).\n\nPara frações mais complexas, você pode usar o comando \\frac{numerador}{denominador}.\n\nPor exemplo: $\\frac{a+b}{2}$.\n\nPara representar raízes, utilize o comando\\sqrt[n]{radicando}.\n\nPor exemplo: $\\sqrt[3]{8}=2$ produz \\(\\sqrt[3]{8}=2\\).\n\nSe o argumento opcional [n] for omitido, a raiz quadrada é gerada. Exemplo: $\\sqrt{4}=2$ produz \\(\\sqrt{4}=2\\).\nO tamanho e o comprimento do radical são automaticamente ajustados de acordo com o tamanho do radicando."
   },
   {
     "objectID": "slides/05-Ambiente_Matematico_LaTeX/05-Ambiente-Matematico-LaTeX.html#atividade-1",
     "href": "slides/05-Ambiente_Matematico_LaTeX/05-Ambiente-Matematico-LaTeX.html#atividade-1",
     "title": "Como escrever equações em documentos técnicos sem complicação?",
     "section": "Atividade",
-    "text": "Atividade\nReproduza no LaTeX o texto abaixo:\n\nSeja \\(X\\) com distribuição \\(U(a,b)\\). A função de densidade de probabilidade (PDF) de \\(X\\) é dada por \\[\n\\frac{1}{b-a},\n\\] para \\(a\\leq x \\leq b\\). A esperança, \\(E(X)\\), e a variância, \\(V(X)\\), são respectivamente dadas por: \\[\nE(X) = \\frac{a + b}{2}, \\quad V(X) = \\frac{(b - a)^2}{12}.\n\\]"
+    "text": "Atividade\nReproduza no LaTeX o texto abaixo:\n\nSeja \\(X\\) com distribuição \\(U(a,b)\\). A função de densidade de probabilidade (PDF) de \\(X\\) é dada por \\[\n\\frac{1}{b-a},\n\\] para \\(a&lt; x &lt; b\\). A esperança, \\(E(X)\\), e a variância, \\(V(X)\\), são respectivamente dadas por: \\[\nE(X) = \\frac{a + b}{2} \\quad \\text{e} \\quad V(X) = \\frac{(b - a)^2}{12}.\n\\]"
   },
   {
     "objectID": "slides/05-Ambiente_Matematico_LaTeX/05-Ambiente-Matematico-LaTeX.html#somatórios-e-integrais",
     "href": "slides/05-Ambiente_Matematico_LaTeX/05-Ambiente-Matematico-LaTeX.html#somatórios-e-integrais",
     "title": "Como escrever equações em documentos técnicos sem complicação?",
     "section": "Somatórios e Integrais",
-    "text": "Somatórios e Integrais\n\nOs somatórios e as integrais são operações fundamentais na matemática, frequentemente representados por meio dos comandos \\sum e \\int. Exemplos:\n\n$\\sum_{i=1}^n a_i$ produz \\(\\sum_{i=1}^n a_i\\).\nPodemos destacar um somatório com o uso do comando \\limits, da seguinte forma: sum\\limits_{i=1}^n a_i$ produz \\(\\sum\\limits_{i=1}^n a_i\\).\n\nDa mesma forma, podemos expressar uma integral:\n\n$\\int_a^b f(x) dx$ produz \\(\\int_a^b f(x) dx\\).\n$\\int\\limits_a^b f(x) dx$ produz \\(\\int\\limits_a^b f(x) dx\\)."
+    "text": "Somatórios e Integrais\n\nOs somatórios e as integrais são operações fundamentais na matemática, frequentemente representados por meio dos comandos \\sum e \\int. Exemplos:\n\n$\\sum_{i=1}^n a_i$ produz \\(\\sum_{i=1}^n a_i\\).\nPodemos destacar um somatório com o uso do comando \\limits, da seguinte forma: \\sum\\limits_{i=1}^n a_i$ produz \\(\\sum\\limits_{i=1}^n a_i\\).\n\nDa mesma forma, podemos expressar uma integral:\n\n$\\int_a^b f(x) dx$ produz \\(\\int_a^b f(x) dx\\).\n$\\int\\limits_a^b f(x) dx$ produz \\(\\int\\limits_a^b f(x) dx\\)."
   },
   {
     "objectID": "slides/05-Ambiente_Matematico_LaTeX/05-Ambiente-Matematico-LaTeX.html#atividade-2",
     "href": "slides/05-Ambiente_Matematico_LaTeX/05-Ambiente-Matematico-LaTeX.html#atividade-2",
     "title": "Como escrever equações em documentos técnicos sem complicação?",
     "section": "Atividade",
-    "text": "Atividade\nReproduza no LaTeX o texto abaixo:\n\nConsiderando uma progressão geométrica (PG) com o primeiro termo \\(a_1\\), a razão \\(r\\), e um total de \\(n\\) termos. A soma dos termos pode ser expressa da seguinte forma: \\[\nS_n = \\frac{{a_1 (r^n - 1)}}{{r - 1}}.\n\\] Nessa fórmula, \\(S_n\\) representa a soma dos \\(n\\) termos da PG. O termo \\(a_1\\) é o primeiro termo da sequência, \\(r\\) é a razão com a qual os termos consecutivos são multiplicados, e \\(n\\) é o número total de termos na sequência."
-  },
-  {
-    "objectID": "slides/05-Ambiente_Matematico_LaTeX/05-Ambiente-Matematico-LaTeX.html#atividade-3",
-    "href": "slides/05-Ambiente_Matematico_LaTeX/05-Ambiente-Matematico-LaTeX.html#atividade-3",
-    "title": "Como escrever equações em documentos técnicos sem complicação?",
-    "section": "Atividade",
-    "text": "Atividade\nReproduza no LaTeX o texto abaixo:\n\nA função de densidade de probabilidade (pdf) da distribuição exponencial pode ser expressa como: \\[\nf(x) = a e^{-a x},\n\\] para \\(x\\) maior ou igual a zero. A probabilidade de \\(X&lt;b\\) é calculada como \\[\nP(X &lt;b) = \\int_{0}^{b} a e^{-a x}, dx.\n\\]"
+    "text": "Atividade\nReproduza no LaTeX o texto abaixo:\n\nA função de densidade de probabilidade (pdf) da distribuição exponencial pode ser expressa como: \\[\nf(x) = a e^{-a x},\n\\] para \\(x\\) maior ou igual a zero. A probabilidade de \\(X&lt;b\\) é calculada como \\[\nP(X &lt;b) = \\int_{0}^{b} a e^{-a x} dx.\n\\]"
   },
   {
     "objectID": "slides/05-Ambiente_Matematico_LaTeX/05-Ambiente-Matematico-LaTeX.html#coeficientes-binomiais",
@@ -824,8 +832,8 @@
     "text": "Coeficientes Binomiais\n\nOs coeficientes binomiais são obtidos com o comando \\choose ou com \\binom{}{}.\nExemplo:\n\n${a\\choose b}$ produz \\({a\\choose b}\\)\n$\\binom{a}{b}$ produz \\(\\binom{a}{b}\\)"
   },
   {
-    "objectID": "slides/05-Ambiente_Matematico_LaTeX/05-Ambiente-Matematico-LaTeX.html#atividade-4",
-    "href": "slides/05-Ambiente_Matematico_LaTeX/05-Ambiente-Matematico-LaTeX.html#atividade-4",
+    "objectID": "slides/05-Ambiente_Matematico_LaTeX/05-Ambiente-Matematico-LaTeX.html#atividade-3",
+    "href": "slides/05-Ambiente_Matematico_LaTeX/05-Ambiente-Matematico-LaTeX.html#atividade-3",
     "title": "Como escrever equações em documentos técnicos sem complicação?",
     "section": "Atividade",
     "text": "Atividade\nReproduza no LaTeX o texto abaixo:\n\nSeja \\(X\\) com distribuição Binomial(\\(n,p\\)). Para calcularmos a probabilidade de \\(X=k\\), usamos \\[\nP(X = k) = \\binom{n}{k}  p^k (1 - p)^{n - k},\n\\] em que \\({n \\choose k} = \\frac{n!}{k!(n - k)!}.\\)"
@@ -835,11 +843,11 @@
     "href": "slides/05-Ambiente_Matematico_LaTeX/05-Ambiente-Matematico-LaTeX.html#equações-numeradas",
     "title": "Como escrever equações em documentos técnicos sem complicação?",
     "section": "Equações Numeradas",
-    "text": "Equações Numeradas\n\nPara numerar e referenciar equações no LaTeX, usamos o ambiente equation com o comando \\label{}.\nO \\label{} atribui uma “etiqueta” à equação que pode ser referenciada em qualquer parte do texto.\nO \\ref{} mostra apenas o número da equação.\nO \\eqref{} mostra o número da equação entre parênteses, como é comum em textos científicos.\nExemplo:\n\nA equação de uma reta é dada por:\n\\begin{equation}\n  y = ax + b\n  \\label{eq:reta}\n\\end{equation}\n\nComo visto na Equação \\eqref{eq:exemplo}..."
+    "text": "Equações Numeradas\n\nPara numerar e referenciar equações no LaTeX, usamos o ambiente equation com o comando \\label{}.\nO \\label{} atribui uma “etiqueta” à equação que pode ser referenciada em qualquer parte do texto.\nO \\ref{} mostra apenas o número da equação.\nO \\eqref{} mostra o número da equação entre parênteses, como é comum em textos científicos.\nExemplo:\n\nA equação de uma reta é dada por:\n\\begin{equation}\n  y = ax + b\n  \\label{eq:reta}\n\\end{equation}\n\nComo visto na Equação \\eqref{eq:reta}..."
   },
   {
-    "objectID": "slides/05-Ambiente_Matematico_LaTeX/05-Ambiente-Matematico-LaTeX.html#atividade-5",
-    "href": "slides/05-Ambiente_Matematico_LaTeX/05-Ambiente-Matematico-LaTeX.html#atividade-5",
+    "objectID": "slides/05-Ambiente_Matematico_LaTeX/05-Ambiente-Matematico-LaTeX.html#atividade-4",
+    "href": "slides/05-Ambiente_Matematico_LaTeX/05-Ambiente-Matematico-LaTeX.html#atividade-4",
     "title": "Como escrever equações em documentos técnicos sem complicação?",
     "section": "Atividade",
     "text": "Atividade\nReproduza no LaTeX o texto abaixo:\n\nA fórmula de Bhaskara resolve equações do tipo \\(ax^2 + bx + c = 0\\). A solução é dada por: \\[\nx = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}\n\\qquad(1)\\] Veja que a Equação (1) depende dos coeficientes \\(a\\), \\(b\\) e \\(c\\)."
@@ -859,8 +867,8 @@
     "text": "Formatação de Espaçamento e Pontos\n\nO comando \\quad produz um espaço médio.\nO comando \\qquad produz um espaço maior\nO comando \\, dá um pequeno espaço.\nO comando \\: dá um espaço médio.\nO comando \\; dá um espaço grande.\nO comando \\! dá um espaço negativo (backspace). \nSe você precisar incluir texto no meio das fórmulas matemáticas, o comando \\mbox{texto} ou \\text{texto} pode ser usado. Exemplo:\n$IMC = \\frac{\\text{altura}}{\\text{peso}^2}$ produz \\(IMC = \\frac{\\text{altura}}{\\text{peso}^2}\\)"
   },
   {
-    "objectID": "slides/05-Ambiente_Matematico_LaTeX/05-Ambiente-Matematico-LaTeX.html#atividade-6",
-    "href": "slides/05-Ambiente_Matematico_LaTeX/05-Ambiente-Matematico-LaTeX.html#atividade-6",
+    "objectID": "slides/05-Ambiente_Matematico_LaTeX/05-Ambiente-Matematico-LaTeX.html#atividade-5",
+    "href": "slides/05-Ambiente_Matematico_LaTeX/05-Ambiente-Matematico-LaTeX.html#atividade-5",
     "title": "Como escrever equações em documentos técnicos sem complicação?",
     "section": "Atividade",
     "text": "Atividade\nReproduza no LaTeX:\n\n\\[\nx_1=\\frac{-b-\\sqrt{b^2-4ac}}{2a}\\quad\\mbox{e}\\quad\nx_2=\\frac{-b+\\sqrt{b^2-4ac}}{2a}.\n\\]"
@@ -964,15 +972,15 @@
     "text": "Fórmulas com Til, Barra, Chapéu, etc.\n\nÉ possível colocar setas sobre duas ou mais letras utilizando o comando \\stackrel{\\longrightarrow}{letras}.\n\n$V = \\stackrel{\\longrightarrow}{AB}$$ ~ produz \\(V = \\stackrel{\\longrightarrow}{AB}\\)\n\nPara adicionar acentos circunflexos e tis sobre letras, usamos os comandos \\hat, \\widehat, \\tilde e \\widetilde.\n\n$\\hat{\\mu}$ produz \\(\\hat{\\mu}\\)\n\n$\\widehat{\\mu}$ produz \\(\\widehat{\\mu}\\)\n$\\tilde{ABC}$ produz \\(\\tilde{ABC}\\)\n$\\widetilde{ABC}$ produz \\(\\widetilde{ABC}\\)"
   },
   {
-    "objectID": "slides/05-Ambiente_Matematico_LaTeX/05-Ambiente-Matematico-LaTeX.html#atividade-7",
-    "href": "slides/05-Ambiente_Matematico_LaTeX/05-Ambiente-Matematico-LaTeX.html#atividade-7",
+    "objectID": "slides/05-Ambiente_Matematico_LaTeX/05-Ambiente-Matematico-LaTeX.html#atividade-6",
+    "href": "slides/05-Ambiente_Matematico_LaTeX/05-Ambiente-Matematico-LaTeX.html#atividade-6",
     "title": "Como escrever equações em documentos técnicos sem complicação?",
     "section": "Atividade",
     "text": "Atividade\nReproduza no LaTeX o texto abaixo:\n\nSeja \\(X\\) uma v.a. discreta que assume valores em \\(R_x = \\{x_1 , x_2 , \\ldots, x_n , \\ldots\\}\\). A cada possível resultado \\(x_i\\) associamos a um número \\[\np(x_i) = P(X(\\omega_i) = x_i), \\omega_i \\in \\Omega \\text{ e } x_i \\in R_x\n\\] dita probabilidade de \\(x_i\\). A função \\(p(x)\\) é definida como função massa de probabilidade de \\(X\\) (f.m.p ou f.p de \\(X\\)). As probabilidades \\(p(x_i)\\) devem satisfazer as seguintes condições: 1. \\(p(x_i) \\geq 0, \\forall x_i \\in R_x\\), 2. \\(\\sum\\limits_{i=1}^\\infty p(x_i) = 1\\)."
   },
   {
-    "objectID": "slides/05-Ambiente_Matematico_LaTeX/05-Ambiente-Matematico-LaTeX.html#atividade-8",
-    "href": "slides/05-Ambiente_Matematico_LaTeX/05-Ambiente-Matematico-LaTeX.html#atividade-8",
+    "objectID": "slides/05-Ambiente_Matematico_LaTeX/05-Ambiente-Matematico-LaTeX.html#atividade-7",
+    "href": "slides/05-Ambiente_Matematico_LaTeX/05-Ambiente-Matematico-LaTeX.html#atividade-7",
     "title": "Como escrever equações em documentos técnicos sem complicação?",
     "section": "Atividade",
     "text": "Atividade\nReproduza no LaTeX o texto abaixo:\n\nSeja \\(X\\) uma v.a. contínua que assume valores em \\(R_x\\). A função \\(f_X(x)\\) é a função densidade de probabilidade (f.d.p.) para \\(X\\), se satisfaz as seguintes propriedades: 1. \\(f_X(x) \\geq 0, \\forall x \\in R_x\\), 2. \\(\\int\\limits_{R_x} f_X(x)dx = 1\\) ou \\(\\int\\limits_{-\\infty}^\\infty f_X(x)dx = 1\\), 3. \\(P(a&lt;X&lt;b) = \\int\\limits_a^b f_X(x)dx, ~\\forall a,b \\in R_x\\)."
@@ -989,7 +997,7 @@
     "href": "slides/05-Ambiente_Matematico_LaTeX/05-Ambiente-Matematico-LaTeX.html#material-extra",
     "title": "Como escrever equações em documentos técnicos sem complicação?",
     "section": "Material Extra",
-    "text": "Material Extra\nAprofunde o que vimos em aula com esse link:\n\nhttps://www.overleaf.com/learn/latex/Mathematical_expressions"
+    "text": "Material Extra\nAprofunde o que vimos em aula com esse link:\n\nhttps://www.overleaf.com/learn/latex/Mathematical_expressions\n\nSite para detectar símbolos do LaTeX:\n\nhttps://detexify.kirelabs.org/classify.html"
   },
   {
     "objectID": "slides/05-Ambiente_Matematico_LaTeX/05-Ambiente-Matematico-LaTeX.html#atividade-extraclasse",
@@ -1451,7 +1459,7 @@
     "href": "info/dados_gerais.html#horários-das-aulas",
     "title": "Estatística Computacional",
     "section": "Horários das Aulas",
-    "text": "Horários das Aulas\nAs aulas ocorrerão nos seguintes horários:\n\nTerças: 19h00 às 20h30\nQuintas: 20h45 às 22h15\n\nLocal: Laboratório de Estatística (DECAT)",
+    "text": "Horários das Aulas\nAs aulas ocorrerão nos seguintes horários:\n\nTerças: 19h00 às 20h30 no LEA01 (Laboratório de Informática 01 do DECAT)\nQuintas: 20h45 às 22h15 no LEA02 (Laboratório de Informática 02 do DECAT)",
     "crumbs": [
       "Informações da disciplina",
       "Dados gerais"
