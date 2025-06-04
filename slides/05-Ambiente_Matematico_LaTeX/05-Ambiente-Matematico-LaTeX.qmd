@@ -172,9 +172,9 @@ Reproduza no LaTeX o texto abaixo:
 $$
 	f(x) = 1/(b-a),
 $$
-para $a\leq x \leq b$. A esperança, $E(X)$, e a variância, $V(X)$, são respectivamente dadas por:
+para $a< x < b$. A esperança, $E(X)$, e a variância, $V(X)$, são respectivamente dadas por:
 $$
-  E(X) = (a + b)/2, \quad V(X) = (b - a)^2/12.
+  E(X) = (a + b)/2 \quad \text{e} \quad V(X) = (b - a)^2/12.
 $$
 
 
@@ -208,9 +208,9 @@ Reproduza no LaTeX o texto abaixo:
 $$
   \frac{1}{b-a},
 $$
-para $a\leq x \leq b$. A esperança, $E(X)$, e a variância, $V(X)$, são respectivamente dadas por:
+para $a< x < b$. A esperança, $E(X)$, e a variância, $V(X)$, são respectivamente dadas por:
 $$
-	E(X) = \frac{a + b}{2}, \quad V(X) = \frac{(b - a)^2}{12}.
+	E(X) = \frac{a + b}{2} \quad \text{e} \quad V(X) = \frac{(b - a)^2}{12}.
 $$
 
 
@@ -221,7 +221,7 @@ $$
 - Os somatórios e as integrais são operações fundamentais na matemática, frequentemente representados por meio dos comandos `\sum` e `\int`. Exemplos:
 
   - `$\sum_{i=1}^n a_i$` produz $\sum_{i=1}^n a_i$.
-  - Podemos destacar um somatório com o uso do comando `\limits`, da seguinte forma: `sum\limits_{i=1}^n a_i$` produz $\sum\limits_{i=1}^n a_i$.
+  - Podemos destacar um somatório com o uso do comando `\limits`, da seguinte forma: `\sum\limits_{i=1}^n a_i$` produz $\sum\limits_{i=1}^n a_i$.
 
 - Da mesma forma, podemos expressar uma integral:
 
@@ -241,7 +241,7 @@ $$
 $$
 para $x$ maior ou igual a zero. A probabilidade de $X<b$ é calculada como
 $$
-	P(X <b) = \int_{0}^{b} a e^{-a x}, dx.
+	P(X <b) = \int_{0}^{b} a e^{-a x} dx.
 $$
 
 
@@ -286,7 +286,7 @@ A equação de uma reta é dada por:
   \label{eq:reta}
 \end{equation}
 
-Como visto na Equação \eqref{eq:exemplo}...
+Como visto na Equação \eqref{eq:reta}...
 ```
 
 
@@ -625,6 +625,10 @@ Reproduza no LaTeX o texto abaixo:
 Aprofunde o que vimos em aula com esse link:
 
 - <https://www.overleaf.com/learn/latex/Mathematical_expressions>
+
+Site para detectar símbolos do LaTeX:
+
+- <https://detexify.kirelabs.org/classify.html>
 
 
 
