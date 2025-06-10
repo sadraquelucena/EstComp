@@ -18,6 +18,7 @@ Slides:
 
 - [Versão pdf](/PDF_slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX.pdf){target="_blank"}
 
+- [Arquivos de figuras](/PDF_slides/ufs_logos.zip){target="_blank"}
 
 ## Atividade
 
