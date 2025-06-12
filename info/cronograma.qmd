@@ -20,5 +20,7 @@ Cronograma de aulas de Estatística Computacional seguindo o [calendário acadê
 | 5      | Terça, 27 de maio de 2025   | Introdução ao LaTeX              |
 | 6      | Quinta, 29 de maio de 2025  | Estrutura básico do LaTeX        |
 | 7      | Terça, 03 de junho de 2025  | Ambiente matemático no LaTeX     |
-| 8      | Quinta, 05 de junho de 2025 | Ambiente matemático no LaTeX     |
+| 8      | Quinta, 05 de junho de 2025 | Tabelas no LaTeX                 |
+| 9      | Quinta, 10 de junho de 2025 | Figuras no LaTeX                 |
+| 10     | Quinta, 12 de junho de 2025 | Bibliografia no LaTeX            |
 
