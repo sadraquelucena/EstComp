@@ -626,9 +626,11 @@ Poitiers
 <h2>Figuras</h2>
 <h3 id="exemplo">Exemplo</h3>
 <div class="sourceCode" id="cb10"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb10-1"><a aria-hidden="true" tabindex="-1"></a><span class="kw">\begin</span>{<span class="ex">figure</span>}[h]</span>
-<span id="cb10-2"><a aria-hidden="true" tabindex="-1"></a>  <span class="bu">\includegraphics</span>[height=.5<span class="fu">\textheight</span>]{<span class="ex">ufs_vertical_positiva.png</span>}</span>
-<span id="cb10-3"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">\caption</span>{Brasão da UFS}</span>
-<span id="cb10-4"><a aria-hidden="true" tabindex="-1"></a><span class="kw">\end</span>{<span class="ex">figure</span>}</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb10-2"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">\centering</span></span>
+<span id="cb10-3"><a aria-hidden="true" tabindex="-1"></a>  <span class="bu">\includegraphics</span>[height=.5<span class="fu">\textheight</span>]{<span class="ex">ufs_vertical_positiva.png</span>}</span>
+<span id="cb10-4"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">\caption</span>{Brasão da UFS}</span>
+<span id="cb10-5"><a aria-hidden="true" tabindex="-1"></a>  <span class="kw">\label</span>{<span class="ex">fig:brasao</span>}</span>
+<span id="cb10-6"><a aria-hidden="true" tabindex="-1"></a><span class="kw">\end</span>{<span class="ex">figure</span>}</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>produz</p>
 <div style="text-align: center; margin: 20px 0;">
 <figure>
@@ -661,10 +663,10 @@ Poitiers
 <span id="cb11-8"><a aria-hidden="true" tabindex="-1"></a>  <span class="kw">\begin</span>{<span class="ex">figure</span>}[h]</span>
 <span id="cb11-9"><a aria-hidden="true" tabindex="-1"></a>    <span class="fu">\subfigure</span>[colorido]{<span class="bu">\includegraphics</span>[scale=0.2]{<span class="ex">1-title-page/uf</span></span>
 <span id="cb11-10"><a aria-hidden="true" tabindex="-1"></a><span class="ex">    s_vertical_positiva.png</span>}}<span class="fu">\quad</span></span>
-<span id="cb11-11"><a aria-hidden="true" tabindex="-1"></a>    <span class="fu">\subfigure</span>[p<span class="fu">\&amp;</span>b]{<span class="bu">\includegraphics</span>[scale=0.2]{<span class="ex">ufs_vertical_meiost</span></span>
-<span id="cb11-12"><a aria-hidden="true" tabindex="-1"></a><span class="ex">    ons.png</span>}}<span class="fu">\quad</span></span>
-<span id="cb11-13"><a aria-hidden="true" tabindex="-1"></a>    <span class="fu">\subfigure</span>[meios tons]{<span class="bu">\includegraphics</span>[scale=0.2]{<span class="ex">ufs_vertical_</span></span>
-<span id="cb11-14"><a aria-hidden="true" tabindex="-1"></a><span class="ex">    pb.png</span>}}<span class="fu">\quad</span></span>
+<span id="cb11-11"><a aria-hidden="true" tabindex="-1"></a>    <span class="fu">\subfigure</span>[meios tons]{<span class="bu">\includegraphics</span>[scale=0.2]{<span class="ex">ufs_vertical_</span></span>
+<span id="cb11-12"><a aria-hidden="true" tabindex="-1"></a><span class="ex">    pb.png</span>}}<span class="fu">\quad</span></span>
+<span id="cb11-13"><a aria-hidden="true" tabindex="-1"></a>    <span class="fu">\subfigure</span>[p<span class="fu">\&amp;</span>b]{<span class="bu">\includegraphics</span>[scale=0.2]{<span class="ex">ufs_vertical_meiost</span></span>
+<span id="cb11-14"><a aria-hidden="true" tabindex="-1"></a><span class="ex">    ons.png</span>}}<span class="fu">\quad</span></span>
 <span id="cb11-15"><a aria-hidden="true" tabindex="-1"></a>    <span class="fu">\subfigure</span>[logo]{<span class="bu">\includegraphics</span>[scale=0.2]{<span class="ex">ufs_logotipo.png</span>}}</span>
 <span id="cb11-16"><a aria-hidden="true" tabindex="-1"></a>    <span class="fu">\caption</span>{Exemplo de um conjunto de figuras.}</span>
 <span id="cb11-17"><a aria-hidden="true" tabindex="-1"></a>  <span class="kw">\end</span>{<span class="ex">figure</span>}</span>

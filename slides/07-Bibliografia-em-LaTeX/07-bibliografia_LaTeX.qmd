@@ -1,0 +1,419 @@
+---
+title: "Como gerenciar e citar referências bibliográficas?"
+subtitle: |
+  <span style="font-size:1.4em; font-weight:bold;">
+    Introdução ao <img src="imagens/BibTeX.png" style="width: 120px; vertical-align: middle; margin-left: 0px; margin-top: 11px;" />
+  </span>
+author:
+  name: | # indica que o campo name terá múltiplas linhas
+    ESTAT0090 -- Estatística Computacional<br>
+    Prof. Dr. Sadraque E. F. Lucena<br>
+    <span style="font-size:.8em;">sadraquelucena@academico.ufs.br</span>
+  
+format:
+  revealjs:
+    theme: meutema.scss
+    width: 1024
+    height: 768
+    margin: 0.1         # margem em torno do conteúdo
+    min-scale: 0.2       # escala mínima permitida
+    max-scale: 2.0       # escala máxima permitida
+    slide-number: true
+    code-line-numbers: false # sem numero das linhas nos code chunks
+    subtitle-style: "font-size: 2em; font-weight: bold;"  # Aqui é onde aumentamos o subtítulo
+    logo: imagens/ufs_horizontal_positiva.png
+    transition: fade
+    transition-speed: fast
+    scss: meutema.scss
+
+lang: pt-BR
+---
+
+
+## Cenário
+
+Imagine que você está concluindo seu TCC, que conta com diversas referências a artigos científicos, livros e anais de congressos. Você percebe que a tarefa de formatar todas as referências bibliográficas manualmente, seguindo as normas da ABNT, é exaustiva e suscetível a erros.
+
+Nesse momento, você se depara com a necessidade de:
+
+- Gerenciar todas as suas referências de forma organizada e centralizada.
+- Citar corretamente cada fonte no texto, seja ela uma citação direta ou indireta.
+- Gerar a lista de referências bibliográficas automaticamente no final do documento, com a formatação exigida pela sua instituição ou periódico.
+- Garantir a consistência em todo o documento, desde a numeração das citações até os detalhes de cada entrada na bibliografia.
+
+Com o BibTeX, você não precisa perder tempo ajustando manualmente cada detalhe das suas referências. O LaTeX, em conjunto com o BibTeX, automatiza todo esse processo, garantindo um documento profissional, padronizado e sem erros!
+
+
+
+
+## Objetivo da aula
+
+Na aula de hoje aprenderemos no LaTeX a:
+
+- Criar e organizar um arquivo `.bib, contendo todas as informações necessárias para suas referências.
+- Citar corretamente fontes bibliográficas no corpo do texto usando comandos BibTeX.
+
+
+
+
+# Introdução ao <img src="imagens/BibTeX.png" style="width: 250px; vertical-align: middle; margin-left: 0px; margin-top: 18px;" />
+
+
+
+
+## Bibliografia
+
+- Umas das maneiras mais básicas, de fazer a bibliografia é utilizar o ambiente `thebibliography` contendo uma lista de `\bibitem`'s.
+
+    - Cada `\bibitem` representa uma referência bilbiográfica.
+    - Cada `\bibitem` recebe um referenciamento para ser usado no texto.
+    
+- A estrutura básica é
+
+```latex
+\begin{thebibliography}{n}
+    \bibitem{codigo_referencia} Detalhes da referência
+\end{thebibliography}
+```
+onde
+
+- `n`: número máximo de referências da sua lista (use um valor grande como 99 ou 999 para garantir espaço).
+- `\bibitem{codigo_referencia}`: Cada referência começa com este comando, onde `codigo_referencia` é um identificador para essa fonte.
+- Os detalhes da referência (Livro, Autor, Ano, etc.) são inseridos manualmente após o `\bibitem`.
+
+
+
+
+## Bibliografia
+
+Quando o documento é processado, o LaTeX automaticamente numera as referências na lista e insere o número correspondente onde o `\cite` foi usado.
+
+### Exemplo 
+```{.latex}
+Aqui estou citando a minha primeira referência \cite{verzani}.
+
+...
+
+\begin{thebibliography}{99}
+  \bibitem{verzani}{Verzani, J. (2005) {\it Using R for introductory
+  statistics}. Chapman \& Hall.}
+\end{thebibliography}
+```
+produz:
+
+> Aqui estou citando a minha primeira referência [1].
+>
+>...
+>
+> **Referências**
+>
+> [1] Verzani, J. (2005) *Using R for introductory statistics*. Chapman & Hall.
+
+
+
+
+## Atividade
+
+Reproduza o documento usando `thebibliography`:
+
+>A regressão linear múltipla é um modelo estatístico que descreve a relação entre uma variável de resposta e múltiplas variáveis preditoras [1]. O modelo pode ser expresso pela equação
+$$Y = \beta_0 + \beta_1X_1 + \beta_2X_2 + \ldots + \beta_p X_p + \varepsilon,$$
+onde $X_j$ representa o$j$-ésimo preditor e $\beta_j$ quantifica a associação entre essa variável e a resposta. De acordo com Hastie, Tibshirani e Friedman [2], a interpretação de $\beta_j$ é o efeito médio na variável dependente $Y$ de um aumento de uma unidade em $X_j$, mantendo todas as outras variáveis preditoras fixas.
+>
+> **Referências**
+>
+> [1] HASTIE, T.; TIBSHIRANI, R.; FRIEDMAN, J. The Elements of Statistical Learning: Data Mining, Inference, and Prediction. 2. ed. New York: Springer, 2009.
+>
+> [2] JAMES, G. et al. An Introduction to Statistical Learning: With Applications in R. New York: Springer, 2013.
+
+
+
+
+## Bibliografia
+
+Existem alguns inconvenientes ao preparar manualmente a lista `thebibliography`:
+
+- **Formatação Manual**: Você precisa formatar cada entrada individualmente para corresponder ao estilo de citação exigido (negrito, itálico, ordem de elementos, etc.).
+- **Classificação Manual**: Se o estilo exigir, você mesmo deve organizar as referências em ordem alfabética ou ordem em que aparece no texto.
+- **Reescrita Constante**: Para documentos diferentes que usam estilos de citação distintos, você precisa reescrever e reformatar cada entrada bibliográfica.
+
+Uma alternativa que automatiza esses processos é o uso do <img src="imagens/BibTeX.png" style="width: 100px; vertical-align: middle; margin-left: 0px; margin-top: 10px;" />.
+
+
+
+
+
+## <img src="imagens/BibTeX.png" style="width: 150px; vertical-align: middle; margin-left: 0px; margin-top: 18px;" />
+
+- Em vez de formatar manualmente as referências em uma lista, usamos um arquivo de banco de dados bibliográfico (com extensão `.bib`).
+
+- Esse arquivo contém as informações da cada referência (autor, título, ano, etc.) de forma independente do estilo de formatação.
+
+- Você continua usando o comando `\cite` com as chaves de citação. A diferença é que, em vez de criar um ambiente `thebibliography` manual, você adiciona duas linhas no arquivo `.tex`:
+
+    - `\bibliographystyle{...}`: para escolher o estilo de referência (ABNT, APA, etc.).
+    - `\bibliography{...}`: para apontar para o arquivo `.bib` que contém suas referências.
+
+
+
+
+## Exemplo
+
+```{.latex}
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[brazil]{babel}
+\usepackage{natbib}
+
+\bibliographystyle{unsrtnat}
+
+\title{Distribuição Beta}
+\author{Sadraque E. F. Lucena}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section{Introdução}
+A distribuição beta é utilizada para variáveis aleatórias que assumem
+valores no intervalo (0,1) \cite{Johnson1995}.
+
+\bibliography{referencias.bib}
+
+\end{document}
+```
+
+
+
+
+## <img src="imagens/BibTeX.png" style="width: 150px; vertical-align: middle; margin-left: 0px; margin-top: 18px;" />
+
+- O arquivo `.bib` (sua base de dados de bibliografias) armazena informações sobre suas referências em um formato padronizado. Exemplo:
+
+```{.latex}
+@book{knuth1986,
+  author = {Donald E. Knuth},
+  year = {1986},
+  title = {The {\TeX} Book},
+  publisher = {Addison-Wesley Professional}
+}
+
+@article{knuth1984,
+  title={Literate Programming},
+  author={Donald E. Knuth},
+  journal={The Computer Journal},
+  volume={27},
+  number={2},
+  pages={97--111},
+  year={1984},
+  publisher={Oxford University Press}
+}
+```
+
+
+
+
+## <img src="imagens/BibTeX.png" style="width: 150px; vertical-align: middle; margin-left: 0px; margin-top: 18px;" />
+
+Como fazer:
+
+- Primeiramente deve-se escrever um arquivo (é importante ressaltar que este é um arquivo separado do documento principal) contendo os dados bibliográficos baseado nos tipos pré-definidos pelo LaTeX. Os principais são: `article`, `book`, `inbook`, `manual`.
+
+- Os principais campos que devem ser preenchidos são: `author`, `title`, `year`, `publisher`, `address`.
+
+- Salve este arquivo com extensão `.bib` na mesma pasta onde está o documento.
+
+```latex
+Tipo@{código de referência,
+      AUTHOR= "nome",
+      TITLE = " Tı́tulo ",
+      PUBLISHER = "Editora",
+      ADDRESS = "Endereço",
+      YEAR = "Ano" }
+```
+
+
+
+
+## <img src="imagens/BibTeX.png" style="width: 150px; vertical-align: middle; margin-left: 0px; margin-top: 18px;" />
+
+- Insira o comando `\bibliographystyle{estilo}` no documento e o comando `\bibliography{arquivo (sem .bib)}` no local onde deverá aparecer a bibliografia.
+- Para evitar ter que digitar dentro do arquivo `.bib`, existem diversos programas que auxiliam na composição das referências.
+- Exemplo:
+
+![](imagens/jabref.png){fig-align="center"}
+
+::: {.callout-tip}
+O Google Scholar disponibiliza referências bibliográficas diretamente no formato BibTeX.
+:::
+
+
+
+
+## <img src="imagens/BibTeX.png" style="width: 150px; vertical-align: middle; margin-left: 0px; margin-top: 18px;" />
+
+Observações importantes sobre BibTeX e arquivos `.bib`:
+
+- BibTeX só incluirá no documento final as entradas do seu arquivo .bib que foram efetivamente citadas no texto usando `\cite{...}`. Isso permite reutilizar o mesmo arquivo `.bib` em vários projetos.
+
+    - Para incluir todas as entradas (mesmo as não citadas), use `\nocite{[*]}`.
+    
+- Para funcionar corretamente, o BibTeX exige dois comandos cruciais em seu documento LaTeX:
+
+    - `\bibliographystyle{seu_estilo}` para definir o formato de apresentação das referências;
+    - `\bibliography{seu_arquivo}` para indicar onde está o arquivo `.bib`.
+    
+- Se as citações aparecerem como `[?]`, verifique se os comandos `\bibliographystyle` e `\bibliography` estão presentes e com nomes corretos.
+
+- A ordem em que as referências aparecem no seu arquivo `.bib` não afeta a ordem da lista final. A ordenação é determinada unicamente pelo estilo bibliográfico (`\bibliographystyle{...}`) escolhido.
+
+
+
+
+## Gerenciamento da bibliografia com `natbib`
+
+Para usar o natbib é necessário usar no prêmbulo do arquivo `.tex`:
+
+```{.latex}
+\usepackage[opcoes]{natbib}
+\bibliographystyle{estilo_da_referencia}
+```
+
+- Algumas opções para o campo `opcoes` no natbib são:
+
+    - `authoryear` para citação autor-ano;
+    - `numbers` para citação numérica
+
+- `estilo_da_referencia` especifica a norma para apresentação das referências bibliográficas que serão citadas no texto. Com `natbib` as opções de estilo são:
+
+:::: {.columns}
+
+::: {.column width="10%"}
+
+:::
+
+::: {.column width="40%"}
+- dinat
+- plainnat
+- abbrvnat
+:::
+
+::: {.column width="50%"}
+- unsrtnat
+- rusnat
+- ksfh_nat
+:::
+
+::::
+
+
+
+
+## Gerenciamento da bibliografia com `natbib`
+
+Quando usamos o pacote `natbib` as referências podem ser citadas ao longo do texto usando:
+
+| Comando       | Citação             |
+|:--------------|:--------------------|
+| `\citet{jon90}` | Jones et al. (1990) |
+| `\citet[cap.~2]{jon90}` | Jones et al. (1990, cap. 2) |
+| `\citep{jon90}` | (Jones et al., 1990) |
+| `\citep[cap.~2]{jon90}` | (Jones et al., 1990, cap. 2) |
+| `\citep[ver][]{jon90}` | (ver Jones et al., 1990) |
+| `\citep[ver][cap.~2]{jon90}` | (ver Jones et al., 1990, cap. 2) |
+| `\citet*{jon90}` | Jones, Baker, and Williams (1990) |
+| `\citep*{jon90}` | (Jones, Baker, and Williams, 1990) |
+| `\citeauthor{jon90}` | Jones et al. |
+| `\citeyear{jon90}` | 1990 |
+
+
+
+
+## Atividade
+
+Reproduza o documento abaixo usando `natbib` estilo de bibliografia `unsrtnat`.
+
+>A regressão linear múltipla é um modelo estatístico que descreve a relação entre uma variável de resposta e múltiplas variáveis preditoras [1]. O modelo pode ser expresso pela equação
+$$Y = \beta_0 + \beta_1X_1 + \beta_2X_2 + \ldots + \beta_p X_p + \varepsilon,$$
+onde $X_j$ representa o$j$-ésimo preditor e $\beta_j$ quantifica a associação entre essa variável e a resposta. De acordo com James et al. [2], a interpretação de $\beta_j$ é o efeito médio na variável dependente $Y$ de um aumento de uma unidade em $X_j$, mantendo todas as outras variáveis preditoras fixas.
+>
+> **Referências**
+>
+>[1] T. Hastie, R. Tibshirani, and J. Friedman. *The Elements of Statistical
+Learning: Data Mining, Inference, and Prediction*. Springer, New York,
+2 edition, 2009.
+>
+>[2] Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani, et al.
+*An introduction to statistical learning*, volume 112. Springer, 2013.
+
+
+## Gerenciamento de bibliografia com `abntex2cite`
+
+- O pacote `abntex2cite` formata as referências bibliográficas de acordo com as normas da ABNT. Para usá-lo coloque no preâmbulo
+
+```latex
+\usepackage[alf]{abntex2cite}
+```
+
+- Com esse pacote você não precisa selecionar o comando `\bibliographystyle{...}`, porque isso é realizado automaticamente.
+- As referências devem ser chamadas no texto usado os comandos:
+
+| Comando       | Citação             |
+|:--------------|:--------------------|
+| `\cite{jon90}` | (Jones et al., 1990) |
+| `\cite[p.~20]{jon90}` | (Jones et al., 1990, p. 20) |
+| `\citeonline{jon90}` | Jones et al. (1990) |
+| `\citeonline[p.~20]{jon90}` | Jones et al. (1990, p. 20) |
+
+
+
+
+## Atividade
+
+Reproduza o documento abaixo usando `abntex2cite`.
+
+>A regressão linear múltipla é um modelo estatístico que descreve a relação entre uma variável de resposta e múltiplas variáveis preditoras (HASTIE; TIBSHIRANI; FRIEDMAN, 2009). O modelo pode ser expresso pela equação
+$$Y = \beta_0 + \beta_1X_1 + \beta_2X_2 + \ldots + \beta_p X_p + \varepsilon,$$
+onde $X_j$ representa o$j$-ésimo preditor e $\beta_j$ quantifica a associação entre essa variável e a resposta. De acordo com James et al. (2013), a interpretação de $\beta_j$ é o efeito médio na variável dependente $Y$ de um aumento de uma unidade em $X_j$, mantendo todas as outras variáveis preditoras fixas.
+>
+> **Referências**
+>
+>HASTIE, T.; TIBSHIRANI, R.; FRIEDMAN, J. *The Elements of Statistical Learning: Data Mining, Inference, and Prediction*. 2. ed. New York: Springer, 2009.
+>
+>JAMES, G. et al. *An introduction to statistical learning*. [S.l.]: Springer,
+2013. v. 112.
+
+
+
+
+## Ganhos da aula
+
+- Organizar suas referências em um arquivo `.bib` centralizado.
+- Citar corretamente no texto usando os comandos `\cite` e suas variações do `natbib`.
+- Automatizar a lista de referências no final do seu documento, escolhendo o estilo bibliográfico que desejar.
+
+
+
+## Material Extra
+
+Aprofunde o que vimos em aula:
+
+- <https://www.overleaf.com/learn/latex/Bibliography_management_with_bibtex>
+
+Um bom material sobre `natibib`:
+
+- <https://gking.harvard.edu/files/natbib2.pdf>
+
+Um bom material sobre `abntex2cite:`
+
+- <https://mirrors.ibiblio.org/CTAN/macros/latex/contrib/abntex2/doc/abntex2cite-alf.pdf>
+
+
+
+
+
+
+
+
+# Fim

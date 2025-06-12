@@ -1,0 +1,24 @@
+---
+title: ""
+format:
+  html:
+    toc: false
+    anchor-sections: false
+---
+
+# Conteúdo 7
+
+## Bibliografia em LaTeX
+
+Nesta aula, aprimoraremos a comunicação acadêmica e exploraremos a gestão de referências bibliográficas no LaTeX. Descobriremos como o LaTeX automatiza a organização e formatação das suas citações e bibliografia, garantindo precisão e conformidade com as normas acadêmicas. Focaremos nos pacotes natbib e abntex2cite, que são ferramentas poderosas para atingir clareza e rigor estético na apresentação das suas referências.
+
+Slides:
+
+- [Versão html](/slides/07-Bibliografia-em-LaTeX/07-bibliografia_LaTeX.html){target="_blank"}
+
+- [Versão pdf](/PDF_slides/07-bibliografia_LaTeX.pdf){target="_blank"}
+
+
+## Atividade
+
+Reproduza em LaTeX o arquivo [07-bibliografia_LaTeX_Atv01.pdf](/PDF_slides/07-bibliografia_LaTeX_Atv01.pdf){target="_blank"} usando `abntex2cite`.

@@ -408,8 +408,10 @@ Reproduza no LaTeX a tabela abaixo.
 
 ```{.latex}
 \begin{figure}[h]
+  \centering
   \includegraphics[height=.5\textheight]{ufs_vertical_positiva.png}
   \caption{Brasão da UFS}
+  \label{fig:brasao}
 \end{figure}
 ```
 
@@ -454,10 +456,10 @@ produz
   \begin{figure}[h]
     \subfigure[colorido]{\includegraphics[scale=0.2]{1-title-page/uf
     s_vertical_positiva.png}}\quad
-    \subfigure[p\&b]{\includegraphics[scale=0.2]{ufs_vertical_meiost
-    ons.png}}\quad
     \subfigure[meios tons]{\includegraphics[scale=0.2]{ufs_vertical_
     pb.png}}\quad
+    \subfigure[p\&b]{\includegraphics[scale=0.2]{ufs_vertical_meiost
+    ons.png}}\quad
     \subfigure[logo]{\includegraphics[scale=0.2]{ufs_logotipo.png}}
     \caption{Exemplo de um conjunto de figuras.}
   \end{figure}
