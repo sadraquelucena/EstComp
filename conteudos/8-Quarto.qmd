@@ -21,4 +21,14 @@ Slides:
 - [Versão pdf](/PDF_slides/08-Quarto.pdf){target="_blank"}
 
 
+## Material adicional
+
+- [Guia de referência rápida](/PDF_slides/quarto.pdf){target="_blank"}
+
+- [Quarto for Scientists](https://qmd4sci.njtierney.com/){target="_blank"}
+
+
+## Atividade
+
+Reproduza em Quarto o arquivo [08-Quarto_Avt01.pdf](/PDF_slides/08-Quarto_Avt01.pdf){target="_blank"} colocando seu nome como autor(a).
 
