@@ -21,6 +21,12 @@ Slides:
 - [Versão pdf](/PDF_slides/08-Quarto.pdf){target="_blank"}
 
 
+## Exemplo para usar em sala de aula
+
+- [Arquivo de exemplo](/PDF_slides/08-Quarto_exemplo.zip){target="_blank"}
+
+
+
 ## Material adicional
 
 - [Guia de referência rápida](/PDF_slides/quarto.pdf){target="_blank"}
