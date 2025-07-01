@@ -1,0 +1,24 @@
+---
+title: ""
+format:
+  html:
+    toc: false
+    anchor-sections: false
+---
+
+# Conteúdo 8
+
+## Quarto
+
+Nesta aula, exploraremos o Quarto, uma ferramenta moderna de publicação científica que permite gerar relatórios, apresentações, sites e artigos com um só arquivo-fonte. A partir da combinação entre Markdown e linguagens como R, veremos como criar documentos com código executável, gráficos, tabelas, fórmulas e referências bibliográficas formatadas automaticamente.
+
+Nosso foco será introduzir as principais funcionalidades do Quarto: como instalar e configurar a ferramenta, estruturar um arquivo .qmd, usar blocos de código com controle de exibição, formatar texto, compilar documentos para diferentes formatos e incluir citações conforme as normas da ABNT. Ao final, você terá um panorama prático do potencial do Quarto para comunicar suas análises de forma eficiente, profissional e com mínima preocupação com formatação manual.
+
+Slides:
+
+- [Versão html](/slides/08-Quarto/08-Quarto.html){target="_blank"}
+
+- [Versão pdf](/PDF_slides/08-Quarto.pdf){target="_blank"}
+
+
+

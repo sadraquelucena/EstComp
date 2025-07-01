@@ -42,6 +42,8 @@ website:
         text: "6- Tabelas, Figuras e Outros Recursos em LaTeX"
       - href: conteudos/7-Bibliografia_em_LaTeX.qmd
         text: "7- Bibliografia em LaTeX"
+      - href: conteudos/8-Quarto.qmd
+        text: "8- Quarto"
 
 format:
   html:
