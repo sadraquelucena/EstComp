@@ -44,6 +44,8 @@ website:
         text: "7- Bibliografia em LaTeX"
       - href: conteudos/8-Quarto.qmd
         text: "8- Quarto"
+      - href: conteudos/9-Geracao-de-numeros-pseudoaleatorios.qmd
+        text: "9- Geração de Números Pseudoaleatórios"
 
 format:
   html:

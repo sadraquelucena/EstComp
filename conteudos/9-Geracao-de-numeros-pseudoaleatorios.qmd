@@ -1,0 +1,27 @@
+---
+title: ""
+format:
+  html:
+    toc: false
+    anchor-sections: false
+---
+
+# Conteúdo 9
+
+## Geração de Números Pseudoaleatórios
+
+Nesta aula, vamos aprender sobre a geração de números pseudoaleatórios em computadores. Diferente dos números verdadeiramente aleatórios, gerados por fenômenos físicos imprevisíveis, focaremos nos métodos algorítmicos que produzem sequências que se comportam como aleatórias, mas são, na verdade, determinísticas.
+
+Nosso objetivo é que você compreenda e saiba aplicar os principais geradores, como o Método Congruencial Linear Multiplicativo e o Método Congruencial Misto. Veremos como esses algoritmos funcionam passo a passo, utilizando sementes, multiplicadores, incrementos e módulos para criar sequências numéricas. Ao final, você terá uma base sólida para entender a origem dos números aleatórios usados em simulações, modelagem estatística e diversas aplicações computacionais.
+
+Slides:
+
+- [Versão html](/slides/09-Geracao-de-numeros-pseudoaleatorios/09-Geracao-de-numeros-pseudoaleatorios.html){target="_blank"}
+
+- [Versão pdf](/PDF_slides/09-Geracao-de-numeros-pseudoaleatorios.pdf){target="_blank"}
+
+
+## Atividade
+
+Resolva a lista de exercícios [09-Geracao-de-numeros-pseudoaleatorios_Atv01.pdf](/PDF_slides/09-Geracao-de-numeros-pseudoaleatorios_Atv01.pdf){target="_blank"}.
+
