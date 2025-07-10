@@ -46,6 +46,8 @@ website:
         text: "8- Quarto"
       - href: conteudos/9-Geracao-de-numeros-pseudoaleatorios.qmd
         text: "9- Geração de Números Pseudoaleatórios"
+      - href: conteudos/10-Geracao-de-variaveis-aleatorias-discretas.qmd
+        text: "10- Geração de Variáveis Aleatórias Discretas"
 
 format:
   html:

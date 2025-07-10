@@ -88,209 +88,282 @@
     ]
   },
   {
-    "objectID": "conteudos/3-Introducao_ao_LaTeX.html",
-    "href": "conteudos/3-Introducao_ao_LaTeX.html",
-    "title": "Conteúdo 3",
+    "objectID": "conteudos/10-Geracao-de-variaveis-aleatorias-discretas.html",
+    "href": "conteudos/10-Geracao-de-variaveis-aleatorias-discretas.html",
+    "title": "Conteúdo 10",
     "section": "",
-    "text": "Como criar documentos científicos bem formatados, padronizados e prontos para publicação? Esta aula parte dessa questão para apresentar o LaTeX, uma linguagem de marcação voltada à produção de textos técnicos e acadêmicos. A atividade será conduzida de maneira prática, com foco no aprendizado dos comandos básicos de formatação, controle do tamanho da fonte e uso de cores no texto. Ao longo da aula, será possível experimentar o poder do LaTeX para organizar e apresentar conteúdos de forma profissional, desenvolvendo uma habilidade fundamental para a produção de relatórios, artigos e trabalhos em Estatística e Ciência de Dados.\nSlides:\n\nVersão html\nVersão pdf\n\n\n\n\nReproduza em LaTeX o arquivo 03-Introducao_ao_LaTeX_Atv01.pdf.\nAlgumas configurações utilizadas:\n\ntamanho da fonte geral: 11pt\ncores: blue e red\ntamanho da fonte \\scriptsize e \\Large em algumas frases",
+    "text": "Nesta aula, vamos nos aprofundar na geração de variáveis aleatórias discretas. Diferente dos geradores de números pseudoaleatórios que produzem sequências uniformes, nosso foco será em um método que transforma essas sequências para que sigam uma distribuição de probabilidade específica e desejada.\nNosso principal objetivo é que você compreenda e saiba aplicar o Método da Transformada Inversa. Veremos como esse algoritmo funciona passo a passo, utilizando um número aleatório uniformemente gerado (entre 0 e 1) e a probabilidade acumulada da distribuição para encontrar o valor correspondente.\nAo final, você terá uma base sólida para simular ocorrências que imitam o comportamento de fenômenos do mundo real, como o número de clientes em uma fila ou o resultado de um jogo de dados viciado, e poderá aplicar esse conhecimento em simulações, testes de modelos e diversas aplicações estatísticas.\nSlides:\n\nVersão html\nVersão pdf",
     "crumbs": [
       "Material das aulas",
-      "3- Introdução ao LaTeX"
+      "10- Geração de Variáveis Aleatórias Discretas"
     ]
   },
   {
-    "objectID": "conteudos/3-Introducao_ao_LaTeX.html#introdução-ao-latex",
-    "href": "conteudos/3-Introducao_ao_LaTeX.html#introdução-ao-latex",
-    "title": "Conteúdo 3",
+    "objectID": "conteudos/10-Geracao-de-variaveis-aleatorias-discretas.html#geração-de-variáveis-aleatórias-discretas",
+    "href": "conteudos/10-Geracao-de-variaveis-aleatorias-discretas.html#geração-de-variáveis-aleatórias-discretas",
+    "title": "Conteúdo 10",
     "section": "",
-    "text": "Como criar documentos científicos bem formatados, padronizados e prontos para publicação? Esta aula parte dessa questão para apresentar o LaTeX, uma linguagem de marcação voltada à produção de textos técnicos e acadêmicos. A atividade será conduzida de maneira prática, com foco no aprendizado dos comandos básicos de formatação, controle do tamanho da fonte e uso de cores no texto. Ao longo da aula, será possível experimentar o poder do LaTeX para organizar e apresentar conteúdos de forma profissional, desenvolvendo uma habilidade fundamental para a produção de relatórios, artigos e trabalhos em Estatística e Ciência de Dados.\nSlides:\n\nVersão html\nVersão pdf",
+    "text": "Nesta aula, vamos nos aprofundar na geração de variáveis aleatórias discretas. Diferente dos geradores de números pseudoaleatórios que produzem sequências uniformes, nosso foco será em um método que transforma essas sequências para que sigam uma distribuição de probabilidade específica e desejada.\nNosso principal objetivo é que você compreenda e saiba aplicar o Método da Transformada Inversa. Veremos como esse algoritmo funciona passo a passo, utilizando um número aleatório uniformemente gerado (entre 0 e 1) e a probabilidade acumulada da distribuição para encontrar o valor correspondente.\nAo final, você terá uma base sólida para simular ocorrências que imitam o comportamento de fenômenos do mundo real, como o número de clientes em uma fila ou o resultado de um jogo de dados viciado, e poderá aplicar esse conhecimento em simulações, testes de modelos e diversas aplicações estatísticas.\nSlides:\n\nVersão html\nVersão pdf",
     "crumbs": [
       "Material das aulas",
-      "3- Introdução ao LaTeX"
+      "10- Geração de Variáveis Aleatórias Discretas"
     ]
   },
   {
-    "objectID": "conteudos/3-Introducao_ao_LaTeX.html#atividade",
-    "href": "conteudos/3-Introducao_ao_LaTeX.html#atividade",
-    "title": "Conteúdo 3",
+    "objectID": "conteudos/7-Bibliografia_em_LaTeX.html",
+    "href": "conteudos/7-Bibliografia_em_LaTeX.html",
+    "title": "Conteúdo 7",
     "section": "",
-    "text": "Reproduza em LaTeX o arquivo 03-Introducao_ao_LaTeX_Atv01.pdf.\nAlgumas configurações utilizadas:\n\ntamanho da fonte geral: 11pt\ncores: blue e red\ntamanho da fonte \\scriptsize e \\Large em algumas frases",
+    "text": "Nesta aula, aprimoraremos a comunicação acadêmica e exploraremos a gestão de referências bibliográficas no LaTeX. Descobriremos como o LaTeX automatiza a organização e formatação das suas citações e bibliografia, garantindo precisão e conformidade com as normas acadêmicas. Focaremos nos pacotes natbib e abntex2cite, que são ferramentas poderosas para atingir clareza e rigor estético na apresentação das suas referências.\nSlides:\n\nVersão html\nVersão pdf\n\n\n\n\nReproduza em LaTeX o arquivo 07-bibliografia_LaTeX_Atv01.pdf usando abntex2cite.",
     "crumbs": [
       "Material das aulas",
-      "3- Introdução ao LaTeX"
+      "7- Bibliografia em LaTeX"
     ]
   },
   {
-    "objectID": "conteudos/9-Geracao-de-numeros-pseudoaleatorios.html",
-    "href": "conteudos/9-Geracao-de-numeros-pseudoaleatorios.html",
-    "title": "Conteúdo 9",
+    "objectID": "conteudos/7-Bibliografia_em_LaTeX.html#bibliografia-em-latex",
+    "href": "conteudos/7-Bibliografia_em_LaTeX.html#bibliografia-em-latex",
+    "title": "Conteúdo 7",
     "section": "",
-    "text": "Nesta aula, vamos aprender sobre a geração de números pseudoaleatórios em computadores. Diferente dos números verdadeiramente aleatórios, gerados por fenômenos físicos imprevisíveis, focaremos nos métodos algorítmicos que produzem sequências que se comportam como aleatórias, mas são, na verdade, determinísticas.\nNosso objetivo é que você compreenda e saiba aplicar os principais geradores, como o Método Congruencial Linear Multiplicativo e o Método Congruencial Misto. Veremos como esses algoritmos funcionam passo a passo, utilizando sementes, multiplicadores, incrementos e módulos para criar sequências numéricas. Ao final, você terá uma base sólida para entender a origem dos números aleatórios usados em simulações, modelagem estatística e diversas aplicações computacionais.\nSlides:\n\nVersão html\nVersão pdf\n\n\n\n\nResolva a lista de exercícios 09-Geracao-de-numeros-pseudoaleatorios_Atv01.pdf.",
+    "text": "Nesta aula, aprimoraremos a comunicação acadêmica e exploraremos a gestão de referências bibliográficas no LaTeX. Descobriremos como o LaTeX automatiza a organização e formatação das suas citações e bibliografia, garantindo precisão e conformidade com as normas acadêmicas. Focaremos nos pacotes natbib e abntex2cite, que são ferramentas poderosas para atingir clareza e rigor estético na apresentação das suas referências.\nSlides:\n\nVersão html\nVersão pdf",
     "crumbs": [
       "Material das aulas",
-      "9- Geração de Números Pseudoaleatórios"
+      "7- Bibliografia em LaTeX"
     ]
   },
   {
-    "objectID": "conteudos/9-Geracao-de-numeros-pseudoaleatorios.html#geração-de-números-pseudoaleatórios",
-    "href": "conteudos/9-Geracao-de-numeros-pseudoaleatorios.html#geração-de-números-pseudoaleatórios",
-    "title": "Conteúdo 9",
+    "objectID": "conteudos/7-Bibliografia_em_LaTeX.html#atividade",
+    "href": "conteudos/7-Bibliografia_em_LaTeX.html#atividade",
+    "title": "Conteúdo 7",
     "section": "",
-    "text": "Nesta aula, vamos aprender sobre a geração de números pseudoaleatórios em computadores. Diferente dos números verdadeiramente aleatórios, gerados por fenômenos físicos imprevisíveis, focaremos nos métodos algorítmicos que produzem sequências que se comportam como aleatórias, mas são, na verdade, determinísticas.\nNosso objetivo é que você compreenda e saiba aplicar os principais geradores, como o Método Congruencial Linear Multiplicativo e o Método Congruencial Misto. Veremos como esses algoritmos funcionam passo a passo, utilizando sementes, multiplicadores, incrementos e módulos para criar sequências numéricas. Ao final, você terá uma base sólida para entender a origem dos números aleatórios usados em simulações, modelagem estatística e diversas aplicações computacionais.\nSlides:\n\nVersão html\nVersão pdf",
+    "text": "Reproduza em LaTeX o arquivo 07-bibliografia_LaTeX_Atv01.pdf usando abntex2cite.",
     "crumbs": [
       "Material das aulas",
-      "9- Geração de Números Pseudoaleatórios"
+      "7- Bibliografia em LaTeX"
     ]
   },
   {
-    "objectID": "conteudos/9-Geracao-de-numeros-pseudoaleatorios.html#atividade",
-    "href": "conteudos/9-Geracao-de-numeros-pseudoaleatorios.html#atividade",
-    "title": "Conteúdo 9",
+    "objectID": "conteudos/1-Apresentacao_da_disciplina.html",
+    "href": "conteudos/1-Apresentacao_da_disciplina.html",
+    "title": "Conteúdo 1",
     "section": "",
-    "text": "Resolva a lista de exercícios 09-Geracao-de-numeros-pseudoaleatorios_Atv01.pdf.",
+    "text": "Neste primeiro encontro, vamos apresentar os objetivos da disciplina, a forma como as aulas serão conduzidas, os temas que vamos explorar e como será a avaliação ao longo do semestre. Também vamos conversar sobre o papel da Estatística Computacional na formação em Estatísica e Ciência de Dados, bem como sua importância no mundo do trabalho.\nA proposta do componente é dinâmica e baseada em resolução de problemas reais, com atividades que estimulam a autonomia, a criatividade e o uso prático das ferramentas computacionais.\nSlides:\n\nVersão html\nVersão pdf",
     "crumbs": [
       "Material das aulas",
-      "9- Geração de Números Pseudoaleatórios"
+      "1- Apresentação da Disciplina"
     ]
   },
   {
-    "objectID": "conteudos/2-Introducao_ao_RStudio+GitHub.html",
-    "href": "conteudos/2-Introducao_ao_RStudio+GitHub.html",
-    "title": "Conteúdo 2",
+    "objectID": "conteudos/1-Apresentacao_da_disciplina.html#apresentação-da-disciplina",
+    "href": "conteudos/1-Apresentacao_da_disciplina.html#apresentação-da-disciplina",
+    "title": "Conteúdo 1",
     "section": "",
-    "text": "Como garantir que um trabalho estatístico seja organizado, reproduzível e protegido contra erros? A aula parte desse problema para apresentar o ambiente RStudio e as ferramentas Git e GitHub. A atividade será vivenciada de forma prática, onde será necessário versionar projetos e colaborar com colegas. Ao longo da aula, será possível aprender a integrar o RStudio com o Git e a criar repositórios no GitHub, desenvolvendo habilidades essenciais para o mercado de trabalho em Estatística e Ciência de Dados.\n\nVersão html\nVersão pdf",
+    "text": "Neste primeiro encontro, vamos apresentar os objetivos da disciplina, a forma como as aulas serão conduzidas, os temas que vamos explorar e como será a avaliação ao longo do semestre. Também vamos conversar sobre o papel da Estatística Computacional na formação em Estatísica e Ciência de Dados, bem como sua importância no mundo do trabalho.\nA proposta do componente é dinâmica e baseada em resolução de problemas reais, com atividades que estimulam a autonomia, a criatividade e o uso prático das ferramentas computacionais.\nSlides:\n\nVersão html\nVersão pdf",
     "crumbs": [
       "Material das aulas",
-      "2- Introdução ao RStudio + GitHub"
+      "1- Apresentação da Disciplina"
     ]
   },
   {
-    "objectID": "conteudos/2-Introducao_ao_RStudio+GitHub.html#introdução-ao-rstudio-github",
-    "href": "conteudos/2-Introducao_ao_RStudio+GitHub.html#introdução-ao-rstudio-github",
-    "title": "Conteúdo 2",
-    "section": "",
-    "text": "Como garantir que um trabalho estatístico seja organizado, reproduzível e protegido contra erros? A aula parte desse problema para apresentar o ambiente RStudio e as ferramentas Git e GitHub. A atividade será vivenciada de forma prática, onde será necessário versionar projetos e colaborar com colegas. Ao longo da aula, será possível aprender a integrar o RStudio com o Git e a criar repositórios no GitHub, desenvolvendo habilidades essenciais para o mercado de trabalho em Estatística e Ciência de Dados.\n\nVersão html\nVersão pdf",
-    "crumbs": [
-      "Material das aulas",
-      "2- Introdução ao RStudio + GitHub"
-    ]
-  },
-  {
-    "objectID": "info/dados_gerais.html",
-    "href": "info/dados_gerais.html",
+    "objectID": "info/bibliografia.html",
+    "href": "info/bibliografia.html",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "Componente curricular:\nESTAT0090 - Estatística Computacional\nDisciplina obrigatória para o curso de Estatística da Universidade Federal de Sergipe",
+    "text": "DE ALMEIDA, Pedro Quaresma. Introduçao ao LATEX. Escolar Editora, 1996.\nRUBINSTEIN, Reuven Y; KROESE, Dirk P. Simulation and Monte Carlo method. 2nd ed. New Jersey, Estados Unidos: Wiley-Interscience, 2008.\nDAVISON, A. C; HINKLEY, D. V. Bootstrap methods and their application. New York, Estados Unidos: Cambridge University Press, 1997.\nEFRON, Bradley; TIBSHIRANI, Robert. An introduction to the bootstrap. Boca Raton, Estados Unidos: Chapman & Hall/CRC, 1994.\nVERZANI, John. Using R for introductory statistics. Boca Raton, Estados Unidos: Chapman & Hall/CRC, 2005.\n\n\n\n\n\nRIZZO, Maria L. Statistical computing with R. CRC Press, 2019.\nGIVENS, Geof H.; HOETING, Jennifer A. Computational statistics. John Wiley & Sons, 2012.",
     "crumbs": [
       "Informações da disciplina",
-      "Dados gerais"
+      "Bibliografia"
     ]
   },
   {
-    "objectID": "info/dados_gerais.html#dados-gerais-da-disciplina",
-    "href": "info/dados_gerais.html#dados-gerais-da-disciplina",
+    "objectID": "info/bibliografia.html#bibliografia",
+    "href": "info/bibliografia.html#bibliografia",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "Componente curricular:\nESTAT0090 - Estatística Computacional\nDisciplina obrigatória para o curso de Estatística da Universidade Federal de Sergipe",
+    "text": "DE ALMEIDA, Pedro Quaresma. Introduçao ao LATEX. Escolar Editora, 1996.\nRUBINSTEIN, Reuven Y; KROESE, Dirk P. Simulation and Monte Carlo method. 2nd ed. New Jersey, Estados Unidos: Wiley-Interscience, 2008.\nDAVISON, A. C; HINKLEY, D. V. Bootstrap methods and their application. New York, Estados Unidos: Cambridge University Press, 1997.\nEFRON, Bradley; TIBSHIRANI, Robert. An introduction to the bootstrap. Boca Raton, Estados Unidos: Chapman & Hall/CRC, 1994.\nVERZANI, John. Using R for introductory statistics. Boca Raton, Estados Unidos: Chapman & Hall/CRC, 2005.\n\n\n\n\n\nRIZZO, Maria L. Statistical computing with R. CRC Press, 2019.\nGIVENS, Geof H.; HOETING, Jennifer A. Computational statistics. John Wiley & Sons, 2012.",
     "crumbs": [
       "Informações da disciplina",
-      "Dados gerais"
+      "Bibliografia"
     ]
   },
   {
-    "objectID": "info/dados_gerais.html#informações-da-disciplina",
-    "href": "info/dados_gerais.html#informações-da-disciplina",
-    "title": "Estatística Computacional",
-    "section": "Informações da Disciplina",
-    "text": "Informações da Disciplina\n\nCarga Horária: 60 horas (4 créditos)\nUnidade Responsável: Departamento de Estatística e Ciências Atuariais (DECAT)\nDocente Responsável: Prof. Dr. Sadraque E. F. Lucena\nPeríodo Letivo: 2025-1\nPlano de Ensino da Disciplina: pdf",
-    "crumbs": [
-      "Informações da disciplina",
-      "Dados gerais"
-    ]
-  },
-  {
-    "objectID": "info/dados_gerais.html#horários-das-aulas",
-    "href": "info/dados_gerais.html#horários-das-aulas",
-    "title": "Estatística Computacional",
-    "section": "Horários das Aulas",
-    "text": "Horários das Aulas\nAs aulas ocorrerão nos seguintes horários:\n\nTerças: 19h00 às 20h30 no LEA01 (Laboratório de Informática 01 do DECAT)\nQuintas: 20h45 às 22h15 no LEA02 (Laboratório de Informática 02 do DECAT)",
-    "crumbs": [
-      "Informações da disciplina",
-      "Dados gerais"
-    ]
-  },
-  {
-    "objectID": "info/dados_gerais.html#avaliações",
-    "href": "info/dados_gerais.html#avaliações",
-    "title": "Estatística Computacional",
-    "section": "Avaliações",
-    "text": "Avaliações\nA disciplina contará com 3 avaliações distribuídas ao longo do semestre nas seguintes datas:\n\nAvaliação 1: 17/06/2025 (terça)\nAvaliação 2: 29/07/2025 (terça)\nAvaliação 3: 02/09/2025 (terça)",
-    "crumbs": [
-      "Informações da disciplina",
-      "Dados gerais"
-    ]
-  },
-  {
-    "objectID": "info/dados_gerais.html#não-haverá-aula",
-    "href": "info/dados_gerais.html#não-haverá-aula",
-    "title": "Estatística Computacional",
-    "section": "Não haverá aula",
-    "text": "Não haverá aula\n\n19/06/2025: Corpus Christi (ponto facultativo)\n24/06/2025: Sâo João (feriado municipal)\n08/07/2025: Independência de Sergipe (feriado estadual)",
-    "crumbs": [
-      "Informações da disciplina",
-      "Dados gerais"
-    ]
-  },
-  {
-    "objectID": "info/cronograma.html",
-    "href": "info/cronograma.html",
+    "objectID": "info/softwares.html",
+    "href": "info/softwares.html",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "Cronograma de aulas de Estatística Computacional seguindo o calendário acadêmico do período 2025-1.\n\n\n\n\n\n\n\n\nAula\nData\nAssunto Previsto\n\n\n\n\n1\nTerça, 13 de maio de 2025\nRecepção dos alunos\n\n\n2\nQuinta, 15 de maio de 2025\nRecepção dos alunos\n\n\n3\nTerça, 20 de maio de 2025\nApresentação da disciplina\n\n\n4\nQuinta, 22 de maio de 2025\nIntrodução ao RStudio + GitHub\n\n\n5\nTerça, 27 de maio de 2025\nIntrodução ao LaTeX\n\n\n6\nQuinta, 29 de maio de 2025\nEstrutura básico do LaTeX\n\n\n7\nTerça, 03 de junho de 2025\nAmbiente matemático no LaTeX\n\n\n8\nQuinta, 05 de junho de 2025\nTabelas no LaTeX\n\n\n9\nTerça, 10 de junho de 2025\nFiguras no LaTeX\n\n\n10\nQuinta, 12 de junho de 2025\nBibliografia no LaTeX\n\n\n11\nQuinta, 17 de junho de 2025\nAvaliação 1\n\n\n12\nTerça, 01 de julho de 2025\nQuarto\n\n\n13\nQuinta, 03 de julho de 2025\nGeração de Números aleatórios",
+    "text": "Para acompanhar as atividades da disciplina, será necessário instalar os softwares listados abaixo. Todos são gratuitos e amplamente utilizados nas áreas de Estatística e Ciência de Dados:\n\n\n\nR é um ambiente computacional gratuito voltado para análises estatísticas e produção de visualizações gráficas. Link\n\n\n\nO RStudio consiste em um ambiente de desenvolvimento integrado (IDE) projetado para aumentar a produtividade no uso da linguagem R, oferecendo ferramentas especializadas para programação, depuração e visualização de dados. Link\n\n\n\nQuarto é um sistema de publicação técnico-científica de código aberto que integra análise computacional (Python, R, Julia) e produção de documentos dinâmicos em múltiplos formatos (HTML, PDF, Word). Combina escrita em Markdown com recursos avançados para equações, citações e visualizações reprodutíveis. Link\n\n\n\nMiKTeX é uma distribuição moderna do sistema TeX/LaTeX para ambiente Windows, fornecendo um conjunto completo de ferramentas para editoração técnica e científica de alta qualidade. Link\n\n\n\nTeXstudio é um ambiente integrado de edição para documentos LaTeX, oferecendo recursos como realce de sintaxe, visualizador incorporado, verificação de referências e assistentes para facilitar a escrita. Link",
     "crumbs": [
       "Informações da disciplina",
-      "Cronograma"
+      "Softwares Necessários"
     ]
   },
   {
-    "objectID": "info/cronograma.html#cronograma-de-aulas",
-    "href": "info/cronograma.html#cronograma-de-aulas",
+    "objectID": "info/softwares.html#softwares-necessários",
+    "href": "info/softwares.html#softwares-necessários",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "Cronograma de aulas de Estatística Computacional seguindo o calendário acadêmico do período 2025-1.\n\n\n\n\n\n\n\n\nAula\nData\nAssunto Previsto\n\n\n\n\n1\nTerça, 13 de maio de 2025\nRecepção dos alunos\n\n\n2\nQuinta, 15 de maio de 2025\nRecepção dos alunos\n\n\n3\nTerça, 20 de maio de 2025\nApresentação da disciplina\n\n\n4\nQuinta, 22 de maio de 2025\nIntrodução ao RStudio + GitHub\n\n\n5\nTerça, 27 de maio de 2025\nIntrodução ao LaTeX\n\n\n6\nQuinta, 29 de maio de 2025\nEstrutura básico do LaTeX\n\n\n7\nTerça, 03 de junho de 2025\nAmbiente matemático no LaTeX\n\n\n8\nQuinta, 05 de junho de 2025\nTabelas no LaTeX\n\n\n9\nTerça, 10 de junho de 2025\nFiguras no LaTeX\n\n\n10\nQuinta, 12 de junho de 2025\nBibliografia no LaTeX\n\n\n11\nQuinta, 17 de junho de 2025\nAvaliação 1\n\n\n12\nTerça, 01 de julho de 2025\nQuarto\n\n\n13\nQuinta, 03 de julho de 2025\nGeração de Números aleatórios",
+    "text": "Para acompanhar as atividades da disciplina, será necessário instalar os softwares listados abaixo. Todos são gratuitos e amplamente utilizados nas áreas de Estatística e Ciência de Dados:\n\n\n\nR é um ambiente computacional gratuito voltado para análises estatísticas e produção de visualizações gráficas. Link\n\n\n\nO RStudio consiste em um ambiente de desenvolvimento integrado (IDE) projetado para aumentar a produtividade no uso da linguagem R, oferecendo ferramentas especializadas para programação, depuração e visualização de dados. Link\n\n\n\nQuarto é um sistema de publicação técnico-científica de código aberto que integra análise computacional (Python, R, Julia) e produção de documentos dinâmicos em múltiplos formatos (HTML, PDF, Word). Combina escrita em Markdown com recursos avançados para equações, citações e visualizações reprodutíveis. Link\n\n\n\nMiKTeX é uma distribuição moderna do sistema TeX/LaTeX para ambiente Windows, fornecendo um conjunto completo de ferramentas para editoração técnica e científica de alta qualidade. Link\n\n\n\nTeXstudio é um ambiente integrado de edição para documentos LaTeX, oferecendo recursos como realce de sintaxe, visualizador incorporado, verificação de referências e assistentes para facilitar a escrita. Link",
     "crumbs": [
       "Informações da disciplina",
-      "Cronograma"
+      "Softwares Necessários"
     ]
   },
   {
-    "objectID": "info/conteudo.html",
-    "href": "info/conteudo.html",
+    "objectID": "info/ementa.html",
+    "href": "info/ementa.html",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "Geração de variáveis aleatórias\n1.1. Comandos básicos do R\n1.2. Estruturas de repetição no R\n1.3. Condições e sı́mbolos lógicos no\n1.4. Escrevendo funções no R\n1.5. Gerador de números aleatórios\n1.6. Método da Transformada inversa\n1.7. Método da Aceitação-Rejeição\n1.8. Outros métodos de geração de v.a.\nMétodos de Monte Carlo\n2.1. Conceito Geral\n2.2. Testes de Hipóteses e Erros\n2.3. Intervalos de confiança\n2.4. Viés e Erro quadrático Médio\n2.5. Método de Reamostragem: Bootstrap\n2.6. Método de Reamostragem: Jackknife\nO editor de textos LaTeX\n3.1. Comandos iniciais\n3.2. Formatação de texto, Tipos de Listas, Teoremas\n3.3. Fórmulas diversas, sı́mbolos matemáticos, escrevendo em ambiente de fórmulas\n3.4. Matrizes, equações alinhadas, tabelas e imagens\n3.5. Textos sem formatação (Para saı́das computacionais)\n3.6. Partes de documento: Tı́tulos, capı́tulos, sumários, cabeçalho e rodapé, bibliografia básica\n3.7. BibTeX (bibliografia externa)\n3.8. Criando Apresentações e Pôster",
+    "text": "Editor de textos LATEX. Estruturas de repetições e funções no software R. Geração de Variáveis Aleatórias. Método de Monte Carlo. Bootstrap.",
     "crumbs": [
       "Informações da disciplina",
-      "Conteúdo"
+      "Ementa e objetivos"
     ]
   },
   {
-    "objectID": "info/conteudo.html#conteudo",
-    "href": "info/conteudo.html#conteudo",
+    "objectID": "info/ementa.html#ementa",
+    "href": "info/ementa.html#ementa",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "Geração de variáveis aleatórias\n1.1. Comandos básicos do R\n1.2. Estruturas de repetição no R\n1.3. Condições e sı́mbolos lógicos no\n1.4. Escrevendo funções no R\n1.5. Gerador de números aleatórios\n1.6. Método da Transformada inversa\n1.7. Método da Aceitação-Rejeição\n1.8. Outros métodos de geração de v.a.\nMétodos de Monte Carlo\n2.1. Conceito Geral\n2.2. Testes de Hipóteses e Erros\n2.3. Intervalos de confiança\n2.4. Viés e Erro quadrático Médio\n2.5. Método de Reamostragem: Bootstrap\n2.6. Método de Reamostragem: Jackknife\nO editor de textos LaTeX\n3.1. Comandos iniciais\n3.2. Formatação de texto, Tipos de Listas, Teoremas\n3.3. Fórmulas diversas, sı́mbolos matemáticos, escrevendo em ambiente de fórmulas\n3.4. Matrizes, equações alinhadas, tabelas e imagens\n3.5. Textos sem formatação (Para saı́das computacionais)\n3.6. Partes de documento: Tı́tulos, capı́tulos, sumários, cabeçalho e rodapé, bibliografia básica\n3.7. BibTeX (bibliografia externa)\n3.8. Criando Apresentações e Pôster",
+    "text": "Editor de textos LATEX. Estruturas de repetições e funções no software R. Geração de Variáveis Aleatórias. Método de Monte Carlo. Bootstrap.",
     "crumbs": [
       "Informações da disciplina",
-      "Conteúdo"
+      "Ementa e objetivos"
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Bem-vindo(a)!",
+    "objectID": "info/ementa.html#objetivos",
+    "href": "info/ementa.html#objetivos",
+    "title": "Estatística Computacional",
+    "section": "Objetivos",
+    "text": "Objetivos\nDesenvolver habilidades essenciais para a aplicação de métodos computacionais na análise de dados e na obtenção de estimativas estatı́sticas confiáveis, bem como preparar estudantes para criar documentos de alta qualidade com notação matemática adequada e formatação profissional.",
+    "crumbs": [
+      "Informações da disciplina",
+      "Ementa e objetivos"
+    ]
+  },
+  {
+    "objectID": "info/ementa.html#metodologia",
+    "href": "info/ementa.html#metodologia",
+    "title": "Estatística Computacional",
+    "section": "Metodologia",
+    "text": "Metodologia\nSerão ministradas aulas teóricas expositivas; utilizados recursos visuais; resolução de exercı́cios em sala de aula; solicitação de atividades extraclasse. O cronograma de aulas encontra-se no Quadro 1.",
+    "crumbs": [
+      "Informações da disciplina",
+      "Ementa e objetivos"
+    ]
+  },
+  {
+    "objectID": "info/ementa.html#habilidades-e-competências",
+    "href": "info/ementa.html#habilidades-e-competências",
+    "title": "Estatística Computacional",
+    "section": "Habilidades e Competências",
+    "text": "Habilidades e Competências\nAo término deste curso o aluno estará apto a realizar análises estatı́sticas avançadas, simulações e estimativas confiáveis, além de resolver problemas práticos no campo da Estatı́stica utilizando abordagens computacionais.",
+    "crumbs": [
+      "Informações da disciplina",
+      "Ementa e objetivos"
+    ]
+  },
+  {
+    "objectID": "info/ementa.html#avaliação",
+    "href": "info/ementa.html#avaliação",
+    "title": "Estatística Computacional",
+    "section": "Avaliação",
+    "text": "Avaliação\nSerão realizadas três avaliações ao longo do semestre. As avaliações poderão ser provas, trabalhos ou outras atividades solicitadas pelo professor.",
+    "crumbs": [
+      "Informações da disciplina",
+      "Ementa e objetivos"
+    ]
+  },
+  {
+    "objectID": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#cenário",
+    "href": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#cenário",
+    "title": "Como gerar variáveis aleatórias discretas?",
+    "section": "Cenário",
+    "text": "Cenário\nImagine que você está trabalhando com uma distribuição de probabilidade que foi definida recentemente. Por ser tão nova, ela ainda não tem funções de simulação em bibliotecas ou pacotes de programação. Para validar seus modelos, você precisa desenvolver o código do zero para gerar os dados aleatórios e realizar a sua simulação."
+  },
+  {
+    "objectID": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#objetivos-da-aula",
+    "href": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#objetivos-da-aula",
+    "title": "Como gerar variáveis aleatórias discretas?",
+    "section": "Objetivos da aula",
+    "text": "Objetivos da aula\nNesta aula, de hoje aprenderemos a gerar ocorrências de variáveis aleatórias discretas usando o método da transformação inversa."
+  },
+  {
+    "objectID": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#método-da-transformação-inversa-para-variáveis-discretas",
+    "href": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#método-da-transformação-inversa-para-variáveis-discretas",
+    "title": "Como gerar variáveis aleatórias discretas?",
+    "section": "Método da transformação inversa para variáveis discretas",
+    "text": "Método da transformação inversa para variáveis discretas\nO método da transformada inversa consiste em gerar um número aleatório entre 0 e 1 e encontrar o menor valor discreto cuja probabilidade acumulada é maior ou igual a esse número.\n\nVejamos o método."
+  },
+  {
+    "objectID": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#método-da-transformação-inversa-para-variáveis-discretas-1",
+    "href": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#método-da-transformação-inversa-para-variáveis-discretas-1",
+    "title": "Como gerar variáveis aleatórias discretas?",
+    "section": "Método da transformação inversa para variáveis discretas",
+    "text": "Método da transformação inversa para variáveis discretas\n\nConsidere \\(X\\) uma variável aleatória tal que\n\n\\(P(X = x_i)= p_i, ~ i = 0, 1, \\ldots\\)\n\\(\\sum\\limits_i p_i = 1\\).\n\nPara gerar ocorrências de \\(X\\), geramos um valor \\(u\\) de uma distribuição Uniforme\\((0,1)\\) e obtemos um valor \\(x\\) fazendo \\[\nx = \\begin{cases}\n      x_0, & \\text{se } u&lt;p_0;\\\\\n      x_1, & \\text{se } p_0\\leq u &lt; p_0 + p_1;\\\\\n      x_2, & \\text{se } p_0+p_1\\leq u &lt; p_0 + p_1 + p_2;\\\\\n      \\vdots & \\\\\n      x_i, & \\text{se } \\sum_{j=0}^{i-1} p_j\\leq u &lt;  \\sum_{j=0}^{i} p_j;\\\\\n      \\vdots\n    \\end{cases}\n\\]"
+  },
+  {
+    "objectID": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#método-da-transformação-inversa-para-variáveis-discretas-2",
+    "href": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#método-da-transformação-inversa-para-variáveis-discretas-2",
+    "title": "Como gerar variáveis aleatórias discretas?",
+    "section": "Método da transformação inversa para variáveis discretas",
+    "text": "Método da transformação inversa para variáveis discretas"
+  },
+  {
+    "objectID": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#método-da-transformada-inversa",
+    "href": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#método-da-transformada-inversa",
+    "title": "Como gerar variáveis aleatórias discretas?",
+    "section": "Método da Transformada Inversa",
+    "text": "Método da Transformada Inversa\n\n\n\n\nAlgoritmo\n\n\nPasso 1: Gere \\(u \\sim\\) Uniforme(\\(0,1\\));\nPasso 2: Se \\(u&lt;p_0\\) faça \\(x=x_0\\) e pare, caso contrário, vá para o próximo passo;\nPasso 3: Se \\(u&lt;p_0+p_1\\) faça \\(x=x_1\\) e pare, caso contrário, vá para o próximo passo;\n\\(\\ldots\\)\nPasso \\(k+2\\): Se \\(u&lt;p_0+p_1+\\cdots+p_k\\) faça \\(x=x_k\\) e pare, caso contrário, vá para o próximo passo."
+  },
+  {
+    "objectID": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#exemplo-10.1",
+    "href": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#exemplo-10.1",
+    "title": "Como gerar variáveis aleatórias discretas?",
+    "section": "Exemplo 10.1",
+    "text": "Exemplo 10.1\nSeja \\(X_i\\sim\\) Bernoulli(\\(p\\)).\n\nCrie uma função no R que gera uma ocorrência de \\(X\\). Teste para \\(p = 0,\\!3\\).\nCrie uma função que gera o número de ocorrências da Bernoulli definida pelo usuário. Teste com \\(p = 0,\\!3\\) e \\(n = 1000\\)."
+  },
+  {
+    "objectID": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#exemplo-10.2",
+    "href": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#exemplo-10.2",
+    "title": "Como gerar variáveis aleatórias discretas?",
+    "section": "Exemplo 10.2",
+    "text": "Exemplo 10.2\nSeja \\(X\\) uma variável aleatória tal que\n\n\\(P(X=1) = 0,\\!2\\)\n\\(P(X=2)=0,\\!15\\)\n\\(P(X=3)=0,\\!25\\)\n\\(P(X=4)=0,\\!4\\).\n\n\nCrie uma função no R que gera uma ocorrência de \\(X\\).\nCrie uma função que gera o número de ocorrências definida pelo usuário. Teste com 1000 ocorrências e faça um gráfico de barras."
+  },
+  {
+    "objectID": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#section",
+    "href": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#section",
+    "title": "Como gerar variáveis aleatórias discretas?",
     "section": "",
-    "text": "Bem-vindo(a)!\nEsta página foi criada pelo Prof. Dr. Sadraque E. F. Lucena para centralizar os conteúdos, atividades, cronograma e materiais da disciplina ESTAT0090 – Estatística Computacional, ofertada pelo Departamento de Estatística e Ciências Atuariais da Universidade Federal de Sergipe. Ao longo do semestre, vamos explorar ferramentas fundamentais para a prática da Estatística moderna, com ênfase em programação em R, Quarto, LaTeX, GitHub, simulação, métodos computacionais e reamostragem (como Bootstrap e Monte Carlo).\nA disciplina será conduzida com uma abordagem prática e orientada por problemas, livremente inspirada no Problem-Based Learning (PBL), conectando os conteúdos à atuação profissional em Estatística e Ciência de Dados. A cada semana, novos desafios e projetos serão propostos, promovendo o aprendizado ativo e colaborativo.\nFique atento(a) às atualizações — este espaço será constantemente revisado com avisos, novos materiais e mudanças no cronograma."
+    "text": "Um exemplo de código em R que implementa a função que gera os números aleatórios do Exemplo 10.2 é\n\ngernum &lt;- function(n, x, prob){\n  amostra &lt;- vector() # vetor que receberá valores gerados\n  prob_acum &lt;- cumsum(prob) # vetor de probabilidades acumuladas\n  for (i in 1:n) { # início do laço\n    u &lt;- runif(1)  # valor de u\n    for (j in 1:length(x)) {\n      if (u &lt;= prob_acum[j]) {\n        amostra[i] &lt;- x[j]\n        break\n      }\n    }\n  }\n  return(amostra)\n}\n\nvalores_x &lt;- 1:4\nprobabilidades &lt;- c(.2, .15, .25, .4)\n\nset.seed(123) # fixando a semente para reprodutibilidade\namostra &lt;- gernum(1000, valores_x, probabilidades)"
+  },
+  {
+    "objectID": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#section-1",
+    "href": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#section-1",
+    "title": "Como gerar variáveis aleatórias discretas?",
+    "section": "",
+    "text": "library(ggplot2)\n\n# Calcular frequência relativa\ndf_freq &lt;- as.data.frame(prop.table(table(amostra)))\n\n# Renomear colunas para usar no ggplot\ncolnames(df_freq) &lt;- c(\"x\", \"freq\")\ndf_freq$x &lt;- as.factor(df_freq$x)  # transformar em fator para manter\n                                   # ordem no eixo x\n\n# Gráfico de barras\nggplot(df_freq, aes(x = x, y = freq, fill = x)) +\n  geom_col(fill = \"#377EB8\") +\n  scale_y_continuous(limits = c(0, 0.5),\n                     expand = expansion(mult = c(0, 0.05))) +\n  labs(x = \"x\", y = \"Frequência relativa\") +\n  theme_minimal(base_size = 25) +\n  theme(legend.position = \"none\")"
+  },
+  {
+    "objectID": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#exemplo-10.3",
+    "href": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#exemplo-10.3",
+    "title": "Como gerar variáveis aleatórias discretas?",
+    "section": "Exemplo 10.3",
+    "text": "Exemplo 10.3\nSejam \\(X_1, \\ldots,X_m\\) v.a. tais que \\(X_i \\sim\\) Bernoulli(\\(p\\)).\nEntão \\(Y = \\sum\\limits_{i=1}^m X_i \\sim\\) Binomial(\\(m,p\\)).\n\nCrie uma função no R que gera uma ocorrência de \\(Y\\). Teste com \\(m = 10\\) e \\(p = 0,\\!3\\).\nCrie uma função que gera o número de ocorrências definida pelo usuário. Teste com 1000 ocorrências e faça um gráfico."
+  },
+  {
+    "objectID": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#exemplo-10.4",
+    "href": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#exemplo-10.4",
+    "title": "Como gerar variáveis aleatórias discretas?",
+    "section": "Exemplo 10.4",
+    "text": "Exemplo 10.4\nSeja \\(X\\sim\\) Geométrica(\\(p\\)) tal que \\(P(X=i) = p(1-p)^{i-1}\\), para \\(i=1,2,\\ldots\\)\n\nCrie uma função no R que gera uma ocorrência de \\(X\\). Teste com \\(p=0,\\!4\\).\nCrie uma função que gera o número de ocorrências definida pelo usuário. Teste com 1000 ocorrências e faça um gráfico."
+  },
+  {
+    "objectID": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#ganho-da-aula",
+    "href": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#ganho-da-aula",
+    "title": "Como gerar variáveis aleatórias discretas?",
+    "section": "Ganho da aula",
+    "text": "Ganho da aula\n\nCompreensão da geração de números aleatórios discretos usando o método da transformação inversa."
   },
   {
     "objectID": "slides/06-Tabelas-Figuras-Outros-Recursos-LaTeX/06-Tabelas-Figuras-Outros-Recursos-LaTeX.html#cenário",
@@ -1861,168 +1934,208 @@
     "text": "Atividade extraclasse\nConfigure seu ambiente de trabalho pessoal\nObjetivo\nDeixar seu computador pessoal pronto para continuar os trabalhos da disciplina fora do laboratório, de forma independente.\nEtapas:\n\nInstalar o Git: https://happygitwithr.com/install-git.html\nInstalar o R: https://cran.r-project.org\nInstalar o RStudio: https://posit.co/download/rstudio-desktop\nFazer uma cópia (clone) do repositório da disciplina no GitHub para o seu computador.\n\nCriar um repositório de teste, clonar no RStudio e fazer seu primeiro commit."
   },
   {
-    "objectID": "info/ementa.html",
-    "href": "info/ementa.html",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Bem-vindo(a)!",
+    "section": "",
+    "text": "Bem-vindo(a)!\nEsta página foi criada pelo Prof. Dr. Sadraque E. F. Lucena para centralizar os conteúdos, atividades, cronograma e materiais da disciplina ESTAT0090 – Estatística Computacional, ofertada pelo Departamento de Estatística e Ciências Atuariais da Universidade Federal de Sergipe. Ao longo do semestre, vamos explorar ferramentas fundamentais para a prática da Estatística moderna, com ênfase em programação em R, Quarto, LaTeX, GitHub, simulação, métodos computacionais e reamostragem (como Bootstrap e Monte Carlo).\nA disciplina será conduzida com uma abordagem prática e orientada por problemas, livremente inspirada no Problem-Based Learning (PBL), conectando os conteúdos à atuação profissional em Estatística e Ciência de Dados. A cada semana, novos desafios e projetos serão propostos, promovendo o aprendizado ativo e colaborativo.\nFique atento(a) às atualizações — este espaço será constantemente revisado com avisos, novos materiais e mudanças no cronograma."
+  },
+  {
+    "objectID": "info/conteudo.html",
+    "href": "info/conteudo.html",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "Editor de textos LATEX. Estruturas de repetições e funções no software R. Geração de Variáveis Aleatórias. Método de Monte Carlo. Bootstrap.",
+    "text": "Geração de variáveis aleatórias\n1.1. Comandos básicos do R\n1.2. Estruturas de repetição no R\n1.3. Condições e sı́mbolos lógicos no\n1.4. Escrevendo funções no R\n1.5. Gerador de números aleatórios\n1.6. Método da Transformada inversa\n1.7. Método da Aceitação-Rejeição\n1.8. Outros métodos de geração de v.a.\nMétodos de Monte Carlo\n2.1. Conceito Geral\n2.2. Testes de Hipóteses e Erros\n2.3. Intervalos de confiança\n2.4. Viés e Erro quadrático Médio\n2.5. Método de Reamostragem: Bootstrap\n2.6. Método de Reamostragem: Jackknife\nO editor de textos LaTeX\n3.1. Comandos iniciais\n3.2. Formatação de texto, Tipos de Listas, Teoremas\n3.3. Fórmulas diversas, sı́mbolos matemáticos, escrevendo em ambiente de fórmulas\n3.4. Matrizes, equações alinhadas, tabelas e imagens\n3.5. Textos sem formatação (Para saı́das computacionais)\n3.6. Partes de documento: Tı́tulos, capı́tulos, sumários, cabeçalho e rodapé, bibliografia básica\n3.7. BibTeX (bibliografia externa)\n3.8. Criando Apresentações e Pôster",
     "crumbs": [
       "Informações da disciplina",
-      "Ementa e objetivos"
+      "Conteúdo"
     ]
   },
   {
-    "objectID": "info/ementa.html#ementa",
-    "href": "info/ementa.html#ementa",
+    "objectID": "info/conteudo.html#conteudo",
+    "href": "info/conteudo.html#conteudo",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "Editor de textos LATEX. Estruturas de repetições e funções no software R. Geração de Variáveis Aleatórias. Método de Monte Carlo. Bootstrap.",
+    "text": "Geração de variáveis aleatórias\n1.1. Comandos básicos do R\n1.2. Estruturas de repetição no R\n1.3. Condições e sı́mbolos lógicos no\n1.4. Escrevendo funções no R\n1.5. Gerador de números aleatórios\n1.6. Método da Transformada inversa\n1.7. Método da Aceitação-Rejeição\n1.8. Outros métodos de geração de v.a.\nMétodos de Monte Carlo\n2.1. Conceito Geral\n2.2. Testes de Hipóteses e Erros\n2.3. Intervalos de confiança\n2.4. Viés e Erro quadrático Médio\n2.5. Método de Reamostragem: Bootstrap\n2.6. Método de Reamostragem: Jackknife\nO editor de textos LaTeX\n3.1. Comandos iniciais\n3.2. Formatação de texto, Tipos de Listas, Teoremas\n3.3. Fórmulas diversas, sı́mbolos matemáticos, escrevendo em ambiente de fórmulas\n3.4. Matrizes, equações alinhadas, tabelas e imagens\n3.5. Textos sem formatação (Para saı́das computacionais)\n3.6. Partes de documento: Tı́tulos, capı́tulos, sumários, cabeçalho e rodapé, bibliografia básica\n3.7. BibTeX (bibliografia externa)\n3.8. Criando Apresentações e Pôster",
     "crumbs": [
       "Informações da disciplina",
-      "Ementa e objetivos"
+      "Conteúdo"
     ]
   },
   {
-    "objectID": "info/ementa.html#objetivos",
-    "href": "info/ementa.html#objetivos",
-    "title": "Estatística Computacional",
-    "section": "Objetivos",
-    "text": "Objetivos\nDesenvolver habilidades essenciais para a aplicação de métodos computacionais na análise de dados e na obtenção de estimativas estatı́sticas confiáveis, bem como preparar estudantes para criar documentos de alta qualidade com notação matemática adequada e formatação profissional.",
-    "crumbs": [
-      "Informações da disciplina",
-      "Ementa e objetivos"
-    ]
-  },
-  {
-    "objectID": "info/ementa.html#metodologia",
-    "href": "info/ementa.html#metodologia",
-    "title": "Estatística Computacional",
-    "section": "Metodologia",
-    "text": "Metodologia\nSerão ministradas aulas teóricas expositivas; utilizados recursos visuais; resolução de exercı́cios em sala de aula; solicitação de atividades extraclasse. O cronograma de aulas encontra-se no Quadro 1.",
-    "crumbs": [
-      "Informações da disciplina",
-      "Ementa e objetivos"
-    ]
-  },
-  {
-    "objectID": "info/ementa.html#habilidades-e-competências",
-    "href": "info/ementa.html#habilidades-e-competências",
-    "title": "Estatística Computacional",
-    "section": "Habilidades e Competências",
-    "text": "Habilidades e Competências\nAo término deste curso o aluno estará apto a realizar análises estatı́sticas avançadas, simulações e estimativas confiáveis, além de resolver problemas práticos no campo da Estatı́stica utilizando abordagens computacionais.",
-    "crumbs": [
-      "Informações da disciplina",
-      "Ementa e objetivos"
-    ]
-  },
-  {
-    "objectID": "info/ementa.html#avaliação",
-    "href": "info/ementa.html#avaliação",
-    "title": "Estatística Computacional",
-    "section": "Avaliação",
-    "text": "Avaliação\nSerão realizadas três avaliações ao longo do semestre. As avaliações poderão ser provas, trabalhos ou outras atividades solicitadas pelo professor.",
-    "crumbs": [
-      "Informações da disciplina",
-      "Ementa e objetivos"
-    ]
-  },
-  {
-    "objectID": "info/softwares.html",
-    "href": "info/softwares.html",
+    "objectID": "info/cronograma.html",
+    "href": "info/cronograma.html",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "Para acompanhar as atividades da disciplina, será necessário instalar os softwares listados abaixo. Todos são gratuitos e amplamente utilizados nas áreas de Estatística e Ciência de Dados:\n\n\n\nR é um ambiente computacional gratuito voltado para análises estatísticas e produção de visualizações gráficas. Link\n\n\n\nO RStudio consiste em um ambiente de desenvolvimento integrado (IDE) projetado para aumentar a produtividade no uso da linguagem R, oferecendo ferramentas especializadas para programação, depuração e visualização de dados. Link\n\n\n\nQuarto é um sistema de publicação técnico-científica de código aberto que integra análise computacional (Python, R, Julia) e produção de documentos dinâmicos em múltiplos formatos (HTML, PDF, Word). Combina escrita em Markdown com recursos avançados para equações, citações e visualizações reprodutíveis. Link\n\n\n\nMiKTeX é uma distribuição moderna do sistema TeX/LaTeX para ambiente Windows, fornecendo um conjunto completo de ferramentas para editoração técnica e científica de alta qualidade. Link\n\n\n\nTeXstudio é um ambiente integrado de edição para documentos LaTeX, oferecendo recursos como realce de sintaxe, visualizador incorporado, verificação de referências e assistentes para facilitar a escrita. Link",
+    "text": "Cronograma de aulas de Estatística Computacional seguindo o calendário acadêmico do período 2025-1.\n\n\n\n\n\n\n\n\nAula\nData\nAssunto Previsto\n\n\n\n\n1\nTerça, 13 de maio de 2025\nRecepção dos alunos\n\n\n2\nQuinta, 15 de maio de 2025\nRecepção dos alunos\n\n\n3\nTerça, 20 de maio de 2025\nApresentação da disciplina\n\n\n4\nQuinta, 22 de maio de 2025\nIntrodução ao RStudio + GitHub\n\n\n5\nTerça, 27 de maio de 2025\nIntrodução ao LaTeX\n\n\n6\nQuinta, 29 de maio de 2025\nEstrutura básico do LaTeX\n\n\n7\nTerça, 03 de junho de 2025\nAmbiente matemático no LaTeX\n\n\n8\nQuinta, 05 de junho de 2025\nTabelas no LaTeX\n\n\n9\nTerça, 10 de junho de 2025\nFiguras no LaTeX\n\n\n10\nQuinta, 12 de junho de 2025\nBibliografia no LaTeX\n\n\n11\nQuinta, 17 de junho de 2025\nAvaliação 1\n\n\n12\nTerça, 01 de julho de 2025\nQuarto\n\n\n13\nQuinta, 03 de julho de 2025\nGeração de Números aleatórios",
     "crumbs": [
       "Informações da disciplina",
-      "Softwares Necessários"
+      "Cronograma"
     ]
   },
   {
-    "objectID": "info/softwares.html#softwares-necessários",
-    "href": "info/softwares.html#softwares-necessários",
+    "objectID": "info/cronograma.html#cronograma-de-aulas",
+    "href": "info/cronograma.html#cronograma-de-aulas",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "Para acompanhar as atividades da disciplina, será necessário instalar os softwares listados abaixo. Todos são gratuitos e amplamente utilizados nas áreas de Estatística e Ciência de Dados:\n\n\n\nR é um ambiente computacional gratuito voltado para análises estatísticas e produção de visualizações gráficas. Link\n\n\n\nO RStudio consiste em um ambiente de desenvolvimento integrado (IDE) projetado para aumentar a produtividade no uso da linguagem R, oferecendo ferramentas especializadas para programação, depuração e visualização de dados. Link\n\n\n\nQuarto é um sistema de publicação técnico-científica de código aberto que integra análise computacional (Python, R, Julia) e produção de documentos dinâmicos em múltiplos formatos (HTML, PDF, Word). Combina escrita em Markdown com recursos avançados para equações, citações e visualizações reprodutíveis. Link\n\n\n\nMiKTeX é uma distribuição moderna do sistema TeX/LaTeX para ambiente Windows, fornecendo um conjunto completo de ferramentas para editoração técnica e científica de alta qualidade. Link\n\n\n\nTeXstudio é um ambiente integrado de edição para documentos LaTeX, oferecendo recursos como realce de sintaxe, visualizador incorporado, verificação de referências e assistentes para facilitar a escrita. Link",
+    "text": "Cronograma de aulas de Estatística Computacional seguindo o calendário acadêmico do período 2025-1.\n\n\n\n\n\n\n\n\nAula\nData\nAssunto Previsto\n\n\n\n\n1\nTerça, 13 de maio de 2025\nRecepção dos alunos\n\n\n2\nQuinta, 15 de maio de 2025\nRecepção dos alunos\n\n\n3\nTerça, 20 de maio de 2025\nApresentação da disciplina\n\n\n4\nQuinta, 22 de maio de 2025\nIntrodução ao RStudio + GitHub\n\n\n5\nTerça, 27 de maio de 2025\nIntrodução ao LaTeX\n\n\n6\nQuinta, 29 de maio de 2025\nEstrutura básico do LaTeX\n\n\n7\nTerça, 03 de junho de 2025\nAmbiente matemático no LaTeX\n\n\n8\nQuinta, 05 de junho de 2025\nTabelas no LaTeX\n\n\n9\nTerça, 10 de junho de 2025\nFiguras no LaTeX\n\n\n10\nQuinta, 12 de junho de 2025\nBibliografia no LaTeX\n\n\n11\nQuinta, 17 de junho de 2025\nAvaliação 1\n\n\n12\nTerça, 01 de julho de 2025\nQuarto\n\n\n13\nQuinta, 03 de julho de 2025\nGeração de Números aleatórios",
     "crumbs": [
       "Informações da disciplina",
-      "Softwares Necessários"
+      "Cronograma"
     ]
   },
   {
-    "objectID": "info/bibliografia.html",
-    "href": "info/bibliografia.html",
+    "objectID": "info/dados_gerais.html",
+    "href": "info/dados_gerais.html",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "DE ALMEIDA, Pedro Quaresma. Introduçao ao LATEX. Escolar Editora, 1996.\nRUBINSTEIN, Reuven Y; KROESE, Dirk P. Simulation and Monte Carlo method. 2nd ed. New Jersey, Estados Unidos: Wiley-Interscience, 2008.\nDAVISON, A. C; HINKLEY, D. V. Bootstrap methods and their application. New York, Estados Unidos: Cambridge University Press, 1997.\nEFRON, Bradley; TIBSHIRANI, Robert. An introduction to the bootstrap. Boca Raton, Estados Unidos: Chapman & Hall/CRC, 1994.\nVERZANI, John. Using R for introductory statistics. Boca Raton, Estados Unidos: Chapman & Hall/CRC, 2005.\n\n\n\n\n\nRIZZO, Maria L. Statistical computing with R. CRC Press, 2019.\nGIVENS, Geof H.; HOETING, Jennifer A. Computational statistics. John Wiley & Sons, 2012.",
+    "text": "Componente curricular:\nESTAT0090 - Estatística Computacional\nDisciplina obrigatória para o curso de Estatística da Universidade Federal de Sergipe",
     "crumbs": [
       "Informações da disciplina",
-      "Bibliografia"
+      "Dados gerais"
     ]
   },
   {
-    "objectID": "info/bibliografia.html#bibliografia",
-    "href": "info/bibliografia.html#bibliografia",
+    "objectID": "info/dados_gerais.html#dados-gerais-da-disciplina",
+    "href": "info/dados_gerais.html#dados-gerais-da-disciplina",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "DE ALMEIDA, Pedro Quaresma. Introduçao ao LATEX. Escolar Editora, 1996.\nRUBINSTEIN, Reuven Y; KROESE, Dirk P. Simulation and Monte Carlo method. 2nd ed. New Jersey, Estados Unidos: Wiley-Interscience, 2008.\nDAVISON, A. C; HINKLEY, D. V. Bootstrap methods and their application. New York, Estados Unidos: Cambridge University Press, 1997.\nEFRON, Bradley; TIBSHIRANI, Robert. An introduction to the bootstrap. Boca Raton, Estados Unidos: Chapman & Hall/CRC, 1994.\nVERZANI, John. Using R for introductory statistics. Boca Raton, Estados Unidos: Chapman & Hall/CRC, 2005.\n\n\n\n\n\nRIZZO, Maria L. Statistical computing with R. CRC Press, 2019.\nGIVENS, Geof H.; HOETING, Jennifer A. Computational statistics. John Wiley & Sons, 2012.",
+    "text": "Componente curricular:\nESTAT0090 - Estatística Computacional\nDisciplina obrigatória para o curso de Estatística da Universidade Federal de Sergipe",
     "crumbs": [
       "Informações da disciplina",
-      "Bibliografia"
+      "Dados gerais"
     ]
   },
   {
-    "objectID": "conteudos/1-Apresentacao_da_disciplina.html",
-    "href": "conteudos/1-Apresentacao_da_disciplina.html",
-    "title": "Conteúdo 1",
+    "objectID": "info/dados_gerais.html#informações-da-disciplina",
+    "href": "info/dados_gerais.html#informações-da-disciplina",
+    "title": "Estatística Computacional",
+    "section": "Informações da Disciplina",
+    "text": "Informações da Disciplina\n\nCarga Horária: 60 horas (4 créditos)\nUnidade Responsável: Departamento de Estatística e Ciências Atuariais (DECAT)\nDocente Responsável: Prof. Dr. Sadraque E. F. Lucena\nPeríodo Letivo: 2025-1\nPlano de Ensino da Disciplina: pdf",
+    "crumbs": [
+      "Informações da disciplina",
+      "Dados gerais"
+    ]
+  },
+  {
+    "objectID": "info/dados_gerais.html#horários-das-aulas",
+    "href": "info/dados_gerais.html#horários-das-aulas",
+    "title": "Estatística Computacional",
+    "section": "Horários das Aulas",
+    "text": "Horários das Aulas\nAs aulas ocorrerão nos seguintes horários:\n\nTerças: 19h00 às 20h30 no LEA01 (Laboratório de Informática 01 do DECAT)\nQuintas: 20h45 às 22h15 no LEA02 (Laboratório de Informática 02 do DECAT)",
+    "crumbs": [
+      "Informações da disciplina",
+      "Dados gerais"
+    ]
+  },
+  {
+    "objectID": "info/dados_gerais.html#avaliações",
+    "href": "info/dados_gerais.html#avaliações",
+    "title": "Estatística Computacional",
+    "section": "Avaliações",
+    "text": "Avaliações\nA disciplina contará com 3 avaliações distribuídas ao longo do semestre nas seguintes datas:\n\nAvaliação 1: 17/06/2025 (terça)\nAvaliação 2: 29/07/2025 (terça)\nAvaliação 3: 02/09/2025 (terça)",
+    "crumbs": [
+      "Informações da disciplina",
+      "Dados gerais"
+    ]
+  },
+  {
+    "objectID": "info/dados_gerais.html#não-haverá-aula",
+    "href": "info/dados_gerais.html#não-haverá-aula",
+    "title": "Estatística Computacional",
+    "section": "Não haverá aula",
+    "text": "Não haverá aula\n\n19/06/2025: Corpus Christi (ponto facultativo)\n24/06/2025: Sâo João (feriado municipal)\n08/07/2025: Independência de Sergipe (feriado estadual)",
+    "crumbs": [
+      "Informações da disciplina",
+      "Dados gerais"
+    ]
+  },
+  {
+    "objectID": "conteudos/2-Introducao_ao_RStudio+GitHub.html",
+    "href": "conteudos/2-Introducao_ao_RStudio+GitHub.html",
+    "title": "Conteúdo 2",
     "section": "",
-    "text": "Neste primeiro encontro, vamos apresentar os objetivos da disciplina, a forma como as aulas serão conduzidas, os temas que vamos explorar e como será a avaliação ao longo do semestre. Também vamos conversar sobre o papel da Estatística Computacional na formação em Estatísica e Ciência de Dados, bem como sua importância no mundo do trabalho.\nA proposta do componente é dinâmica e baseada em resolução de problemas reais, com atividades que estimulam a autonomia, a criatividade e o uso prático das ferramentas computacionais.\nSlides:\n\nVersão html\nVersão pdf",
+    "text": "Como garantir que um trabalho estatístico seja organizado, reproduzível e protegido contra erros? A aula parte desse problema para apresentar o ambiente RStudio e as ferramentas Git e GitHub. A atividade será vivenciada de forma prática, onde será necessário versionar projetos e colaborar com colegas. Ao longo da aula, será possível aprender a integrar o RStudio com o Git e a criar repositórios no GitHub, desenvolvendo habilidades essenciais para o mercado de trabalho em Estatística e Ciência de Dados.\n\nVersão html\nVersão pdf",
     "crumbs": [
       "Material das aulas",
-      "1- Apresentação da Disciplina"
+      "2- Introdução ao RStudio + GitHub"
     ]
   },
   {
-    "objectID": "conteudos/1-Apresentacao_da_disciplina.html#apresentação-da-disciplina",
-    "href": "conteudos/1-Apresentacao_da_disciplina.html#apresentação-da-disciplina",
-    "title": "Conteúdo 1",
+    "objectID": "conteudos/2-Introducao_ao_RStudio+GitHub.html#introdução-ao-rstudio-github",
+    "href": "conteudos/2-Introducao_ao_RStudio+GitHub.html#introdução-ao-rstudio-github",
+    "title": "Conteúdo 2",
     "section": "",
-    "text": "Neste primeiro encontro, vamos apresentar os objetivos da disciplina, a forma como as aulas serão conduzidas, os temas que vamos explorar e como será a avaliação ao longo do semestre. Também vamos conversar sobre o papel da Estatística Computacional na formação em Estatísica e Ciência de Dados, bem como sua importância no mundo do trabalho.\nA proposta do componente é dinâmica e baseada em resolução de problemas reais, com atividades que estimulam a autonomia, a criatividade e o uso prático das ferramentas computacionais.\nSlides:\n\nVersão html\nVersão pdf",
+    "text": "Como garantir que um trabalho estatístico seja organizado, reproduzível e protegido contra erros? A aula parte desse problema para apresentar o ambiente RStudio e as ferramentas Git e GitHub. A atividade será vivenciada de forma prática, onde será necessário versionar projetos e colaborar com colegas. Ao longo da aula, será possível aprender a integrar o RStudio com o Git e a criar repositórios no GitHub, desenvolvendo habilidades essenciais para o mercado de trabalho em Estatística e Ciência de Dados.\n\nVersão html\nVersão pdf",
     "crumbs": [
       "Material das aulas",
-      "1- Apresentação da Disciplina"
+      "2- Introdução ao RStudio + GitHub"
     ]
   },
   {
-    "objectID": "conteudos/7-Bibliografia_em_LaTeX.html",
-    "href": "conteudos/7-Bibliografia_em_LaTeX.html",
-    "title": "Conteúdo 7",
+    "objectID": "conteudos/9-Geracao-de-numeros-pseudoaleatorios.html",
+    "href": "conteudos/9-Geracao-de-numeros-pseudoaleatorios.html",
+    "title": "Conteúdo 9",
     "section": "",
-    "text": "Nesta aula, aprimoraremos a comunicação acadêmica e exploraremos a gestão de referências bibliográficas no LaTeX. Descobriremos como o LaTeX automatiza a organização e formatação das suas citações e bibliografia, garantindo precisão e conformidade com as normas acadêmicas. Focaremos nos pacotes natbib e abntex2cite, que são ferramentas poderosas para atingir clareza e rigor estético na apresentação das suas referências.\nSlides:\n\nVersão html\nVersão pdf\n\n\n\n\nReproduza em LaTeX o arquivo 07-bibliografia_LaTeX_Atv01.pdf usando abntex2cite.",
+    "text": "Nesta aula, vamos aprender sobre a geração de números pseudoaleatórios em computadores. Diferente dos números verdadeiramente aleatórios, gerados por fenômenos físicos imprevisíveis, focaremos nos métodos algorítmicos que produzem sequências que se comportam como aleatórias, mas são, na verdade, determinísticas.\nNosso objetivo é que você compreenda e saiba aplicar os principais geradores, como o Método Congruencial Linear Multiplicativo e o Método Congruencial Misto. Veremos como esses algoritmos funcionam passo a passo, utilizando sementes, multiplicadores, incrementos e módulos para criar sequências numéricas. Ao final, você terá uma base sólida para entender a origem dos números aleatórios usados em simulações, modelagem estatística e diversas aplicações computacionais.\nSlides:\n\nVersão html\nVersão pdf\n\n\n\n\nResolva a lista de exercícios 09-Geracao-de-numeros-pseudoaleatorios_Atv01.pdf.",
     "crumbs": [
       "Material das aulas",
-      "7- Bibliografia em LaTeX"
+      "9- Geração de Números Pseudoaleatórios"
     ]
   },
   {
-    "objectID": "conteudos/7-Bibliografia_em_LaTeX.html#bibliografia-em-latex",
-    "href": "conteudos/7-Bibliografia_em_LaTeX.html#bibliografia-em-latex",
-    "title": "Conteúdo 7",
+    "objectID": "conteudos/9-Geracao-de-numeros-pseudoaleatorios.html#geração-de-números-pseudoaleatórios",
+    "href": "conteudos/9-Geracao-de-numeros-pseudoaleatorios.html#geração-de-números-pseudoaleatórios",
+    "title": "Conteúdo 9",
     "section": "",
-    "text": "Nesta aula, aprimoraremos a comunicação acadêmica e exploraremos a gestão de referências bibliográficas no LaTeX. Descobriremos como o LaTeX automatiza a organização e formatação das suas citações e bibliografia, garantindo precisão e conformidade com as normas acadêmicas. Focaremos nos pacotes natbib e abntex2cite, que são ferramentas poderosas para atingir clareza e rigor estético na apresentação das suas referências.\nSlides:\n\nVersão html\nVersão pdf",
+    "text": "Nesta aula, vamos aprender sobre a geração de números pseudoaleatórios em computadores. Diferente dos números verdadeiramente aleatórios, gerados por fenômenos físicos imprevisíveis, focaremos nos métodos algorítmicos que produzem sequências que se comportam como aleatórias, mas são, na verdade, determinísticas.\nNosso objetivo é que você compreenda e saiba aplicar os principais geradores, como o Método Congruencial Linear Multiplicativo e o Método Congruencial Misto. Veremos como esses algoritmos funcionam passo a passo, utilizando sementes, multiplicadores, incrementos e módulos para criar sequências numéricas. Ao final, você terá uma base sólida para entender a origem dos números aleatórios usados em simulações, modelagem estatística e diversas aplicações computacionais.\nSlides:\n\nVersão html\nVersão pdf",
     "crumbs": [
       "Material das aulas",
-      "7- Bibliografia em LaTeX"
+      "9- Geração de Números Pseudoaleatórios"
     ]
   },
   {
-    "objectID": "conteudos/7-Bibliografia_em_LaTeX.html#atividade",
-    "href": "conteudos/7-Bibliografia_em_LaTeX.html#atividade",
-    "title": "Conteúdo 7",
+    "objectID": "conteudos/9-Geracao-de-numeros-pseudoaleatorios.html#atividade",
+    "href": "conteudos/9-Geracao-de-numeros-pseudoaleatorios.html#atividade",
+    "title": "Conteúdo 9",
     "section": "",
-    "text": "Reproduza em LaTeX o arquivo 07-bibliografia_LaTeX_Atv01.pdf usando abntex2cite.",
+    "text": "Resolva a lista de exercícios 09-Geracao-de-numeros-pseudoaleatorios_Atv01.pdf.",
     "crumbs": [
       "Material das aulas",
-      "7- Bibliografia em LaTeX"
+      "9- Geração de Números Pseudoaleatórios"
+    ]
+  },
+  {
+    "objectID": "conteudos/3-Introducao_ao_LaTeX.html",
+    "href": "conteudos/3-Introducao_ao_LaTeX.html",
+    "title": "Conteúdo 3",
+    "section": "",
+    "text": "Como criar documentos científicos bem formatados, padronizados e prontos para publicação? Esta aula parte dessa questão para apresentar o LaTeX, uma linguagem de marcação voltada à produção de textos técnicos e acadêmicos. A atividade será conduzida de maneira prática, com foco no aprendizado dos comandos básicos de formatação, controle do tamanho da fonte e uso de cores no texto. Ao longo da aula, será possível experimentar o poder do LaTeX para organizar e apresentar conteúdos de forma profissional, desenvolvendo uma habilidade fundamental para a produção de relatórios, artigos e trabalhos em Estatística e Ciência de Dados.\nSlides:\n\nVersão html\nVersão pdf\n\n\n\n\nReproduza em LaTeX o arquivo 03-Introducao_ao_LaTeX_Atv01.pdf.\nAlgumas configurações utilizadas:\n\ntamanho da fonte geral: 11pt\ncores: blue e red\ntamanho da fonte \\scriptsize e \\Large em algumas frases",
+    "crumbs": [
+      "Material das aulas",
+      "3- Introdução ao LaTeX"
+    ]
+  },
+  {
+    "objectID": "conteudos/3-Introducao_ao_LaTeX.html#introdução-ao-latex",
+    "href": "conteudos/3-Introducao_ao_LaTeX.html#introdução-ao-latex",
+    "title": "Conteúdo 3",
+    "section": "",
+    "text": "Como criar documentos científicos bem formatados, padronizados e prontos para publicação? Esta aula parte dessa questão para apresentar o LaTeX, uma linguagem de marcação voltada à produção de textos técnicos e acadêmicos. A atividade será conduzida de maneira prática, com foco no aprendizado dos comandos básicos de formatação, controle do tamanho da fonte e uso de cores no texto. Ao longo da aula, será possível experimentar o poder do LaTeX para organizar e apresentar conteúdos de forma profissional, desenvolvendo uma habilidade fundamental para a produção de relatórios, artigos e trabalhos em Estatística e Ciência de Dados.\nSlides:\n\nVersão html\nVersão pdf",
+    "crumbs": [
+      "Material das aulas",
+      "3- Introdução ao LaTeX"
+    ]
+  },
+  {
+    "objectID": "conteudos/3-Introducao_ao_LaTeX.html#atividade",
+    "href": "conteudos/3-Introducao_ao_LaTeX.html#atividade",
+    "title": "Conteúdo 3",
+    "section": "",
+    "text": "Reproduza em LaTeX o arquivo 03-Introducao_ao_LaTeX_Atv01.pdf.\nAlgumas configurações utilizadas:\n\ntamanho da fonte geral: 11pt\ncores: blue e red\ntamanho da fonte \\scriptsize e \\Large em algumas frases",
+    "crumbs": [
+      "Material das aulas",
+      "3- Introdução ao LaTeX"
     ]
   },
   {

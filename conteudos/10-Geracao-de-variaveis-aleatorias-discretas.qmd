@@ -1,0 +1,26 @@
+---
+title: ""
+format:
+  html:
+    toc: false
+    anchor-sections: false
+---
+
+# Conteúdo 10
+
+## Geração de Variáveis Aleatórias Discretas
+
+Nesta aula, vamos nos aprofundar na geração de variáveis aleatórias discretas. Diferente dos geradores de números pseudoaleatórios que produzem sequências uniformes, nosso foco será em um método que transforma essas sequências para que sigam uma distribuição de probabilidade específica e desejada.
+
+Nosso principal objetivo é que você compreenda e saiba aplicar o Método da Transformada Inversa. Veremos como esse algoritmo funciona passo a passo, utilizando um número aleatório uniformemente gerado (entre 0 e 1) e a probabilidade acumulada da distribuição para encontrar o valor correspondente.
+
+Ao final, você terá uma base sólida para simular ocorrências que imitam o comportamento de fenômenos do mundo real, como o número de clientes em uma fila ou o resultado de um jogo de dados viciado, e poderá aplicar esse conhecimento em simulações, testes de modelos e diversas aplicações estatísticas.
+
+Slides:
+
+- [Versão html](/slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html){target="_blank"}
+
+- [Versão pdf](/PDF_slides/10-Geracao-de-variaveis-aleatorias-discretas.pdf){target="_blank"}
+
+
+
