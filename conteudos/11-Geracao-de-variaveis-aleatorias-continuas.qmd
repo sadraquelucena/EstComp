@@ -1,0 +1,22 @@
+---
+title: ""
+format:
+  html:
+    toc: false
+    anchor-sections: false
+---
+
+# Conteúdo 11
+
+## Geração de Variáveis Aleatórias Contínuas
+
+Nesta aula, vamos conhecer e aplicar dois métodos cruciais para gerar variáveis aleatórias contínuas: o Método da Transformada Inversa e o Método da Rejeição. Ao dominar essas técnicas, você terá ferramentas poderosas para simular dados de distribuições contínuas, mesmo as mais novas, o que é fundamental para validar modelos e testar hipóteses em diversas áreas da estatística e ciência de dados.
+
+Slides:
+
+- [Versão html](/slides/11-Geracao-de-variaveis-aleatorias-continuas/11-Geracao-de-variaveis-aleatorias-continuas.html){target="_blank"}
+
+- [Versão pdf](/PDF_slides/11-Geracao-de-variaveis-aleatorias-continuas.pdf){target="_blank"}
+
+
+

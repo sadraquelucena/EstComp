@@ -1,0 +1,9 @@
+.wrap {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.myImage {
+    margin: -40px 0px 0px -120px;
+}

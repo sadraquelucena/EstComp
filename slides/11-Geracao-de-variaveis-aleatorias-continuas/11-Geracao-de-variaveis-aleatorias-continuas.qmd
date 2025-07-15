@@ -1,0 +1,194 @@
+---
+title: "Como gerar variáveis aleatórias contínuas?"
+subtitle: "O Método da Transformação Inversa e o Método da Rejeição"
+author:
+  name: | # indica que o campo name terá múltiplas linhas
+    ESTAT0090 -- Estatística Computacional<br>
+    Prof. Dr. Sadraque E. F. Lucena<br>
+    <span style="font-size:.8em;">sadraquelucena@academico.ufs.br</span>
+  
+format:
+  revealjs:
+    theme: meutema.scss
+    width: 1024
+    height: 768
+    margin: 0.1         # margem em torno do conteúdo
+    min-scale: 0.2       # escala mínima permitida
+    max-scale: 2.0       # escala máxima permitida
+    slide-number: true
+    code-line-numbers: false # sem número das linhas nos code chunks
+    subtitle-style: "font-size: 2em; font-weight: bold;"  # Aqui é onde aumentamos o subtítulo
+    logo: imagens/ufs_horizontal_positiva.png
+    transition: fade
+    transition-speed: fast
+    scss: meutema.scss
+
+lang: pt-BR
+
+---
+
+
+## Cenário
+
+Imagine que você está trabalhando com uma nova distribuição de probabilidade contínua. Como ela é muito recente, ainda não existem funções de simulação disponíveis em bibliotecas ou pacotes de programação. Para conseguir validar seus modelos, você precisa desenvolver do zero o código para gerar dados aleatórios e realizar suas simulações.
+
+
+
+
+## Objetivos da aula
+
+Nesta aula, aprenderemos a gerar ocorrências de variáveis aleatórias contínuas usando
+
+- o Método da Transformação Inversa;
+- o Método da Aceitação-Rejeição.
+
+
+
+
+## Método da transformação inversa para variáveis contínuas
+
+- O método da transformada inversa é adequado para geração de amostras de uma variável aleatória contínua com domínio em $\mathbb{R}$.
+- Ele pode ser usado em distribuições discretas, mas não é muito útil.
+- Para usar o método, basta que
+  - A variável contínua $X$ tenha função de distribuição $F(x)$ e
+  - A inversa $F^{-1}(x)$ exista.
+
+
+
+
+## Método da transformação inversa para variáveis contínuas
+
+Ilustração:
+
+![](imagens/fig-transf-inversa.png)
+
+
+
+
+## Método da transformação inversa para variáveis contínuas
+
+::: {.callout-tip icon=false title="Algoritmo"}
+**Passo 1:** Gere $u \sim$ Uniforme($0,1$);
+
+**Passo 2:** Retorne $X=F^{-1}(U)$.
+:::
+
+
+
+
+## Exemplo 11.1
+
+Considere a distribuição Exponencial($\lambda$) com
+
+- $f(x)=\lambda e^{-\lambda x}, ~x\geq 0,$
+- $F(x) = 1-e^{\lambda x}, ~x\geq 0$.
+
+a. Determine $F^{-1}(u)$.
+b. Escreva uma função no R que gere $n$ ocorrências da Exponencial ao fornecer o valor de $\lambda$. Faça um histograma. 
+
+
+
+
+## Exemplo 11.2
+
+Considere a distribuição de Rayleigh com parâmetro $\sigma>0$, isto é,
+$$
+  f(x) = \frac{x}{\sigma^2} e^{-\frac{x^2}{2\sigma^2}}, \quad x\geq 0.
+$$
+
+a. Determine a distribuição de $X$, ou seja, $F(x)$.
+b. Determine $F^{-1}(u)$.
+c. Escreva uma função no R que gere $n$ ocorrências da Rayleigh ao fornecer o valor de $\sigma$. Faça um histograma. 
+
+
+
+
+## Exemplo 11.3
+
+Seja $X$ com densidade $f(x) = 3x^2$, $0<x<1$.
+
+a. Determine $F(x)$.
+b. Determine $F^{-1}(u)$.
+c. Escreva uma função no R que gere $n$ ocorrências de $X$. Faça um histograma. 
+
+
+
+
+## Método da Aceitação-Rejeição
+
+- O método da aceitação-rejeição é um método mais avançado e popular
+para geração de números aleatórios.
+- Ele consiste em gerar amostras de uma distribuição mais simples e então corrigir as probabiildades rejeitando alguns valores.
+- Vejamos o algoritmo.
+
+
+
+
+
+## Método da Aceitação-Rejeição
+
+- Suponha que você quer gerar valores de uam variável aleatória com distribuição $f(x)$.
+- Considere então uma distribuição mais simples $g(y)$, com mesmo domínio que $f(x)$.
+- Determine $c$ tal que $\frac{f(y)}{g(y)}\leq c$.
+
+::: {.callout-tip icon=false title="Algoritmo"}
+**Passo 1:** Gere um valor $y \sim g$;
+
+**Passo 2:** Gere $u \sim$ Uniforme($0,1$);
+
+**Passo 3:** Se $u \leq \frac{f(y)}{c g(y)}$, faça $x=y$;
+
+**Passo 4:** Caso contrário, retorne ao Passo 1.
+:::
+
+
+
+
+## Exemplo 11.4
+
+Simule uma distribuição Beta($\alpha=2, \beta=2$) pelo método da rejeição usando a distribuiçao $U(0,1)$ e escreva o código em R.
+
+A densidade da Beta($\alpha, \beta$) é
+$$
+  f(x) = \frac{\Gamma(\alpha+\beta)}{\Gamma(\alpha)\Gamma(\beta)}x^{\alpha-1}(1-x)^{\beta-1}, \quad 0<x<1,~ \alpha,\beta>0,
+$$
+onde $\Gamma(\cdot)$ é a função gama, com $\Gamma(z)=(z-1)!$, se $z$ é inteiro.
+
+
+
+
+## Exemplo 11.5
+
+Gere ocorrências da densidade $$f(y) = \frac{2}{\sqrt{2\pi}}\exp\left(-\frac{y^2}{2}\right), \quad y\geq 0,$$ a partir da distribuição Exponencial($\lambda$) com $$f(y)=\lambda \exp(-\lambda y), \quad y\geq0.$$
+
+
+
+
+## Exemplo 11.6
+
+Gere amostras da Normal(0,1) usando
+
+a. $U(-10, 10)$.
+b. Cauchy padrão.
+
+<br>
+
+- $Y\sim N(0,1): ~ f(y) = \frac{1}{\sqrt{2\pi}}\exp\left\{-\frac{y^2}{2}\right\}$, $-\infty<y<\infty$
+- $Y\sim U(-10,10): ~ f(y) = \frac{1}{20}$, $-10<y<10$
+- $Y \sim Cauchy(1,0): ~ f(y) = \frac{1}{\pi(1+y^2)}$, $-\infty<y<\infty$
+
+
+
+
+
+
+## Ganho da aula
+
+- Compreensão da geração de números aleatórios contínuos usando o método da transformação inversa e o método da aceitação-rejeição.
+
+
+
+
+# Fim
+
+Esta aula foi baseada no livro *Simulation (Sixth Edition)*, de Sheldon M. Ross, 2023.

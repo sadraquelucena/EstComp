@@ -48,6 +48,8 @@ website:
         text: "9- Geração de Números Pseudoaleatórios"
       - href: conteudos/10-Geracao-de-variaveis-aleatorias-discretas.qmd
         text: "10- Geração de Variáveis Aleatórias Discretas"
+      - href: conteudos/11-Geracao-de-variaveis-aleatorias-continuas.qmd
+        text: "11- Geração de Variáveis Aleatórias Contínuas"
 
 format:
   html:
