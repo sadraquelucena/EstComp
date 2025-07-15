@@ -19,4 +19,6 @@ Slides:
 - [Versão pdf](/PDF_slides/11-Geracao-de-variaveis-aleatorias-continuas.pdf){target="_blank"}
 
 
+## Atividade
 
+Resolva a lista de exercícios [11-Geracao-de-variaveis-aleatorias-continuas_Atv01.pdf](/PDF_slides/11-Geracao-de-variaveis-aleatorias-continuas_Atv01.pdf){target="_blank"}.
