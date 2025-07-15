@@ -81,7 +81,7 @@ Ilustração:
 Considere a distribuição Exponencial($\lambda$) com
 
 - $f(x)=\lambda e^{-\lambda x}, ~x\geq 0,$
-- $F(x) = 1-e^{\lambda x}, ~x\geq 0$.
+- $F(x) = 1-e^{-\lambda x}, ~x\geq 0$.
 
 a. Determine $F^{-1}(u)$.
 b. Escreva uma função no R que gere $n$ ocorrências da Exponencial ao fornecer o valor de $\lambda$. Faça um histograma. 
