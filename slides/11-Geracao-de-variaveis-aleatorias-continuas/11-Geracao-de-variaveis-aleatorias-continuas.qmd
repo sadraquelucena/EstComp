@@ -127,9 +127,15 @@ para geração de números aleatórios.
 
 ## Método da Aceitação-Rejeição
 
-- Suponha que você quer gerar valores de uam variável aleatória com distribuição $f(x)$.
-- Considere então uma distribuição mais simples $g(y)$, com mesmo domínio que $f(x)$.
-- Determine $c$ tal que $\frac{f(y)}{g(y)}\leq c$.
+- Suponha que você quer gerar valores de uma variável aleatória com distribuição $f(x)$ a partir de uma distribuição mais simples $g(y)$ com mesmo domínio que $f(x)$.
+- Obtenha $c$ tal que $\frac{f(y)}{g(y)}\leq c$. Ou seja,
+  - Derive $\frac{f(y)}{g(y)}$ e obtenha o ponto $\widehat{y}$ que maximiza a função.
+  - Faça $c = \frac{f(\widehat{y})}{g(\widehat{y})}$.
+
+
+
+
+## Método da Aceitação-Rejeição
 
 ::: {.callout-tip icon=false title="Algoritmo"}
 **Passo 1:** Gere um valor $y \sim g$;
@@ -148,18 +154,21 @@ para geração de números aleatórios.
 
 Simule uma distribuição Beta($\alpha=2, \beta=2$) pelo método da rejeição usando a distribuiçao $U(0,1)$ e escreva o código em R.
 
-A densidade da Beta($\alpha, \beta$) é
+- A densidade da Beta($\alpha, \beta$) é
 $$
   f(x) = \frac{\Gamma(\alpha+\beta)}{\Gamma(\alpha)\Gamma(\beta)}x^{\alpha-1}(1-x)^{\beta-1}, \quad 0<x<1,~ \alpha,\beta>0,
 $$
-onde $\Gamma(\cdot)$ é a função gama, com $\Gamma(z)=(z-1)!$, se $z$ é inteiro.
+onde
 
+  - $\Gamma(\cdot)$ é a função gama.
+  - Se $z$ é inteiro, $\Gamma(z)=(z-1)!$
 
+- A densidade de $X\sim U(a,b)$ é $f(x) = \frac{1}{b-a}$, $a<x<b$.
 
 
 ## Exemplo 11.5
 
-Gere ocorrências da densidade $$f(y) = \frac{2}{\sqrt{2\pi}}\exp\left(-\frac{y^2}{2}\right), \quad y\geq 0,$$ a partir da distribuição Exponencial($\lambda$) com $$f(y)=\lambda \exp(-\lambda y), \quad y\geq0.$$
+Gere ocorrências da densidade $$f(y) = \frac{2}{\sqrt{2\pi}}e^{-\frac{y^2}{2}}, \quad y\geq 0,$$ a partir da distribuição Exponencial($\lambda$) com $$f(y)=\lambda e^{-\lambda y}, \quad y\geq0.$$
 
 
 
