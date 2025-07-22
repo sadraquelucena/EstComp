@@ -28,4 +28,6 @@ Cronograma de aulas de Estatística Computacional seguindo o [calendário acadê
 | 13     | Quinta, 03 de julho de 2025 | Geração de Números aleatórios    |
 | 14     | Quinta, 10 de julho de 2025 | Geração de Variáveis Aleatórias Discretas    |
 | 15     | Terça, 15 de julho de 2025 | Geração de Variáveis Aleatórias Contínuas    |
+| 16     | Terça, 17 de julho de 2025 | Geração de Variáveis Aleatórias Contínuas    |
+| 17     | Terça, 22 de julho de 2025 | Geração de Variáveis Aleatórias Contínuas    |
 
