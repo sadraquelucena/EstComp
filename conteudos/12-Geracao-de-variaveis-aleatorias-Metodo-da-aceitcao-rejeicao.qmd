@@ -1,0 +1,21 @@
+---
+title: ""
+format:
+  html:
+    toc: false
+    anchor-sections: false
+---
+
+# Conteúdo 12
+
+## Geração de Variáveis Aleatórias Contínuas pelo Método da Aceitação-Rejeição
+
+Nesta aula, você aprenderá e aplicará o método da aceitação-rejeição para gerar variáveis aleatórias contínuas. Ao dominar essa técnica, você terá uma ferramenta essencial para simular dados de distribuições contínuas, mesmo aquelas mais complexas ou recém-descobertas.
+
+Slides:
+
+- [Versão html](/slides/12-Geracao-de-variaveis-aleatorias-Metodo-da-aceitcao-rejeicao/12-Geracao-de-variaveis-aleatorias-Metodo-da-aceitcao-rejeicao.html){target="_blank"}
+
+- [Versão pdf](/PDF_slides/12-Geracao-de-variaveis-aleatorias-Metodo-da-aceitcao-rejeicao.pdf){target="_blank"}
+
+

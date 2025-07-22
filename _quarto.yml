@@ -50,6 +50,8 @@ website:
         text: "10- Geração de Variáveis Aleatórias Discretas"
       - href: conteudos/11-Geracao-de-variaveis-aleatorias-continuas.qmd
         text: "11- Geração de Variáveis Aleatórias Contínuas"
+      - href: conteudos/12-Geracao-de-variaveis-aleatorias-Metodo-da-aceitcao-rejeicao.qmd
+        text: "11- Geração de Variáveis Aleatórias Contínuas (parte II)"
 
 format:
   html:

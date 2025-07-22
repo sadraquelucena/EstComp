@@ -189,7 +189,7 @@
 <p>Considere a distribuição Exponencial(<span class="math inline">\(\lambda\)</span>) com</p>
 <ul>
 <li><span class="math inline">\(f(x)=\lambda e^{-\lambda x}, ~x\geq 0,\)</span></li>
-<li><span class="math inline">\(F(x) = 1-e^{\lambda x}, ~x\geq 0\)</span>.</li>
+<li><span class="math inline">\(F(x) = 1-e^{-\lambda x}, ~x\geq 0\)</span>.</li>
 </ul>
 <ol type="a">
 <li>Determine <span class="math inline">\(F^{-1}(u)\)</span>.</li>
@@ -227,10 +227,16 @@
 <section id="método-da-aceitação-rejeição-1" class="slide level2">
 <h2>Método da Aceitação-Rejeição</h2>
 <ul>
-<li>Suponha que você quer gerar valores de uam variável aleatória com distribuição <span class="math inline">\(f(x)\)</span>.</li>
-<li>Considere então uma distribuição mais simples <span class="math inline">\(g(y)\)</span>, com mesmo domínio que <span class="math inline">\(f(x)\)</span>.</li>
-<li>Determine <span class="math inline">\(c\)</span> tal que <span class="math inline">\(\frac{f(y)}{g(y)}\leq c\)</span>.</li>
+<li>Suponha que você quer gerar valores de uma variável aleatória com distribuição <span class="math inline">\(f(x)\)</span> a partir de uma distribuição mais simples <span class="math inline">\(g(y)\)</span> com mesmo domínio que <span class="math inline">\(f(x)\)</span>.</li>
+<li>Obtenha <span class="math inline">\(c\)</span> tal que <span class="math inline">\(\frac{f(y)}{g(y)}\leq c\)</span>. Ou seja,
+<ul>
+<li>Derive <span class="math inline">\(\frac{f(y)}{g(y)}\)</span> e obtenha o ponto <span class="math inline">\(\widehat{y}\)</span> que maximiza a função.</li>
+<li>Faça <span class="math inline">\(c = \frac{f(\widehat{y})}{g(\widehat{y})}\)</span>.</li>
+</ul></li>
 </ul>
+</section>
+<section id="método-da-aceitação-rejeição-2" class="slide level2">
+<h2>Método da Aceitação-Rejeição</h2>
 <div title="Algoritmo">
 <div class="callout callout-tip no-icon callout-titled callout-style-default">
 <div class="callout-body">
@@ -250,13 +256,20 @@
 <section id="exemplo-11.4" class="slide level2">
 <h2>Exemplo 11.4</h2>
 <p>Simule uma distribuição Beta(<span class="math inline">\(\alpha=2, \beta=2\)</span>) pelo método da rejeição usando a distribuiçao <span class="math inline">\(U(0,1)\)</span> e escreva o código em R.</p>
-<p>A densidade da Beta(<span class="math inline">\(\alpha, \beta\)</span>) é <span class="math display">\[
-  f(x) = \frac{\Gamma(\alpha+\beta)}{\Gamma(\alpha)\Gamma(\beta)}x^{\alpha-1}(1-x)^{\beta-1}, \quad 0&lt;x&lt;1,~ \alpha,\beta&gt;0,
-\]</span> onde <span class="math inline">\(\Gamma(\cdot)\)</span> é a função gama, com <span class="math inline">\(\Gamma(z)=(z-1)!\)</span>, se <span class="math inline">\(z\)</span> é inteiro.</p>
+<ul>
+<li><p>A densidade da Beta(<span class="math inline">\(\alpha, \beta\)</span>) é <span class="math display">\[
+f(x) = \frac{\Gamma(\alpha+\beta)}{\Gamma(\alpha)\Gamma(\beta)}x^{\alpha-1}(1-x)^{\beta-1}, \quad 0&lt;x&lt;1,~ \alpha,\beta&gt;0,
+\]</span> onde</p>
+<ul>
+<li><span class="math inline">\(\Gamma(\cdot)\)</span> é a função gama.</li>
+<li>Se <span class="math inline">\(z\)</span> é inteiro, <span class="math inline">\(\Gamma(z)=(z-1)!\)</span></li>
+</ul></li>
+<li><p>A densidade de <span class="math inline">\(X\sim U(a,b)\)</span> é <span class="math inline">\(f(x) = \frac{1}{b-a}\)</span>, <span class="math inline">\(a&lt;x&lt;b\)</span>.</p></li>
+</ul>
 </section>
 <section id="exemplo-11.5" class="slide level2">
 <h2>Exemplo 11.5</h2>
-<p>Gere ocorrências da densidade <span class="math display">\[f(y) = \frac{2}{\sqrt{2\pi}}\exp\left(-\frac{y^2}{2}\right), \quad y\geq 0,\]</span> a partir da distribuição Exponencial(<span class="math inline">\(\lambda\)</span>) com <span class="math display">\[f(y)=\lambda \exp(-\lambda y), \quad y\geq0.\]</span></p>
+<p>Gere ocorrências da densidade <span class="math display">\[f(y) = \frac{2}{\sqrt{2\pi}}e^{-\frac{y^2}{2}}, \quad y\geq 0,\]</span> a partir da distribuição Exponencial(<span class="math inline">\(\lambda\)</span>) com <span class="math display">\[f(y)=\lambda e^{-\lambda y}, \quad y\geq0.\]</span></p>
 </section>
 <section id="exemplo-11.6" class="slide level2">
 <h2>Exemplo 11.6</h2>
