@@ -200,8 +200,7 @@ curve(dbeta(x, shape1 = 2.7, shape2 = 6.3), from = 0, to = 1)
 
 ## Exemplo 12.2
 
-- Como os valores da distribuição beta estão definidos no intervalo $(0,1)$, vamos usar a distribuiçao
-$U(0, 1)$ como distribuição auxiliar. Logo, $g = 1$, $0 < x < 1$.
+- Como os valores da distribuição beta estão definidos no intervalo $(0,1)$, vamos usar a distribuiçao $U(0, 1)$ como distribuição auxiliar. Logo, $g = 1$, $0 < x < 1$.
 - Para determinar $M$ usamos $M\geq \max_x\frac{f(x)}{g(x)}$. Como $g(x)=1$, buscamos por $M\geq \max_x f(x)$.
   - Para determinar o máximo da Beta($2.7, 6.3$) temos duas opções:
     1. Usar a expressão da moda da distribuição (se existir)
@@ -243,7 +242,7 @@ Se preferirmos obter $M$ por otimização numérica, usamos a função `optimize
 
 ## Exemplo 12.2
 
-Assim, o algoritmo para gerar ocorrẽncias da beta($2.7, 6.3$) a partir da $U(0, 1)$ é:
+Assim, o algoritmo para gerar ocorrências da beta($2.7, 6.3$) a partir da $U(0, 1)$ é:
 
 1. Gere $x$ a partir da distribuição $g(x)$, ou seja, $x \sim U(0, 1)$;
 2. Gere $u \sim U(0,1)$;
