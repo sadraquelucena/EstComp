@@ -52,6 +52,8 @@ website:
         text: "11- Geração de Variáveis Aleatórias Contínuas"
       - href: conteudos/12-Geracao-de-variaveis-aleatorias-Metodo-da-aceitcao-rejeicao.qmd
         text: "12- Geração de Variáveis Aleatórias Contínuas (parte II)"
+      - href: conteudos/13-Geracao-de-um-processo-de-poisson.qmd
+        text: "13- Geração de um processo de Poisson"
 
 format:
   html:

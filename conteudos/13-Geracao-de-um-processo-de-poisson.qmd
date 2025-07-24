@@ -1,0 +1,21 @@
+---
+title: ""
+format:
+  html:
+    toc: false
+    anchor-sections: false
+---
+
+# Conteúdo 13
+
+## Geração de um processo de Poisson
+
+Nesta aula, você aprenderá e aplicará duas abordagens para simular um Processo de Poisson: uma baseada na geração dos tempos entre eventos (distribuição Exponencial) e outra na simulação do número total de eventos no intervalo (distribuição de Poisson + uniformes). Ao dominar essas técnicas, você será capaz de modelar e gerar dados para fenômenos onde eventos ocorrem aleatoriamente ao longo do tempo -- como falhas, chamadas, pagamentos ou chegadas. Essa habilidade é fundamental para validar modelos estatísticos, desenvolver sistemas de simulação e resolver problemas reais em ciência de dados, engenharia, finanças e além.
+
+Slides:
+
+- [Versão html](/slides/13-Geracao-de-um-processo-de-poisson/13-Geracao-de-um-processo-de-poisson.html){target="_blank"}
+
+- [Versão pdf](/PDF_slides/13-Geracao-de-um-processo-de-poisson.pdf){target="_blank"}
+
+
