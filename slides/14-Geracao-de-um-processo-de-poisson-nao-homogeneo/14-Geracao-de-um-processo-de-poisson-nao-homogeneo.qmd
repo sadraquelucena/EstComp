@@ -30,7 +30,7 @@ lang: pt-BR
 
 ## Cenário
 
-Você precisa simular a chegada de clientes em uma cafeteria popular, onde o fluxo de clientes não é constante ao longo do dia. De manhã cedo, quando as pessoas pegam café para o trabalho, há um ritmo; no horário de almoço, há um pico; no meio da tarde, é mais tranquilo; e no final da tarde, antes do fechamento, há outro aumento. Você sabe que as chegadas dos clientes seguem um Processo de Poisson, mas que a taxa de chegada varia conforme o horário do dia.
+Você precisa simular a chegada de clientes em uma cafeteria popular, onde o fluxo de clientes não é constante ao longo do dia. De manhã cedo, quando as pessoas pegam café para o trabalho, há um ritmo; no horário de almoço, há um pico; no meio da tarde, é mais tranquilo; e, no final da tarde, antes do fechamento, há outro aumento. Você sabe que as chegadas dos clientes seguem um Processo de Poisson, mas que a taxa de chegada varia conforme o horário do dia.
 
 
 
@@ -41,23 +41,23 @@ Você precisa simular a chegada de clientes em uma cafeteria popular, onde o flu
 - Compreender o conceito e a necessidade de um Processo de Poisson Não Homogêneo (PPNH) para modelar taxas de chegada que variam no tempo.
 - Entender a lógica por trás do Método de Thinning (ou Afinamento) para simular um PPNH.
 - Aplicar o algoritmo do Método de Thinning para gerar eventos de um PPNH em um período de tempo definido.
-- Identificar a taxa máxima (λ) e definir a função de intensidade λ(t) para a simulação de um PPNH a partir de dados ou um cenário.
+- Identificar a taxa máxima (λ) e definir a função de intensidade λ(t) para a simulação de um PPNH a partir de dados ou de um cenário.
 - Simular o fluxo de clientes em um cenário prático.
 
 
 
 
-## Processo de Poisson Não Homeogêneo (PPNH)
+## Processo de Poisson Não Homogêneo (PPNH)
 
 ### Método Thinning (ou Afinamento)
 
-- **Encontre uma taxa "máxima":** Sabendo que a taxa de chegada de clientes $\lambda(t)$ varia ao longo de todo o período $T$, determine a maior taxa $\lambda$ de chegada de clientes.
+- **Encontre uma taxa "máxima":** Sabendo que a taxa de chegada de clientes $\lambda(t)$ varia ao longo de todo o período $T$, determine a maior taxa $\lambda$.
   - Matematicamente: $\lambda(t) \leq \lambda$ para todo $t\leq T$.
-- **Gere um Processo de Poisson Homogêneo "exagerado":** Gere um Processo de Poisson "normal" (homogêneo) com essa taxa "exagerada" $\lambda$. Esse processo vai gerar muitos eventos, algusn que você quer e outros que não.
+- **Gere um Processo de Poisson Homogêneo "exagerado":** Gere um Processo de Poisson "normal" (homogêneo) com essa taxa "exagerada" $\lambda$. Esse processo vai gerar muitos eventos, alguns que você quer e outros que não.
 - **Afinamento (ou seleção por amostragem):** Para cada evento que ocorre nesse Processo de Poisson homogêneo na taxa $\lambda$, você joga uma "moeda viciada". A chance de esse evento ser "aceito" e fazer parte do seu PPNH original é dada pela razão $\frac{\lambda(t)}{\lambda}$ no momento $t$ em que ele ocorreu.
   - Se $\lambda(t)$ for alta naquele $t$, a chance de aceitar é grande.
   - Se $\lambda(t)$ for baixa, a chance é menor.
-- É como se você estivesse selecionando os eventos que não correspondem à sua taxa de intensidade real $\lambda(t)$.
+- É como se você estivesse selecionando os eventos que correspondem à sua taxa de intensidade real $\lambda(t)$.
 
 
 
@@ -70,7 +70,7 @@ Você precisa simular a chegada de clientes em uma cafeteria popular, onde o flu
   - `t=0` (tempo atual começa em zero)
   - `I=0` (contador de eventos começa em zero)
 
-**Passo 2:** Gere o tempo entre eventos usando a distribuição Exponencial considerando um processo homogêneo "exagerado".
+**Passo 2:** Gere o tempo entre eventos usando a distribuição Exponencial, considerando um processo homogêneo "exagerado".
 
   - Se `t>T`, significa que o próximo evento cairia depois do nosso tempo de simulação desejado. Então, paramos.
 
@@ -83,10 +83,10 @@ Você precisa simular a chegada de clientes em uma cafeteria popular, onde o flu
 ## Método Thinning (ou Afinamento)
 
 ::: {.callout-tip icon=false title="Algoritmo (continuação)"}
-**Passo 4:** Se $u\leq \frac{\lambda(t)}{\lambda}$, então oevento é aceito.
+**Passo 4:** Se $u\leq \frac{\lambda(t)}{\lambda}$, então o evento é aceito.
 
   - Incrementamos o contador de eventos: `I = I + 1`.
-  - Armazenamos o tempo do evento: `S(I) = t`. (onde `S(I)` é o tempo do<br> $I$-ésimo evento)
+  - Armazenamos o tempo do evento: `S[I] = t`. (onde `S[I]` é o tempo do<br> $I$-ésimo evento)
 
 **Passo 5:** Volte para o Passo 2 para gerar o próximo evento do processo homogêneo.
 :::
@@ -103,7 +103,7 @@ Suponha que uma cafeteria abre das 08h às 20h, com as seguintes taxas por hora:
 - 10h-11h (terceira hora): 3 clientes por hora
 - 11h-12h (quarta hora): 4 clientes por hora
 - 12h-13h (quinta hora): 5 clientes por hora
-- 13h-20h (demias horas): 10 clientes por hora
+- 13h-20h (demais horas): 10 clientes por hora
 
 Simule o fluxo de clientes em um dia.
 
@@ -226,7 +226,7 @@ axis(1, at = seq(8,20,2))
 ## Eficiência do Thinning (ou Afinamento)
 
 - Se os valores de $\lambda(t)$ estiverem próximos de $\lambda$ durante todo o intervalo, o algoritmo é mais eficiente.
-- Isso porque se $\lambda$ for muito maior que a maioria dos valores de $\lambda(t)$, você vai gerar muitos eventos do processo homogêneo que serão "rejeitados" no Passo 5.
+- Isso porque se $\lambda$ for muito maior que a maioria dos valores de $\lambda(t)$, você vai gerar muitos eventos do processo homogêneo que serão "rejeitados" no Passo 4.
 - Existem alternativas a esse algoritmo que visam diminuir o número de eventos rejeitados e diminuir o custo computacional.
 
 
@@ -234,7 +234,7 @@ axis(1, at = seq(8,20,2))
 
 ## Exercício 14.1
 
-O arquivo `registros.csv` contém os horários exatos em que os clientes de uma agência bancária pegaram uma senha para atendimento no caixa em uma segunda-feira típica. Use os registros para simular o fluxo de entrada dos clientes em uam segunda-feira típica.
+O arquivo `registros.csv` contém os horários exatos em que os clientes de uma agência bancária pegaram uma senha para atendimento no caixa em uma segunda-feira típica. Use os registros para simular o fluxo de entrada dos clientes em uma segunda-feira típica.
 
 
 
