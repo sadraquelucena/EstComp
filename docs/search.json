@@ -242,324 +242,296 @@
     ]
   },
   {
-    "objectID": "info/dados_gerais.html",
-    "href": "info/dados_gerais.html",
+    "objectID": "info/bibliografia.html",
+    "href": "info/bibliografia.html",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "Componente curricular:\nESTAT0090 - Estatística Computacional\nDisciplina obrigatória para o curso de Estatística da Universidade Federal de Sergipe",
+    "text": "DE ALMEIDA, Pedro Quaresma. Introduçao ao LATEX. Escolar Editora, 1996.\nRUBINSTEIN, Reuven Y; KROESE, Dirk P. Simulation and Monte Carlo method. 2nd ed. New Jersey, Estados Unidos: Wiley-Interscience, 2008.\nDAVISON, A. C; HINKLEY, D. V. Bootstrap methods and their application. New York, Estados Unidos: Cambridge University Press, 1997.\nEFRON, Bradley; TIBSHIRANI, Robert. An introduction to the bootstrap. Boca Raton, Estados Unidos: Chapman & Hall/CRC, 1994.\nVERZANI, John. Using R for introductory statistics. Boca Raton, Estados Unidos: Chapman & Hall/CRC, 2005.\n\n\n\n\n\nRIZZO, Maria L. Statistical computing with R. CRC Press, 2019.\nGIVENS, Geof H.; HOETING, Jennifer A. Computational statistics. John Wiley & Sons, 2012.",
     "crumbs": [
       "Informações da disciplina",
-      "Dados gerais"
+      "Bibliografia"
     ]
   },
   {
-    "objectID": "info/dados_gerais.html#dados-gerais-da-disciplina",
-    "href": "info/dados_gerais.html#dados-gerais-da-disciplina",
+    "objectID": "info/bibliografia.html#bibliografia",
+    "href": "info/bibliografia.html#bibliografia",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "Componente curricular:\nESTAT0090 - Estatística Computacional\nDisciplina obrigatória para o curso de Estatística da Universidade Federal de Sergipe",
+    "text": "DE ALMEIDA, Pedro Quaresma. Introduçao ao LATEX. Escolar Editora, 1996.\nRUBINSTEIN, Reuven Y; KROESE, Dirk P. Simulation and Monte Carlo method. 2nd ed. New Jersey, Estados Unidos: Wiley-Interscience, 2008.\nDAVISON, A. C; HINKLEY, D. V. Bootstrap methods and their application. New York, Estados Unidos: Cambridge University Press, 1997.\nEFRON, Bradley; TIBSHIRANI, Robert. An introduction to the bootstrap. Boca Raton, Estados Unidos: Chapman & Hall/CRC, 1994.\nVERZANI, John. Using R for introductory statistics. Boca Raton, Estados Unidos: Chapman & Hall/CRC, 2005.\n\n\n\n\n\nRIZZO, Maria L. Statistical computing with R. CRC Press, 2019.\nGIVENS, Geof H.; HOETING, Jennifer A. Computational statistics. John Wiley & Sons, 2012.",
     "crumbs": [
       "Informações da disciplina",
-      "Dados gerais"
+      "Bibliografia"
     ]
   },
   {
-    "objectID": "info/dados_gerais.html#informações-da-disciplina",
-    "href": "info/dados_gerais.html#informações-da-disciplina",
-    "title": "Estatística Computacional",
-    "section": "Informações da Disciplina",
-    "text": "Informações da Disciplina\n\nCarga Horária: 60 horas (4 créditos)\nUnidade Responsável: Departamento de Estatística e Ciências Atuariais (DECAT)\nDocente Responsável: Prof. Dr. Sadraque E. F. Lucena\nPeríodo Letivo: 2025-1\nPlano de Ensino da Disciplina: pdf",
-    "crumbs": [
-      "Informações da disciplina",
-      "Dados gerais"
-    ]
-  },
-  {
-    "objectID": "info/dados_gerais.html#horários-das-aulas",
-    "href": "info/dados_gerais.html#horários-das-aulas",
-    "title": "Estatística Computacional",
-    "section": "Horários das Aulas",
-    "text": "Horários das Aulas\nAs aulas ocorrerão nos seguintes horários:\n\nTerças: 19h00 às 20h30 no LEA01 (Laboratório de Informática 01 do DECAT)\nQuintas: 20h45 às 22h15 no LEA02 (Laboratório de Informática 02 do DECAT)",
-    "crumbs": [
-      "Informações da disciplina",
-      "Dados gerais"
-    ]
-  },
-  {
-    "objectID": "info/dados_gerais.html#avaliações",
-    "href": "info/dados_gerais.html#avaliações",
-    "title": "Estatística Computacional",
-    "section": "Avaliações",
-    "text": "Avaliações\nA disciplina contará com 3 avaliações distribuídas ao longo do semestre nas seguintes datas:\n\nAvaliação 1: 17/06/2025 (terça)\nAvaliação 2: 29/07/2025 (terça)\nAvaliação 3: 02/09/2025 (terça)",
-    "crumbs": [
-      "Informações da disciplina",
-      "Dados gerais"
-    ]
-  },
-  {
-    "objectID": "info/dados_gerais.html#não-haverá-aula",
-    "href": "info/dados_gerais.html#não-haverá-aula",
-    "title": "Estatística Computacional",
-    "section": "Não haverá aula",
-    "text": "Não haverá aula\n\n19/06/2025: Corpus Christi (ponto facultativo)\n24/06/2025: Sâo João (feriado municipal)\n08/07/2025: Independência de Sergipe (feriado estadual)",
-    "crumbs": [
-      "Informações da disciplina",
-      "Dados gerais"
-    ]
-  },
-  {
-    "objectID": "info/cronograma.html",
-    "href": "info/cronograma.html",
+    "objectID": "info/softwares.html",
+    "href": "info/softwares.html",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "Cronograma de aulas de Estatística Computacional seguindo o calendário acadêmico do período 2025-1.\n\n\n\n\n\n\n\n\nAula\nData\nAssunto Previsto\n\n\n\n\n1\nTerça, 13 de maio de 2025\nRecepção dos alunos\n\n\n2\nQuinta, 15 de maio de 2025\nRecepção dos alunos\n\n\n3\nTerça, 20 de maio de 2025\nApresentação da disciplina\n\n\n4\nQuinta, 22 de maio de 2025\nIntrodução ao RStudio + GitHub\n\n\n5\nTerça, 27 de maio de 2025\nIntrodução ao LaTeX\n\n\n6\nQuinta, 29 de maio de 2025\nEstrutura básico do LaTeX\n\n\n7\nTerça, 03 de junho de 2025\nAmbiente matemático no LaTeX\n\n\n8\nQuinta, 05 de junho de 2025\nTabelas no LaTeX\n\n\n9\nTerça, 10 de junho de 2025\nFiguras no LaTeX\n\n\n10\nQuinta, 12 de junho de 2025\nBibliografia no LaTeX\n\n\n11\nQuinta, 17 de junho de 2025\nAvaliação 1\n\n\n12\nTerça, 01 de julho de 2025\nQuarto\n\n\n13\nQuinta, 03 de julho de 2025\nGeração de Números aleatórios\n\n\n14\nQuinta, 10 de julho de 2025\nGeração de Variáveis Aleatórias Discretas\n\n\n15\nTerça, 15 de julho de 2025\nGeração de Variáveis Aleatórias Contínuas\n\n\n16\nTerça, 17 de julho de 2025\nGeração de Variáveis Aleatórias Contínuas\n\n\n17\nTerça, 22 de julho de 2025\nGeração de Variáveis Aleatórias Contínuas",
+    "text": "Para acompanhar as atividades da disciplina, será necessário instalar os softwares listados abaixo. Todos são gratuitos e amplamente utilizados nas áreas de Estatística e Ciência de Dados:\n\n\n\nR é um ambiente computacional gratuito voltado para análises estatísticas e produção de visualizações gráficas. Link\n\n\n\nO RStudio consiste em um ambiente de desenvolvimento integrado (IDE) projetado para aumentar a produtividade no uso da linguagem R, oferecendo ferramentas especializadas para programação, depuração e visualização de dados. Link\n\n\n\nQuarto é um sistema de publicação técnico-científica de código aberto que integra análise computacional (Python, R, Julia) e produção de documentos dinâmicos em múltiplos formatos (HTML, PDF, Word). Combina escrita em Markdown com recursos avançados para equações, citações e visualizações reprodutíveis. Link\n\n\n\nMiKTeX é uma distribuição moderna do sistema TeX/LaTeX para ambiente Windows, fornecendo um conjunto completo de ferramentas para editoração técnica e científica de alta qualidade. Link\n\n\n\nTeXstudio é um ambiente integrado de edição para documentos LaTeX, oferecendo recursos como realce de sintaxe, visualizador incorporado, verificação de referências e assistentes para facilitar a escrita. Link",
     "crumbs": [
       "Informações da disciplina",
-      "Cronograma"
+      "Softwares Necessários"
     ]
   },
   {
-    "objectID": "info/cronograma.html#cronograma-de-aulas",
-    "href": "info/cronograma.html#cronograma-de-aulas",
+    "objectID": "info/softwares.html#softwares-necessários",
+    "href": "info/softwares.html#softwares-necessários",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "Cronograma de aulas de Estatística Computacional seguindo o calendário acadêmico do período 2025-1.\n\n\n\n\n\n\n\n\nAula\nData\nAssunto Previsto\n\n\n\n\n1\nTerça, 13 de maio de 2025\nRecepção dos alunos\n\n\n2\nQuinta, 15 de maio de 2025\nRecepção dos alunos\n\n\n3\nTerça, 20 de maio de 2025\nApresentação da disciplina\n\n\n4\nQuinta, 22 de maio de 2025\nIntrodução ao RStudio + GitHub\n\n\n5\nTerça, 27 de maio de 2025\nIntrodução ao LaTeX\n\n\n6\nQuinta, 29 de maio de 2025\nEstrutura básico do LaTeX\n\n\n7\nTerça, 03 de junho de 2025\nAmbiente matemático no LaTeX\n\n\n8\nQuinta, 05 de junho de 2025\nTabelas no LaTeX\n\n\n9\nTerça, 10 de junho de 2025\nFiguras no LaTeX\n\n\n10\nQuinta, 12 de junho de 2025\nBibliografia no LaTeX\n\n\n11\nQuinta, 17 de junho de 2025\nAvaliação 1\n\n\n12\nTerça, 01 de julho de 2025\nQuarto\n\n\n13\nQuinta, 03 de julho de 2025\nGeração de Números aleatórios\n\n\n14\nQuinta, 10 de julho de 2025\nGeração de Variáveis Aleatórias Discretas\n\n\n15\nTerça, 15 de julho de 2025\nGeração de Variáveis Aleatórias Contínuas\n\n\n16\nTerça, 17 de julho de 2025\nGeração de Variáveis Aleatórias Contínuas\n\n\n17\nTerça, 22 de julho de 2025\nGeração de Variáveis Aleatórias Contínuas",
+    "text": "Para acompanhar as atividades da disciplina, será necessário instalar os softwares listados abaixo. Todos são gratuitos e amplamente utilizados nas áreas de Estatística e Ciência de Dados:\n\n\n\nR é um ambiente computacional gratuito voltado para análises estatísticas e produção de visualizações gráficas. Link\n\n\n\nO RStudio consiste em um ambiente de desenvolvimento integrado (IDE) projetado para aumentar a produtividade no uso da linguagem R, oferecendo ferramentas especializadas para programação, depuração e visualização de dados. Link\n\n\n\nQuarto é um sistema de publicação técnico-científica de código aberto que integra análise computacional (Python, R, Julia) e produção de documentos dinâmicos em múltiplos formatos (HTML, PDF, Word). Combina escrita em Markdown com recursos avançados para equações, citações e visualizações reprodutíveis. Link\n\n\n\nMiKTeX é uma distribuição moderna do sistema TeX/LaTeX para ambiente Windows, fornecendo um conjunto completo de ferramentas para editoração técnica e científica de alta qualidade. Link\n\n\n\nTeXstudio é um ambiente integrado de edição para documentos LaTeX, oferecendo recursos como realce de sintaxe, visualizador incorporado, verificação de referências e assistentes para facilitar a escrita. Link",
     "crumbs": [
       "Informações da disciplina",
-      "Cronograma"
+      "Softwares Necessários"
     ]
   },
   {
-    "objectID": "info/conteudo.html",
-    "href": "info/conteudo.html",
+    "objectID": "info/ementa.html",
+    "href": "info/ementa.html",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "Geração de variáveis aleatórias\n1.1. Comandos básicos do R\n1.2. Estruturas de repetição no R\n1.3. Condições e sı́mbolos lógicos no\n1.4. Escrevendo funções no R\n1.5. Gerador de números aleatórios\n1.6. Método da Transformada inversa\n1.7. Método da Aceitação-Rejeição\n1.8. Outros métodos de geração de v.a.\nMétodos de Monte Carlo\n2.1. Conceito Geral\n2.2. Testes de Hipóteses e Erros\n2.3. Intervalos de confiança\n2.4. Viés e Erro quadrático Médio\n2.5. Método de Reamostragem: Bootstrap\n2.6. Método de Reamostragem: Jackknife\nO editor de textos LaTeX\n3.1. Comandos iniciais\n3.2. Formatação de texto, Tipos de Listas, Teoremas\n3.3. Fórmulas diversas, sı́mbolos matemáticos, escrevendo em ambiente de fórmulas\n3.4. Matrizes, equações alinhadas, tabelas e imagens\n3.5. Textos sem formatação (Para saı́das computacionais)\n3.6. Partes de documento: Tı́tulos, capı́tulos, sumários, cabeçalho e rodapé, bibliografia básica\n3.7. BibTeX (bibliografia externa)\n3.8. Criando Apresentações e Pôster",
+    "text": "Editor de textos LATEX. Estruturas de repetições e funções no software R. Geração de Variáveis Aleatórias. Método de Monte Carlo. Bootstrap.",
     "crumbs": [
       "Informações da disciplina",
-      "Conteúdo"
+      "Ementa e objetivos"
     ]
   },
   {
-    "objectID": "info/conteudo.html#conteudo",
-    "href": "info/conteudo.html#conteudo",
+    "objectID": "info/ementa.html#ementa",
+    "href": "info/ementa.html#ementa",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "Geração de variáveis aleatórias\n1.1. Comandos básicos do R\n1.2. Estruturas de repetição no R\n1.3. Condições e sı́mbolos lógicos no\n1.4. Escrevendo funções no R\n1.5. Gerador de números aleatórios\n1.6. Método da Transformada inversa\n1.7. Método da Aceitação-Rejeição\n1.8. Outros métodos de geração de v.a.\nMétodos de Monte Carlo\n2.1. Conceito Geral\n2.2. Testes de Hipóteses e Erros\n2.3. Intervalos de confiança\n2.4. Viés e Erro quadrático Médio\n2.5. Método de Reamostragem: Bootstrap\n2.6. Método de Reamostragem: Jackknife\nO editor de textos LaTeX\n3.1. Comandos iniciais\n3.2. Formatação de texto, Tipos de Listas, Teoremas\n3.3. Fórmulas diversas, sı́mbolos matemáticos, escrevendo em ambiente de fórmulas\n3.4. Matrizes, equações alinhadas, tabelas e imagens\n3.5. Textos sem formatação (Para saı́das computacionais)\n3.6. Partes de documento: Tı́tulos, capı́tulos, sumários, cabeçalho e rodapé, bibliografia básica\n3.7. BibTeX (bibliografia externa)\n3.8. Criando Apresentações e Pôster",
+    "text": "Editor de textos LATEX. Estruturas de repetições e funções no software R. Geração de Variáveis Aleatórias. Método de Monte Carlo. Bootstrap.",
     "crumbs": [
       "Informações da disciplina",
-      "Conteúdo"
+      "Ementa e objetivos"
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Bem-vindo(a)!",
+    "objectID": "info/ementa.html#objetivos",
+    "href": "info/ementa.html#objetivos",
+    "title": "Estatística Computacional",
+    "section": "Objetivos",
+    "text": "Objetivos\nDesenvolver habilidades essenciais para a aplicação de métodos computacionais na análise de dados e na obtenção de estimativas estatı́sticas confiáveis, bem como preparar estudantes para criar documentos de alta qualidade com notação matemática adequada e formatação profissional.",
+    "crumbs": [
+      "Informações da disciplina",
+      "Ementa e objetivos"
+    ]
+  },
+  {
+    "objectID": "info/ementa.html#metodologia",
+    "href": "info/ementa.html#metodologia",
+    "title": "Estatística Computacional",
+    "section": "Metodologia",
+    "text": "Metodologia\nSerão ministradas aulas teóricas expositivas; utilizados recursos visuais; resolução de exercı́cios em sala de aula; solicitação de atividades extraclasse. O cronograma de aulas encontra-se no Quadro 1.",
+    "crumbs": [
+      "Informações da disciplina",
+      "Ementa e objetivos"
+    ]
+  },
+  {
+    "objectID": "info/ementa.html#habilidades-e-competências",
+    "href": "info/ementa.html#habilidades-e-competências",
+    "title": "Estatística Computacional",
+    "section": "Habilidades e Competências",
+    "text": "Habilidades e Competências\nAo término deste curso o aluno estará apto a realizar análises estatı́sticas avançadas, simulações e estimativas confiáveis, além de resolver problemas práticos no campo da Estatı́stica utilizando abordagens computacionais.",
+    "crumbs": [
+      "Informações da disciplina",
+      "Ementa e objetivos"
+    ]
+  },
+  {
+    "objectID": "info/ementa.html#avaliação",
+    "href": "info/ementa.html#avaliação",
+    "title": "Estatística Computacional",
+    "section": "Avaliação",
+    "text": "Avaliação\nSerão realizadas três avaliações ao longo do semestre. As avaliações poderão ser provas, trabalhos ou outras atividades solicitadas pelo professor.",
+    "crumbs": [
+      "Informações da disciplina",
+      "Ementa e objetivos"
+    ]
+  },
+  {
+    "objectID": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#cenário",
+    "href": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#cenário",
+    "title": "Como gerar variáveis aleatórias discretas?",
+    "section": "Cenário",
+    "text": "Cenário\nImagine que você está trabalhando com uma distribuição de probabilidade que foi definida recentemente. Por ser tão nova, ela ainda não tem funções de simulação em bibliotecas ou pacotes de programação. Para validar seus modelos, você precisa desenvolver o código do zero para gerar os dados aleatórios e realizar a sua simulação."
+  },
+  {
+    "objectID": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#objetivos-da-aula",
+    "href": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#objetivos-da-aula",
+    "title": "Como gerar variáveis aleatórias discretas?",
+    "section": "Objetivos da aula",
+    "text": "Objetivos da aula\nNesta aula, de hoje aprenderemos a gerar ocorrências de variáveis aleatórias discretas usando o método da transformação inversa."
+  },
+  {
+    "objectID": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#método-da-transformação-inversa-para-variáveis-discretas",
+    "href": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#método-da-transformação-inversa-para-variáveis-discretas",
+    "title": "Como gerar variáveis aleatórias discretas?",
+    "section": "Método da transformação inversa para variáveis discretas",
+    "text": "Método da transformação inversa para variáveis discretas\nO método da transformada inversa consiste em gerar um número aleatório entre 0 e 1 e encontrar o menor valor discreto cuja probabilidade acumulada é maior ou igual a esse número.\n\nVejamos o método."
+  },
+  {
+    "objectID": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#método-da-transformação-inversa-para-variáveis-discretas-1",
+    "href": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#método-da-transformação-inversa-para-variáveis-discretas-1",
+    "title": "Como gerar variáveis aleatórias discretas?",
+    "section": "Método da transformação inversa para variáveis discretas",
+    "text": "Método da transformação inversa para variáveis discretas\n\nConsidere \\(X\\) uma variável aleatória tal que\n\n\\(P(X = x_i)= p_i, ~ i = 0, 1, \\ldots\\)\n\\(\\sum\\limits_i p_i = 1\\).\n\nPara gerar ocorrências de \\(X\\), geramos um valor \\(u\\) de uma distribuição Uniforme\\((0,1)\\) e obtemos um valor \\(x\\) fazendo \\[\nx = \\begin{cases}\n      x_0, & \\text{se } u&lt;p_0;\\\\\n      x_1, & \\text{se } p_0\\leq u &lt; p_0 + p_1;\\\\\n      x_2, & \\text{se } p_0+p_1\\leq u &lt; p_0 + p_1 + p_2;\\\\\n      \\vdots & \\\\\n      x_i, & \\text{se } \\sum_{j=0}^{i-1} p_j\\leq u &lt;  \\sum_{j=0}^{i} p_j;\\\\\n      \\vdots\n    \\end{cases}\n\\]"
+  },
+  {
+    "objectID": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#método-da-transformação-inversa-para-variáveis-discretas-2",
+    "href": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#método-da-transformação-inversa-para-variáveis-discretas-2",
+    "title": "Como gerar variáveis aleatórias discretas?",
+    "section": "Método da transformação inversa para variáveis discretas",
+    "text": "Método da transformação inversa para variáveis discretas"
+  },
+  {
+    "objectID": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#método-da-transformada-inversa",
+    "href": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#método-da-transformada-inversa",
+    "title": "Como gerar variáveis aleatórias discretas?",
+    "section": "Método da Transformada Inversa",
+    "text": "Método da Transformada Inversa\n\n\n\n\nAlgoritmo\n\n\nPasso 1: Gere \\(u \\sim\\) Uniforme(\\(0,1\\));\nPasso 2: Se \\(u&lt;p_0\\) faça \\(x=x_0\\) e pare, caso contrário, vá para o próximo passo;\nPasso 3: Se \\(u&lt;p_0+p_1\\) faça \\(x=x_1\\) e pare, caso contrário, vá para o próximo passo;\n\\(\\ldots\\)\nPasso \\(k+2\\): Se \\(u&lt;p_0+p_1+\\cdots+p_k\\) faça \\(x=x_k\\) e pare, caso contrário, vá para o próximo passo."
+  },
+  {
+    "objectID": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#exemplo-10.1",
+    "href": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#exemplo-10.1",
+    "title": "Como gerar variáveis aleatórias discretas?",
+    "section": "Exemplo 10.1",
+    "text": "Exemplo 10.1\nSeja \\(X_i\\sim\\) Bernoulli(\\(p\\)).\n\nCrie uma função no R que gera uma ocorrência de \\(X\\). Teste para \\(p = 0,\\!3\\).\nCrie uma função que gera o número de ocorrências da Bernoulli definida pelo usuário. Teste com \\(p = 0,\\!3\\) e \\(n = 1000\\)."
+  },
+  {
+    "objectID": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#exemplo-10.2",
+    "href": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#exemplo-10.2",
+    "title": "Como gerar variáveis aleatórias discretas?",
+    "section": "Exemplo 10.2",
+    "text": "Exemplo 10.2\nSeja \\(X\\) uma variável aleatória tal que\n\n\\(P(X=1) = 0,\\!2\\)\n\\(P(X=2)=0,\\!15\\)\n\\(P(X=3)=0,\\!25\\)\n\\(P(X=4)=0,\\!4\\).\n\n\nCrie uma função no R que gera uma ocorrência de \\(X\\).\nCrie uma função que gera o número de ocorrências definida pelo usuário. Teste com 1000 ocorrências e faça um gráfico de barras."
+  },
+  {
+    "objectID": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#section",
+    "href": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#section",
+    "title": "Como gerar variáveis aleatórias discretas?",
     "section": "",
-    "text": "Bem-vindo(a)!\nEsta página foi criada pelo Prof. Dr. Sadraque E. F. Lucena para centralizar os conteúdos, atividades, cronograma e materiais da disciplina ESTAT0090 – Estatística Computacional, ofertada pelo Departamento de Estatística e Ciências Atuariais da Universidade Federal de Sergipe. Ao longo do semestre, vamos explorar ferramentas fundamentais para a prática da Estatística moderna, com ênfase em programação em R, Quarto, LaTeX, GitHub, simulação, métodos computacionais e reamostragem (como Bootstrap e Monte Carlo).\nA disciplina será conduzida com uma abordagem prática e orientada por problemas, livremente inspirada no Problem-Based Learning (PBL), conectando os conteúdos à atuação profissional em Estatística e Ciência de Dados. A cada semana, novos desafios e projetos serão propostos, promovendo o aprendizado ativo e colaborativo.\nFique atento(a) às atualizações — este espaço será constantemente revisado com avisos, novos materiais e mudanças no cronograma."
+    "text": "Um exemplo de código em R que implementa a função que gera os números aleatórios do Exemplo 10.2 é\n\ngernum &lt;- function(n, x, prob){\n  amostra &lt;- vector() # vetor que receberá valores gerados\n  prob_acum &lt;- cumsum(prob) # vetor de probabilidades acumuladas\n  for (i in 1:n) { # início do laço\n    u &lt;- runif(1)  # valor de u\n    for (j in 1:length(x)) {\n      if (u &lt;= prob_acum[j]) {\n        amostra[i] &lt;- x[j]\n        break\n      }\n    }\n  }\n  return(amostra)\n}\n\nvalores_x &lt;- 1:4\nprobabilidades &lt;- c(.2, .15, .25, .4)\n\nset.seed(123) # fixando a semente para reprodutibilidade\namostra &lt;- gernum(1000, valores_x, probabilidades)"
   },
   {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#cenário-profissional",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#cenário-profissional",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": "Cenário profissional",
-    "text": "Cenário profissional\nUma História Real (ou quase)\n\nImagine que você é contratado por uma empresa para analisar dados de clientes e construir relatórios periódicos.\nVocê começa empolgado, faz seu código em R, roda tudo no seu computador e entrega um relatório lindo.\nUm mês depois, o gerente pede que você refaça a análise com os novos dados.\nSó tem um problema:\n\nvocê não lembra qual script usou.\nOs arquivos estão todos em “versão final_v3_final_real.R”.\nE o relatório? Foi feito no Word e agora está com outro estagiário."
-  },
-  {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#cenário-profissional-1",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#cenário-profissional-1",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": "Cenário profissional",
-    "text": "Cenário profissional\nO Problema\nVocê percebe que:\n\nSeus scripts estão bagunçados.\nO histórico do que foi feito se perdeu.\nO relatório não é reprodutível.\nNinguém (nem você mesmo) entende o que foi feito.\n\nA Motivação\nComo resolver isso? Você precisa de:\n\nUm ambiente organizado para escrever e executar código (RStudio).\nUm jeito de acompanhar o histórico do seu trabalho (Git).\nUma forma de colaborar e compartilhar com outras pessoas (GitHub).\nRelatórios que podem ser reproduzidos a qualquer momento (Quarto)."
-  },
-  {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#um-exemplo-da-nossa-própria-disciplina",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#um-exemplo-da-nossa-própria-disciplina",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": "Um Exemplo da Nossa Própria Disciplina",
-    "text": "Um Exemplo da Nossa Própria Disciplina\nCenário:\n\nVocê está cursando Estatística Computacional.\nA cada aula, o professor entrega:\n\nSlides da aula com explicações e um código em R.\nUm problema para você resolver, adaptando e expandindo o código.\n\nVocê modifica, testa, ajusta e responde o problema.\nNa aula seguinte, você parte exatamente de onde parou."
-  },
-  {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#e-se-você-fizer-tudo-isso-com-e",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#e-se-você-fizer-tudo-isso-com-e",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": "E se você fizer tudo isso com  e ?",
-    "text": "E se você fizer tudo isso com  e ?\nVocê terá:\n\nUm histórico completo de aprendizagem.\nUm repositório que mostra sua evolução.\nUma base reutilizável para projetos futuros.\n\n\nÉ como criar seu próprio material interativo de Estatística Computacional!"
-  },
-  {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#objetivo-da-aula",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#objetivo-da-aula",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": "Objetivo da aula",
-    "text": "Objetivo da aula\n\nEntender o que é e para que serve o Git e o GitHub.\nSaber como criar um repositório de projeto.\nAtualizar repositório no GitHub via Studio."
-  },
-  {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#o-que-é-o",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#o-que-é-o",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": "O que é o ?",
-    "text": "O que é o ?\n\nGit é uma ferramenta que ajuda a controlar e gerenciar mudanças em arquivos ao longo do tempo.\nEle permite que você salve versões diferentes de um trabalho à medida que faz alterações, de modo que possa voltar para versões anteriores se algo der errado ou se precisar revisar mudanças feitas.\n\nPor que o  é importante?\n\nEvita perda de trabalho: Se você estiver escrevendo código ou criando qualquer tipo de documento, o Git permite que você salve diferentes versões do seu trabalho. Assim, se algo der errado, você pode voltar a uma versão anterior.\nFacilita o trabalho em equipe: Quando várias pessoas estão trabalhando no mesmo projeto, o Git permite que cada uma trabalhe de forma independente e depois una os trabalhos de maneira organizada. Isso evita que as alterações de uma pessoa sobrescrevam as de outra.\nOrganização e rastreamento: O Git mantém um histórico completo de todas as mudanças feitas em um projeto, permitindo saber quem fez o quê e quando."
-  },
-  {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#o-que-é-o-1",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#o-que-é-o-1",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": "O que é o ?",
-    "text": "O que é o ?\n\nGitHub é uma plataforma online que armazena e organiza projetos que utilizam Git.\nEle permite que você publique seu código, compartilhe arquivos e colabore com outras pessoas em projetos de forma fácil e eficiente.\n\nPor que o  é importante?\n\nArmazenamento seguro: Com o GitHub, seus projetos ficam seguramente armazenados na nuvem. Isso significa que você pode acessar seu trabalho de qualquer lugar e sempre terá uma cópia segura.\nColaboração em equipe: GitHub permite que várias pessoas trabalhem no mesmo projeto ao mesmo tempo. Cada pessoa pode fazer mudanças no código, e o GitHub ajuda a gerenciar essas mudanças sem que uma sobrescreva a outra.\nHistórico e transparência: O GitHub mantém um histórico completo de todas as alterações feitas no seu projeto. Isso permite ver quem fez o quê e quando, facilitando o acompanhamento e revisão do trabalho de equipe."
-  },
-  {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#como-e-por-que-usar-o-na-disciplina",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#como-e-por-que-usar-o-na-disciplina",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": "Como e por que usar o  na disciplina?",
-    "text": "Como e por que usar o  na disciplina?\n\nVocê receberá um script em R a cada aula\nDurante a aula, vai editar esse script no RStudio, testando e resolvendo problemas\nNo final da aula, envia suas alterações para seu repositório (push) — tudo salvo e organizado\nPode acessar seu trabalho de qualquer lugar, com segurança e histórico garantido\n\n\nGitHub será seu caderno digital de códigos — inteligente, seguro e acessível para a disciplina"
-  },
-  {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#primeiros-passos",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#primeiros-passos",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": "Primeiros passos",
-    "text": "Primeiros passos\n\nBaixar e instalar o Git: https://happygitwithr.com/install-git.html\nCriar uma conta no GitHub: https://github.com/\nCriar um reposítório Git\nClone esse repositório para sua máquina usando o RStudio\nTrabalhe no projeto e envie as atualizações de volta ao GitHub\n\n\nDesenvolva o hábito de buscar soluções por conta própria. Isso faz parte do dia a dia de quem trabalha com dados. Comece agora a desenvolver essa autonomia."
-  },
-  {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-repositório-no",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-repositório-no",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": "Criando um repositório  no ",
-    "text": "Criando um repositório  no \n\nApós fazer login no GitHub, Clique em + no canto superior direito\nEm seguida, clique em New repository"
-  },
-  {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-repositório-no-1",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-repositório-no-1",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": "Criando um repositório  no ",
-    "text": "Criando um repositório  no \n\n\n\nEm Repository name dê um anome ao repositóro\nEm Description faça uma descrição do repositório\nMarque a opção Public ou Private\nEm Initialize this repository with: marque a opção Add a README file\nClique em Create repository"
-  },
-  {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#section",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#section",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "objectID": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#section-1",
+    "href": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#section-1",
+    "title": "Como gerar variáveis aleatórias discretas?",
     "section": "",
-    "text": "Com o repositório já criado no GitHub, agora vamos usar o RStudio para ligar o projeto local ao repositório remoto.\nAssim, todas as alterações feitas no RStudio poderão ser salvas na nuvem e versionadas automaticamente.\nPara enviar essas alterações ao GitHub, será necessário se autenticar — com login e senha ou com um token de acesso.\n\nVamos ver como criar um token de acesso no GitHub."
+    "text": "library(ggplot2)\n\n# Calcular frequência relativa\ndf_freq &lt;- as.data.frame(prop.table(table(amostra)))\n\n# Renomear colunas para usar no ggplot\ncolnames(df_freq) &lt;- c(\"x\", \"freq\")\ndf_freq$x &lt;- as.factor(df_freq$x)  # transformar em fator para manter\n                                   # ordem no eixo x\n\n# Gráfico de barras\nggplot(df_freq, aes(x = x, y = freq, fill = x)) +\n  geom_col(fill = \"#377EB8\") +\n  scale_y_continuous(limits = c(0, 0.5),\n                     expand = expansion(mult = c(0, 0.05))) +\n  labs(x = \"x\", y = \"Frequência relativa\") +\n  theme_minimal(base_size = 25) +\n  theme(legend.position = \"none\")"
   },
   {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-token-de-acesso-no",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-token-de-acesso-no",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": "Criando um token de acesso no ",
-    "text": "Criando um token de acesso no \n\nEstando logado no GitHub, clique na sua foto de perfil no canto superior direito\n\nClique em Settings"
+    "objectID": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#exemplo-10.3",
+    "href": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#exemplo-10.3",
+    "title": "Como gerar variáveis aleatórias discretas?",
+    "section": "Exemplo 10.3",
+    "text": "Exemplo 10.3\nSejam \\(X_1, \\ldots,X_m\\) v.a. tais que \\(X_i \\sim\\) Bernoulli(\\(p\\)).\nEntão \\(Y = \\sum\\limits_{i=1}^m X_i \\sim\\) Binomial(\\(m,p\\)).\n\nCrie uma função no R que gera uma ocorrência de \\(Y\\). Teste com \\(m = 10\\) e \\(p = 0,\\!3\\).\nCrie uma função que gera o número de ocorrências definida pelo usuário. Teste com 1000 ocorrências e faça um gráfico."
   },
   {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-token-de-acesso-no-1",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-token-de-acesso-no-1",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": "Criando um token de acesso no ",
-    "text": "Criando um token de acesso no \n\nNo canto inferior esquerdo da tela clique em Developer settings"
+    "objectID": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#exemplo-10.4",
+    "href": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#exemplo-10.4",
+    "title": "Como gerar variáveis aleatórias discretas?",
+    "section": "Exemplo 10.4",
+    "text": "Exemplo 10.4\nSeja \\(X\\sim\\) Geométrica(\\(p\\)) tal que \\(P(X=i) = p(1-p)^{i-1}\\), para \\(i=1,2,\\ldots\\)\n\nCrie uma função no R que gera uma ocorrência de \\(X\\). Teste com \\(p=0,\\!4\\).\nCrie uma função que gera o número de ocorrências definida pelo usuário. Teste com 1000 ocorrências e faça um gráfico."
   },
   {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-token-de-acesso-no-2",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-token-de-acesso-no-2",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": "Criando um token de acesso no ",
-    "text": "Criando um token de acesso no \n\nNo canto superior esquerdo da tela clique em Personal access tokens\nClique em Tokens (classic)\n\n\n\n\n\nEm Expiration selecione a data em que o token irá expirar\nMarque todas as opções em Select scopes\nClique em Generate token\n\n\nO token será gerado uma única vez. Guarde-o com cuidado, pois não será possível visualizá-lo novamente no GitHub. Você usará esse token quando for solicitada autenticação."
+    "objectID": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#ganho-da-aula",
+    "href": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#ganho-da-aula",
+    "title": "Como gerar variáveis aleatórias discretas?",
+    "section": "Ganho da aula",
+    "text": "Ganho da aula\n\nCompreensão da geração de números aleatórios discretos usando o método da transformação inversa."
   },
   {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#integração-prática",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#integração-prática",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": " + : integração prática",
-    "text": "+ : integração prática\n\nO RStudio possui integração nativa com o Git e GitHub\n\nOu seja, é possível sincronizar um repositório GitHub a um repositório local\nIsso significa que você pode ligar o repositório do GitHub (na nuvem) ao seu projeto no computador. Assim, o que você altera localmente pode ser enviado para o GitHub — e vice-versa.\n\nPara isso, seguimos os seguintes passos:\n\n\nFazemos uma cópia do repositório do GitHub na máquina local usando o RStudio.\n\nQuando já há uma cópia na máquina, começamos o trabalho atualizando o projeto local com as alterações que estão no GitHub (pull).\n\nTrabalhamos normalmente no projeto: scripts, análises, relatórios…\nUsamos o Git para registrar as alterações (commit) e enviar para o GitHub (push)."
+    "objectID": "slides/14-Geracao-de-um-processo-de-poisson-nao-homogeneo/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#cenário",
+    "href": "slides/14-Geracao-de-um-processo-de-poisson-nao-homogeneo/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#cenário",
+    "title": "Como simular filas reais?",
+    "section": "Cenário",
+    "text": "Cenário\nVocê precisa simular a chegada de clientes em uma cafeteria popular, onde o fluxo de clientes não é constante ao longo do dia. De manhã cedo, quando as pessoas pegam café para o trabalho, há um ritmo; no horário de almoço, há um pico; no meio da tarde, é mais tranquilo; e no final da tarde, antes do fechamento, há outro aumento. Você sabe que as chegadas dos clientes seguem um Processo de Poisson, mas que a taxa de chegada varia conforme o horário do dia."
   },
   {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-o-projeto-local",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-o-projeto-local",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": " + : criando o projeto local",
-    "text": "+ : criando o projeto local\n\nNo canto superior direito do RStudio clique em File &gt; New Project\n\n\n\nClique em Version control"
+    "objectID": "slides/14-Geracao-de-um-processo-de-poisson-nao-homogeneo/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#objetivos-da-aula",
+    "href": "slides/14-Geracao-de-um-processo-de-poisson-nao-homogeneo/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#objetivos-da-aula",
+    "title": "Como simular filas reais?",
+    "section": "Objetivos da aula",
+    "text": "Objetivos da aula\n\nCompreender o conceito e a necessidade de um Processo de Poisson Não Homogêneo (PPNH) para modelar taxas de chegada que variam no tempo.\nEntender a lógica por trás do Método de Thinning (ou Afinamento) para simular um PPNH.\nAplicar o algoritmo do Método de Thinning para gerar eventos de um PPNH em um período de tempo definido.\nIdentificar a taxa máxima (λ) e definir a função de intensidade λ(t) para a simulação de um PPNH a partir de dados ou um cenário.\nSimular o fluxo de clientes em um cenário prático."
   },
   {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-o-projeto-local-1",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-o-projeto-local-1",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": " + : criando o projeto local",
-    "text": "+ : criando o projeto local\n\nClique em Git"
+    "objectID": "slides/14-Geracao-de-um-processo-de-poisson-nao-homogeneo/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#processo-de-poisson-não-homeogêneo-ppnh",
+    "href": "slides/14-Geracao-de-um-processo-de-poisson-nao-homogeneo/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#processo-de-poisson-não-homeogêneo-ppnh",
+    "title": "Como simular filas reais?",
+    "section": "Processo de Poisson Não Homeogêneo (PPNH)",
+    "text": "Processo de Poisson Não Homeogêneo (PPNH)\nMétodo Thinning (ou Afinamento)\n\nEncontre uma taxa “máxima”: Sabendo que a taxa de chegada de clientes \\(\\lambda(t)\\) varia ao longo de todo o período \\(T\\), determine a maior taxa \\(\\lambda\\) de chegada de clientes.\n\nMatematicamente: \\(\\lambda(t) \\leq \\lambda\\) para todo \\(t\\leq T\\).\n\nGere um Processo de Poisson Homogêneo “exagerado”: Gere um Processo de Poisson “normal” (homogêneo) com essa taxa “exagerada” \\(\\lambda\\). Esse processo vai gerar muitos eventos, algusn que você quer e outros que não.\nAfinamento (ou seleção por amostragem): Para cada evento que ocorre nesse Processo de Poisson homogêneo na taxa \\(\\lambda\\), você joga uma “moeda viciada”. A chance de esse evento ser “aceito” e fazer parte do seu PPNH original é dada pela razão \\(\\frac{\\lambda(t)}{\\lambda}\\) no momento \\(t\\) em que ele ocorreu.\n\nSe \\(\\lambda(t)\\) for alta naquele \\(t\\), a chance de aceitar é grande.\nSe \\(\\lambda(t)\\) for baixa, a chance é menor.\n\nÉ como se você estivesse selecionando os eventos que não correspondem à sua taxa de intensidade real \\(\\lambda(t)\\)."
   },
   {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-o-projeto-local-2",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-o-projeto-local-2",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": " + : criando o projeto local",
-    "text": "+ : criando o projeto local\n\nNo campo Repository URL, cole a URL do repositório que você criou no GitHub\nEm Create project as subdirectory of, escolha o diretório em que o repositório do GitHub será copiado na máquina local\nClique em Create Project"
+    "objectID": "slides/14-Geracao-de-um-processo-de-poisson-nao-homogeneo/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#método-thinning-ou-afinamento-1",
+    "href": "slides/14-Geracao-de-um-processo-de-poisson-nao-homogeneo/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#método-thinning-ou-afinamento-1",
+    "title": "Como simular filas reais?",
+    "section": "Método Thinning (ou Afinamento)",
+    "text": "Método Thinning (ou Afinamento)\n\n\n\n\nAlgoritmo\n\n\nPasso 1: Inicialize.\n\nt=0 (tempo atual começa em zero)\nI=0 (contador de eventos começa em zero)\n\nPasso 2: Gere o tempo entre eventos usando a distribuição Exponencial considerando um processo homogêneo “exagerado”.\n\nSe t&gt;T, significa que o próximo evento cairia depois do nosso tempo de simulação desejado. Então, paramos.\n\nPasso 3: Gere \\(u \\sim U(0,1)\\)."
   },
   {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-o-projeto-local-3",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-o-projeto-local-3",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": " + : criando o projeto local",
-    "text": "+ : criando o projeto local\n\nSe você estiver clonando um repositório público, o RStudio irá criar uma cópia do projeto localmente, sem exigir login.\nSe o repositório for privado, o GitHub pedirá que você se autentique (login e senha ou token)."
+    "objectID": "slides/14-Geracao-de-um-processo-de-poisson-nao-homogeneo/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#método-thinning-ou-afinamento-2",
+    "href": "slides/14-Geracao-de-um-processo-de-poisson-nao-homogeneo/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#método-thinning-ou-afinamento-2",
+    "title": "Como simular filas reais?",
+    "section": "Método Thinning (ou Afinamento)",
+    "text": "Método Thinning (ou Afinamento)\n\n\n\n\nAlgoritmo (continuação)\n\n\nPasso 4: Se \\(u\\leq \\frac{\\lambda(t)}{\\lambda}\\), então oevento é aceito.\n\nIncrementamos o contador de eventos: I = I + 1.\nArmazenamos o tempo do evento: S(I) = t. (onde S(I) é o tempo do \\(I\\)-ésimo evento)\n\nPasso 5: Volte para o Passo 2 para gerar o próximo evento do processo homogêneo."
   },
   {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": "Enviando alterações para o  via ",
-    "text": "Enviando alterações para o  via \n\nDepois de salvar as atualizações do seu projeto local, você pode enviar essas alterações para o repositório no GitHub diretamente pelo RStudio.\nVocê deve fazer:\n\n\nNo quadrante superior direito clique em Commit"
+    "objectID": "slides/14-Geracao-de-um-processo-de-poisson-nao-homogeneo/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#exemplo-14.1",
+    "href": "slides/14-Geracao-de-um-processo-de-poisson-nao-homogeneo/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#exemplo-14.1",
+    "title": "Como simular filas reais?",
+    "section": "Exemplo 14.1",
+    "text": "Exemplo 14.1\nSuponha que uma cafeteria abre das 08h às 20h, com as seguintes taxas por hora:\n\n08h-09h (primeira hora): 1 cliente por hora\n09h-10h (segunda hora): 2 clientes por hora\n10h-11h (terceira hora): 3 clientes por hora\n11h-12h (quarta hora): 4 clientes por hora\n12h-13h (quinta hora): 5 clientes por hora\n13h-20h (demias horas): 10 clientes por hora\n\nSimule o fluxo de clientes em um dia."
   },
   {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-1",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-1",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": "Enviando alterações para o  via ",
-    "text": "Enviando alterações para o  via \n\nRStudio mostra os arquivos que foram alterados. Selecione-os\nNo campo Commit message escreva um comentário contendo o que foi atualizado\nClique em Commit"
+    "objectID": "slides/14-Geracao-de-um-processo-de-poisson-nao-homogeneo/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#exemplo-14.1-1",
+    "href": "slides/14-Geracao-de-um-processo-de-poisson-nao-homogeneo/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#exemplo-14.1-1",
+    "title": "Como simular filas reais?",
+    "section": "Exemplo 14.1",
+    "text": "Exemplo 14.1\n\n# Função que define o valor de lambda de acordo com a hora\nlambdat &lt;- function(t){\n  t &lt;- trunc(t)\n  lambda &lt;- ifelse(t &lt; 1, 1,\n                   ifelse(t &lt; 2, 2,\n                          ifelse(t &lt; 3, 3,\n                                 ifelse(t &lt; 4, 4,\n                                        ifelse(t &lt; 5, 5, 10)))))\n  return(lambda)\n}"
   },
   {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-2",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-2",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": "Enviando alterações para o  via ",
-    "text": "Enviando alterações para o  via \n\nClique em Close"
+    "objectID": "slides/14-Geracao-de-um-processo-de-poisson-nao-homogeneo/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#exemplo-14.1-2",
+    "href": "slides/14-Geracao-de-um-processo-de-poisson-nao-homogeneo/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#exemplo-14.1-2",
+    "title": "Como simular filas reais?",
+    "section": "Exemplo 14.1",
+    "text": "Exemplo 14.1\n\n# Função que simula o processo de Poisson\nppnh &lt;- function(lambda_t, lambda, T = 12){ # T = 12: loja 12h aberta\n  t &lt;- 0; I &lt;- 0; S &lt;- vector()\n  repeat{\n    t &lt;- t + rexp(1, lambda) # incrementando o tempo até nova chegada\n    if(t &gt; T)    # se o tempo t é maior que o tempo total T\n      break      # sai do laço\n    u &lt;- runif(1)\n    if(u &lt;= lambda_t(t)/lambda){\n      I &lt;- I + 1  # incrementa o contador de eventos\n      S[I] &lt;- t   # registra o tempo do evento\n    }\n  }\n  cat(\"Número de eventos:\", I,\"\\n\")\n  return(S)\n}"
   },
   {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-3",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-3",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": "Enviando alterações para o  via ",
-    "text": "Enviando alterações para o  via \n\nNote que irá aparecer a mensagem Your branch is ahead of 'origin/master' by 1 commit\nClique em Push\n\n\n\n\n\nNo campo Username for 'https://github.com' coloque login e clique em OK"
+    "objectID": "slides/14-Geracao-de-um-processo-de-poisson-nao-homogeneo/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#exemplo-14.1-3",
+    "href": "slides/14-Geracao-de-um-processo-de-poisson-nao-homogeneo/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#exemplo-14.1-3",
+    "title": "Como simular filas reais?",
+    "section": "Exemplo 14.1",
+    "text": "Exemplo 14.1\n\nComo a maior taxa é 10, vamos usar lambda = 10.\n\n\nset.seed(1234)\ntempos1 &lt;- ppnh(lambda_t = lambdat, lambda = 10)\ntempos2 &lt;- ppnh(lambda_t = lambdat, lambda = 10)\ntempos3 &lt;- ppnh(lambda_t = lambdat, lambda = 10)\n\n# convertendo o tempo para as horas que a loja está aberta\ntempos1 &lt;- tempos1 + 8\ntempos2 &lt;- tempos2 + 8\ntempos3 &lt;- tempos3 + 8\n\npar(mar=c(5,0,0,0))\nplot(c(tempos1, tempos2, tempos3),\n     c(rep(2, length(tempos1)), rep(1, length(tempos2)),\n       rep(0, length(tempos3))), axes = F, ylim = c(-1, 3),\n     xlim = c(8, 20), ylab = \"\",\n     xlab = \"Tempo de ocorrência\", pch = 16)\nsegments(x0 = 8, y0 = 2, x1 = 20, y1 = 2, col = 4)\nsegments(x0 = 8, y0 = 1, x1 = 20, y1 = 1, col = 4)\nsegments(x0 = 8, y0 = 0, x1 = 20, y1 = 0, col = 4)\naxis(1, at = seq(8,20,2))"
   },
   {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-4",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-4",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": "Enviando alterações para o  via ",
-    "text": "Enviando alterações para o  via \n\nNo campo Personal Access Token insira o token criado no GitHub\nClique em OK"
+    "objectID": "slides/14-Geracao-de-um-processo-de-poisson-nao-homogeneo/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#exemplo-14.1-4",
+    "href": "slides/14-Geracao-de-um-processo-de-poisson-nao-homogeneo/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#exemplo-14.1-4",
+    "title": "Como simular filas reais?",
+    "section": "Exemplo 14.1",
+    "text": "Exemplo 14.1\n\n\nNúmero de eventos: 92 \n\n\nNúmero de eventos: 73 \n\n\nNúmero de eventos: 76"
   },
   {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-5",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-5",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": "Enviando alterações para o  via ",
-    "text": "Enviando alterações para o  via \n\nCaso apareça a mensagem abaixo, os arquivos foram atualizados no repositório do GitHub."
+    "objectID": "slides/14-Geracao-de-um-processo-de-poisson-nao-homogeneo/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#eficiência-do-thinning-ou-afinamento",
+    "href": "slides/14-Geracao-de-um-processo-de-poisson-nao-homogeneo/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#eficiência-do-thinning-ou-afinamento",
+    "title": "Como simular filas reais?",
+    "section": "Eficiência do Thinning (ou Afinamento)",
+    "text": "Eficiência do Thinning (ou Afinamento)\n\nSe os valores de \\(\\lambda(t)\\) estiverem próximos de \\(\\lambda\\) durante todo o intervalo, o algoritmo é mais eficiente.\nIsso porque se \\(\\lambda\\) for muito maior que a maioria dos valores de \\(\\lambda(t)\\), você vai gerar muitos eventos do processo homogêneo que serão “rejeitados” no Passo 5.\nExistem alternativas a esse algoritmo que visam diminuir o número de eventos rejeitados e diminuir o custo computacional."
   },
   {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#material-extra",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#material-extra",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": "Material Extra",
-    "text": "Material Extra\nAprofunde o que vimos em aula com esses vídeos no YouTube:\n\nCurso completo de Git e GitHub: &lt;http://tiny.cc/GitGitHub:\nIntegração do RStudio com o GitHub:\n\nParte 1: http://tiny.cc/RStudioGitHub1\nParte 2: http://tiny.cc/RStudioGitHub2"
+    "objectID": "slides/14-Geracao-de-um-processo-de-poisson-nao-homogeneo/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#exercício-14.1",
+    "href": "slides/14-Geracao-de-um-processo-de-poisson-nao-homogeneo/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#exercício-14.1",
+    "title": "Como simular filas reais?",
+    "section": "Exercício 14.1",
+    "text": "Exercício 14.1\nO arquivo registros.csv contém os horários exatos em que os clientes de uma agência bancária pegaram uma senha para atendimento no caixa em uma segunda-feira típica. Use os registros para simular o fluxo de entrada dos clientes em uam segunda-feira típica."
   },
   {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#ganhos-da-aula",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#ganhos-da-aula",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": "Ganhos da aula",
-    "text": "Ganhos da aula\n\nVersionamento de cpodigo e arquivos com GitHub\nIntegração do RStudio com GitHub\nExperiência com ferramentas do mercado"
-  },
-  {
-    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#atividade-extraclasse",
-    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#atividade-extraclasse",
-    "title": "Como manter seu projeto organizado, seguro e acessível?",
-    "section": "Atividade extraclasse",
-    "text": "Atividade extraclasse\nConfigure seu ambiente de trabalho pessoal\nObjetivo\nDeixar seu computador pessoal pronto para continuar os trabalhos da disciplina fora do laboratório, de forma independente.\nEtapas:\n\nInstalar o Git: https://happygitwithr.com/install-git.html\nInstalar o R: https://cran.r-project.org\nInstalar o RStudio: https://posit.co/download/rstudio-desktop\nFazer uma cópia (clone) do repositório da disciplina no GitHub para o seu computador.\n\nCriar um repositório de teste, clonar no RStudio e fazer seu primeiro commit."
+    "objectID": "slides/14-Geracao-de-um-processo-de-poisson-nao-homogeneo/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#ganho-da-aula",
+    "href": "slides/14-Geracao-de-um-processo-de-poisson-nao-homogeneo/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#ganho-da-aula",
+    "title": "Como simular filas reais?",
+    "section": "Ganho da aula",
+    "text": "Ganho da aula\n\nCapacidade de simular situações do dia a dia onde a demanda varia."
   },
   {
     "objectID": "slides/04-Estrutura_Basica_LaTeX/04-Estrutura-Basica-LaTeX.html#cenário",
@@ -1700,7 +1672,7 @@
     "href": "slides/12-Geracao-de-variaveis-aleatorias-Metodo-da-aceitcao-rejeicao/12-Geracao-de-variaveis-aleatorias-Metodo-da-aceitcao-rejeicao.html#exemplo-12.1-3",
     "title": "Como gerar variáveis aleatórias contínuas? (parte II)",
     "section": "Exemplo 12.1",
-    "text": "Exemplo 12.1\nCódigo R:\n\ngeraf &lt;- function(n=1) {\n  f &lt;- function(x) 1.5 * x^2\n  g &lt;- function(x) 0.5 + 0 * x\n  M &lt;- 3\n  x &lt;- numeric(0)\n  while (length(x) &lt; n) {\n    x_candidato &lt;- runif(n = 1, min = -1, max = 1)\n    u &lt;- runif(1)\n    r &lt;- f(x_candidato)/(M * g(x_candidato))\n    if(u &lt; r) {\n      x &lt;- c(x, x_candidato)\n    }\n  }\n  return(x)\n}\n\ngeraf(1)\n\n[1] 0.8632104"
+    "text": "Exemplo 12.1\nCódigo R:\n\ngeraf &lt;- function(n=1) {\n  f &lt;- function(x) 1.5 * x^2\n  g &lt;- function(x) 0.5 + 0 * x\n  M &lt;- 3\n  x &lt;- numeric(0)\n  while (length(x) &lt; n) {\n    x_candidato &lt;- runif(n = 1, min = -1, max = 1)\n    u &lt;- runif(1)\n    r &lt;- f(x_candidato)/(M * g(x_candidato))\n    if(u &lt; r) {\n      x &lt;- c(x, x_candidato)\n    }\n  }\n  return(x)\n}\n\ngeraf(1)\n\n[1] -0.5999999"
   },
   {
     "objectID": "slides/12-Geracao-de-variaveis-aleatorias-Metodo-da-aceitcao-rejeicao/12-Geracao-de-variaveis-aleatorias-Metodo-da-aceitcao-rejeicao.html#exemplo-12.1-4",
@@ -2368,204 +2340,356 @@
     "text": "Atividade extraclasse\nReproduza o arquivo 06-Tabelas-Figuras-Outros-Recursos-LaTeX_Atv01.pdf."
   },
   {
-    "objectID": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#cenário",
-    "href": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#cenário",
-    "title": "Como gerar variáveis aleatórias discretas?",
-    "section": "Cenário",
-    "text": "Cenário\nImagine que você está trabalhando com uma distribuição de probabilidade que foi definida recentemente. Por ser tão nova, ela ainda não tem funções de simulação em bibliotecas ou pacotes de programação. Para validar seus modelos, você precisa desenvolver o código do zero para gerar os dados aleatórios e realizar a sua simulação."
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#cenário-profissional",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#cenário-profissional",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Cenário profissional",
+    "text": "Cenário profissional\nUma História Real (ou quase)\n\nImagine que você é contratado por uma empresa para analisar dados de clientes e construir relatórios periódicos.\nVocê começa empolgado, faz seu código em R, roda tudo no seu computador e entrega um relatório lindo.\nUm mês depois, o gerente pede que você refaça a análise com os novos dados.\nSó tem um problema:\n\nvocê não lembra qual script usou.\nOs arquivos estão todos em “versão final_v3_final_real.R”.\nE o relatório? Foi feito no Word e agora está com outro estagiário."
   },
   {
-    "objectID": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#objetivos-da-aula",
-    "href": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#objetivos-da-aula",
-    "title": "Como gerar variáveis aleatórias discretas?",
-    "section": "Objetivos da aula",
-    "text": "Objetivos da aula\nNesta aula, de hoje aprenderemos a gerar ocorrências de variáveis aleatórias discretas usando o método da transformação inversa."
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#cenário-profissional-1",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#cenário-profissional-1",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Cenário profissional",
+    "text": "Cenário profissional\nO Problema\nVocê percebe que:\n\nSeus scripts estão bagunçados.\nO histórico do que foi feito se perdeu.\nO relatório não é reprodutível.\nNinguém (nem você mesmo) entende o que foi feito.\n\nA Motivação\nComo resolver isso? Você precisa de:\n\nUm ambiente organizado para escrever e executar código (RStudio).\nUm jeito de acompanhar o histórico do seu trabalho (Git).\nUma forma de colaborar e compartilhar com outras pessoas (GitHub).\nRelatórios que podem ser reproduzidos a qualquer momento (Quarto)."
   },
   {
-    "objectID": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#método-da-transformação-inversa-para-variáveis-discretas",
-    "href": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#método-da-transformação-inversa-para-variáveis-discretas",
-    "title": "Como gerar variáveis aleatórias discretas?",
-    "section": "Método da transformação inversa para variáveis discretas",
-    "text": "Método da transformação inversa para variáveis discretas\nO método da transformada inversa consiste em gerar um número aleatório entre 0 e 1 e encontrar o menor valor discreto cuja probabilidade acumulada é maior ou igual a esse número.\n\nVejamos o método."
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#um-exemplo-da-nossa-própria-disciplina",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#um-exemplo-da-nossa-própria-disciplina",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Um Exemplo da Nossa Própria Disciplina",
+    "text": "Um Exemplo da Nossa Própria Disciplina\nCenário:\n\nVocê está cursando Estatística Computacional.\nA cada aula, o professor entrega:\n\nSlides da aula com explicações e um código em R.\nUm problema para você resolver, adaptando e expandindo o código.\n\nVocê modifica, testa, ajusta e responde o problema.\nNa aula seguinte, você parte exatamente de onde parou."
   },
   {
-    "objectID": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#método-da-transformação-inversa-para-variáveis-discretas-1",
-    "href": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#método-da-transformação-inversa-para-variáveis-discretas-1",
-    "title": "Como gerar variáveis aleatórias discretas?",
-    "section": "Método da transformação inversa para variáveis discretas",
-    "text": "Método da transformação inversa para variáveis discretas\n\nConsidere \\(X\\) uma variável aleatória tal que\n\n\\(P(X = x_i)= p_i, ~ i = 0, 1, \\ldots\\)\n\\(\\sum\\limits_i p_i = 1\\).\n\nPara gerar ocorrências de \\(X\\), geramos um valor \\(u\\) de uma distribuição Uniforme\\((0,1)\\) e obtemos um valor \\(x\\) fazendo \\[\nx = \\begin{cases}\n      x_0, & \\text{se } u&lt;p_0;\\\\\n      x_1, & \\text{se } p_0\\leq u &lt; p_0 + p_1;\\\\\n      x_2, & \\text{se } p_0+p_1\\leq u &lt; p_0 + p_1 + p_2;\\\\\n      \\vdots & \\\\\n      x_i, & \\text{se } \\sum_{j=0}^{i-1} p_j\\leq u &lt;  \\sum_{j=0}^{i} p_j;\\\\\n      \\vdots\n    \\end{cases}\n\\]"
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#e-se-você-fizer-tudo-isso-com-e",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#e-se-você-fizer-tudo-isso-com-e",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "E se você fizer tudo isso com  e ?",
+    "text": "E se você fizer tudo isso com  e ?\nVocê terá:\n\nUm histórico completo de aprendizagem.\nUm repositório que mostra sua evolução.\nUma base reutilizável para projetos futuros.\n\n\nÉ como criar seu próprio material interativo de Estatística Computacional!"
   },
   {
-    "objectID": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#método-da-transformação-inversa-para-variáveis-discretas-2",
-    "href": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#método-da-transformação-inversa-para-variáveis-discretas-2",
-    "title": "Como gerar variáveis aleatórias discretas?",
-    "section": "Método da transformação inversa para variáveis discretas",
-    "text": "Método da transformação inversa para variáveis discretas"
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#objetivo-da-aula",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#objetivo-da-aula",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Objetivo da aula",
+    "text": "Objetivo da aula\n\nEntender o que é e para que serve o Git e o GitHub.\nSaber como criar um repositório de projeto.\nAtualizar repositório no GitHub via Studio."
   },
   {
-    "objectID": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#método-da-transformada-inversa",
-    "href": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#método-da-transformada-inversa",
-    "title": "Como gerar variáveis aleatórias discretas?",
-    "section": "Método da Transformada Inversa",
-    "text": "Método da Transformada Inversa\n\n\n\n\nAlgoritmo\n\n\nPasso 1: Gere \\(u \\sim\\) Uniforme(\\(0,1\\));\nPasso 2: Se \\(u&lt;p_0\\) faça \\(x=x_0\\) e pare, caso contrário, vá para o próximo passo;\nPasso 3: Se \\(u&lt;p_0+p_1\\) faça \\(x=x_1\\) e pare, caso contrário, vá para o próximo passo;\n\\(\\ldots\\)\nPasso \\(k+2\\): Se \\(u&lt;p_0+p_1+\\cdots+p_k\\) faça \\(x=x_k\\) e pare, caso contrário, vá para o próximo passo."
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#o-que-é-o",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#o-que-é-o",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "O que é o ?",
+    "text": "O que é o ?\n\nGit é uma ferramenta que ajuda a controlar e gerenciar mudanças em arquivos ao longo do tempo.\nEle permite que você salve versões diferentes de um trabalho à medida que faz alterações, de modo que possa voltar para versões anteriores se algo der errado ou se precisar revisar mudanças feitas.\n\nPor que o  é importante?\n\nEvita perda de trabalho: Se você estiver escrevendo código ou criando qualquer tipo de documento, o Git permite que você salve diferentes versões do seu trabalho. Assim, se algo der errado, você pode voltar a uma versão anterior.\nFacilita o trabalho em equipe: Quando várias pessoas estão trabalhando no mesmo projeto, o Git permite que cada uma trabalhe de forma independente e depois una os trabalhos de maneira organizada. Isso evita que as alterações de uma pessoa sobrescrevam as de outra.\nOrganização e rastreamento: O Git mantém um histórico completo de todas as mudanças feitas em um projeto, permitindo saber quem fez o quê e quando."
   },
   {
-    "objectID": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#exemplo-10.1",
-    "href": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#exemplo-10.1",
-    "title": "Como gerar variáveis aleatórias discretas?",
-    "section": "Exemplo 10.1",
-    "text": "Exemplo 10.1\nSeja \\(X_i\\sim\\) Bernoulli(\\(p\\)).\n\nCrie uma função no R que gera uma ocorrência de \\(X\\). Teste para \\(p = 0,\\!3\\).\nCrie uma função que gera o número de ocorrências da Bernoulli definida pelo usuário. Teste com \\(p = 0,\\!3\\) e \\(n = 1000\\)."
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#o-que-é-o-1",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#o-que-é-o-1",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "O que é o ?",
+    "text": "O que é o ?\n\nGitHub é uma plataforma online que armazena e organiza projetos que utilizam Git.\nEle permite que você publique seu código, compartilhe arquivos e colabore com outras pessoas em projetos de forma fácil e eficiente.\n\nPor que o  é importante?\n\nArmazenamento seguro: Com o GitHub, seus projetos ficam seguramente armazenados na nuvem. Isso significa que você pode acessar seu trabalho de qualquer lugar e sempre terá uma cópia segura.\nColaboração em equipe: GitHub permite que várias pessoas trabalhem no mesmo projeto ao mesmo tempo. Cada pessoa pode fazer mudanças no código, e o GitHub ajuda a gerenciar essas mudanças sem que uma sobrescreva a outra.\nHistórico e transparência: O GitHub mantém um histórico completo de todas as alterações feitas no seu projeto. Isso permite ver quem fez o quê e quando, facilitando o acompanhamento e revisão do trabalho de equipe."
   },
   {
-    "objectID": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#exemplo-10.2",
-    "href": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#exemplo-10.2",
-    "title": "Como gerar variáveis aleatórias discretas?",
-    "section": "Exemplo 10.2",
-    "text": "Exemplo 10.2\nSeja \\(X\\) uma variável aleatória tal que\n\n\\(P(X=1) = 0,\\!2\\)\n\\(P(X=2)=0,\\!15\\)\n\\(P(X=3)=0,\\!25\\)\n\\(P(X=4)=0,\\!4\\).\n\n\nCrie uma função no R que gera uma ocorrência de \\(X\\).\nCrie uma função que gera o número de ocorrências definida pelo usuário. Teste com 1000 ocorrências e faça um gráfico de barras."
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#como-e-por-que-usar-o-na-disciplina",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#como-e-por-que-usar-o-na-disciplina",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Como e por que usar o  na disciplina?",
+    "text": "Como e por que usar o  na disciplina?\n\nVocê receberá um script em R a cada aula\nDurante a aula, vai editar esse script no RStudio, testando e resolvendo problemas\nNo final da aula, envia suas alterações para seu repositório (push) — tudo salvo e organizado\nPode acessar seu trabalho de qualquer lugar, com segurança e histórico garantido\n\n\nGitHub será seu caderno digital de códigos — inteligente, seguro e acessível para a disciplina"
   },
   {
-    "objectID": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#section",
-    "href": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#section",
-    "title": "Como gerar variáveis aleatórias discretas?",
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#primeiros-passos",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#primeiros-passos",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Primeiros passos",
+    "text": "Primeiros passos\n\nBaixar e instalar o Git: https://happygitwithr.com/install-git.html\nCriar uma conta no GitHub: https://github.com/\nCriar um reposítório Git\nClone esse repositório para sua máquina usando o RStudio\nTrabalhe no projeto e envie as atualizações de volta ao GitHub\n\n\nDesenvolva o hábito de buscar soluções por conta própria. Isso faz parte do dia a dia de quem trabalha com dados. Comece agora a desenvolver essa autonomia."
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-repositório-no",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-repositório-no",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Criando um repositório  no ",
+    "text": "Criando um repositório  no \n\nApós fazer login no GitHub, Clique em + no canto superior direito\nEm seguida, clique em New repository"
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-repositório-no-1",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-repositório-no-1",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Criando um repositório  no ",
+    "text": "Criando um repositório  no \n\n\n\nEm Repository name dê um anome ao repositóro\nEm Description faça uma descrição do repositório\nMarque a opção Public ou Private\nEm Initialize this repository with: marque a opção Add a README file\nClique em Create repository"
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#section",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#section",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
     "section": "",
-    "text": "Um exemplo de código em R que implementa a função que gera os números aleatórios do Exemplo 10.2 é\n\ngernum &lt;- function(n, x, prob){\n  amostra &lt;- vector() # vetor que receberá valores gerados\n  prob_acum &lt;- cumsum(prob) # vetor de probabilidades acumuladas\n  for (i in 1:n) { # início do laço\n    u &lt;- runif(1)  # valor de u\n    for (j in 1:length(x)) {\n      if (u &lt;= prob_acum[j]) {\n        amostra[i] &lt;- x[j]\n        break\n      }\n    }\n  }\n  return(amostra)\n}\n\nvalores_x &lt;- 1:4\nprobabilidades &lt;- c(.2, .15, .25, .4)\n\nset.seed(123) # fixando a semente para reprodutibilidade\namostra &lt;- gernum(1000, valores_x, probabilidades)"
+    "text": "Com o repositório já criado no GitHub, agora vamos usar o RStudio para ligar o projeto local ao repositório remoto.\nAssim, todas as alterações feitas no RStudio poderão ser salvas na nuvem e versionadas automaticamente.\nPara enviar essas alterações ao GitHub, será necessário se autenticar — com login e senha ou com um token de acesso.\n\nVamos ver como criar um token de acesso no GitHub."
   },
   {
-    "objectID": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#section-1",
-    "href": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#section-1",
-    "title": "Como gerar variáveis aleatórias discretas?",
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-token-de-acesso-no",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-token-de-acesso-no",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Criando um token de acesso no ",
+    "text": "Criando um token de acesso no \n\nEstando logado no GitHub, clique na sua foto de perfil no canto superior direito\n\nClique em Settings"
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-token-de-acesso-no-1",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-token-de-acesso-no-1",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Criando um token de acesso no ",
+    "text": "Criando um token de acesso no \n\nNo canto inferior esquerdo da tela clique em Developer settings"
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-token-de-acesso-no-2",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-um-token-de-acesso-no-2",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Criando um token de acesso no ",
+    "text": "Criando um token de acesso no \n\nNo canto superior esquerdo da tela clique em Personal access tokens\nClique em Tokens (classic)\n\n\n\n\n\nEm Expiration selecione a data em que o token irá expirar\nMarque todas as opções em Select scopes\nClique em Generate token\n\n\nO token será gerado uma única vez. Guarde-o com cuidado, pois não será possível visualizá-lo novamente no GitHub. Você usará esse token quando for solicitada autenticação."
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#integração-prática",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#integração-prática",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": " + : integração prática",
+    "text": "+ : integração prática\n\nO RStudio possui integração nativa com o Git e GitHub\n\nOu seja, é possível sincronizar um repositório GitHub a um repositório local\nIsso significa que você pode ligar o repositório do GitHub (na nuvem) ao seu projeto no computador. Assim, o que você altera localmente pode ser enviado para o GitHub — e vice-versa.\n\nPara isso, seguimos os seguintes passos:\n\n\nFazemos uma cópia do repositório do GitHub na máquina local usando o RStudio.\n\nQuando já há uma cópia na máquina, começamos o trabalho atualizando o projeto local com as alterações que estão no GitHub (pull).\n\nTrabalhamos normalmente no projeto: scripts, análises, relatórios…\nUsamos o Git para registrar as alterações (commit) e enviar para o GitHub (push)."
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-o-projeto-local",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-o-projeto-local",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": " + : criando o projeto local",
+    "text": "+ : criando o projeto local\n\nNo canto superior direito do RStudio clique em File &gt; New Project\n\n\n\nClique em Version control"
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-o-projeto-local-1",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-o-projeto-local-1",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": " + : criando o projeto local",
+    "text": "+ : criando o projeto local\n\nClique em Git"
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-o-projeto-local-2",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-o-projeto-local-2",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": " + : criando o projeto local",
+    "text": "+ : criando o projeto local\n\nNo campo Repository URL, cole a URL do repositório que você criou no GitHub\nEm Create project as subdirectory of, escolha o diretório em que o repositório do GitHub será copiado na máquina local\nClique em Create Project"
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-o-projeto-local-3",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#criando-o-projeto-local-3",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": " + : criando o projeto local",
+    "text": "+ : criando o projeto local\n\nSe você estiver clonando um repositório público, o RStudio irá criar uma cópia do projeto localmente, sem exigir login.\nSe o repositório for privado, o GitHub pedirá que você se autentique (login e senha ou token)."
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Enviando alterações para o  via ",
+    "text": "Enviando alterações para o  via \n\nDepois de salvar as atualizações do seu projeto local, você pode enviar essas alterações para o repositório no GitHub diretamente pelo RStudio.\nVocê deve fazer:\n\n\nNo quadrante superior direito clique em Commit"
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-1",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-1",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Enviando alterações para o  via ",
+    "text": "Enviando alterações para o  via \n\nRStudio mostra os arquivos que foram alterados. Selecione-os\nNo campo Commit message escreva um comentário contendo o que foi atualizado\nClique em Commit"
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-2",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-2",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Enviando alterações para o  via ",
+    "text": "Enviando alterações para o  via \n\nClique em Close"
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-3",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-3",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Enviando alterações para o  via ",
+    "text": "Enviando alterações para o  via \n\nNote que irá aparecer a mensagem Your branch is ahead of 'origin/master' by 1 commit\nClique em Push\n\n\n\n\n\nNo campo Username for 'https://github.com' coloque login e clique em OK"
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-4",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-4",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Enviando alterações para o  via ",
+    "text": "Enviando alterações para o  via \n\nNo campo Personal Access Token insira o token criado no GitHub\nClique em OK"
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-5",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#enviando-alterações-para-o-via-5",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Enviando alterações para o  via ",
+    "text": "Enviando alterações para o  via \n\nCaso apareça a mensagem abaixo, os arquivos foram atualizados no repositório do GitHub."
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#material-extra",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#material-extra",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Material Extra",
+    "text": "Material Extra\nAprofunde o que vimos em aula com esses vídeos no YouTube:\n\nCurso completo de Git e GitHub: &lt;http://tiny.cc/GitGitHub:\nIntegração do RStudio com o GitHub:\n\nParte 1: http://tiny.cc/RStudioGitHub1\nParte 2: http://tiny.cc/RStudioGitHub2"
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#ganhos-da-aula",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#ganhos-da-aula",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Ganhos da aula",
+    "text": "Ganhos da aula\n\nVersionamento de cpodigo e arquivos com GitHub\nIntegração do RStudio com GitHub\nExperiência com ferramentas do mercado"
+  },
+  {
+    "objectID": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#atividade-extraclasse",
+    "href": "slides/02-introducao_ao_RStudio+GitHub/02-introducao_ao_RStudio+GitHub.html#atividade-extraclasse",
+    "title": "Como manter seu projeto organizado, seguro e acessível?",
+    "section": "Atividade extraclasse",
+    "text": "Atividade extraclasse\nConfigure seu ambiente de trabalho pessoal\nObjetivo\nDeixar seu computador pessoal pronto para continuar os trabalhos da disciplina fora do laboratório, de forma independente.\nEtapas:\n\nInstalar o Git: https://happygitwithr.com/install-git.html\nInstalar o R: https://cran.r-project.org\nInstalar o RStudio: https://posit.co/download/rstudio-desktop\nFazer uma cópia (clone) do repositório da disciplina no GitHub para o seu computador.\n\nCriar um repositório de teste, clonar no RStudio e fazer seu primeiro commit."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Bem-vindo(a)!",
     "section": "",
-    "text": "library(ggplot2)\n\n# Calcular frequência relativa\ndf_freq &lt;- as.data.frame(prop.table(table(amostra)))\n\n# Renomear colunas para usar no ggplot\ncolnames(df_freq) &lt;- c(\"x\", \"freq\")\ndf_freq$x &lt;- as.factor(df_freq$x)  # transformar em fator para manter\n                                   # ordem no eixo x\n\n# Gráfico de barras\nggplot(df_freq, aes(x = x, y = freq, fill = x)) +\n  geom_col(fill = \"#377EB8\") +\n  scale_y_continuous(limits = c(0, 0.5),\n                     expand = expansion(mult = c(0, 0.05))) +\n  labs(x = \"x\", y = \"Frequência relativa\") +\n  theme_minimal(base_size = 25) +\n  theme(legend.position = \"none\")"
+    "text": "Bem-vindo(a)!\nEsta página foi criada pelo Prof. Dr. Sadraque E. F. Lucena para centralizar os conteúdos, atividades, cronograma e materiais da disciplina ESTAT0090 – Estatística Computacional, ofertada pelo Departamento de Estatística e Ciências Atuariais da Universidade Federal de Sergipe. Ao longo do semestre, vamos explorar ferramentas fundamentais para a prática da Estatística moderna, com ênfase em programação em R, Quarto, LaTeX, GitHub, simulação, métodos computacionais e reamostragem (como Bootstrap e Monte Carlo).\nA disciplina será conduzida com uma abordagem prática e orientada por problemas, livremente inspirada no Problem-Based Learning (PBL), conectando os conteúdos à atuação profissional em Estatística e Ciência de Dados. A cada semana, novos desafios e projetos serão propostos, promovendo o aprendizado ativo e colaborativo.\nFique atento(a) às atualizações — este espaço será constantemente revisado com avisos, novos materiais e mudanças no cronograma."
   },
   {
-    "objectID": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#exemplo-10.3",
-    "href": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#exemplo-10.3",
-    "title": "Como gerar variáveis aleatórias discretas?",
-    "section": "Exemplo 10.3",
-    "text": "Exemplo 10.3\nSejam \\(X_1, \\ldots,X_m\\) v.a. tais que \\(X_i \\sim\\) Bernoulli(\\(p\\)).\nEntão \\(Y = \\sum\\limits_{i=1}^m X_i \\sim\\) Binomial(\\(m,p\\)).\n\nCrie uma função no R que gera uma ocorrência de \\(Y\\). Teste com \\(m = 10\\) e \\(p = 0,\\!3\\).\nCrie uma função que gera o número de ocorrências definida pelo usuário. Teste com 1000 ocorrências e faça um gráfico."
-  },
-  {
-    "objectID": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#exemplo-10.4",
-    "href": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#exemplo-10.4",
-    "title": "Como gerar variáveis aleatórias discretas?",
-    "section": "Exemplo 10.4",
-    "text": "Exemplo 10.4\nSeja \\(X\\sim\\) Geométrica(\\(p\\)) tal que \\(P(X=i) = p(1-p)^{i-1}\\), para \\(i=1,2,\\ldots\\)\n\nCrie uma função no R que gera uma ocorrência de \\(X\\). Teste com \\(p=0,\\!4\\).\nCrie uma função que gera o número de ocorrências definida pelo usuário. Teste com 1000 ocorrências e faça um gráfico."
-  },
-  {
-    "objectID": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#ganho-da-aula",
-    "href": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#ganho-da-aula",
-    "title": "Como gerar variáveis aleatórias discretas?",
-    "section": "Ganho da aula",
-    "text": "Ganho da aula\n\nCompreensão da geração de números aleatórios discretos usando o método da transformação inversa."
-  },
-  {
-    "objectID": "info/ementa.html",
-    "href": "info/ementa.html",
+    "objectID": "info/conteudo.html",
+    "href": "info/conteudo.html",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "Editor de textos LATEX. Estruturas de repetições e funções no software R. Geração de Variáveis Aleatórias. Método de Monte Carlo. Bootstrap.",
+    "text": "Geração de variáveis aleatórias\n1.1. Comandos básicos do R\n1.2. Estruturas de repetição no R\n1.3. Condições e sı́mbolos lógicos no\n1.4. Escrevendo funções no R\n1.5. Gerador de números aleatórios\n1.6. Método da Transformada inversa\n1.7. Método da Aceitação-Rejeição\n1.8. Outros métodos de geração de v.a.\nMétodos de Monte Carlo\n2.1. Conceito Geral\n2.2. Testes de Hipóteses e Erros\n2.3. Intervalos de confiança\n2.4. Viés e Erro quadrático Médio\n2.5. Método de Reamostragem: Bootstrap\n2.6. Método de Reamostragem: Jackknife\nO editor de textos LaTeX\n3.1. Comandos iniciais\n3.2. Formatação de texto, Tipos de Listas, Teoremas\n3.3. Fórmulas diversas, sı́mbolos matemáticos, escrevendo em ambiente de fórmulas\n3.4. Matrizes, equações alinhadas, tabelas e imagens\n3.5. Textos sem formatação (Para saı́das computacionais)\n3.6. Partes de documento: Tı́tulos, capı́tulos, sumários, cabeçalho e rodapé, bibliografia básica\n3.7. BibTeX (bibliografia externa)\n3.8. Criando Apresentações e Pôster",
     "crumbs": [
       "Informações da disciplina",
-      "Ementa e objetivos"
+      "Conteúdo"
     ]
   },
   {
-    "objectID": "info/ementa.html#ementa",
-    "href": "info/ementa.html#ementa",
+    "objectID": "info/conteudo.html#conteudo",
+    "href": "info/conteudo.html#conteudo",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "Editor de textos LATEX. Estruturas de repetições e funções no software R. Geração de Variáveis Aleatórias. Método de Monte Carlo. Bootstrap.",
+    "text": "Geração de variáveis aleatórias\n1.1. Comandos básicos do R\n1.2. Estruturas de repetição no R\n1.3. Condições e sı́mbolos lógicos no\n1.4. Escrevendo funções no R\n1.5. Gerador de números aleatórios\n1.6. Método da Transformada inversa\n1.7. Método da Aceitação-Rejeição\n1.8. Outros métodos de geração de v.a.\nMétodos de Monte Carlo\n2.1. Conceito Geral\n2.2. Testes de Hipóteses e Erros\n2.3. Intervalos de confiança\n2.4. Viés e Erro quadrático Médio\n2.5. Método de Reamostragem: Bootstrap\n2.6. Método de Reamostragem: Jackknife\nO editor de textos LaTeX\n3.1. Comandos iniciais\n3.2. Formatação de texto, Tipos de Listas, Teoremas\n3.3. Fórmulas diversas, sı́mbolos matemáticos, escrevendo em ambiente de fórmulas\n3.4. Matrizes, equações alinhadas, tabelas e imagens\n3.5. Textos sem formatação (Para saı́das computacionais)\n3.6. Partes de documento: Tı́tulos, capı́tulos, sumários, cabeçalho e rodapé, bibliografia básica\n3.7. BibTeX (bibliografia externa)\n3.8. Criando Apresentações e Pôster",
     "crumbs": [
       "Informações da disciplina",
-      "Ementa e objetivos"
+      "Conteúdo"
     ]
   },
   {
-    "objectID": "info/ementa.html#objetivos",
-    "href": "info/ementa.html#objetivos",
-    "title": "Estatística Computacional",
-    "section": "Objetivos",
-    "text": "Objetivos\nDesenvolver habilidades essenciais para a aplicação de métodos computacionais na análise de dados e na obtenção de estimativas estatı́sticas confiáveis, bem como preparar estudantes para criar documentos de alta qualidade com notação matemática adequada e formatação profissional.",
-    "crumbs": [
-      "Informações da disciplina",
-      "Ementa e objetivos"
-    ]
-  },
-  {
-    "objectID": "info/ementa.html#metodologia",
-    "href": "info/ementa.html#metodologia",
-    "title": "Estatística Computacional",
-    "section": "Metodologia",
-    "text": "Metodologia\nSerão ministradas aulas teóricas expositivas; utilizados recursos visuais; resolução de exercı́cios em sala de aula; solicitação de atividades extraclasse. O cronograma de aulas encontra-se no Quadro 1.",
-    "crumbs": [
-      "Informações da disciplina",
-      "Ementa e objetivos"
-    ]
-  },
-  {
-    "objectID": "info/ementa.html#habilidades-e-competências",
-    "href": "info/ementa.html#habilidades-e-competências",
-    "title": "Estatística Computacional",
-    "section": "Habilidades e Competências",
-    "text": "Habilidades e Competências\nAo término deste curso o aluno estará apto a realizar análises estatı́sticas avançadas, simulações e estimativas confiáveis, além de resolver problemas práticos no campo da Estatı́stica utilizando abordagens computacionais.",
-    "crumbs": [
-      "Informações da disciplina",
-      "Ementa e objetivos"
-    ]
-  },
-  {
-    "objectID": "info/ementa.html#avaliação",
-    "href": "info/ementa.html#avaliação",
-    "title": "Estatística Computacional",
-    "section": "Avaliação",
-    "text": "Avaliação\nSerão realizadas três avaliações ao longo do semestre. As avaliações poderão ser provas, trabalhos ou outras atividades solicitadas pelo professor.",
-    "crumbs": [
-      "Informações da disciplina",
-      "Ementa e objetivos"
-    ]
-  },
-  {
-    "objectID": "info/softwares.html",
-    "href": "info/softwares.html",
+    "objectID": "info/cronograma.html",
+    "href": "info/cronograma.html",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "Para acompanhar as atividades da disciplina, será necessário instalar os softwares listados abaixo. Todos são gratuitos e amplamente utilizados nas áreas de Estatística e Ciência de Dados:\n\n\n\nR é um ambiente computacional gratuito voltado para análises estatísticas e produção de visualizações gráficas. Link\n\n\n\nO RStudio consiste em um ambiente de desenvolvimento integrado (IDE) projetado para aumentar a produtividade no uso da linguagem R, oferecendo ferramentas especializadas para programação, depuração e visualização de dados. Link\n\n\n\nQuarto é um sistema de publicação técnico-científica de código aberto que integra análise computacional (Python, R, Julia) e produção de documentos dinâmicos em múltiplos formatos (HTML, PDF, Word). Combina escrita em Markdown com recursos avançados para equações, citações e visualizações reprodutíveis. Link\n\n\n\nMiKTeX é uma distribuição moderna do sistema TeX/LaTeX para ambiente Windows, fornecendo um conjunto completo de ferramentas para editoração técnica e científica de alta qualidade. Link\n\n\n\nTeXstudio é um ambiente integrado de edição para documentos LaTeX, oferecendo recursos como realce de sintaxe, visualizador incorporado, verificação de referências e assistentes para facilitar a escrita. Link",
+    "text": "Cronograma de aulas de Estatística Computacional seguindo o calendário acadêmico do período 2025-1.\n\n\n\n\n\n\n\n\nAula\nData\nAssunto Previsto\n\n\n\n\n1\nTerça, 13 de maio de 2025\nRecepção dos alunos\n\n\n2\nQuinta, 15 de maio de 2025\nRecepção dos alunos\n\n\n3\nTerça, 20 de maio de 2025\nApresentação da disciplina\n\n\n4\nQuinta, 22 de maio de 2025\nIntrodução ao RStudio + GitHub\n\n\n5\nTerça, 27 de maio de 2025\nIntrodução ao LaTeX\n\n\n6\nQuinta, 29 de maio de 2025\nEstrutura básico do LaTeX\n\n\n7\nTerça, 03 de junho de 2025\nAmbiente matemático no LaTeX\n\n\n8\nQuinta, 05 de junho de 2025\nTabelas no LaTeX\n\n\n9\nTerça, 10 de junho de 2025\nFiguras no LaTeX\n\n\n10\nQuinta, 12 de junho de 2025\nBibliografia no LaTeX\n\n\n11\nQuinta, 17 de junho de 2025\nAvaliação 1\n\n\n12\nTerça, 01 de julho de 2025\nQuarto\n\n\n13\nQuinta, 03 de julho de 2025\nGeração de Números aleatórios\n\n\n14\nQuinta, 10 de julho de 2025\nGeração de Variáveis Aleatórias Discretas\n\n\n15\nTerça, 15 de julho de 2025\nGeração de Variáveis Aleatórias Contínuas\n\n\n16\nTerça, 17 de julho de 2025\nGeração de Variáveis Aleatórias Contínuas\n\n\n17\nTerça, 22 de julho de 2025\nGeração de Variáveis Aleatórias Contínuas\n\n\n18\nTerça, 24 de julho de 2025\nGeração de um processo de Poisson Homogêneo\n\n\n19\nTerça, 29 de julho de 2025\nGeração de um processo de Poisson Não Homogêneo",
     "crumbs": [
       "Informações da disciplina",
-      "Softwares Necessários"
+      "Cronograma"
     ]
   },
   {
-    "objectID": "info/softwares.html#softwares-necessários",
-    "href": "info/softwares.html#softwares-necessários",
+    "objectID": "info/cronograma.html#cronograma-de-aulas",
+    "href": "info/cronograma.html#cronograma-de-aulas",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "Para acompanhar as atividades da disciplina, será necessário instalar os softwares listados abaixo. Todos são gratuitos e amplamente utilizados nas áreas de Estatística e Ciência de Dados:\n\n\n\nR é um ambiente computacional gratuito voltado para análises estatísticas e produção de visualizações gráficas. Link\n\n\n\nO RStudio consiste em um ambiente de desenvolvimento integrado (IDE) projetado para aumentar a produtividade no uso da linguagem R, oferecendo ferramentas especializadas para programação, depuração e visualização de dados. Link\n\n\n\nQuarto é um sistema de publicação técnico-científica de código aberto que integra análise computacional (Python, R, Julia) e produção de documentos dinâmicos em múltiplos formatos (HTML, PDF, Word). Combina escrita em Markdown com recursos avançados para equações, citações e visualizações reprodutíveis. Link\n\n\n\nMiKTeX é uma distribuição moderna do sistema TeX/LaTeX para ambiente Windows, fornecendo um conjunto completo de ferramentas para editoração técnica e científica de alta qualidade. Link\n\n\n\nTeXstudio é um ambiente integrado de edição para documentos LaTeX, oferecendo recursos como realce de sintaxe, visualizador incorporado, verificação de referências e assistentes para facilitar a escrita. Link",
+    "text": "Cronograma de aulas de Estatística Computacional seguindo o calendário acadêmico do período 2025-1.\n\n\n\n\n\n\n\n\nAula\nData\nAssunto Previsto\n\n\n\n\n1\nTerça, 13 de maio de 2025\nRecepção dos alunos\n\n\n2\nQuinta, 15 de maio de 2025\nRecepção dos alunos\n\n\n3\nTerça, 20 de maio de 2025\nApresentação da disciplina\n\n\n4\nQuinta, 22 de maio de 2025\nIntrodução ao RStudio + GitHub\n\n\n5\nTerça, 27 de maio de 2025\nIntrodução ao LaTeX\n\n\n6\nQuinta, 29 de maio de 2025\nEstrutura básico do LaTeX\n\n\n7\nTerça, 03 de junho de 2025\nAmbiente matemático no LaTeX\n\n\n8\nQuinta, 05 de junho de 2025\nTabelas no LaTeX\n\n\n9\nTerça, 10 de junho de 2025\nFiguras no LaTeX\n\n\n10\nQuinta, 12 de junho de 2025\nBibliografia no LaTeX\n\n\n11\nQuinta, 17 de junho de 2025\nAvaliação 1\n\n\n12\nTerça, 01 de julho de 2025\nQuarto\n\n\n13\nQuinta, 03 de julho de 2025\nGeração de Números aleatórios\n\n\n14\nQuinta, 10 de julho de 2025\nGeração de Variáveis Aleatórias Discretas\n\n\n15\nTerça, 15 de julho de 2025\nGeração de Variáveis Aleatórias Contínuas\n\n\n16\nTerça, 17 de julho de 2025\nGeração de Variáveis Aleatórias Contínuas\n\n\n17\nTerça, 22 de julho de 2025\nGeração de Variáveis Aleatórias Contínuas\n\n\n18\nTerça, 24 de julho de 2025\nGeração de um processo de Poisson Homogêneo\n\n\n19\nTerça, 29 de julho de 2025\nGeração de um processo de Poisson Não Homogêneo",
     "crumbs": [
       "Informações da disciplina",
-      "Softwares Necessários"
+      "Cronograma"
     ]
   },
   {
-    "objectID": "info/bibliografia.html",
-    "href": "info/bibliografia.html",
+    "objectID": "info/dados_gerais.html",
+    "href": "info/dados_gerais.html",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "DE ALMEIDA, Pedro Quaresma. Introduçao ao LATEX. Escolar Editora, 1996.\nRUBINSTEIN, Reuven Y; KROESE, Dirk P. Simulation and Monte Carlo method. 2nd ed. New Jersey, Estados Unidos: Wiley-Interscience, 2008.\nDAVISON, A. C; HINKLEY, D. V. Bootstrap methods and their application. New York, Estados Unidos: Cambridge University Press, 1997.\nEFRON, Bradley; TIBSHIRANI, Robert. An introduction to the bootstrap. Boca Raton, Estados Unidos: Chapman & Hall/CRC, 1994.\nVERZANI, John. Using R for introductory statistics. Boca Raton, Estados Unidos: Chapman & Hall/CRC, 2005.\n\n\n\n\n\nRIZZO, Maria L. Statistical computing with R. CRC Press, 2019.\nGIVENS, Geof H.; HOETING, Jennifer A. Computational statistics. John Wiley & Sons, 2012.",
+    "text": "Componente curricular:\nESTAT0090 - Estatística Computacional\nDisciplina obrigatória para o curso de Estatística da Universidade Federal de Sergipe",
     "crumbs": [
       "Informações da disciplina",
-      "Bibliografia"
+      "Dados gerais"
     ]
   },
   {
-    "objectID": "info/bibliografia.html#bibliografia",
-    "href": "info/bibliografia.html#bibliografia",
+    "objectID": "info/dados_gerais.html#dados-gerais-da-disciplina",
+    "href": "info/dados_gerais.html#dados-gerais-da-disciplina",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "DE ALMEIDA, Pedro Quaresma. Introduçao ao LATEX. Escolar Editora, 1996.\nRUBINSTEIN, Reuven Y; KROESE, Dirk P. Simulation and Monte Carlo method. 2nd ed. New Jersey, Estados Unidos: Wiley-Interscience, 2008.\nDAVISON, A. C; HINKLEY, D. V. Bootstrap methods and their application. New York, Estados Unidos: Cambridge University Press, 1997.\nEFRON, Bradley; TIBSHIRANI, Robert. An introduction to the bootstrap. Boca Raton, Estados Unidos: Chapman & Hall/CRC, 1994.\nVERZANI, John. Using R for introductory statistics. Boca Raton, Estados Unidos: Chapman & Hall/CRC, 2005.\n\n\n\n\n\nRIZZO, Maria L. Statistical computing with R. CRC Press, 2019.\nGIVENS, Geof H.; HOETING, Jennifer A. Computational statistics. John Wiley & Sons, 2012.",
+    "text": "Componente curricular:\nESTAT0090 - Estatística Computacional\nDisciplina obrigatória para o curso de Estatística da Universidade Federal de Sergipe",
     "crumbs": [
       "Informações da disciplina",
-      "Bibliografia"
+      "Dados gerais"
+    ]
+  },
+  {
+    "objectID": "info/dados_gerais.html#informações-da-disciplina",
+    "href": "info/dados_gerais.html#informações-da-disciplina",
+    "title": "Estatística Computacional",
+    "section": "Informações da Disciplina",
+    "text": "Informações da Disciplina\n\nCarga Horária: 60 horas (4 créditos)\nUnidade Responsável: Departamento de Estatística e Ciências Atuariais (DECAT)\nDocente Responsável: Prof. Dr. Sadraque E. F. Lucena\nPeríodo Letivo: 2025-1\nPlano de Ensino da Disciplina: pdf",
+    "crumbs": [
+      "Informações da disciplina",
+      "Dados gerais"
+    ]
+  },
+  {
+    "objectID": "info/dados_gerais.html#horários-das-aulas",
+    "href": "info/dados_gerais.html#horários-das-aulas",
+    "title": "Estatística Computacional",
+    "section": "Horários das Aulas",
+    "text": "Horários das Aulas\nAs aulas ocorrerão nos seguintes horários:\n\nTerças: 19h00 às 20h30 no LEA01 (Laboratório de Informática 01 do DECAT)\nQuintas: 20h45 às 22h15 no LEA02 (Laboratório de Informática 02 do DECAT)",
+    "crumbs": [
+      "Informações da disciplina",
+      "Dados gerais"
+    ]
+  },
+  {
+    "objectID": "info/dados_gerais.html#avaliações",
+    "href": "info/dados_gerais.html#avaliações",
+    "title": "Estatística Computacional",
+    "section": "Avaliações",
+    "text": "Avaliações\nA disciplina contará com 3 avaliações distribuídas ao longo do semestre nas seguintes datas:\n\nAvaliação 1: 17/06/2025 (terça)\nAvaliação 2: 29/07/2025 (terça)\nAvaliação 3: 02/09/2025 (terça)",
+    "crumbs": [
+      "Informações da disciplina",
+      "Dados gerais"
+    ]
+  },
+  {
+    "objectID": "info/dados_gerais.html#não-haverá-aula",
+    "href": "info/dados_gerais.html#não-haverá-aula",
+    "title": "Estatística Computacional",
+    "section": "Não haverá aula",
+    "text": "Não haverá aula\n\n19/06/2025: Corpus Christi (ponto facultativo)\n24/06/2025: Sâo João (feriado municipal)\n08/07/2025: Independência de Sergipe (feriado estadual)",
+    "crumbs": [
+      "Informações da disciplina",
+      "Dados gerais"
+    ]
+  },
+  {
+    "objectID": "conteudos/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html",
+    "href": "conteudos/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html",
+    "title": "Conteúdo 14",
+    "section": "",
+    "text": "Nesta aula, avançaremos para o Processo de Poisson Não Homogêneo (PPNH), onde a taxa de eventos varia com o tempo, tornando nossas simulações muito mais realistas, como o fluxo de clientes em uma loja ao longo do dia, que não é constante. Você aprenderá a gerar dados para esses cenários dinâmicos, uma habilidade essencial para modelar e resolver problemas complexos em diversas áreas, validando modelos e otimizando sistemas com base em comportamentos que realmente refletem o mundo real.\nSlides:\n\nVersão html\nVersão pdf\n\n\n\n\nNos slides vocês precisará do conjunto de dados abaixo:\n\nregistros.csv",
+    "crumbs": [
+      "Material das aulas",
+      "14- Geração de um processo de Poisson não homogêneo"
+    ]
+  },
+  {
+    "objectID": "conteudos/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#geração-de-um-processo-de-poisson-não-homogêneo",
+    "href": "conteudos/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#geração-de-um-processo-de-poisson-não-homogêneo",
+    "title": "Conteúdo 14",
+    "section": "",
+    "text": "Nesta aula, avançaremos para o Processo de Poisson Não Homogêneo (PPNH), onde a taxa de eventos varia com o tempo, tornando nossas simulações muito mais realistas, como o fluxo de clientes em uma loja ao longo do dia, que não é constante. Você aprenderá a gerar dados para esses cenários dinâmicos, uma habilidade essencial para modelar e resolver problemas complexos em diversas áreas, validando modelos e otimizando sistemas com base em comportamentos que realmente refletem o mundo real.\nSlides:\n\nVersão html\nVersão pdf",
+    "crumbs": [
+      "Material das aulas",
+      "14- Geração de um processo de Poisson não homogêneo"
+    ]
+  },
+  {
+    "objectID": "conteudos/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#dados-para-o-exemplo-14.2",
+    "href": "conteudos/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#dados-para-o-exemplo-14.2",
+    "title": "Conteúdo 14",
+    "section": "",
+    "text": "Nos slides vocês precisará do conjunto de dados abaixo:\n\nregistros.csv",
+    "crumbs": [
+      "Material das aulas",
+      "14- Geração de um processo de Poisson não homogêneo"
     ]
   },
   {
@@ -2576,7 +2700,7 @@
     "text": "Nesta aula, você aprenderá e aplicará duas abordagens para simular um Processo de Poisson: uma baseada na geração dos tempos entre eventos (distribuição Exponencial) e outra na simulação do número total de eventos no intervalo (distribuição de Poisson + uniformes). Ao dominar essas técnicas, você será capaz de modelar e gerar dados para fenômenos onde eventos ocorrem aleatoriamente ao longo do tempo – como falhas, chamadas, pagamentos ou chegadas. Essa habilidade é fundamental para validar modelos estatísticos, desenvolver sistemas de simulação e resolver problemas reais em ciência de dados, engenharia, finanças e além.\nSlides:\n\nVersão html\nVersão pdf",
     "crumbs": [
       "Material das aulas",
-      "13- Geração de um processo de Poisson"
+      "13- Geração de um processo de Poisson homogêneo"
     ]
   },
   {
@@ -2587,7 +2711,7 @@
     "text": "Nesta aula, você aprenderá e aplicará duas abordagens para simular um Processo de Poisson: uma baseada na geração dos tempos entre eventos (distribuição Exponencial) e outra na simulação do número total de eventos no intervalo (distribuição de Poisson + uniformes). Ao dominar essas técnicas, você será capaz de modelar e gerar dados para fenômenos onde eventos ocorrem aleatoriamente ao longo do tempo – como falhas, chamadas, pagamentos ou chegadas. Essa habilidade é fundamental para validar modelos estatísticos, desenvolver sistemas de simulação e resolver problemas reais em ciência de dados, engenharia, finanças e além.\nSlides:\n\nVersão html\nVersão pdf",
     "crumbs": [
       "Material das aulas",
-      "13- Geração de um processo de Poisson"
+      "13- Geração de um processo de Poisson homogêneo"
     ]
   },
   {

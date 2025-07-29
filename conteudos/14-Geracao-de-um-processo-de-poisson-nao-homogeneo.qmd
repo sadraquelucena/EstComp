@@ -1,0 +1,26 @@
+---
+title: ""
+format:
+  html:
+    toc: false
+    anchor-sections: false
+---
+
+# Conteúdo 14
+
+## Geração de um Processo de Poisson Não Homogêneo
+
+Nesta aula, avançaremos para o Processo de Poisson Não Homogêneo (PPNH), onde a taxa de eventos varia com o tempo, tornando nossas simulações muito mais realistas, como o fluxo de clientes em uma loja ao longo do dia, que não é constante. Você aprenderá a gerar dados para esses cenários dinâmicos, uma habilidade essencial para modelar e resolver problemas complexos em diversas áreas, validando modelos e otimizando sistemas com base em comportamentos que realmente refletem o mundo real.
+
+Slides:
+
+- [Versão html](/slides/14-Geracao-de-um-processo-de-poisson-nao-homogeneo/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html){target="_blank"}
+
+- [Versão pdf](/PDF_slides/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.pdf){target="_blank"}
+
+
+## Dados para o Exemplo 14.2
+
+Nos slides vocês precisará do conjunto de dados abaixo:
+
+- [registros.csv](/PDF_slides/registros.csv){target="_blank"}
