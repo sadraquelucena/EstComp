@@ -1,0 +1,280 @@
+---
+title: "Resolvendo integrais difíceis com a ajuda do acaso"
+subtitle: "Método de integração de Monte Carlo"
+author:
+  name: | # indica que o campo name terá múltiplas linhas
+    ESTAT0090 -- Estatística Computacional<br>
+    Prof. Dr. Sadraque E. F. Lucena<br>
+    <span style="font-size:.8em;">sadraquelucena@academico.ufs.br</span>
+  
+format:
+  revealjs:
+    theme: meutema.scss
+    width: 1024
+    height: 768
+    margin: 0.1         # margem em torno do conteúdo
+    min-scale: 0.2       # escala mínima permitida
+    max-scale: 2.0       # escala máxima permitida
+    slide-number: true
+    code-line-numbers: false # sem número das linhas nos code chunks
+    subtitle-style: "font-size: 2em; font-weight: bold;"  # Aqui é onde aumentamos o subtítulo
+    logo: imagens/ufs_horizontal_positiva.png
+    transition: fade
+    transition-speed: fast
+    scss: meutema.scss
+
+lang: pt-BR
+
+---
+
+
+## Motivação
+
+- Na Estatística e na Ciência de Dados, muitas vezes enfrentamos problemas complexos que não têm uma solução analítica simples ou rápida.
+  - Como calcular o valor de uma integral sem solução?
+  - Como estimar o preço de um ativo financeiro que depende de milhares de cenários futuros?
+  - Como determinar a probabilidade de um evento raro, como a colisão de um asteroide com a Terra?
+- O Método de Monte Carlo é a nossa "caixa de ferramentas" para resolver esses problemas. Ele nos permite usar o poder da simulação computacional e da aleatoriedade para encontrar respostas aproximadas para questões que seriam impossíveis de resolver no papel.
+
+
+
+
+
+## Objetivos da aula
+
+- Entender a lógica por trás do Método de Monte Carlo para cálculo de integrais.
+
+
+
+
+## Resolvendo integrais por Monte Carlo
+
+- Imagine que temos a seguinte integral:
+$$
+  \int_0^1 g(x) dx
+$$
+- Se $g(x)$ for uma função simples, tipo $x^2$, a gente consegue resolver na mão:
+$$
+  \int_0^1 x^2 dx = \left[\frac{x^3}{3}\right]_0^1 = \frac{1^3}{3}-\frac{0^3}{3} = \frac{1}{3}
+$$
+- Mas se $g(x)$ for uma função super complexa, tipo $g(x) = \log(x^2+e^x)$? A coisa complica, e muito!
+- É aí que entra o Monte Carlo.
+  - A gente pode interpretar a integral como a **esperança de uma variável aleatória**.
+
+
+
+
+## Resolvendo integrais por Monte Carlo
+
+Vamos pensar numa variável aleatória $U$ que tem uma distribuição uniforme entre 0 e 1, ou seja, $U\sim$ Uniforme$(0,1)$. A esperança de uma função de $U$, $g(U)$, é dada por:
+$$
+  E[g(U)] = \int_{-\infty}^{+\infty} g(u) f_U(u) du
+$$
+
+- $f_U(u)$ seria a função densidade da Uniforme$(0,1)$, ou seja, $f(u)=1$, para $0<u<1$. Daí
+$$
+  E[g(U)] = \int_0^1 g(d) \cdot 1\, du = \int_0^1 g(u)du
+$$
+
+- Ou seja, a integral é exatamente a esperança da função $g$ aplicada a uma variável uniforme, $E[g(U)]$.
+
+
+
+
+## Resolvendo integrais por Monte Carlo
+
+Então, se queremos estimar $E[g(U)]$, o que podemos fazer é:
+  1. Gerar uma amostra grande de números aleatórios ($u_1, u_2, \ldots,u_k$) de uma distribuição uniforme entre 0 e 1.
+  2. Calcular o valor de g para cada um desses números: $g(u_1),g(u_2),\ldots,g(u_k)$.
+  3. Calcular a média desses valores.
+
+- Pela Lei dos Grandes Números, a média que a gente calcular vai se aproximar do valor verdadeiro:
+$$
+  \frac{1}{k}\sum\limits_{i=1}^k g(u_i) \longrightarrow E[g(U)]
+$$
+
+- Isso significa que, gerando muitos números aleatórios, a gente consegue uma aproximação excelente para a integral!
+
+
+
+
+
+## Exemplo 15.1
+
+Vamos calcular a integral
+$$
+  \int_0^1 (x^3 + \cos(x)) \,dx.
+$$
+
+- Vimos que calcular essa integral é o mesmo que calcular $E[U^3 + \cos(U)]$, com $U\sim$ Uniforme$(0,1)$.
+
+
+
+
+## Exemplo 15.1
+
+```{r}
+#| echo: true
+#| eval: true
+
+# Função que queremos integrar
+g <- function(u) u^3 + cos(u)
+
+# gráfico
+x <- seq(0, 1, length.out = 100)
+curve(g(x), from = 0, to = 1, ylim = c(0, 1.8), lwd = 4,
+      ylab = bquote(g(x)==x^3+cos(x)))
+segments(x0=0, y0=0, x1=0, y1=cos(0), col=2, lty=2, lwd=4)
+segments(x0=1, y0=0, x1=1, y1=1+cos(1), col=2, lty=2, lwd=4)
+abline(h=0)
+```
+
+
+
+
+## Exemplo 15.1
+
+- Integrando:
+
+```{r}
+#| echo: true
+#| eval: true
+
+# Gerando 100.000 amostras da Uniforme(0,1)
+set.seed(1234)
+u <- runif(100000, min=0, max=1)
+
+# Aplicando a função g(u) e calculando a média
+( media_monte_carlo <- mean(g(u)) )
+```
+
+- Comparando com o resultado da função `integrate`:
+```{r}
+#| echo: true
+#| eval: true
+
+integrate(g, lower = 0, upper = 1)
+```
+
+- De forma analítica, a integral é $\frac{x^4}{4} + \text{sen}(x)$, logo:
+```{r}
+#| echo: true
+#| eval: true
+
+integral <- function(x) (x^4/4) + sin(x)
+integral(1) - integral(0)
+```
+
+
+
+
+## E se a integral não for no intervalo $(a,b)$?
+
+Para intergrar $\int_a^b g(x)\, dx$, há duas formas:
+
+**Forma 1.** *Tranformação de variável para o intervalo $(0,1)$.*
+
+- Fazemos a mudança de variável
+$$u=\frac{x-a}{b-a} \Rightarrow x = a + (b-1)u$$
+  - Essa transformação leva $x\in(a,b)$ para $u\in (0,1)$. Note que $x=a \Rightarrow u=0$ e $x=b \Rightarrow u=1$.
+- Precisamos mudar também o elemento diferencial $dx$. Derivando a equação $x = a + (b-1)u$, obtemos:
+$$
+  dx = (b-a)du
+$$
+
+- Substituindo tudo na integral, temos
+$$
+  \int_a^b g(x)\,dx = \int_0^1 g\left(a+(b-a)u\right) \cdot (b-a)\, du
+$$
+
+
+
+
+## Exemplo 15.2
+
+Agora vamos integrar $\int_2^5 (x^3 + \cos(x)) \, dx$ usando a Forma 1.
+
+```{r}
+#| echo: true
+#| eval: true
+
+g <- function(u) u^3 + cos(u) # Função que queremos integrar
+
+a <- 2; b <- 5
+u <- runif(100000, min = 0, max = 1)
+
+mean( g(a+(b-a)*u) * (b-a) )
+
+```
+
+```{r}
+#| echo: true
+#| eval: true
+
+integral <- function(x) (x^4/4) + sin(x)
+integral(5) - integral(2)
+```
+
+
+
+
+## E se a integral não for no intervalo $(a,b)$?
+
+Para intergrar $\int_a^b g(x)\, dx$, há duas formas:
+
+**Forma 2.** *Usamos a esperança de uma Uniforme$(a,b)$:* Essa é a mais direta e intuitiva. Lembre-se:
+  $$
+    E[g(X)] = \int_a^b g(x) f_X(x)\, dx = \int_a^b g(x) \frac{1}{b-a} \, dx = \frac{1}{b-a}\int_a^b g(x) \, dx
+  $$
+Logo,
+$$
+  \int_a^b g(x) \, dx = (b-a) E[g(X)]
+$$
+
+- Ou seja, geramos $x_1,x_2,\ldots,x_k$ com distribuição Uniforme$(a,b)$ e calculamos
+$$
+  (b-a) \frac{1}{k} \sum\limits_{i=1}^k g(x_i).
+$$
+
+
+
+
+## Exemplo 15.2 (continuação)
+
+Agora vamos integrar $\int_2^5 (x^3 + \cos(x)) \, dx$ usando a Forma 2.
+
+```{r}
+#| echo: true
+#| eval: true
+
+a <- 2; b <- 5
+x <- runif(100000, min = a, max = b)
+
+(b-a) * mean(g(x))
+```
+
+
+
+
+## Exercício 15.1
+
+Calcule por Monte Carlo as integrais:
+
+a. $\int_0^1 e^{-x} dx$
+b. $\int_2^4 e^{-x} dx$
+c. $\int_1^3 x^2 + 3 x^2 dx$
+
+
+
+
+## Ganho da aula
+
+- Capacidade de calcular itegrais numericamente usando Monte Carlo.
+
+
+
+
+# Fim
+
+Aula baseada no material "Métodos Computacionais Aplicados à Estatística
+Implementação no Software R" de Cristiano de Carvalho Santos.

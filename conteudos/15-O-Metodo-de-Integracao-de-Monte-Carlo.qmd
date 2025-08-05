@@ -1,0 +1,20 @@
+---
+title: ""
+format:
+  html:
+    toc: false
+    anchor-sections: false
+---
+
+# Conteúdo 15
+
+## O Método de Integração de Monte Carlo
+
+Nesta aula, avançaremos para o Método de Integração de Monte Carlo, uma técnica que nos permite resolver problemas matemáticos complexos de uma forma surpreendentemente intuitiva e prática. Em vez de recorrer a cálculos analíticos complicados, vamos usar a aleatoriedade e a Lei dos Grandes Números para calcular o resultado de integrais.
+
+Slides:
+
+- [Versão html](/slides/15-O-Metodo-de-Integracao-de-Monte-Carlo/15-O-Metodo-de-Integracao-de-Monte-Carlo.html){target="_blank"}
+
+- [Versão pdf](/PDF_slides/15-O-Metodo-de-Integracao-de-Monte-Carlo.pdf){target="_blank"}
+

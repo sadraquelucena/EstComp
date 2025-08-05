@@ -10,7 +10,7 @@
   <meta name="generator" content="quarto-1.7.28">
 
   <meta name="author" content="ESTAT0090 – Estatística Computacional  Prof.&nbsp;Dr.&nbsp;Sadraque E. F. Lucena  sadraquelucena@academico.ufs.br">
-  <title>Estatística Computacional – Como simular filas reais?</title>
+  <title>Estatística Computacional – Resolvendo integrais difíceis com a ajuda do acaso</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -193,8 +193,8 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Como simular filas reais?</h1>
-  <p class="subtitle">Geração de um Processo de Poisson Não Homogêneo</p>
+  <h1 class="title">Resolvendo integrais difíceis com a ajuda do acaso</h1>
+  <p class="subtitle">Método de integração de Monte Carlo</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -205,189 +205,202 @@
 </div>
 
 </section>
-<section id="cenário" class="slide level2">
-<h2>Cenário</h2>
-<p>Você precisa simular a chegada de clientes em uma cafeteria popular, onde o fluxo de clientes não é constante ao longo do dia. De manhã cedo, quando as pessoas pegam café para o trabalho, há um ritmo; no horário de almoço, há um pico; no meio da tarde, é mais tranquilo; e, no final da tarde, antes do fechamento, há outro aumento. Você sabe que as chegadas dos clientes seguem um Processo de Poisson, mas que a taxa de chegada varia conforme o horário do dia.</p>
+<section id="motivação" class="slide level2">
+<h2>Motivação</h2>
+<ul>
+<li>Na Estatística e na Ciência de Dados, muitas vezes enfrentamos problemas complexos que não têm uma solução analítica simples ou rápida.
+<ul>
+<li>Como calcular o valor de uma integral sem solução?</li>
+<li>Como estimar o preço de um ativo financeiro que depende de milhares de cenários futuros?</li>
+<li>Como determinar a probabilidade de um evento raro, como a colisão de um asteroide com a Terra?</li>
+</ul></li>
+<li>O Método de Monte Carlo é a nossa “caixa de ferramentas” para resolver esses problemas. Ele nos permite usar o poder da simulação computacional e da aleatoriedade para encontrar respostas aproximadas para questões que seriam impossíveis de resolver no papel.</li>
+</ul>
 </section>
 <section id="objetivos-da-aula" class="slide level2">
 <h2>Objetivos da aula</h2>
 <ul>
-<li>Compreender o conceito e a necessidade de um Processo de Poisson Não Homogêneo (PPNH) para modelar taxas de chegada que variam no tempo.</li>
-<li>Entender a lógica por trás do Método de Thinning (ou Afinamento) para simular um PPNH.</li>
-<li>Aplicar o algoritmo do Método de Thinning para gerar eventos de um PPNH em um período de tempo definido.</li>
-<li>Identificar a taxa máxima (λ) e definir a função de intensidade λ(t) para a simulação de um PPNH a partir de dados ou de um cenário.</li>
-<li>Simular o fluxo de clientes em um cenário prático.</li>
+<li>Entender a lógica por trás do Método de Monte Carlo para cálculo de integrais.</li>
 </ul>
 </section>
-<section id="processo-de-poisson-não-homogêneo-ppnh" class="slide level2">
-<h2>Processo de Poisson Não Homogêneo (PPNH)</h2>
-<h3 id="método-thinning-ou-afinamento">Método Thinning (ou Afinamento)</h3>
+<section id="resolvendo-integrais-por-monte-carlo" class="slide level2">
+<h2>Resolvendo integrais por Monte Carlo</h2>
 <ul>
-<li><strong>Encontre uma taxa “máxima”:</strong> Sabendo que a taxa de chegada de clientes <span class="math inline">\(\lambda(t)\)</span> varia ao longo de todo o período <span class="math inline">\(T\)</span>, determine a maior taxa <span class="math inline">\(\lambda\)</span>.
+<li>Imagine que temos a seguinte integral: <span class="math display">\[
+\int_0^1 g(x) dx
+\]</span></li>
+<li>Se <span class="math inline">\(g(x)\)</span> for uma função simples, tipo <span class="math inline">\(x^2\)</span>, a gente consegue resolver na mão: <span class="math display">\[
+\int_0^1 x^2 dx = \left[\frac{x^3}{3}\right]_0^1 = \frac{1^3}{3}-\frac{0^3}{3} = \frac{1}{3}
+\]</span></li>
+<li>Mas se <span class="math inline">\(g(x)\)</span> for uma função super complexa, tipo <span class="math inline">\(g(x) = \log(x^2+e^x)\)</span>? A coisa complica, e muito!</li>
+<li>É aí que entra o Monte Carlo.
 <ul>
-<li>Matematicamente: <span class="math inline">\(\lambda(t) \leq \lambda\)</span> para todo <span class="math inline">\(t\leq T\)</span>.</li>
+<li>A gente pode interpretar a integral como a <strong>esperança de uma variável aleatória</strong>.</li>
 </ul></li>
-<li><strong>Gere um Processo de Poisson Homogêneo “exagerado”:</strong> Gere um Processo de Poisson “normal” (homogêneo) com essa taxa “exagerada” <span class="math inline">\(\lambda\)</span>. Esse processo vai gerar muitos eventos, alguns que você quer e outros que não.</li>
-<li><strong>Afinamento (ou seleção por amostragem):</strong> Para cada evento que ocorre nesse Processo de Poisson homogêneo na taxa <span class="math inline">\(\lambda\)</span>, você joga uma “moeda viciada”. A chance de esse evento ser “aceito” e fazer parte do seu PPNH original é dada pela razão <span class="math inline">\(\frac{\lambda(t)}{\lambda}\)</span> no momento <span class="math inline">\(t\)</span> em que ele ocorreu.
-<ul>
-<li>Se <span class="math inline">\(\lambda(t)\)</span> for alta naquele <span class="math inline">\(t\)</span>, a chance de aceitar é grande.</li>
-<li>Se <span class="math inline">\(\lambda(t)\)</span> for baixa, a chance é menor.</li>
-</ul></li>
-<li>É como se você estivesse selecionando os eventos que correspondem à sua taxa de intensidade real <span class="math inline">\(\lambda(t)\)</span>.</li>
 </ul>
 </section>
-<section id="método-thinning-ou-afinamento-1" class="slide level2">
-<h2>Método Thinning (ou Afinamento)</h2>
-<div title="Algoritmo">
-<div class="callout callout-tip no-icon callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>Algoritmo</strong></p>
-</div>
-<div class="callout-content">
-<p><strong>Passo 1:</strong> Inicialize.</p>
+<section id="resolvendo-integrais-por-monte-carlo-1" class="slide level2">
+<h2>Resolvendo integrais por Monte Carlo</h2>
+<p>Vamos pensar numa variável aleatória <span class="math inline">\(U\)</span> que tem uma distribuição uniforme entre 0 e 1, ou seja, <span class="math inline">\(U\sim\)</span> Uniforme<span class="math inline">\((0,1)\)</span>. A esperança de uma função de <span class="math inline">\(U\)</span>, <span class="math inline">\(g(U)\)</span>, é dada por: <span class="math display">\[
+  E[g(U)] = \int_{-\infty}^{+\infty} g(u) f_U(u) du
+\]</span></p>
 <ul>
-<li><code>t=0</code> (tempo atual começa em zero)</li>
-<li><code>I=0</code> (contador de eventos começa em zero)</li>
+<li><p><span class="math inline">\(f_U(u)\)</span> seria a função densidade da Uniforme<span class="math inline">\((0,1)\)</span>, ou seja, <span class="math inline">\(f(u)=1\)</span>, para <span class="math inline">\(0&lt;u&lt;1\)</span>. Daí <span class="math display">\[
+E[g(U)] = \int_0^1 g(d) \cdot 1\, du = \int_0^1 g(u)du
+\]</span></p></li>
+<li><p>Ou seja, a integral é exatamente a esperança da função <span class="math inline">\(g\)</span> aplicada a uma variável uniforme, <span class="math inline">\(E[g(U)]\)</span>.</p></li>
 </ul>
-<p><strong>Passo 2:</strong> Gere o tempo entre eventos usando a distribuição Exponencial, considerando um processo homogêneo “exagerado”.</p>
-<ul>
-<li>Se <code>t&gt;T</code>, significa que o próximo evento cairia depois do nosso tempo de simulação desejado. Então, paramos.</li>
-</ul>
-<p><strong>Passo 3:</strong> Gere <span class="math inline">\(u \sim U(0,1)\)</span>.</p>
-</div>
-</div>
-</div>
-</div>
 </section>
-<section id="método-thinning-ou-afinamento-2" class="slide level2">
-<h2>Método Thinning (ou Afinamento)</h2>
-<div title="Algoritmo (continuação)">
-<div class="callout callout-tip no-icon callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>Algoritmo (continuação)</strong></p>
-</div>
-<div class="callout-content">
-<p><strong>Passo 4:</strong> Se <span class="math inline">\(u\leq \frac{\lambda(t)}{\lambda}\)</span>, então o evento é aceito.</p>
+<section id="resolvendo-integrais-por-monte-carlo-2" class="slide level2">
+<h2>Resolvendo integrais por Monte Carlo</h2>
+<p>Então, se queremos estimar <span class="math inline">\(E[g(U)]\)</span>, o que podemos fazer é: 1. Gerar uma amostra grande de números aleatórios (<span class="math inline">\(u_1, u_2, \ldots,u_k\)</span>) de uma distribuição uniforme entre 0 e 1. 2. Calcular o valor de g para cada um desses números: <span class="math inline">\(g(u_1),g(u_2),\ldots,g(u_k)\)</span>. 3. Calcular a média desses valores.</p>
 <ul>
-<li>Incrementamos o contador de eventos: <code>I = I + 1</code>.</li>
-<li>Armazenamos o tempo do evento: <code>S[I] = t</code>. (onde <code>S[I]</code> é o tempo do<br> <span class="math inline">\(I\)</span>-ésimo evento)</li>
+<li><p>Pela Lei dos Grandes Números, a média que a gente calcular vai se aproximar do valor verdadeiro: <span class="math display">\[
+\frac{1}{k}\sum\limits_{i=1}^k g(u_i) \longrightarrow E[g(U)]
+\]</span></p></li>
+<li><p>Isso significa que, gerando muitos números aleatórios, a gente consegue uma aproximação excelente para a integral!</p></li>
 </ul>
-<p><strong>Passo 5:</strong> Volte para o Passo 2 para gerar o próximo evento do processo homogêneo.</p>
-</div>
-</div>
-</div>
-</div>
 </section>
-<section id="exemplo-14.1" class="slide level2">
-<h2>Exemplo 14.1</h2>
-<p>Suponha que uma cafeteria abre das 08h às 20h, com as seguintes taxas por hora:</p>
+<section id="exemplo-15.1" class="slide level2">
+<h2>Exemplo 15.1</h2>
+<p>Vamos calcular a integral <span class="math display">\[
+  \int_0^1 (x^3 + \cos(x)) \,dx.
+\]</span></p>
 <ul>
-<li>08h-09h (primeira hora): 1 cliente por hora</li>
-<li>09h-10h (segunda hora): 2 clientes por hora</li>
-<li>10h-11h (terceira hora): 3 clientes por hora</li>
-<li>11h-12h (quarta hora): 4 clientes por hora</li>
-<li>12h-13h (quinta hora): 5 clientes por hora</li>
-<li>13h-20h (demais horas): 10 clientes por hora</li>
+<li>Vimos que calcular essa integral é o mesmo que calcular <span class="math inline">\(E[U^3 + \cos(U)]\)</span>, com <span class="math inline">\(U\sim\)</span> Uniforme<span class="math inline">\((0,1)\)</span>.</li>
 </ul>
-<p>Simule o fluxo de clientes em um dia.</p>
 </section>
-<section id="exemplo-14.1-1" class="slide level2">
-<h2>Exemplo 14.1</h2>
+<section id="exemplo-15.1-1" class="slide level2">
+<h2>Exemplo 15.1</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a aria-hidden="true" tabindex="-1"></a><span class="co"># Função que define o valor de lambda de acordo com a hora</span></span>
-<span id="cb1-2"><a aria-hidden="true" tabindex="-1"></a>lambdat <span class="ot">&lt;-</span> <span class="cf">function</span>(t){</span>
-<span id="cb1-3"><a aria-hidden="true" tabindex="-1"></a>  t <span class="ot">&lt;-</span> <span class="fu">trunc</span>(t)</span>
-<span id="cb1-4"><a aria-hidden="true" tabindex="-1"></a>  lambda <span class="ot">&lt;-</span> <span class="fu">ifelse</span>(t <span class="sc">&lt;</span> <span class="dv">1</span>, <span class="dv">1</span>,</span>
-<span id="cb1-5"><a aria-hidden="true" tabindex="-1"></a>                   <span class="fu">ifelse</span>(t <span class="sc">&lt;</span> <span class="dv">2</span>, <span class="dv">2</span>,</span>
-<span id="cb1-6"><a aria-hidden="true" tabindex="-1"></a>                          <span class="fu">ifelse</span>(t <span class="sc">&lt;</span> <span class="dv">3</span>, <span class="dv">3</span>,</span>
-<span id="cb1-7"><a aria-hidden="true" tabindex="-1"></a>                                 <span class="fu">ifelse</span>(t <span class="sc">&lt;</span> <span class="dv">4</span>, <span class="dv">4</span>,</span>
-<span id="cb1-8"><a aria-hidden="true" tabindex="-1"></a>                                        <span class="fu">ifelse</span>(t <span class="sc">&lt;</span> <span class="dv">5</span>, <span class="dv">5</span>, <span class="dv">10</span>)))))</span>
-<span id="cb1-9"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(lambda)</span>
-<span id="cb1-10"><a aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section>
-<section id="exemplo-14.1-2" class="slide level2">
-<h2>Exemplo 14.1</h2>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a aria-hidden="true" tabindex="-1"></a><span class="co"># Função que simula o processo de Poisson</span></span>
-<span id="cb2-2"><a aria-hidden="true" tabindex="-1"></a>ppnh <span class="ot">&lt;-</span> <span class="cf">function</span>(lambda_t, lambda, <span class="at">T =</span> <span class="dv">12</span>){ <span class="co"># T = 12: loja 12h aberta</span></span>
-<span id="cb2-3"><a aria-hidden="true" tabindex="-1"></a>  t <span class="ot">&lt;-</span> <span class="dv">0</span>; I <span class="ot">&lt;-</span> <span class="dv">0</span>; S <span class="ot">&lt;-</span> <span class="fu">vector</span>()</span>
-<span id="cb2-4"><a aria-hidden="true" tabindex="-1"></a>  <span class="cf">repeat</span>{</span>
-<span id="cb2-5"><a aria-hidden="true" tabindex="-1"></a>    t <span class="ot">&lt;-</span> t <span class="sc">+</span> <span class="fu">rexp</span>(<span class="dv">1</span>, lambda) <span class="co"># incrementando o tempo até nova chegada</span></span>
-<span id="cb2-6"><a aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span>(t <span class="sc">&gt;</span> T)    <span class="co"># se o tempo t é maior que o tempo total T</span></span>
-<span id="cb2-7"><a aria-hidden="true" tabindex="-1"></a>      <span class="cf">break</span>      <span class="co"># sai do laço</span></span>
-<span id="cb2-8"><a aria-hidden="true" tabindex="-1"></a>    u <span class="ot">&lt;-</span> <span class="fu">runif</span>(<span class="dv">1</span>)</span>
-<span id="cb2-9"><a aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span>(u <span class="sc">&lt;=</span> <span class="fu">lambda_t</span>(t)<span class="sc">/</span>lambda){</span>
-<span id="cb2-10"><a aria-hidden="true" tabindex="-1"></a>      I <span class="ot">&lt;-</span> I <span class="sc">+</span> <span class="dv">1</span>  <span class="co"># incrementa o contador de eventos</span></span>
-<span id="cb2-11"><a aria-hidden="true" tabindex="-1"></a>      S[I] <span class="ot">&lt;-</span> t   <span class="co"># registra o tempo do evento</span></span>
-<span id="cb2-12"><a aria-hidden="true" tabindex="-1"></a>    }</span>
-<span id="cb2-13"><a aria-hidden="true" tabindex="-1"></a>  }</span>
-<span id="cb2-14"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">cat</span>(<span class="st">"Número de eventos:"</span>, I,<span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span>
-<span id="cb2-15"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(S)</span>
-<span id="cb2-16"><a aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section>
-<section id="exemplo-14.1-3" class="slide level2">
-<h2>Exemplo 14.1</h2>
-<ul>
-<li>Como a maior taxa é 10, vamos usar <code>lambda = 10</code>.</li>
-</ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">1234</span>)</span>
-<span id="cb3-2"><a aria-hidden="true" tabindex="-1"></a>tempos1 <span class="ot">&lt;-</span> <span class="fu">ppnh</span>(<span class="at">lambda_t =</span> lambdat, <span class="at">lambda =</span> <span class="dv">10</span>)</span>
-<span id="cb3-3"><a aria-hidden="true" tabindex="-1"></a>tempos2 <span class="ot">&lt;-</span> <span class="fu">ppnh</span>(<span class="at">lambda_t =</span> lambdat, <span class="at">lambda =</span> <span class="dv">10</span>)</span>
-<span id="cb3-4"><a aria-hidden="true" tabindex="-1"></a>tempos3 <span class="ot">&lt;-</span> <span class="fu">ppnh</span>(<span class="at">lambda_t =</span> lambdat, <span class="at">lambda =</span> <span class="dv">10</span>)</span>
-<span id="cb3-5"><a aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-6"><a aria-hidden="true" tabindex="-1"></a><span class="co"># convertendo o tempo para as horas que a loja está aberta</span></span>
-<span id="cb3-7"><a aria-hidden="true" tabindex="-1"></a>tempos1 <span class="ot">&lt;-</span> tempos1 <span class="sc">+</span> <span class="dv">8</span></span>
-<span id="cb3-8"><a aria-hidden="true" tabindex="-1"></a>tempos2 <span class="ot">&lt;-</span> tempos2 <span class="sc">+</span> <span class="dv">8</span></span>
-<span id="cb3-9"><a aria-hidden="true" tabindex="-1"></a>tempos3 <span class="ot">&lt;-</span> tempos3 <span class="sc">+</span> <span class="dv">8</span></span>
-<span id="cb3-10"><a aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-11"><a aria-hidden="true" tabindex="-1"></a><span class="fu">par</span>(<span class="at">mar=</span><span class="fu">c</span>(<span class="dv">5</span>,<span class="dv">0</span>,<span class="dv">0</span>,<span class="dv">0</span>))</span>
-<span id="cb3-12"><a aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(<span class="fu">c</span>(tempos1, tempos2, tempos3),</span>
-<span id="cb3-13"><a aria-hidden="true" tabindex="-1"></a>     <span class="fu">c</span>(<span class="fu">rep</span>(<span class="dv">2</span>, <span class="fu">length</span>(tempos1)), <span class="fu">rep</span>(<span class="dv">1</span>, <span class="fu">length</span>(tempos2)),</span>
-<span id="cb3-14"><a aria-hidden="true" tabindex="-1"></a>       <span class="fu">rep</span>(<span class="dv">0</span>, <span class="fu">length</span>(tempos3))), <span class="at">axes =</span> F, <span class="at">ylim =</span> <span class="fu">c</span>(<span class="sc">-</span><span class="dv">1</span>, <span class="dv">3</span>),</span>
-<span id="cb3-15"><a aria-hidden="true" tabindex="-1"></a>     <span class="at">xlim =</span> <span class="fu">c</span>(<span class="dv">8</span>, <span class="dv">20</span>), <span class="at">ylab =</span> <span class="st">""</span>,</span>
-<span id="cb3-16"><a aria-hidden="true" tabindex="-1"></a>     <span class="at">xlab =</span> <span class="st">"Tempo de ocorrência"</span>, <span class="at">pch =</span> <span class="dv">16</span>)</span>
-<span id="cb3-17"><a aria-hidden="true" tabindex="-1"></a><span class="fu">segments</span>(<span class="at">x0 =</span> <span class="dv">8</span>, <span class="at">y0 =</span> <span class="dv">2</span>, <span class="at">x1 =</span> <span class="dv">20</span>, <span class="at">y1 =</span> <span class="dv">2</span>, <span class="at">col =</span> <span class="dv">4</span>)</span>
-<span id="cb3-18"><a aria-hidden="true" tabindex="-1"></a><span class="fu">segments</span>(<span class="at">x0 =</span> <span class="dv">8</span>, <span class="at">y0 =</span> <span class="dv">1</span>, <span class="at">x1 =</span> <span class="dv">20</span>, <span class="at">y1 =</span> <span class="dv">1</span>, <span class="at">col =</span> <span class="dv">4</span>)</span>
-<span id="cb3-19"><a aria-hidden="true" tabindex="-1"></a><span class="fu">segments</span>(<span class="at">x0 =</span> <span class="dv">8</span>, <span class="at">y0 =</span> <span class="dv">0</span>, <span class="at">x1 =</span> <span class="dv">20</span>, <span class="at">y1 =</span> <span class="dv">0</span>, <span class="at">col =</span> <span class="dv">4</span>)</span>
-<span id="cb3-20"><a aria-hidden="true" tabindex="-1"></a><span class="fu">axis</span>(<span class="dv">1</span>, <span class="at">at =</span> <span class="fu">seq</span>(<span class="dv">8</span>,<span class="dv">20</span>,<span class="dv">2</span>))</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section>
-<section id="exemplo-14.1-4" class="slide level2">
-<h2>Exemplo 14.1</h2>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>Número de eventos: 92 </code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>Número de eventos: 73 </code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>Número de eventos: 76 </code></pre>
-</div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a aria-hidden="true" tabindex="-1"></a><span class="co"># Função que queremos integrar</span></span>
+<span id="cb1-2"><a aria-hidden="true" tabindex="-1"></a>g <span class="ot">&lt;-</span> <span class="cf">function</span>(u) u<span class="sc">^</span><span class="dv">3</span> <span class="sc">+</span> <span class="fu">cos</span>(u)</span>
+<span id="cb1-3"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a aria-hidden="true" tabindex="-1"></a><span class="co"># gráfico</span></span>
+<span id="cb1-5"><a aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="fu">seq</span>(<span class="dv">0</span>, <span class="dv">1</span>, <span class="at">length.out =</span> <span class="dv">100</span>)</span>
+<span id="cb1-6"><a aria-hidden="true" tabindex="-1"></a><span class="fu">curve</span>(<span class="fu">g</span>(x), <span class="at">from =</span> <span class="dv">0</span>, <span class="at">to =</span> <span class="dv">1</span>, <span class="at">ylim =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="fl">1.8</span>), <span class="at">lwd =</span> <span class="dv">4</span>,</span>
+<span id="cb1-7"><a aria-hidden="true" tabindex="-1"></a>      <span class="at">ylab =</span> <span class="fu">bquote</span>(<span class="fu">g</span>(x)<span class="sc">==</span>x<span class="sc">^</span><span class="dv">3</span><span class="sc">+</span><span class="fu">cos</span>(x)))</span>
+<span id="cb1-8"><a aria-hidden="true" tabindex="-1"></a><span class="fu">segments</span>(<span class="at">x0=</span><span class="dv">0</span>, <span class="at">y0=</span><span class="dv">0</span>, <span class="at">x1=</span><span class="dv">0</span>, <span class="at">y1=</span><span class="fu">cos</span>(<span class="dv">0</span>), <span class="at">col=</span><span class="dv">2</span>, <span class="at">lty=</span><span class="dv">2</span>, <span class="at">lwd=</span><span class="dv">4</span>)</span>
+<span id="cb1-9"><a aria-hidden="true" tabindex="-1"></a><span class="fu">segments</span>(<span class="at">x0=</span><span class="dv">1</span>, <span class="at">y0=</span><span class="dv">0</span>, <span class="at">x1=</span><span class="dv">1</span>, <span class="at">y1=</span><span class="dv">1</span><span class="sc">+</span><span class="fu">cos</span>(<span class="dv">1</span>), <span class="at">col=</span><span class="dv">2</span>, <span class="at">lty=</span><span class="dv">2</span>, <span class="at">lwd=</span><span class="dv">4</span>)</span>
+<span id="cb1-10"><a aria-hidden="true" tabindex="-1"></a><span class="fu">abline</span>(<span class="at">h=</span><span class="dv">0</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
-<img data-src="14-Geracao-de-um-processo-de-poisson-nao-homogeneo_files/figure-revealjs/unnamed-chunk-4-1.png" width="960" class="r-stretch"></section>
-<section id="eficiência-do-thinning-ou-afinamento" class="slide level2">
-<h2>Eficiência do Thinning (ou Afinamento)</h2>
+<img data-src="15-O-Metodo-de-Integracao-de-Monte-Carlo_files/figure-revealjs/unnamed-chunk-1-1.png" width="960" class="r-stretch"></section>
+<section id="exemplo-15.1-2" class="slide level2">
+<h2>Exemplo 15.1</h2>
 <ul>
-<li>Se os valores de <span class="math inline">\(\lambda(t)\)</span> estiverem próximos de <span class="math inline">\(\lambda\)</span> durante todo o intervalo, o algoritmo é mais eficiente.</li>
-<li>Isso porque se <span class="math inline">\(\lambda\)</span> for muito maior que a maioria dos valores de <span class="math inline">\(\lambda(t)\)</span>, você vai gerar muitos eventos do processo homogêneo que serão “rejeitados” no Passo 4.</li>
-<li>Existem alternativas a esse algoritmo que visam diminuir o número de eventos rejeitados e diminuir o custo computacional.</li>
+<li>Integrando:</li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a aria-hidden="true" tabindex="-1"></a><span class="co"># Gerando 100.000 amostras da Uniforme(0,1)</span></span>
+<span id="cb2-2"><a aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">1234</span>)</span>
+<span id="cb2-3"><a aria-hidden="true" tabindex="-1"></a>u <span class="ot">&lt;-</span> <span class="fu">runif</span>(<span class="dv">100000</span>, <span class="at">min=</span><span class="dv">0</span>, <span class="at">max=</span><span class="dv">1</span>)</span>
+<span id="cb2-4"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-5"><a aria-hidden="true" tabindex="-1"></a><span class="co"># Aplicando a função g(u) e calculando a média</span></span>
+<span id="cb2-6"><a aria-hidden="true" tabindex="-1"></a>( media_monte_carlo <span class="ot">&lt;-</span> <span class="fu">mean</span>(<span class="fu">g</span>(u)) )</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 1.091724</code></pre>
+</div>
+</div>
+<ul>
+<li>Comparando com o resultado da função <code>integrate</code>:</li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a aria-hidden="true" tabindex="-1"></a><span class="fu">integrate</span>(g, <span class="at">lower =</span> <span class="dv">0</span>, <span class="at">upper =</span> <span class="dv">1</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>1.091471 with absolute error &lt; 1.2e-14</code></pre>
+</div>
+</div>
+<ul>
+<li>De forma analítica, a integral é <span class="math inline">\(\frac{x^4}{4} + \text{sen}(x)\)</span>, logo:</li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a aria-hidden="true" tabindex="-1"></a>integral <span class="ot">&lt;-</span> <span class="cf">function</span>(x) (x<span class="sc">^</span><span class="dv">4</span><span class="sc">/</span><span class="dv">4</span>) <span class="sc">+</span> <span class="fu">sin</span>(x)</span>
+<span id="cb6-2"><a aria-hidden="true" tabindex="-1"></a><span class="fu">integral</span>(<span class="dv">1</span>) <span class="sc">-</span> <span class="fu">integral</span>(<span class="dv">0</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 1.091471</code></pre>
+</div>
+</div>
+</section>
+<section id="e-se-a-integral-não-for-no-intervalo-ab" class="slide level2">
+<h2>E se a integral não for no intervalo <span class="math inline">\((a,b)\)</span>?</h2>
+<p>Para intergrar <span class="math inline">\(\int_a^b g(x)\, dx\)</span>, há duas formas:</p>
+<p><strong>Forma 1.</strong> <em>Tranformação de variável para o intervalo <span class="math inline">\((0,1)\)</span>.</em></p>
+<ul>
+<li><p>Fazemos a mudança de variável <span class="math display">\[u=\frac{x-a}{b-a} \Rightarrow x = a + (b-1)u\]</span></p>
+<ul>
+<li>Essa transformação leva <span class="math inline">\(x\in(a,b)\)</span> para <span class="math inline">\(u\in (0,1)\)</span>. Note que <span class="math inline">\(x=a \Rightarrow u=0\)</span> e <span class="math inline">\(x=b \Rightarrow u=1\)</span>.</li>
+</ul></li>
+<li><p>Precisamos mudar também o elemento diferencial <span class="math inline">\(dx\)</span>. Derivando a equação <span class="math inline">\(x = a + (b-1)u\)</span>, obtemos: <span class="math display">\[
+dx = (b-a)du
+\]</span></p></li>
+<li><p>Substituindo tudo na integral, temos <span class="math display">\[
+\int_a^b g(x)\,dx = \int_0^1 g\left(a+(b-a)u\right) \cdot (b-a)\, du
+\]</span></p></li>
 </ul>
 </section>
-<section id="exercício-14.1" class="slide level2">
-<h2>Exercício 14.1</h2>
-<p>O arquivo <code>registros.csv</code> contém os horários exatos em que os clientes de uma agência bancária pegaram uma senha para atendimento no caixa em uma segunda-feira típica. Use os registros para simular o fluxo de entrada dos clientes em uma segunda-feira típica.</p>
+<section id="exemplo-15.2" class="slide level2">
+<h2>Exemplo 15.2</h2>
+<p>Agora vamos integrar <span class="math inline">\(\int_2^5 (x^3 + \cos(x)) \, dx\)</span> usando a Forma 1.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a aria-hidden="true" tabindex="-1"></a>g <span class="ot">&lt;-</span> <span class="cf">function</span>(u) u<span class="sc">^</span><span class="dv">3</span> <span class="sc">+</span> <span class="fu">cos</span>(u) <span class="co"># Função que queremos integrar</span></span>
+<span id="cb8-2"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-3"><a aria-hidden="true" tabindex="-1"></a>a <span class="ot">&lt;-</span> <span class="dv">2</span>; b <span class="ot">&lt;-</span> <span class="dv">5</span></span>
+<span id="cb8-4"><a aria-hidden="true" tabindex="-1"></a>u <span class="ot">&lt;-</span> <span class="fu">runif</span>(<span class="dv">100000</span>, <span class="at">min =</span> <span class="dv">0</span>, <span class="at">max =</span> <span class="dv">1</span>)</span>
+<span id="cb8-5"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-6"><a aria-hidden="true" tabindex="-1"></a><span class="fu">mean</span>( <span class="fu">g</span>(a<span class="sc">+</span>(b<span class="sc">-</span>a)<span class="sc">*</span>u) <span class="sc">*</span> (b<span class="sc">-</span>a) )</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 150.2645</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a aria-hidden="true" tabindex="-1"></a>integral <span class="ot">&lt;-</span> <span class="cf">function</span>(x) (x<span class="sc">^</span><span class="dv">4</span><span class="sc">/</span><span class="dv">4</span>) <span class="sc">+</span> <span class="fu">sin</span>(x)</span>
+<span id="cb10-2"><a aria-hidden="true" tabindex="-1"></a><span class="fu">integral</span>(<span class="dv">5</span>) <span class="sc">-</span> <span class="fu">integral</span>(<span class="dv">2</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 150.3818</code></pre>
+</div>
+</div>
+</section>
+<section id="e-se-a-integral-não-for-no-intervalo-ab-1" class="slide level2">
+<h2>E se a integral não for no intervalo <span class="math inline">\((a,b)\)</span>?</h2>
+<p>Para intergrar <span class="math inline">\(\int_a^b g(x)\, dx\)</span>, há duas formas:</p>
+<p><strong>Forma 2.</strong> <em>Usamos a esperança de uma Uniforme<span class="math inline">\((a,b)\)</span>:</em> Essa é a mais direta e intuitiva. Lembre-se: <span class="math display">\[
+    E[g(X)] = \int_a^b g(x) f_X(x)\, dx = \int_a^b g(x) \frac{1}{b-a} \, dx = \frac{1}{b-a}\int_a^b g(x) \, dx
+  \]</span> Logo, <span class="math display">\[
+  \int_a^b g(x) \, dx = (b-a) E[g(X)]
+\]</span></p>
+<ul>
+<li>Ou seja, geramos <span class="math inline">\(x_1,x_2,\ldots,x_k\)</span> com distribuição Uniforme<span class="math inline">\((a,b)\)</span> e calculamos <span class="math display">\[
+(b-a) \frac{1}{k} \sum\limits_{i=1}^k g(x_i).
+\]</span></li>
+</ul>
+</section>
+<section id="exemplo-15.2-continuação" class="slide level2">
+<h2>Exemplo 15.2 (continuação)</h2>
+<p>Agora vamos integrar <span class="math inline">\(\int_2^5 (x^3 + \cos(x)) \, dx\)</span> usando a Forma 2.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a aria-hidden="true" tabindex="-1"></a>a <span class="ot">&lt;-</span> <span class="dv">2</span>; b <span class="ot">&lt;-</span> <span class="dv">5</span></span>
+<span id="cb12-2"><a aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="fu">runif</span>(<span class="dv">100000</span>, <span class="at">min =</span> a, <span class="at">max =</span> b)</span>
+<span id="cb12-3"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-4"><a aria-hidden="true" tabindex="-1"></a>(b<span class="sc">-</span>a) <span class="sc">*</span> <span class="fu">mean</span>(<span class="fu">g</span>(x))</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 150.1721</code></pre>
+</div>
+</div>
+</section>
+<section id="exercício-15.1" class="slide level2">
+<h2>Exercício 15.1</h2>
+<p>Calcule por Monte Carlo as integrais:</p>
+<ol type="a">
+<li><span class="math inline">\(\int_0^1 e^{-x} dx\)</span></li>
+<li><span class="math inline">\(\int_2^4 e^{-x} dx\)</span></li>
+<li><span class="math inline">\(\int_1^3 x^2 + 3 x^2 dx\)</span></li>
+</ol>
 </section>
 <section id="ganho-da-aula" class="slide level2">
 <h2>Ganho da aula</h2>
 <ul>
-<li>Capacidade de simular situações do dia a dia onde a demanda varia.</li>
+<li>Capacidade de calcular itegrais numericamente usando Monte Carlo.</li>
 </ul>
 </section>
 <section id="fim" class="title-slide slide level1 center">

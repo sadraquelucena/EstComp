@@ -220,136 +220,176 @@
     ]
   },
   {
-    "objectID": "conteudos/2-Introducao_ao_RStudio+GitHub.html",
-    "href": "conteudos/2-Introducao_ao_RStudio+GitHub.html",
-    "title": "Conteúdo 2",
+    "objectID": "conteudos/13-Geracao-de-um-processo-de-poisson.html",
+    "href": "conteudos/13-Geracao-de-um-processo-de-poisson.html",
+    "title": "Conteúdo 13",
     "section": "",
-    "text": "Como garantir que um trabalho estatístico seja organizado, reproduzível e protegido contra erros? A aula parte desse problema para apresentar o ambiente RStudio e as ferramentas Git e GitHub. A atividade será vivenciada de forma prática, onde será necessário versionar projetos e colaborar com colegas. Ao longo da aula, será possível aprender a integrar o RStudio com o Git e a criar repositórios no GitHub, desenvolvendo habilidades essenciais para o mercado de trabalho em Estatística e Ciência de Dados.\n\nVersão html\nVersão pdf",
+    "text": "Nesta aula, você aprenderá e aplicará duas abordagens para simular um Processo de Poisson: uma baseada na geração dos tempos entre eventos (distribuição Exponencial) e outra na simulação do número total de eventos no intervalo (distribuição de Poisson + uniformes). Ao dominar essas técnicas, você será capaz de modelar e gerar dados para fenômenos onde eventos ocorrem aleatoriamente ao longo do tempo – como falhas, chamadas, pagamentos ou chegadas. Essa habilidade é fundamental para validar modelos estatísticos, desenvolver sistemas de simulação e resolver problemas reais em ciência de dados, engenharia, finanças e além.\nSlides:\n\nVersão html\nVersão pdf",
     "crumbs": [
       "Material das aulas",
-      "2- Introdução ao RStudio + GitHub"
+      "13- Geração de um processo de Poisson homogêneo"
     ]
   },
   {
-    "objectID": "conteudos/2-Introducao_ao_RStudio+GitHub.html#introdução-ao-rstudio-github",
-    "href": "conteudos/2-Introducao_ao_RStudio+GitHub.html#introdução-ao-rstudio-github",
-    "title": "Conteúdo 2",
+    "objectID": "conteudos/13-Geracao-de-um-processo-de-poisson.html#geração-de-um-processo-de-poisson",
+    "href": "conteudos/13-Geracao-de-um-processo-de-poisson.html#geração-de-um-processo-de-poisson",
+    "title": "Conteúdo 13",
     "section": "",
-    "text": "Como garantir que um trabalho estatístico seja organizado, reproduzível e protegido contra erros? A aula parte desse problema para apresentar o ambiente RStudio e as ferramentas Git e GitHub. A atividade será vivenciada de forma prática, onde será necessário versionar projetos e colaborar com colegas. Ao longo da aula, será possível aprender a integrar o RStudio com o Git e a criar repositórios no GitHub, desenvolvendo habilidades essenciais para o mercado de trabalho em Estatística e Ciência de Dados.\n\nVersão html\nVersão pdf",
+    "text": "Nesta aula, você aprenderá e aplicará duas abordagens para simular um Processo de Poisson: uma baseada na geração dos tempos entre eventos (distribuição Exponencial) e outra na simulação do número total de eventos no intervalo (distribuição de Poisson + uniformes). Ao dominar essas técnicas, você será capaz de modelar e gerar dados para fenômenos onde eventos ocorrem aleatoriamente ao longo do tempo – como falhas, chamadas, pagamentos ou chegadas. Essa habilidade é fundamental para validar modelos estatísticos, desenvolver sistemas de simulação e resolver problemas reais em ciência de dados, engenharia, finanças e além.\nSlides:\n\nVersão html\nVersão pdf",
     "crumbs": [
       "Material das aulas",
-      "2- Introdução ao RStudio + GitHub"
+      "13- Geração de um processo de Poisson homogêneo"
     ]
   },
   {
-    "objectID": "info/bibliografia.html",
-    "href": "info/bibliografia.html",
+    "objectID": "conteudos/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html",
+    "href": "conteudos/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html",
+    "title": "Conteúdo 14",
+    "section": "",
+    "text": "Nesta aula, avançaremos para o Processo de Poisson Não Homogêneo (PPNH), onde a taxa de eventos varia com o tempo, tornando nossas simulações muito mais realistas, como o fluxo de clientes em uma loja ao longo do dia, que não é constante. Você aprenderá a gerar dados para esses cenários dinâmicos, uma habilidade essencial para modelar e resolver problemas complexos em diversas áreas, validando modelos e otimizando sistemas com base em comportamentos que realmente refletem o mundo real.\nSlides:\n\nVersão html\nVersão pdf\n\n\n\n\nNos slides vocês precisará do conjunto de dados abaixo:\n\nregistros.csv",
+    "crumbs": [
+      "Material das aulas",
+      "14- Geração de um processo de Poisson não homogêneo"
+    ]
+  },
+  {
+    "objectID": "conteudos/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#geração-de-um-processo-de-poisson-não-homogêneo",
+    "href": "conteudos/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#geração-de-um-processo-de-poisson-não-homogêneo",
+    "title": "Conteúdo 14",
+    "section": "",
+    "text": "Nesta aula, avançaremos para o Processo de Poisson Não Homogêneo (PPNH), onde a taxa de eventos varia com o tempo, tornando nossas simulações muito mais realistas, como o fluxo de clientes em uma loja ao longo do dia, que não é constante. Você aprenderá a gerar dados para esses cenários dinâmicos, uma habilidade essencial para modelar e resolver problemas complexos em diversas áreas, validando modelos e otimizando sistemas com base em comportamentos que realmente refletem o mundo real.\nSlides:\n\nVersão html\nVersão pdf",
+    "crumbs": [
+      "Material das aulas",
+      "14- Geração de um processo de Poisson não homogêneo"
+    ]
+  },
+  {
+    "objectID": "conteudos/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#dados-para-o-exemplo-14.2",
+    "href": "conteudos/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#dados-para-o-exemplo-14.2",
+    "title": "Conteúdo 14",
+    "section": "",
+    "text": "Nos slides vocês precisará do conjunto de dados abaixo:\n\nregistros.csv",
+    "crumbs": [
+      "Material das aulas",
+      "14- Geração de um processo de Poisson não homogêneo"
+    ]
+  },
+  {
+    "objectID": "info/dados_gerais.html",
+    "href": "info/dados_gerais.html",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "DE ALMEIDA, Pedro Quaresma. Introduçao ao LATEX. Escolar Editora, 1996.\nRUBINSTEIN, Reuven Y; KROESE, Dirk P. Simulation and Monte Carlo method. 2nd ed. New Jersey, Estados Unidos: Wiley-Interscience, 2008.\nDAVISON, A. C; HINKLEY, D. V. Bootstrap methods and their application. New York, Estados Unidos: Cambridge University Press, 1997.\nEFRON, Bradley; TIBSHIRANI, Robert. An introduction to the bootstrap. Boca Raton, Estados Unidos: Chapman & Hall/CRC, 1994.\nVERZANI, John. Using R for introductory statistics. Boca Raton, Estados Unidos: Chapman & Hall/CRC, 2005.\n\n\n\n\n\nRIZZO, Maria L. Statistical computing with R. CRC Press, 2019.\nGIVENS, Geof H.; HOETING, Jennifer A. Computational statistics. John Wiley & Sons, 2012.",
+    "text": "Componente curricular:\nESTAT0090 - Estatística Computacional\nDisciplina obrigatória para o curso de Estatística da Universidade Federal de Sergipe",
     "crumbs": [
       "Informações da disciplina",
-      "Bibliografia"
+      "Dados gerais"
     ]
   },
   {
-    "objectID": "info/bibliografia.html#bibliografia",
-    "href": "info/bibliografia.html#bibliografia",
+    "objectID": "info/dados_gerais.html#dados-gerais-da-disciplina",
+    "href": "info/dados_gerais.html#dados-gerais-da-disciplina",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "DE ALMEIDA, Pedro Quaresma. Introduçao ao LATEX. Escolar Editora, 1996.\nRUBINSTEIN, Reuven Y; KROESE, Dirk P. Simulation and Monte Carlo method. 2nd ed. New Jersey, Estados Unidos: Wiley-Interscience, 2008.\nDAVISON, A. C; HINKLEY, D. V. Bootstrap methods and their application. New York, Estados Unidos: Cambridge University Press, 1997.\nEFRON, Bradley; TIBSHIRANI, Robert. An introduction to the bootstrap. Boca Raton, Estados Unidos: Chapman & Hall/CRC, 1994.\nVERZANI, John. Using R for introductory statistics. Boca Raton, Estados Unidos: Chapman & Hall/CRC, 2005.\n\n\n\n\n\nRIZZO, Maria L. Statistical computing with R. CRC Press, 2019.\nGIVENS, Geof H.; HOETING, Jennifer A. Computational statistics. John Wiley & Sons, 2012.",
+    "text": "Componente curricular:\nESTAT0090 - Estatística Computacional\nDisciplina obrigatória para o curso de Estatística da Universidade Federal de Sergipe",
     "crumbs": [
       "Informações da disciplina",
-      "Bibliografia"
+      "Dados gerais"
     ]
   },
   {
-    "objectID": "info/softwares.html",
-    "href": "info/softwares.html",
+    "objectID": "info/dados_gerais.html#informações-da-disciplina",
+    "href": "info/dados_gerais.html#informações-da-disciplina",
+    "title": "Estatística Computacional",
+    "section": "Informações da Disciplina",
+    "text": "Informações da Disciplina\n\nCarga Horária: 60 horas (4 créditos)\nUnidade Responsável: Departamento de Estatística e Ciências Atuariais (DECAT)\nDocente Responsável: Prof. Dr. Sadraque E. F. Lucena\nPeríodo Letivo: 2025-1\nPlano de Ensino da Disciplina: pdf",
+    "crumbs": [
+      "Informações da disciplina",
+      "Dados gerais"
+    ]
+  },
+  {
+    "objectID": "info/dados_gerais.html#horários-das-aulas",
+    "href": "info/dados_gerais.html#horários-das-aulas",
+    "title": "Estatística Computacional",
+    "section": "Horários das Aulas",
+    "text": "Horários das Aulas\nAs aulas ocorrerão nos seguintes horários:\n\nTerças: 19h00 às 20h30 no LEA01 (Laboratório de Informática 01 do DECAT)\nQuintas: 20h45 às 22h15 no LEA02 (Laboratório de Informática 02 do DECAT)",
+    "crumbs": [
+      "Informações da disciplina",
+      "Dados gerais"
+    ]
+  },
+  {
+    "objectID": "info/dados_gerais.html#avaliações",
+    "href": "info/dados_gerais.html#avaliações",
+    "title": "Estatística Computacional",
+    "section": "Avaliações",
+    "text": "Avaliações\nA disciplina contará com 3 avaliações distribuídas ao longo do semestre nas seguintes datas:\n\nAvaliação 1: 17/06/2025 (terça)\nAvaliação 2: 29/07/2025 (terça)\nAvaliação 3: 02/09/2025 (terça)",
+    "crumbs": [
+      "Informações da disciplina",
+      "Dados gerais"
+    ]
+  },
+  {
+    "objectID": "info/dados_gerais.html#não-haverá-aula",
+    "href": "info/dados_gerais.html#não-haverá-aula",
+    "title": "Estatística Computacional",
+    "section": "Não haverá aula",
+    "text": "Não haverá aula\n\n19/06/2025: Corpus Christi (ponto facultativo)\n24/06/2025: Sâo João (feriado municipal)\n08/07/2025: Independência de Sergipe (feriado estadual)",
+    "crumbs": [
+      "Informações da disciplina",
+      "Dados gerais"
+    ]
+  },
+  {
+    "objectID": "info/cronograma.html",
+    "href": "info/cronograma.html",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "Para acompanhar as atividades da disciplina, será necessário instalar os softwares listados abaixo. Todos são gratuitos e amplamente utilizados nas áreas de Estatística e Ciência de Dados:\n\n\n\nR é um ambiente computacional gratuito voltado para análises estatísticas e produção de visualizações gráficas. Link\n\n\n\nO RStudio consiste em um ambiente de desenvolvimento integrado (IDE) projetado para aumentar a produtividade no uso da linguagem R, oferecendo ferramentas especializadas para programação, depuração e visualização de dados. Link\n\n\n\nQuarto é um sistema de publicação técnico-científica de código aberto que integra análise computacional (Python, R, Julia) e produção de documentos dinâmicos em múltiplos formatos (HTML, PDF, Word). Combina escrita em Markdown com recursos avançados para equações, citações e visualizações reprodutíveis. Link\n\n\n\nMiKTeX é uma distribuição moderna do sistema TeX/LaTeX para ambiente Windows, fornecendo um conjunto completo de ferramentas para editoração técnica e científica de alta qualidade. Link\n\n\n\nTeXstudio é um ambiente integrado de edição para documentos LaTeX, oferecendo recursos como realce de sintaxe, visualizador incorporado, verificação de referências e assistentes para facilitar a escrita. Link",
+    "text": "Cronograma de aulas de Estatística Computacional seguindo o calendário acadêmico do período 2025-1.\n\n\n\n\n\n\n\n\nAula\nData\nAssunto Previsto\n\n\n\n\n1\nTerça, 13 de maio de 2025\nRecepção dos alunos\n\n\n2\nQuinta, 15 de maio de 2025\nRecepção dos alunos\n\n\n3\nTerça, 20 de maio de 2025\nApresentação da disciplina\n\n\n4\nQuinta, 22 de maio de 2025\nIntrodução ao RStudio + GitHub\n\n\n5\nTerça, 27 de maio de 2025\nIntrodução ao LaTeX\n\n\n6\nQuinta, 29 de maio de 2025\nEstrutura básico do LaTeX\n\n\n7\nTerça, 03 de junho de 2025\nAmbiente matemático no LaTeX\n\n\n8\nQuinta, 05 de junho de 2025\nTabelas no LaTeX\n\n\n9\nTerça, 10 de junho de 2025\nFiguras no LaTeX\n\n\n10\nQuinta, 12 de junho de 2025\nBibliografia no LaTeX\n\n\n11\nQuinta, 17 de junho de 2025\nAvaliação 1\n\n\n12\nTerça, 01 de julho de 2025\nQuarto\n\n\n13\nQuinta, 03 de julho de 2025\nGeração de Números aleatórios\n\n\n14\nQuinta, 10 de julho de 2025\nGeração de Variáveis Aleatórias Discretas\n\n\n15\nTerça, 15 de julho de 2025\nGeração de Variáveis Aleatórias Contínuas\n\n\n16\nTerça, 17 de julho de 2025\nGeração de Variáveis Aleatórias Contínuas\n\n\n17\nTerça, 22 de julho de 2025\nGeração de Variáveis Aleatórias Contínuas\n\n\n18\nTerça, 24 de julho de 2025\nGeração de um processo de Poisson Homogêneo\n\n\n19\nTerça, 29 de julho de 2025\nGeração de um processo de Poisson Não Homogêneo",
     "crumbs": [
       "Informações da disciplina",
-      "Softwares Necessários"
+      "Cronograma"
     ]
   },
   {
-    "objectID": "info/softwares.html#softwares-necessários",
-    "href": "info/softwares.html#softwares-necessários",
+    "objectID": "info/cronograma.html#cronograma-de-aulas",
+    "href": "info/cronograma.html#cronograma-de-aulas",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "Para acompanhar as atividades da disciplina, será necessário instalar os softwares listados abaixo. Todos são gratuitos e amplamente utilizados nas áreas de Estatística e Ciência de Dados:\n\n\n\nR é um ambiente computacional gratuito voltado para análises estatísticas e produção de visualizações gráficas. Link\n\n\n\nO RStudio consiste em um ambiente de desenvolvimento integrado (IDE) projetado para aumentar a produtividade no uso da linguagem R, oferecendo ferramentas especializadas para programação, depuração e visualização de dados. Link\n\n\n\nQuarto é um sistema de publicação técnico-científica de código aberto que integra análise computacional (Python, R, Julia) e produção de documentos dinâmicos em múltiplos formatos (HTML, PDF, Word). Combina escrita em Markdown com recursos avançados para equações, citações e visualizações reprodutíveis. Link\n\n\n\nMiKTeX é uma distribuição moderna do sistema TeX/LaTeX para ambiente Windows, fornecendo um conjunto completo de ferramentas para editoração técnica e científica de alta qualidade. Link\n\n\n\nTeXstudio é um ambiente integrado de edição para documentos LaTeX, oferecendo recursos como realce de sintaxe, visualizador incorporado, verificação de referências e assistentes para facilitar a escrita. Link",
+    "text": "Cronograma de aulas de Estatística Computacional seguindo o calendário acadêmico do período 2025-1.\n\n\n\n\n\n\n\n\nAula\nData\nAssunto Previsto\n\n\n\n\n1\nTerça, 13 de maio de 2025\nRecepção dos alunos\n\n\n2\nQuinta, 15 de maio de 2025\nRecepção dos alunos\n\n\n3\nTerça, 20 de maio de 2025\nApresentação da disciplina\n\n\n4\nQuinta, 22 de maio de 2025\nIntrodução ao RStudio + GitHub\n\n\n5\nTerça, 27 de maio de 2025\nIntrodução ao LaTeX\n\n\n6\nQuinta, 29 de maio de 2025\nEstrutura básico do LaTeX\n\n\n7\nTerça, 03 de junho de 2025\nAmbiente matemático no LaTeX\n\n\n8\nQuinta, 05 de junho de 2025\nTabelas no LaTeX\n\n\n9\nTerça, 10 de junho de 2025\nFiguras no LaTeX\n\n\n10\nQuinta, 12 de junho de 2025\nBibliografia no LaTeX\n\n\n11\nQuinta, 17 de junho de 2025\nAvaliação 1\n\n\n12\nTerça, 01 de julho de 2025\nQuarto\n\n\n13\nQuinta, 03 de julho de 2025\nGeração de Números aleatórios\n\n\n14\nQuinta, 10 de julho de 2025\nGeração de Variáveis Aleatórias Discretas\n\n\n15\nTerça, 15 de julho de 2025\nGeração de Variáveis Aleatórias Contínuas\n\n\n16\nTerça, 17 de julho de 2025\nGeração de Variáveis Aleatórias Contínuas\n\n\n17\nTerça, 22 de julho de 2025\nGeração de Variáveis Aleatórias Contínuas\n\n\n18\nTerça, 24 de julho de 2025\nGeração de um processo de Poisson Homogêneo\n\n\n19\nTerça, 29 de julho de 2025\nGeração de um processo de Poisson Não Homogêneo",
     "crumbs": [
       "Informações da disciplina",
-      "Softwares Necessários"
+      "Cronograma"
     ]
   },
   {
-    "objectID": "info/ementa.html",
-    "href": "info/ementa.html",
+    "objectID": "info/conteudo.html",
+    "href": "info/conteudo.html",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "Editor de textos LATEX. Estruturas de repetições e funções no software R. Geração de Variáveis Aleatórias. Método de Monte Carlo. Bootstrap.",
+    "text": "Geração de variáveis aleatórias\n1.1. Comandos básicos do R\n1.2. Estruturas de repetição no R\n1.3. Condições e sı́mbolos lógicos no\n1.4. Escrevendo funções no R\n1.5. Gerador de números aleatórios\n1.6. Método da Transformada inversa\n1.7. Método da Aceitação-Rejeição\n1.8. Outros métodos de geração de v.a.\nMétodos de Monte Carlo\n2.1. Conceito Geral\n2.2. Testes de Hipóteses e Erros\n2.3. Intervalos de confiança\n2.4. Viés e Erro quadrático Médio\n2.5. Método de Reamostragem: Bootstrap\n2.6. Método de Reamostragem: Jackknife\nO editor de textos LaTeX\n3.1. Comandos iniciais\n3.2. Formatação de texto, Tipos de Listas, Teoremas\n3.3. Fórmulas diversas, sı́mbolos matemáticos, escrevendo em ambiente de fórmulas\n3.4. Matrizes, equações alinhadas, tabelas e imagens\n3.5. Textos sem formatação (Para saı́das computacionais)\n3.6. Partes de documento: Tı́tulos, capı́tulos, sumários, cabeçalho e rodapé, bibliografia básica\n3.7. BibTeX (bibliografia externa)\n3.8. Criando Apresentações e Pôster",
     "crumbs": [
       "Informações da disciplina",
-      "Ementa e objetivos"
+      "Conteúdo"
     ]
   },
   {
-    "objectID": "info/ementa.html#ementa",
-    "href": "info/ementa.html#ementa",
+    "objectID": "info/conteudo.html#conteudo",
+    "href": "info/conteudo.html#conteudo",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "Editor de textos LATEX. Estruturas de repetições e funções no software R. Geração de Variáveis Aleatórias. Método de Monte Carlo. Bootstrap.",
+    "text": "Geração de variáveis aleatórias\n1.1. Comandos básicos do R\n1.2. Estruturas de repetição no R\n1.3. Condições e sı́mbolos lógicos no\n1.4. Escrevendo funções no R\n1.5. Gerador de números aleatórios\n1.6. Método da Transformada inversa\n1.7. Método da Aceitação-Rejeição\n1.8. Outros métodos de geração de v.a.\nMétodos de Monte Carlo\n2.1. Conceito Geral\n2.2. Testes de Hipóteses e Erros\n2.3. Intervalos de confiança\n2.4. Viés e Erro quadrático Médio\n2.5. Método de Reamostragem: Bootstrap\n2.6. Método de Reamostragem: Jackknife\nO editor de textos LaTeX\n3.1. Comandos iniciais\n3.2. Formatação de texto, Tipos de Listas, Teoremas\n3.3. Fórmulas diversas, sı́mbolos matemáticos, escrevendo em ambiente de fórmulas\n3.4. Matrizes, equações alinhadas, tabelas e imagens\n3.5. Textos sem formatação (Para saı́das computacionais)\n3.6. Partes de documento: Tı́tulos, capı́tulos, sumários, cabeçalho e rodapé, bibliografia básica\n3.7. BibTeX (bibliografia externa)\n3.8. Criando Apresentações e Pôster",
     "crumbs": [
       "Informações da disciplina",
-      "Ementa e objetivos"
+      "Conteúdo"
     ]
   },
   {
-    "objectID": "info/ementa.html#objetivos",
-    "href": "info/ementa.html#objetivos",
-    "title": "Estatística Computacional",
-    "section": "Objetivos",
-    "text": "Objetivos\nDesenvolver habilidades essenciais para a aplicação de métodos computacionais na análise de dados e na obtenção de estimativas estatı́sticas confiáveis, bem como preparar estudantes para criar documentos de alta qualidade com notação matemática adequada e formatação profissional.",
-    "crumbs": [
-      "Informações da disciplina",
-      "Ementa e objetivos"
-    ]
-  },
-  {
-    "objectID": "info/ementa.html#metodologia",
-    "href": "info/ementa.html#metodologia",
-    "title": "Estatística Computacional",
-    "section": "Metodologia",
-    "text": "Metodologia\nSerão ministradas aulas teóricas expositivas; utilizados recursos visuais; resolução de exercı́cios em sala de aula; solicitação de atividades extraclasse. O cronograma de aulas encontra-se no Quadro 1.",
-    "crumbs": [
-      "Informações da disciplina",
-      "Ementa e objetivos"
-    ]
-  },
-  {
-    "objectID": "info/ementa.html#habilidades-e-competências",
-    "href": "info/ementa.html#habilidades-e-competências",
-    "title": "Estatística Computacional",
-    "section": "Habilidades e Competências",
-    "text": "Habilidades e Competências\nAo término deste curso o aluno estará apto a realizar análises estatı́sticas avançadas, simulações e estimativas confiáveis, além de resolver problemas práticos no campo da Estatı́stica utilizando abordagens computacionais.",
-    "crumbs": [
-      "Informações da disciplina",
-      "Ementa e objetivos"
-    ]
-  },
-  {
-    "objectID": "info/ementa.html#avaliação",
-    "href": "info/ementa.html#avaliação",
-    "title": "Estatística Computacional",
-    "section": "Avaliação",
-    "text": "Avaliação\nSerão realizadas três avaliações ao longo do semestre. As avaliações poderão ser provas, trabalhos ou outras atividades solicitadas pelo professor.",
-    "crumbs": [
-      "Informações da disciplina",
-      "Ementa e objetivos"
-    ]
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Bem-vindo(a)!",
+    "section": "",
+    "text": "Bem-vindo(a)!\nEsta página foi criada pelo Prof. Dr. Sadraque E. F. Lucena para centralizar os conteúdos, atividades, cronograma e materiais da disciplina ESTAT0090 – Estatística Computacional, ofertada pelo Departamento de Estatística e Ciências Atuariais da Universidade Federal de Sergipe. Ao longo do semestre, vamos explorar ferramentas fundamentais para a prática da Estatística moderna, com ênfase em programação em R, Quarto, LaTeX, GitHub, simulação, métodos computacionais e reamostragem (como Bootstrap e Monte Carlo).\nA disciplina será conduzida com uma abordagem prática e orientada por problemas, livremente inspirada no Problem-Based Learning (PBL), conectando os conteúdos à atuação profissional em Estatística e Ciência de Dados. A cada semana, novos desafios e projetos serão propostos, promovendo o aprendizado ativo e colaborativo.\nFique atento(a) às atualizações — este espaço será constantemente revisado com avisos, novos materiais e mudanças no cronograma."
   },
   {
     "objectID": "slides/10-Geracao-de-variaveis-aleatorias-discretas/10-Geracao-de-variaveis-aleatorias-discretas.html#cenário",
@@ -447,42 +487,42 @@
     "href": "slides/14-Geracao-de-um-processo-de-poisson-nao-homogeneo/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#cenário",
     "title": "Como simular filas reais?",
     "section": "Cenário",
-    "text": "Cenário\nVocê precisa simular a chegada de clientes em uma cafeteria popular, onde o fluxo de clientes não é constante ao longo do dia. De manhã cedo, quando as pessoas pegam café para o trabalho, há um ritmo; no horário de almoço, há um pico; no meio da tarde, é mais tranquilo; e no final da tarde, antes do fechamento, há outro aumento. Você sabe que as chegadas dos clientes seguem um Processo de Poisson, mas que a taxa de chegada varia conforme o horário do dia."
+    "text": "Cenário\nVocê precisa simular a chegada de clientes em uma cafeteria popular, onde o fluxo de clientes não é constante ao longo do dia. De manhã cedo, quando as pessoas pegam café para o trabalho, há um ritmo; no horário de almoço, há um pico; no meio da tarde, é mais tranquilo; e, no final da tarde, antes do fechamento, há outro aumento. Você sabe que as chegadas dos clientes seguem um Processo de Poisson, mas que a taxa de chegada varia conforme o horário do dia."
   },
   {
     "objectID": "slides/14-Geracao-de-um-processo-de-poisson-nao-homogeneo/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#objetivos-da-aula",
     "href": "slides/14-Geracao-de-um-processo-de-poisson-nao-homogeneo/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#objetivos-da-aula",
     "title": "Como simular filas reais?",
     "section": "Objetivos da aula",
-    "text": "Objetivos da aula\n\nCompreender o conceito e a necessidade de um Processo de Poisson Não Homogêneo (PPNH) para modelar taxas de chegada que variam no tempo.\nEntender a lógica por trás do Método de Thinning (ou Afinamento) para simular um PPNH.\nAplicar o algoritmo do Método de Thinning para gerar eventos de um PPNH em um período de tempo definido.\nIdentificar a taxa máxima (λ) e definir a função de intensidade λ(t) para a simulação de um PPNH a partir de dados ou um cenário.\nSimular o fluxo de clientes em um cenário prático."
+    "text": "Objetivos da aula\n\nCompreender o conceito e a necessidade de um Processo de Poisson Não Homogêneo (PPNH) para modelar taxas de chegada que variam no tempo.\nEntender a lógica por trás do Método de Thinning (ou Afinamento) para simular um PPNH.\nAplicar o algoritmo do Método de Thinning para gerar eventos de um PPNH em um período de tempo definido.\nIdentificar a taxa máxima (λ) e definir a função de intensidade λ(t) para a simulação de um PPNH a partir de dados ou de um cenário.\nSimular o fluxo de clientes em um cenário prático."
   },
   {
-    "objectID": "slides/14-Geracao-de-um-processo-de-poisson-nao-homogeneo/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#processo-de-poisson-não-homeogêneo-ppnh",
-    "href": "slides/14-Geracao-de-um-processo-de-poisson-nao-homogeneo/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#processo-de-poisson-não-homeogêneo-ppnh",
+    "objectID": "slides/14-Geracao-de-um-processo-de-poisson-nao-homogeneo/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#processo-de-poisson-não-homogêneo-ppnh",
+    "href": "slides/14-Geracao-de-um-processo-de-poisson-nao-homogeneo/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#processo-de-poisson-não-homogêneo-ppnh",
     "title": "Como simular filas reais?",
-    "section": "Processo de Poisson Não Homeogêneo (PPNH)",
-    "text": "Processo de Poisson Não Homeogêneo (PPNH)\nMétodo Thinning (ou Afinamento)\n\nEncontre uma taxa “máxima”: Sabendo que a taxa de chegada de clientes \\(\\lambda(t)\\) varia ao longo de todo o período \\(T\\), determine a maior taxa \\(\\lambda\\) de chegada de clientes.\n\nMatematicamente: \\(\\lambda(t) \\leq \\lambda\\) para todo \\(t\\leq T\\).\n\nGere um Processo de Poisson Homogêneo “exagerado”: Gere um Processo de Poisson “normal” (homogêneo) com essa taxa “exagerada” \\(\\lambda\\). Esse processo vai gerar muitos eventos, algusn que você quer e outros que não.\nAfinamento (ou seleção por amostragem): Para cada evento que ocorre nesse Processo de Poisson homogêneo na taxa \\(\\lambda\\), você joga uma “moeda viciada”. A chance de esse evento ser “aceito” e fazer parte do seu PPNH original é dada pela razão \\(\\frac{\\lambda(t)}{\\lambda}\\) no momento \\(t\\) em que ele ocorreu.\n\nSe \\(\\lambda(t)\\) for alta naquele \\(t\\), a chance de aceitar é grande.\nSe \\(\\lambda(t)\\) for baixa, a chance é menor.\n\nÉ como se você estivesse selecionando os eventos que não correspondem à sua taxa de intensidade real \\(\\lambda(t)\\)."
+    "section": "Processo de Poisson Não Homogêneo (PPNH)",
+    "text": "Processo de Poisson Não Homogêneo (PPNH)\nMétodo Thinning (ou Afinamento)\n\nEncontre uma taxa “máxima”: Sabendo que a taxa de chegada de clientes \\(\\lambda(t)\\) varia ao longo de todo o período \\(T\\), determine a maior taxa \\(\\lambda\\).\n\nMatematicamente: \\(\\lambda(t) \\leq \\lambda\\) para todo \\(t\\leq T\\).\n\nGere um Processo de Poisson Homogêneo “exagerado”: Gere um Processo de Poisson “normal” (homogêneo) com essa taxa “exagerada” \\(\\lambda\\). Esse processo vai gerar muitos eventos, alguns que você quer e outros que não.\nAfinamento (ou seleção por amostragem): Para cada evento que ocorre nesse Processo de Poisson homogêneo na taxa \\(\\lambda\\), você joga uma “moeda viciada”. A chance de esse evento ser “aceito” e fazer parte do seu PPNH original é dada pela razão \\(\\frac{\\lambda(t)}{\\lambda}\\) no momento \\(t\\) em que ele ocorreu.\n\nSe \\(\\lambda(t)\\) for alta naquele \\(t\\), a chance de aceitar é grande.\nSe \\(\\lambda(t)\\) for baixa, a chance é menor.\n\nÉ como se você estivesse selecionando os eventos que correspondem à sua taxa de intensidade real \\(\\lambda(t)\\)."
   },
   {
     "objectID": "slides/14-Geracao-de-um-processo-de-poisson-nao-homogeneo/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#método-thinning-ou-afinamento-1",
     "href": "slides/14-Geracao-de-um-processo-de-poisson-nao-homogeneo/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#método-thinning-ou-afinamento-1",
     "title": "Como simular filas reais?",
     "section": "Método Thinning (ou Afinamento)",
-    "text": "Método Thinning (ou Afinamento)\n\n\n\n\nAlgoritmo\n\n\nPasso 1: Inicialize.\n\nt=0 (tempo atual começa em zero)\nI=0 (contador de eventos começa em zero)\n\nPasso 2: Gere o tempo entre eventos usando a distribuição Exponencial considerando um processo homogêneo “exagerado”.\n\nSe t&gt;T, significa que o próximo evento cairia depois do nosso tempo de simulação desejado. Então, paramos.\n\nPasso 3: Gere \\(u \\sim U(0,1)\\)."
+    "text": "Método Thinning (ou Afinamento)\n\n\n\n\nAlgoritmo\n\n\nPasso 1: Inicialize.\n\nt=0 (tempo atual começa em zero)\nI=0 (contador de eventos começa em zero)\n\nPasso 2: Gere o tempo entre eventos usando a distribuição Exponencial, considerando um processo homogêneo “exagerado”.\n\nSe t&gt;T, significa que o próximo evento cairia depois do nosso tempo de simulação desejado. Então, paramos.\n\nPasso 3: Gere \\(u \\sim U(0,1)\\)."
   },
   {
     "objectID": "slides/14-Geracao-de-um-processo-de-poisson-nao-homogeneo/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#método-thinning-ou-afinamento-2",
     "href": "slides/14-Geracao-de-um-processo-de-poisson-nao-homogeneo/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#método-thinning-ou-afinamento-2",
     "title": "Como simular filas reais?",
     "section": "Método Thinning (ou Afinamento)",
-    "text": "Método Thinning (ou Afinamento)\n\n\n\n\nAlgoritmo (continuação)\n\n\nPasso 4: Se \\(u\\leq \\frac{\\lambda(t)}{\\lambda}\\), então oevento é aceito.\n\nIncrementamos o contador de eventos: I = I + 1.\nArmazenamos o tempo do evento: S(I) = t. (onde S(I) é o tempo do \\(I\\)-ésimo evento)\n\nPasso 5: Volte para o Passo 2 para gerar o próximo evento do processo homogêneo."
+    "text": "Método Thinning (ou Afinamento)\n\n\n\n\nAlgoritmo (continuação)\n\n\nPasso 4: Se \\(u\\leq \\frac{\\lambda(t)}{\\lambda}\\), então o evento é aceito.\n\nIncrementamos o contador de eventos: I = I + 1.\nArmazenamos o tempo do evento: S[I] = t. (onde S[I] é o tempo do \\(I\\)-ésimo evento)\n\nPasso 5: Volte para o Passo 2 para gerar o próximo evento do processo homogêneo."
   },
   {
     "objectID": "slides/14-Geracao-de-um-processo-de-poisson-nao-homogeneo/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#exemplo-14.1",
     "href": "slides/14-Geracao-de-um-processo-de-poisson-nao-homogeneo/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#exemplo-14.1",
     "title": "Como simular filas reais?",
     "section": "Exemplo 14.1",
-    "text": "Exemplo 14.1\nSuponha que uma cafeteria abre das 08h às 20h, com as seguintes taxas por hora:\n\n08h-09h (primeira hora): 1 cliente por hora\n09h-10h (segunda hora): 2 clientes por hora\n10h-11h (terceira hora): 3 clientes por hora\n11h-12h (quarta hora): 4 clientes por hora\n12h-13h (quinta hora): 5 clientes por hora\n13h-20h (demias horas): 10 clientes por hora\n\nSimule o fluxo de clientes em um dia."
+    "text": "Exemplo 14.1\nSuponha que uma cafeteria abre das 08h às 20h, com as seguintes taxas por hora:\n\n08h-09h (primeira hora): 1 cliente por hora\n09h-10h (segunda hora): 2 clientes por hora\n10h-11h (terceira hora): 3 clientes por hora\n11h-12h (quarta hora): 4 clientes por hora\n12h-13h (quinta hora): 5 clientes por hora\n13h-20h (demais horas): 10 clientes por hora\n\nSimule o fluxo de clientes em um dia."
   },
   {
     "objectID": "slides/14-Geracao-de-um-processo-de-poisson-nao-homogeneo/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#exemplo-14.1-1",
@@ -517,14 +557,14 @@
     "href": "slides/14-Geracao-de-um-processo-de-poisson-nao-homogeneo/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#eficiência-do-thinning-ou-afinamento",
     "title": "Como simular filas reais?",
     "section": "Eficiência do Thinning (ou Afinamento)",
-    "text": "Eficiência do Thinning (ou Afinamento)\n\nSe os valores de \\(\\lambda(t)\\) estiverem próximos de \\(\\lambda\\) durante todo o intervalo, o algoritmo é mais eficiente.\nIsso porque se \\(\\lambda\\) for muito maior que a maioria dos valores de \\(\\lambda(t)\\), você vai gerar muitos eventos do processo homogêneo que serão “rejeitados” no Passo 5.\nExistem alternativas a esse algoritmo que visam diminuir o número de eventos rejeitados e diminuir o custo computacional."
+    "text": "Eficiência do Thinning (ou Afinamento)\n\nSe os valores de \\(\\lambda(t)\\) estiverem próximos de \\(\\lambda\\) durante todo o intervalo, o algoritmo é mais eficiente.\nIsso porque se \\(\\lambda\\) for muito maior que a maioria dos valores de \\(\\lambda(t)\\), você vai gerar muitos eventos do processo homogêneo que serão “rejeitados” no Passo 4.\nExistem alternativas a esse algoritmo que visam diminuir o número de eventos rejeitados e diminuir o custo computacional."
   },
   {
     "objectID": "slides/14-Geracao-de-um-processo-de-poisson-nao-homogeneo/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#exercício-14.1",
     "href": "slides/14-Geracao-de-um-processo-de-poisson-nao-homogeneo/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#exercício-14.1",
     "title": "Como simular filas reais?",
     "section": "Exercício 14.1",
-    "text": "Exercício 14.1\nO arquivo registros.csv contém os horários exatos em que os clientes de uma agência bancária pegaram uma senha para atendimento no caixa em uma segunda-feira típica. Use os registros para simular o fluxo de entrada dos clientes em uam segunda-feira típica."
+    "text": "Exercício 14.1\nO arquivo registros.csv contém os horários exatos em que os clientes de uma agência bancária pegaram uma senha para atendimento no caixa em uma segunda-feira típica. Use os registros para simular o fluxo de entrada dos clientes em uma segunda-feira típica."
   },
   {
     "objectID": "slides/14-Geracao-de-um-processo-de-poisson-nao-homogeneo/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#ganho-da-aula",
@@ -1672,7 +1712,7 @@
     "href": "slides/12-Geracao-de-variaveis-aleatorias-Metodo-da-aceitcao-rejeicao/12-Geracao-de-variaveis-aleatorias-Metodo-da-aceitcao-rejeicao.html#exemplo-12.1-3",
     "title": "Como gerar variáveis aleatórias contínuas? (parte II)",
     "section": "Exemplo 12.1",
-    "text": "Exemplo 12.1\nCódigo R:\n\ngeraf &lt;- function(n=1) {\n  f &lt;- function(x) 1.5 * x^2\n  g &lt;- function(x) 0.5 + 0 * x\n  M &lt;- 3\n  x &lt;- numeric(0)\n  while (length(x) &lt; n) {\n    x_candidato &lt;- runif(n = 1, min = -1, max = 1)\n    u &lt;- runif(1)\n    r &lt;- f(x_candidato)/(M * g(x_candidato))\n    if(u &lt; r) {\n      x &lt;- c(x, x_candidato)\n    }\n  }\n  return(x)\n}\n\ngeraf(1)\n\n[1] -0.5999999"
+    "text": "Exemplo 12.1\nCódigo R:\n\ngeraf &lt;- function(n=1) {\n  f &lt;- function(x) 1.5 * x^2\n  g &lt;- function(x) 0.5 + 0 * x\n  M &lt;- 3\n  x &lt;- numeric(0)\n  while (length(x) &lt; n) {\n    x_candidato &lt;- runif(n = 1, min = -1, max = 1)\n    u &lt;- runif(1)\n    r &lt;- f(x_candidato)/(M * g(x_candidato))\n    if(u &lt; r) {\n      x &lt;- c(x, x_candidato)\n    }\n  }\n  return(x)\n}\n\ngeraf(1)\n\n[1] 0.9125169"
   },
   {
     "objectID": "slides/12-Geracao-de-variaveis-aleatorias-Metodo-da-aceitcao-rejeicao/12-Geracao-de-variaveis-aleatorias-Metodo-da-aceitcao-rejeicao.html#exemplo-12.1-4",
@@ -2543,175 +2583,255 @@
     "text": "Atividade extraclasse\nConfigure seu ambiente de trabalho pessoal\nObjetivo\nDeixar seu computador pessoal pronto para continuar os trabalhos da disciplina fora do laboratório, de forma independente.\nEtapas:\n\nInstalar o Git: https://happygitwithr.com/install-git.html\nInstalar o R: https://cran.r-project.org\nInstalar o RStudio: https://posit.co/download/rstudio-desktop\nFazer uma cópia (clone) do repositório da disciplina no GitHub para o seu computador.\n\nCriar um repositório de teste, clonar no RStudio e fazer seu primeiro commit."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Bem-vindo(a)!",
-    "section": "",
-    "text": "Bem-vindo(a)!\nEsta página foi criada pelo Prof. Dr. Sadraque E. F. Lucena para centralizar os conteúdos, atividades, cronograma e materiais da disciplina ESTAT0090 – Estatística Computacional, ofertada pelo Departamento de Estatística e Ciências Atuariais da Universidade Federal de Sergipe. Ao longo do semestre, vamos explorar ferramentas fundamentais para a prática da Estatística moderna, com ênfase em programação em R, Quarto, LaTeX, GitHub, simulação, métodos computacionais e reamostragem (como Bootstrap e Monte Carlo).\nA disciplina será conduzida com uma abordagem prática e orientada por problemas, livremente inspirada no Problem-Based Learning (PBL), conectando os conteúdos à atuação profissional em Estatística e Ciência de Dados. A cada semana, novos desafios e projetos serão propostos, promovendo o aprendizado ativo e colaborativo.\nFique atento(a) às atualizações — este espaço será constantemente revisado com avisos, novos materiais e mudanças no cronograma."
+    "objectID": "slides/15-O-Metodo-de-Integracao-de-Monte-Carlo/15-O-Metodo-de-Integracao-de-Monte-Carlo.html#motivação",
+    "href": "slides/15-O-Metodo-de-Integracao-de-Monte-Carlo/15-O-Metodo-de-Integracao-de-Monte-Carlo.html#motivação",
+    "title": "Resolvendo integrais difíceis com a ajuda do acaso",
+    "section": "Motivação",
+    "text": "Motivação\n\nNa Estatística e na Ciência de Dados, muitas vezes enfrentamos problemas complexos que não têm uma solução analítica simples ou rápida.\n\nComo calcular o valor de uma integral sem solução?\nComo estimar o preço de um ativo financeiro que depende de milhares de cenários futuros?\nComo determinar a probabilidade de um evento raro, como a colisão de um asteroide com a Terra?\n\nO Método de Monte Carlo é a nossa “caixa de ferramentas” para resolver esses problemas. Ele nos permite usar o poder da simulação computacional e da aleatoriedade para encontrar respostas aproximadas para questões que seriam impossíveis de resolver no papel."
   },
   {
-    "objectID": "info/conteudo.html",
-    "href": "info/conteudo.html",
+    "objectID": "slides/15-O-Metodo-de-Integracao-de-Monte-Carlo/15-O-Metodo-de-Integracao-de-Monte-Carlo.html#objetivos-da-aula",
+    "href": "slides/15-O-Metodo-de-Integracao-de-Monte-Carlo/15-O-Metodo-de-Integracao-de-Monte-Carlo.html#objetivos-da-aula",
+    "title": "Resolvendo integrais difíceis com a ajuda do acaso",
+    "section": "Objetivos da aula",
+    "text": "Objetivos da aula\n\nEntender a lógica por trás do Método de Monte Carlo para cálculo de integrais."
+  },
+  {
+    "objectID": "slides/15-O-Metodo-de-Integracao-de-Monte-Carlo/15-O-Metodo-de-Integracao-de-Monte-Carlo.html#resolvendo-integrais-por-monte-carlo",
+    "href": "slides/15-O-Metodo-de-Integracao-de-Monte-Carlo/15-O-Metodo-de-Integracao-de-Monte-Carlo.html#resolvendo-integrais-por-monte-carlo",
+    "title": "Resolvendo integrais difíceis com a ajuda do acaso",
+    "section": "Resolvendo integrais por Monte Carlo",
+    "text": "Resolvendo integrais por Monte Carlo\n\nImagine que temos a seguinte integral: \\[\n\\int_0^1 g(x) dx\n\\]\nSe \\(g(x)\\) for uma função simples, tipo \\(x^2\\), a gente consegue resolver na mão: \\[\n\\int_0^1 x^2 dx = \\left[\\frac{x^3}{3}\\right]_0^1 = \\frac{1^3}{3}-\\frac{0^3}{3} = \\frac{1}{3}\n\\]\nMas se \\(g(x)\\) for uma função super complexa, tipo \\(g(x) = \\log(x^2+e^x)\\)? A coisa complica, e muito!\nÉ aí que entra o Monte Carlo.\n\nA gente pode interpretar a integral como a esperança de uma variável aleatória."
+  },
+  {
+    "objectID": "slides/15-O-Metodo-de-Integracao-de-Monte-Carlo/15-O-Metodo-de-Integracao-de-Monte-Carlo.html#resolvendo-integrais-por-monte-carlo-1",
+    "href": "slides/15-O-Metodo-de-Integracao-de-Monte-Carlo/15-O-Metodo-de-Integracao-de-Monte-Carlo.html#resolvendo-integrais-por-monte-carlo-1",
+    "title": "Resolvendo integrais difíceis com a ajuda do acaso",
+    "section": "Resolvendo integrais por Monte Carlo",
+    "text": "Resolvendo integrais por Monte Carlo\nVamos pensar numa variável aleatória \\(U\\) que tem uma distribuição uniforme entre 0 e 1, ou seja, \\(U\\sim\\) Uniforme\\((0,1)\\). A esperança de uma função de \\(U\\), \\(g(U)\\), é dada por: \\[\n  E[g(U)] = \\int_{-\\infty}^{+\\infty} g(u) f_U(u) du\n\\]\n\n\\(f_U(u)\\) seria a função densidade da Uniforme\\((0,1)\\), ou seja, \\(f(u)=1\\), para \\(0&lt;u&lt;1\\). Daí \\[\nE[g(U)] = \\int_0^1 g(d) \\cdot 1\\, du = \\int_0^1 g(u)du\n\\]\nOu seja, a integral é exatamente a esperança da função \\(g\\) aplicada a uma variável uniforme, \\(E[g(U)]\\)."
+  },
+  {
+    "objectID": "slides/15-O-Metodo-de-Integracao-de-Monte-Carlo/15-O-Metodo-de-Integracao-de-Monte-Carlo.html#resolvendo-integrais-por-monte-carlo-2",
+    "href": "slides/15-O-Metodo-de-Integracao-de-Monte-Carlo/15-O-Metodo-de-Integracao-de-Monte-Carlo.html#resolvendo-integrais-por-monte-carlo-2",
+    "title": "Resolvendo integrais difíceis com a ajuda do acaso",
+    "section": "Resolvendo integrais por Monte Carlo",
+    "text": "Resolvendo integrais por Monte Carlo\nEntão, se queremos estimar \\(E[g(U)]\\), o que podemos fazer é: 1. Gerar uma amostra grande de números aleatórios (\\(u_1, u_2, \\ldots,u_k\\)) de uma distribuição uniforme entre 0 e 1. 2. Calcular o valor de g para cada um desses números: \\(g(u_1),g(u_2),\\ldots,g(u_k)\\). 3. Calcular a média desses valores.\n\nPela Lei dos Grandes Números, a média que a gente calcular vai se aproximar do valor verdadeiro: \\[\n\\frac{1}{k}\\sum\\limits_{i=1}^k g(u_i) \\longrightarrow E[g(U)]\n\\]\nIsso significa que, gerando muitos números aleatórios, a gente consegue uma aproximação excelente para a integral!"
+  },
+  {
+    "objectID": "slides/15-O-Metodo-de-Integracao-de-Monte-Carlo/15-O-Metodo-de-Integracao-de-Monte-Carlo.html#exemplo-15.1",
+    "href": "slides/15-O-Metodo-de-Integracao-de-Monte-Carlo/15-O-Metodo-de-Integracao-de-Monte-Carlo.html#exemplo-15.1",
+    "title": "Resolvendo integrais difíceis com a ajuda do acaso",
+    "section": "Exemplo 15.1",
+    "text": "Exemplo 15.1\nVamos calcular a integral \\[\n  \\int_0^1 (x^3 + \\cos(x)) \\,dx.\n\\]\n\nVimos que calcular essa integral é o mesmo que calcular \\(E[U^3 + \\cos(U)]\\), com \\(U\\sim\\) Uniforme\\((0,1)\\)."
+  },
+  {
+    "objectID": "slides/15-O-Metodo-de-Integracao-de-Monte-Carlo/15-O-Metodo-de-Integracao-de-Monte-Carlo.html#exemplo-15.1-1",
+    "href": "slides/15-O-Metodo-de-Integracao-de-Monte-Carlo/15-O-Metodo-de-Integracao-de-Monte-Carlo.html#exemplo-15.1-1",
+    "title": "Resolvendo integrais difíceis com a ajuda do acaso",
+    "section": "Exemplo 15.1",
+    "text": "Exemplo 15.1\n\n# Função que queremos integrar\ng &lt;- function(u) u^3 + cos(u)\n\n# gráfico\nx &lt;- seq(0, 1, length.out = 100)\ncurve(g(x), from = 0, to = 1, ylim = c(0, 1.8), lwd = 4,\n      ylab = bquote(g(x)==x^3+cos(x)))\nsegments(x0=0, y0=0, x1=0, y1=cos(0), col=2, lty=2, lwd=4)\nsegments(x0=1, y0=0, x1=1, y1=1+cos(1), col=2, lty=2, lwd=4)\nabline(h=0)"
+  },
+  {
+    "objectID": "slides/15-O-Metodo-de-Integracao-de-Monte-Carlo/15-O-Metodo-de-Integracao-de-Monte-Carlo.html#exemplo-15.1-2",
+    "href": "slides/15-O-Metodo-de-Integracao-de-Monte-Carlo/15-O-Metodo-de-Integracao-de-Monte-Carlo.html#exemplo-15.1-2",
+    "title": "Resolvendo integrais difíceis com a ajuda do acaso",
+    "section": "Exemplo 15.1",
+    "text": "Exemplo 15.1\n\nIntegrando:\n\n\n# Gerando 100.000 amostras da Uniforme(0,1)\nset.seed(1234)\nu &lt;- runif(100000, min=0, max=1)\n\n# Aplicando a função g(u) e calculando a média\n( media_monte_carlo &lt;- mean(g(u)) )\n\n[1] 1.091724\n\n\n\nComparando com o resultado da função integrate:\n\n\nintegrate(g, lower = 0, upper = 1)\n\n1.091471 with absolute error &lt; 1.2e-14\n\n\n\nDe forma analítica, a integral é \\(\\frac{x^4}{4} + \\text{sen}(x)\\), logo:\n\n\nintegral &lt;- function(x) (x^4/4) + sin(x)\nintegral(1) - integral(0)\n\n[1] 1.091471"
+  },
+  {
+    "objectID": "slides/15-O-Metodo-de-Integracao-de-Monte-Carlo/15-O-Metodo-de-Integracao-de-Monte-Carlo.html#e-se-a-integral-não-for-no-intervalo-ab",
+    "href": "slides/15-O-Metodo-de-Integracao-de-Monte-Carlo/15-O-Metodo-de-Integracao-de-Monte-Carlo.html#e-se-a-integral-não-for-no-intervalo-ab",
+    "title": "Resolvendo integrais difíceis com a ajuda do acaso",
+    "section": "E se a integral não for no intervalo \\((a,b)\\)?",
+    "text": "E se a integral não for no intervalo \\((a,b)\\)?\nPara intergrar \\(\\int_a^b g(x)\\, dx\\), há duas formas:\nForma 1. Tranformação de variável para o intervalo \\((0,1)\\).\n\nFazemos a mudança de variável \\[u=\\frac{x-a}{b-a} \\Rightarrow x = a + (b-1)u\\]\n\nEssa transformação leva \\(x\\in(a,b)\\) para \\(u\\in (0,1)\\). Note que \\(x=a \\Rightarrow u=0\\) e \\(x=b \\Rightarrow u=1\\).\n\nPrecisamos mudar também o elemento diferencial \\(dx\\). Derivando a equação \\(x = a + (b-1)u\\), obtemos: \\[\ndx = (b-a)du\n\\]\nSubstituindo tudo na integral, temos \\[\n\\int_a^b g(x)\\,dx = \\int_0^1 g\\left(a+(b-a)u\\right) \\cdot (b-a)\\, du\n\\]"
+  },
+  {
+    "objectID": "slides/15-O-Metodo-de-Integracao-de-Monte-Carlo/15-O-Metodo-de-Integracao-de-Monte-Carlo.html#exemplo-15.2",
+    "href": "slides/15-O-Metodo-de-Integracao-de-Monte-Carlo/15-O-Metodo-de-Integracao-de-Monte-Carlo.html#exemplo-15.2",
+    "title": "Resolvendo integrais difíceis com a ajuda do acaso",
+    "section": "Exemplo 15.2",
+    "text": "Exemplo 15.2\nAgora vamos integrar \\(\\int_2^5 (x^3 + \\cos(x)) \\, dx\\) usando a Forma 1.\n\ng &lt;- function(u) u^3 + cos(u) # Função que queremos integrar\n\na &lt;- 2; b &lt;- 5\nu &lt;- runif(100000, min = 0, max = 1)\n\nmean( g(a+(b-a)*u) * (b-a) )\n\n[1] 150.2645\n\n\n\nintegral &lt;- function(x) (x^4/4) + sin(x)\nintegral(5) - integral(2)\n\n[1] 150.3818"
+  },
+  {
+    "objectID": "slides/15-O-Metodo-de-Integracao-de-Monte-Carlo/15-O-Metodo-de-Integracao-de-Monte-Carlo.html#e-se-a-integral-não-for-no-intervalo-ab-1",
+    "href": "slides/15-O-Metodo-de-Integracao-de-Monte-Carlo/15-O-Metodo-de-Integracao-de-Monte-Carlo.html#e-se-a-integral-não-for-no-intervalo-ab-1",
+    "title": "Resolvendo integrais difíceis com a ajuda do acaso",
+    "section": "E se a integral não for no intervalo \\((a,b)\\)?",
+    "text": "E se a integral não for no intervalo \\((a,b)\\)?\nPara intergrar \\(\\int_a^b g(x)\\, dx\\), há duas formas:\nForma 2. Usamos a esperança de uma Uniforme\\((a,b)\\): Essa é a mais direta e intuitiva. Lembre-se: \\[\n    E[g(X)] = \\int_a^b g(x) f_X(x)\\, dx = \\int_a^b g(x) \\frac{1}{b-a} \\, dx = \\frac{1}{b-a}\\int_a^b g(x) \\, dx\n  \\] Logo, \\[\n  \\int_a^b g(x) \\, dx = (b-a) E[g(X)]\n\\]\n\nOu seja, geramos \\(x_1,x_2,\\ldots,x_k\\) com distribuição Uniforme\\((a,b)\\) e calculamos \\[\n(b-a) \\frac{1}{k} \\sum\\limits_{i=1}^k g(x_i).\n\\]"
+  },
+  {
+    "objectID": "slides/15-O-Metodo-de-Integracao-de-Monte-Carlo/15-O-Metodo-de-Integracao-de-Monte-Carlo.html#exemplo-15.2-continuação",
+    "href": "slides/15-O-Metodo-de-Integracao-de-Monte-Carlo/15-O-Metodo-de-Integracao-de-Monte-Carlo.html#exemplo-15.2-continuação",
+    "title": "Resolvendo integrais difíceis com a ajuda do acaso",
+    "section": "Exemplo 15.2 (continuação)",
+    "text": "Exemplo 15.2 (continuação)\nAgora vamos integrar \\(\\int_2^5 (x^3 + \\cos(x)) \\, dx\\) usando a Forma 2.\n\na &lt;- 2; b &lt;- 5\nx &lt;- runif(100000, min = a, max = b)\n\n(b-a) * mean(g(x))\n\n[1] 150.1721"
+  },
+  {
+    "objectID": "slides/15-O-Metodo-de-Integracao-de-Monte-Carlo/15-O-Metodo-de-Integracao-de-Monte-Carlo.html#exercício-15.1",
+    "href": "slides/15-O-Metodo-de-Integracao-de-Monte-Carlo/15-O-Metodo-de-Integracao-de-Monte-Carlo.html#exercício-15.1",
+    "title": "Resolvendo integrais difíceis com a ajuda do acaso",
+    "section": "Exercício 15.1",
+    "text": "Exercício 15.1\nCalcule por Monte Carlo as integrais:\n\n\\(\\int_0^1 e^{-x} dx\\)\n\\(\\int_2^4 e^{-x} dx\\)\n\\(\\int_1^3 x^2 + 3 x^2 dx\\)"
+  },
+  {
+    "objectID": "slides/15-O-Metodo-de-Integracao-de-Monte-Carlo/15-O-Metodo-de-Integracao-de-Monte-Carlo.html#ganho-da-aula",
+    "href": "slides/15-O-Metodo-de-Integracao-de-Monte-Carlo/15-O-Metodo-de-Integracao-de-Monte-Carlo.html#ganho-da-aula",
+    "title": "Resolvendo integrais difíceis com a ajuda do acaso",
+    "section": "Ganho da aula",
+    "text": "Ganho da aula\n\nCapacidade de calcular itegrais numericamente usando Monte Carlo."
+  },
+  {
+    "objectID": "info/ementa.html",
+    "href": "info/ementa.html",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "Geração de variáveis aleatórias\n1.1. Comandos básicos do R\n1.2. Estruturas de repetição no R\n1.3. Condições e sı́mbolos lógicos no\n1.4. Escrevendo funções no R\n1.5. Gerador de números aleatórios\n1.6. Método da Transformada inversa\n1.7. Método da Aceitação-Rejeição\n1.8. Outros métodos de geração de v.a.\nMétodos de Monte Carlo\n2.1. Conceito Geral\n2.2. Testes de Hipóteses e Erros\n2.3. Intervalos de confiança\n2.4. Viés e Erro quadrático Médio\n2.5. Método de Reamostragem: Bootstrap\n2.6. Método de Reamostragem: Jackknife\nO editor de textos LaTeX\n3.1. Comandos iniciais\n3.2. Formatação de texto, Tipos de Listas, Teoremas\n3.3. Fórmulas diversas, sı́mbolos matemáticos, escrevendo em ambiente de fórmulas\n3.4. Matrizes, equações alinhadas, tabelas e imagens\n3.5. Textos sem formatação (Para saı́das computacionais)\n3.6. Partes de documento: Tı́tulos, capı́tulos, sumários, cabeçalho e rodapé, bibliografia básica\n3.7. BibTeX (bibliografia externa)\n3.8. Criando Apresentações e Pôster",
+    "text": "Editor de textos LATEX. Estruturas de repetições e funções no software R. Geração de Variáveis Aleatórias. Método de Monte Carlo. Bootstrap.",
     "crumbs": [
       "Informações da disciplina",
-      "Conteúdo"
+      "Ementa e objetivos"
     ]
   },
   {
-    "objectID": "info/conteudo.html#conteudo",
-    "href": "info/conteudo.html#conteudo",
+    "objectID": "info/ementa.html#ementa",
+    "href": "info/ementa.html#ementa",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "Geração de variáveis aleatórias\n1.1. Comandos básicos do R\n1.2. Estruturas de repetição no R\n1.3. Condições e sı́mbolos lógicos no\n1.4. Escrevendo funções no R\n1.5. Gerador de números aleatórios\n1.6. Método da Transformada inversa\n1.7. Método da Aceitação-Rejeição\n1.8. Outros métodos de geração de v.a.\nMétodos de Monte Carlo\n2.1. Conceito Geral\n2.2. Testes de Hipóteses e Erros\n2.3. Intervalos de confiança\n2.4. Viés e Erro quadrático Médio\n2.5. Método de Reamostragem: Bootstrap\n2.6. Método de Reamostragem: Jackknife\nO editor de textos LaTeX\n3.1. Comandos iniciais\n3.2. Formatação de texto, Tipos de Listas, Teoremas\n3.3. Fórmulas diversas, sı́mbolos matemáticos, escrevendo em ambiente de fórmulas\n3.4. Matrizes, equações alinhadas, tabelas e imagens\n3.5. Textos sem formatação (Para saı́das computacionais)\n3.6. Partes de documento: Tı́tulos, capı́tulos, sumários, cabeçalho e rodapé, bibliografia básica\n3.7. BibTeX (bibliografia externa)\n3.8. Criando Apresentações e Pôster",
+    "text": "Editor de textos LATEX. Estruturas de repetições e funções no software R. Geração de Variáveis Aleatórias. Método de Monte Carlo. Bootstrap.",
     "crumbs": [
       "Informações da disciplina",
-      "Conteúdo"
+      "Ementa e objetivos"
     ]
   },
   {
-    "objectID": "info/cronograma.html",
-    "href": "info/cronograma.html",
+    "objectID": "info/ementa.html#objetivos",
+    "href": "info/ementa.html#objetivos",
+    "title": "Estatística Computacional",
+    "section": "Objetivos",
+    "text": "Objetivos\nDesenvolver habilidades essenciais para a aplicação de métodos computacionais na análise de dados e na obtenção de estimativas estatı́sticas confiáveis, bem como preparar estudantes para criar documentos de alta qualidade com notação matemática adequada e formatação profissional.",
+    "crumbs": [
+      "Informações da disciplina",
+      "Ementa e objetivos"
+    ]
+  },
+  {
+    "objectID": "info/ementa.html#metodologia",
+    "href": "info/ementa.html#metodologia",
+    "title": "Estatística Computacional",
+    "section": "Metodologia",
+    "text": "Metodologia\nSerão ministradas aulas teóricas expositivas; utilizados recursos visuais; resolução de exercı́cios em sala de aula; solicitação de atividades extraclasse. O cronograma de aulas encontra-se no Quadro 1.",
+    "crumbs": [
+      "Informações da disciplina",
+      "Ementa e objetivos"
+    ]
+  },
+  {
+    "objectID": "info/ementa.html#habilidades-e-competências",
+    "href": "info/ementa.html#habilidades-e-competências",
+    "title": "Estatística Computacional",
+    "section": "Habilidades e Competências",
+    "text": "Habilidades e Competências\nAo término deste curso o aluno estará apto a realizar análises estatı́sticas avançadas, simulações e estimativas confiáveis, além de resolver problemas práticos no campo da Estatı́stica utilizando abordagens computacionais.",
+    "crumbs": [
+      "Informações da disciplina",
+      "Ementa e objetivos"
+    ]
+  },
+  {
+    "objectID": "info/ementa.html#avaliação",
+    "href": "info/ementa.html#avaliação",
+    "title": "Estatística Computacional",
+    "section": "Avaliação",
+    "text": "Avaliação\nSerão realizadas três avaliações ao longo do semestre. As avaliações poderão ser provas, trabalhos ou outras atividades solicitadas pelo professor.",
+    "crumbs": [
+      "Informações da disciplina",
+      "Ementa e objetivos"
+    ]
+  },
+  {
+    "objectID": "info/softwares.html",
+    "href": "info/softwares.html",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "Cronograma de aulas de Estatística Computacional seguindo o calendário acadêmico do período 2025-1.\n\n\n\n\n\n\n\n\nAula\nData\nAssunto Previsto\n\n\n\n\n1\nTerça, 13 de maio de 2025\nRecepção dos alunos\n\n\n2\nQuinta, 15 de maio de 2025\nRecepção dos alunos\n\n\n3\nTerça, 20 de maio de 2025\nApresentação da disciplina\n\n\n4\nQuinta, 22 de maio de 2025\nIntrodução ao RStudio + GitHub\n\n\n5\nTerça, 27 de maio de 2025\nIntrodução ao LaTeX\n\n\n6\nQuinta, 29 de maio de 2025\nEstrutura básico do LaTeX\n\n\n7\nTerça, 03 de junho de 2025\nAmbiente matemático no LaTeX\n\n\n8\nQuinta, 05 de junho de 2025\nTabelas no LaTeX\n\n\n9\nTerça, 10 de junho de 2025\nFiguras no LaTeX\n\n\n10\nQuinta, 12 de junho de 2025\nBibliografia no LaTeX\n\n\n11\nQuinta, 17 de junho de 2025\nAvaliação 1\n\n\n12\nTerça, 01 de julho de 2025\nQuarto\n\n\n13\nQuinta, 03 de julho de 2025\nGeração de Números aleatórios\n\n\n14\nQuinta, 10 de julho de 2025\nGeração de Variáveis Aleatórias Discretas\n\n\n15\nTerça, 15 de julho de 2025\nGeração de Variáveis Aleatórias Contínuas\n\n\n16\nTerça, 17 de julho de 2025\nGeração de Variáveis Aleatórias Contínuas\n\n\n17\nTerça, 22 de julho de 2025\nGeração de Variáveis Aleatórias Contínuas\n\n\n18\nTerça, 24 de julho de 2025\nGeração de um processo de Poisson Homogêneo\n\n\n19\nTerça, 29 de julho de 2025\nGeração de um processo de Poisson Não Homogêneo",
+    "text": "Para acompanhar as atividades da disciplina, será necessário instalar os softwares listados abaixo. Todos são gratuitos e amplamente utilizados nas áreas de Estatística e Ciência de Dados:\n\n\n\nR é um ambiente computacional gratuito voltado para análises estatísticas e produção de visualizações gráficas. Link\n\n\n\nO RStudio consiste em um ambiente de desenvolvimento integrado (IDE) projetado para aumentar a produtividade no uso da linguagem R, oferecendo ferramentas especializadas para programação, depuração e visualização de dados. Link\n\n\n\nQuarto é um sistema de publicação técnico-científica de código aberto que integra análise computacional (Python, R, Julia) e produção de documentos dinâmicos em múltiplos formatos (HTML, PDF, Word). Combina escrita em Markdown com recursos avançados para equações, citações e visualizações reprodutíveis. Link\n\n\n\nMiKTeX é uma distribuição moderna do sistema TeX/LaTeX para ambiente Windows, fornecendo um conjunto completo de ferramentas para editoração técnica e científica de alta qualidade. Link\n\n\n\nTeXstudio é um ambiente integrado de edição para documentos LaTeX, oferecendo recursos como realce de sintaxe, visualizador incorporado, verificação de referências e assistentes para facilitar a escrita. Link",
     "crumbs": [
       "Informações da disciplina",
-      "Cronograma"
+      "Softwares Necessários"
     ]
   },
   {
-    "objectID": "info/cronograma.html#cronograma-de-aulas",
-    "href": "info/cronograma.html#cronograma-de-aulas",
+    "objectID": "info/softwares.html#softwares-necessários",
+    "href": "info/softwares.html#softwares-necessários",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "Cronograma de aulas de Estatística Computacional seguindo o calendário acadêmico do período 2025-1.\n\n\n\n\n\n\n\n\nAula\nData\nAssunto Previsto\n\n\n\n\n1\nTerça, 13 de maio de 2025\nRecepção dos alunos\n\n\n2\nQuinta, 15 de maio de 2025\nRecepção dos alunos\n\n\n3\nTerça, 20 de maio de 2025\nApresentação da disciplina\n\n\n4\nQuinta, 22 de maio de 2025\nIntrodução ao RStudio + GitHub\n\n\n5\nTerça, 27 de maio de 2025\nIntrodução ao LaTeX\n\n\n6\nQuinta, 29 de maio de 2025\nEstrutura básico do LaTeX\n\n\n7\nTerça, 03 de junho de 2025\nAmbiente matemático no LaTeX\n\n\n8\nQuinta, 05 de junho de 2025\nTabelas no LaTeX\n\n\n9\nTerça, 10 de junho de 2025\nFiguras no LaTeX\n\n\n10\nQuinta, 12 de junho de 2025\nBibliografia no LaTeX\n\n\n11\nQuinta, 17 de junho de 2025\nAvaliação 1\n\n\n12\nTerça, 01 de julho de 2025\nQuarto\n\n\n13\nQuinta, 03 de julho de 2025\nGeração de Números aleatórios\n\n\n14\nQuinta, 10 de julho de 2025\nGeração de Variáveis Aleatórias Discretas\n\n\n15\nTerça, 15 de julho de 2025\nGeração de Variáveis Aleatórias Contínuas\n\n\n16\nTerça, 17 de julho de 2025\nGeração de Variáveis Aleatórias Contínuas\n\n\n17\nTerça, 22 de julho de 2025\nGeração de Variáveis Aleatórias Contínuas\n\n\n18\nTerça, 24 de julho de 2025\nGeração de um processo de Poisson Homogêneo\n\n\n19\nTerça, 29 de julho de 2025\nGeração de um processo de Poisson Não Homogêneo",
+    "text": "Para acompanhar as atividades da disciplina, será necessário instalar os softwares listados abaixo. Todos são gratuitos e amplamente utilizados nas áreas de Estatística e Ciência de Dados:\n\n\n\nR é um ambiente computacional gratuito voltado para análises estatísticas e produção de visualizações gráficas. Link\n\n\n\nO RStudio consiste em um ambiente de desenvolvimento integrado (IDE) projetado para aumentar a produtividade no uso da linguagem R, oferecendo ferramentas especializadas para programação, depuração e visualização de dados. Link\n\n\n\nQuarto é um sistema de publicação técnico-científica de código aberto que integra análise computacional (Python, R, Julia) e produção de documentos dinâmicos em múltiplos formatos (HTML, PDF, Word). Combina escrita em Markdown com recursos avançados para equações, citações e visualizações reprodutíveis. Link\n\n\n\nMiKTeX é uma distribuição moderna do sistema TeX/LaTeX para ambiente Windows, fornecendo um conjunto completo de ferramentas para editoração técnica e científica de alta qualidade. Link\n\n\n\nTeXstudio é um ambiente integrado de edição para documentos LaTeX, oferecendo recursos como realce de sintaxe, visualizador incorporado, verificação de referências e assistentes para facilitar a escrita. Link",
     "crumbs": [
       "Informações da disciplina",
-      "Cronograma"
+      "Softwares Necessários"
     ]
   },
   {
-    "objectID": "info/dados_gerais.html",
-    "href": "info/dados_gerais.html",
+    "objectID": "info/bibliografia.html",
+    "href": "info/bibliografia.html",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "Componente curricular:\nESTAT0090 - Estatística Computacional\nDisciplina obrigatória para o curso de Estatística da Universidade Federal de Sergipe",
+    "text": "DE ALMEIDA, Pedro Quaresma. Introduçao ao LATEX. Escolar Editora, 1996.\nRUBINSTEIN, Reuven Y; KROESE, Dirk P. Simulation and Monte Carlo method. 2nd ed. New Jersey, Estados Unidos: Wiley-Interscience, 2008.\nDAVISON, A. C; HINKLEY, D. V. Bootstrap methods and their application. New York, Estados Unidos: Cambridge University Press, 1997.\nEFRON, Bradley; TIBSHIRANI, Robert. An introduction to the bootstrap. Boca Raton, Estados Unidos: Chapman & Hall/CRC, 1994.\nVERZANI, John. Using R for introductory statistics. Boca Raton, Estados Unidos: Chapman & Hall/CRC, 2005.\n\n\n\n\n\nRIZZO, Maria L. Statistical computing with R. CRC Press, 2019.\nGIVENS, Geof H.; HOETING, Jennifer A. Computational statistics. John Wiley & Sons, 2012.",
     "crumbs": [
       "Informações da disciplina",
-      "Dados gerais"
+      "Bibliografia"
     ]
   },
   {
-    "objectID": "info/dados_gerais.html#dados-gerais-da-disciplina",
-    "href": "info/dados_gerais.html#dados-gerais-da-disciplina",
+    "objectID": "info/bibliografia.html#bibliografia",
+    "href": "info/bibliografia.html#bibliografia",
     "title": "Estatística Computacional",
     "section": "",
-    "text": "Componente curricular:\nESTAT0090 - Estatística Computacional\nDisciplina obrigatória para o curso de Estatística da Universidade Federal de Sergipe",
+    "text": "DE ALMEIDA, Pedro Quaresma. Introduçao ao LATEX. Escolar Editora, 1996.\nRUBINSTEIN, Reuven Y; KROESE, Dirk P. Simulation and Monte Carlo method. 2nd ed. New Jersey, Estados Unidos: Wiley-Interscience, 2008.\nDAVISON, A. C; HINKLEY, D. V. Bootstrap methods and their application. New York, Estados Unidos: Cambridge University Press, 1997.\nEFRON, Bradley; TIBSHIRANI, Robert. An introduction to the bootstrap. Boca Raton, Estados Unidos: Chapman & Hall/CRC, 1994.\nVERZANI, John. Using R for introductory statistics. Boca Raton, Estados Unidos: Chapman & Hall/CRC, 2005.\n\n\n\n\n\nRIZZO, Maria L. Statistical computing with R. CRC Press, 2019.\nGIVENS, Geof H.; HOETING, Jennifer A. Computational statistics. John Wiley & Sons, 2012.",
     "crumbs": [
       "Informações da disciplina",
-      "Dados gerais"
+      "Bibliografia"
     ]
   },
   {
-    "objectID": "info/dados_gerais.html#informações-da-disciplina",
-    "href": "info/dados_gerais.html#informações-da-disciplina",
-    "title": "Estatística Computacional",
-    "section": "Informações da Disciplina",
-    "text": "Informações da Disciplina\n\nCarga Horária: 60 horas (4 créditos)\nUnidade Responsável: Departamento de Estatística e Ciências Atuariais (DECAT)\nDocente Responsável: Prof. Dr. Sadraque E. F. Lucena\nPeríodo Letivo: 2025-1\nPlano de Ensino da Disciplina: pdf",
-    "crumbs": [
-      "Informações da disciplina",
-      "Dados gerais"
-    ]
-  },
-  {
-    "objectID": "info/dados_gerais.html#horários-das-aulas",
-    "href": "info/dados_gerais.html#horários-das-aulas",
-    "title": "Estatística Computacional",
-    "section": "Horários das Aulas",
-    "text": "Horários das Aulas\nAs aulas ocorrerão nos seguintes horários:\n\nTerças: 19h00 às 20h30 no LEA01 (Laboratório de Informática 01 do DECAT)\nQuintas: 20h45 às 22h15 no LEA02 (Laboratório de Informática 02 do DECAT)",
-    "crumbs": [
-      "Informações da disciplina",
-      "Dados gerais"
-    ]
-  },
-  {
-    "objectID": "info/dados_gerais.html#avaliações",
-    "href": "info/dados_gerais.html#avaliações",
-    "title": "Estatística Computacional",
-    "section": "Avaliações",
-    "text": "Avaliações\nA disciplina contará com 3 avaliações distribuídas ao longo do semestre nas seguintes datas:\n\nAvaliação 1: 17/06/2025 (terça)\nAvaliação 2: 29/07/2025 (terça)\nAvaliação 3: 02/09/2025 (terça)",
-    "crumbs": [
-      "Informações da disciplina",
-      "Dados gerais"
-    ]
-  },
-  {
-    "objectID": "info/dados_gerais.html#não-haverá-aula",
-    "href": "info/dados_gerais.html#não-haverá-aula",
-    "title": "Estatística Computacional",
-    "section": "Não haverá aula",
-    "text": "Não haverá aula\n\n19/06/2025: Corpus Christi (ponto facultativo)\n24/06/2025: Sâo João (feriado municipal)\n08/07/2025: Independência de Sergipe (feriado estadual)",
-    "crumbs": [
-      "Informações da disciplina",
-      "Dados gerais"
-    ]
-  },
-  {
-    "objectID": "conteudos/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html",
-    "href": "conteudos/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html",
-    "title": "Conteúdo 14",
+    "objectID": "conteudos/2-Introducao_ao_RStudio+GitHub.html",
+    "href": "conteudos/2-Introducao_ao_RStudio+GitHub.html",
+    "title": "Conteúdo 2",
     "section": "",
-    "text": "Nesta aula, avançaremos para o Processo de Poisson Não Homogêneo (PPNH), onde a taxa de eventos varia com o tempo, tornando nossas simulações muito mais realistas, como o fluxo de clientes em uma loja ao longo do dia, que não é constante. Você aprenderá a gerar dados para esses cenários dinâmicos, uma habilidade essencial para modelar e resolver problemas complexos em diversas áreas, validando modelos e otimizando sistemas com base em comportamentos que realmente refletem o mundo real.\nSlides:\n\nVersão html\nVersão pdf\n\n\n\n\nNos slides vocês precisará do conjunto de dados abaixo:\n\nregistros.csv",
+    "text": "Como garantir que um trabalho estatístico seja organizado, reproduzível e protegido contra erros? A aula parte desse problema para apresentar o ambiente RStudio e as ferramentas Git e GitHub. A atividade será vivenciada de forma prática, onde será necessário versionar projetos e colaborar com colegas. Ao longo da aula, será possível aprender a integrar o RStudio com o Git e a criar repositórios no GitHub, desenvolvendo habilidades essenciais para o mercado de trabalho em Estatística e Ciência de Dados.\n\nVersão html\nVersão pdf",
     "crumbs": [
       "Material das aulas",
-      "14- Geração de um processo de Poisson não homogêneo"
+      "2- Introdução ao RStudio + GitHub"
     ]
   },
   {
-    "objectID": "conteudos/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#geração-de-um-processo-de-poisson-não-homogêneo",
-    "href": "conteudos/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#geração-de-um-processo-de-poisson-não-homogêneo",
-    "title": "Conteúdo 14",
+    "objectID": "conteudos/2-Introducao_ao_RStudio+GitHub.html#introdução-ao-rstudio-github",
+    "href": "conteudos/2-Introducao_ao_RStudio+GitHub.html#introdução-ao-rstudio-github",
+    "title": "Conteúdo 2",
     "section": "",
-    "text": "Nesta aula, avançaremos para o Processo de Poisson Não Homogêneo (PPNH), onde a taxa de eventos varia com o tempo, tornando nossas simulações muito mais realistas, como o fluxo de clientes em uma loja ao longo do dia, que não é constante. Você aprenderá a gerar dados para esses cenários dinâmicos, uma habilidade essencial para modelar e resolver problemas complexos em diversas áreas, validando modelos e otimizando sistemas com base em comportamentos que realmente refletem o mundo real.\nSlides:\n\nVersão html\nVersão pdf",
+    "text": "Como garantir que um trabalho estatístico seja organizado, reproduzível e protegido contra erros? A aula parte desse problema para apresentar o ambiente RStudio e as ferramentas Git e GitHub. A atividade será vivenciada de forma prática, onde será necessário versionar projetos e colaborar com colegas. Ao longo da aula, será possível aprender a integrar o RStudio com o Git e a criar repositórios no GitHub, desenvolvendo habilidades essenciais para o mercado de trabalho em Estatística e Ciência de Dados.\n\nVersão html\nVersão pdf",
     "crumbs": [
       "Material das aulas",
-      "14- Geração de um processo de Poisson não homogêneo"
+      "2- Introdução ao RStudio + GitHub"
     ]
   },
   {
-    "objectID": "conteudos/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#dados-para-o-exemplo-14.2",
-    "href": "conteudos/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.html#dados-para-o-exemplo-14.2",
-    "title": "Conteúdo 14",
+    "objectID": "conteudos/15-O-Metodo-de-Integracao-de-Monte-Carlo.html",
+    "href": "conteudos/15-O-Metodo-de-Integracao-de-Monte-Carlo.html",
+    "title": "Conteúdo 15",
     "section": "",
-    "text": "Nos slides vocês precisará do conjunto de dados abaixo:\n\nregistros.csv",
+    "text": "Nesta aula, avançaremos para o Método de Integração de Monte Carlo, uma técnica que nos permite resolver problemas matemáticos complexos de uma forma surpreendentemente intuitiva e prática. Em vez de recorrer a cálculos analíticos complicados, vamos usar a aleatoriedade e a Lei dos Grandes Números para calcular o resultado de integrais.\nSlides:\n\nVersão html\nVersão pdf",
     "crumbs": [
       "Material das aulas",
-      "14- Geração de um processo de Poisson não homogêneo"
+      "15- O Método de Integração de Monte Carlo"
     ]
   },
   {
-    "objectID": "conteudos/13-Geracao-de-um-processo-de-poisson.html",
-    "href": "conteudos/13-Geracao-de-um-processo-de-poisson.html",
-    "title": "Conteúdo 13",
+    "objectID": "conteudos/15-O-Metodo-de-Integracao-de-Monte-Carlo.html#o-método-de-integração-de-monte-carlo",
+    "href": "conteudos/15-O-Metodo-de-Integracao-de-Monte-Carlo.html#o-método-de-integração-de-monte-carlo",
+    "title": "Conteúdo 15",
     "section": "",
-    "text": "Nesta aula, você aprenderá e aplicará duas abordagens para simular um Processo de Poisson: uma baseada na geração dos tempos entre eventos (distribuição Exponencial) e outra na simulação do número total de eventos no intervalo (distribuição de Poisson + uniformes). Ao dominar essas técnicas, você será capaz de modelar e gerar dados para fenômenos onde eventos ocorrem aleatoriamente ao longo do tempo – como falhas, chamadas, pagamentos ou chegadas. Essa habilidade é fundamental para validar modelos estatísticos, desenvolver sistemas de simulação e resolver problemas reais em ciência de dados, engenharia, finanças e além.\nSlides:\n\nVersão html\nVersão pdf",
+    "text": "Nesta aula, avançaremos para o Método de Integração de Monte Carlo, uma técnica que nos permite resolver problemas matemáticos complexos de uma forma surpreendentemente intuitiva e prática. Em vez de recorrer a cálculos analíticos complicados, vamos usar a aleatoriedade e a Lei dos Grandes Números para calcular o resultado de integrais.\nSlides:\n\nVersão html\nVersão pdf",
     "crumbs": [
       "Material das aulas",
-      "13- Geração de um processo de Poisson homogêneo"
-    ]
-  },
-  {
-    "objectID": "conteudos/13-Geracao-de-um-processo-de-poisson.html#geração-de-um-processo-de-poisson",
-    "href": "conteudos/13-Geracao-de-um-processo-de-poisson.html#geração-de-um-processo-de-poisson",
-    "title": "Conteúdo 13",
-    "section": "",
-    "text": "Nesta aula, você aprenderá e aplicará duas abordagens para simular um Processo de Poisson: uma baseada na geração dos tempos entre eventos (distribuição Exponencial) e outra na simulação do número total de eventos no intervalo (distribuição de Poisson + uniformes). Ao dominar essas técnicas, você será capaz de modelar e gerar dados para fenômenos onde eventos ocorrem aleatoriamente ao longo do tempo – como falhas, chamadas, pagamentos ou chegadas. Essa habilidade é fundamental para validar modelos estatísticos, desenvolver sistemas de simulação e resolver problemas reais em ciência de dados, engenharia, finanças e além.\nSlides:\n\nVersão html\nVersão pdf",
-    "crumbs": [
-      "Material das aulas",
-      "13- Geração de um processo de Poisson homogêneo"
+      "15- O Método de Integração de Monte Carlo"
     ]
   },
   {

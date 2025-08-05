@@ -56,6 +56,8 @@ website:
         text: "13- Geração de um processo de Poisson homogêneo"
       - href: conteudos/14-Geracao-de-um-processo-de-poisson-nao-homogeneo.qmd
         text: "14- Geração de um processo de Poisson não homogêneo"
+      - href: conteudos/15-O-Metodo-de-Integracao-de-Monte-Carlo.qmd
+        text: "15- O Método de Integração de Monte Carlo"
 
 format:
   html:
