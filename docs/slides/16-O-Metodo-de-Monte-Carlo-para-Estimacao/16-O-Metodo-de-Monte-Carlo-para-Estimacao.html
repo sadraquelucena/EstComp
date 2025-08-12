@@ -255,7 +255,7 @@
 <li>Assim, o erro padrão de Monte Carlo é dado por <span class="math display">\[
   \widehat{EP}_{MC} = \frac{1}{\sqrt{N}} \sqrt{\frac{1}{N} \sum_{j=1}^N \left(\widehat{\theta}^{(j)} - \widehat{\theta}_{MC}\right)^2}
 \]</span></li>
-<li>No R o erro padrão é calculado usando .</li>
+<li>No R o erro padrão é calculado usando <code>sd(x)/sqrt(N)</code>.</li>
 </ul>
 </section>
 <section id="intervalos-de-confiança-de-monte-carlo" class="slide level2">
@@ -332,7 +332,13 @@
 </section>
 <section id="exemplo-16.4" class="slide level2">
 <h2>Exemplo 16.4</h2>
-<p>Considere o modelo <span class="math inline">\(y_i=\beta_0+\beta_1x_i+\varepsilon_i\)</span> com <span class="math inline">\(\varepsilon_i\sim \mathcal{N}(0,\sigma^2_\varepsilon)\)</span>, <span class="math inline">\(x_i\sim exp(1/5)\)</span> e <span class="math inline">\(i=1,\ldots,n\)</span>. Utilizar o Método de Monte Carlo para avaliar propriedades dos estimadores.</p>
+<p>Considere o modelo <span class="math inline">\(y_i=\beta_0+\beta_1x_i+\varepsilon_i\)</span> com <span class="math inline">\(\varepsilon_i\sim \mathcal{N}(0,\sigma^2_\varepsilon)\)</span>, <span class="math inline">\(x_i\sim exp(1/5)\)</span> e <span class="math inline">\(i=1,\ldots,n\)</span>. Utilizar o Método de Monte Carlo para avaliar propriedades dos estimadores:</p>
+<ul>
+<li>Valor esperado das estimativas</li>
+<li>Viés</li>
+<li>Variãncia</li>
+<li>EQM</li>
+</ul>
 </section>
 <section id="exemplo-16.4-1" class="slide level2">
 <h2>Exemplo 16.4</h2>

@@ -88,7 +88,7 @@ $$
 $$
 	\widehat{EP}_{MC} = \frac{1}{\sqrt{N}} \sqrt{\frac{1}{N} \sum_{j=1}^N \left(\widehat{\theta}^{(j)} - \widehat{\theta}_{MC}\right)^2}
 $$
-- No R o erro padrão é calculado usando \texttt{sd(x)/sqrt(N)}.
+- No R o erro padrão é calculado usando `sd(x)/sqrt(N)`.
 
 
 
@@ -185,8 +185,12 @@ Suponha que $X_1$ e $X_2$ são duas variáveis aleatórias i.i.d. de uma normal 
 
 ## Exemplo 16.4
 
-Considere o modelo $y_i=\beta_0+\beta_1x_i+\varepsilon_i$ com $\varepsilon_i\sim \mathcal{N}(0,\sigma^2_\varepsilon)$, $x_i\sim exp(1/5)$ e $i=1,\ldots,n$. Utilizar o Método de Monte Carlo para avaliar propriedades dos estimadores. 
+Considere o modelo $y_i=\beta_0+\beta_1x_i+\varepsilon_i$ com $\varepsilon_i\sim \mathcal{N}(0,\sigma^2_\varepsilon)$, $x_i\sim exp(1/5)$ e $i=1,\ldots,n$. Utilizar o Método de Monte Carlo para avaliar propriedades dos estimadores:
 
+- Valor esperado das estimativas
+- Viés
+- Variãncia
+- EQM
 
 
 
