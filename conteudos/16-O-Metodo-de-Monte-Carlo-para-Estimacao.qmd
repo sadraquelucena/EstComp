@@ -1,0 +1,20 @@
+---
+title: ""
+format:
+  html:
+    toc: false
+    anchor-sections: false
+---
+
+# Conteúdo 15
+
+## O Método de Monte Carlo para Estimação
+
+Nesta aula, explorar o poder da simulação de Monte Carlo como uma ferramenta prática para a estatística. Em cenários onde a matemática para calcular propriedades como viés e erro padrão de um estimador é complexa, podemos usar o computador para simular o processo de amostragem milhares de vezes. Isso nos permite, de forma intuitiva, aproximar essas propriedades e, assim, comparar a eficácia de diferentes estimadores. Ao final, você será capaz de aplicar essa técnica para avaliar e validar modelos estatísticos, testando suas suposições de forma empírica e robusta, sem a necessidade de soluções analíticas complexas.
+
+Slides:
+
+- [Versão html](/slides/16-O-Metodo-de-Monte-Carlo-para-Estimacao/16-O-Metodo-de-Monte-Carlo-para-Estimacao.html){target="_blank"}
+
+- [Versão pdf](/PDF_slides/16-O-Metodo-de-Monte-Carlo-para-Estimacao.pdf){target="_blank"}
+

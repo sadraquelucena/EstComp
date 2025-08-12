@@ -34,4 +34,5 @@ Cronograma de aulas de Estatística Computacional seguindo o [calendário acadê
 | 19     | Terça, 29 de julho de 2025 | Geração de um processo de Poisson Não Homogêneo    |
 | 20     | Terça, 31 de julho de 2025 | Avaliação 2    |
 | 21     | Terça, 05 de agosto de 2025 | O Método de Integração de Monte Carlo    |
+| 22     | Terça, 12 de agosto de 2025 | O Método de Monte Carlo para Estimação    |
 

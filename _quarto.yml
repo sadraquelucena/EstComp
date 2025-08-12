@@ -58,6 +58,8 @@ website:
         text: "14- Geração de um processo de Poisson não homogêneo"
       - href: conteudos/15-O-Metodo-de-Integracao-de-Monte-Carlo.qmd
         text: "15- O Método de Integração de Monte Carlo"
+      - href: conteudos/16-O-Metodo-de-Monte-Carlo-para-Estimacao.qmd
+        text: "16- O Método de Monte Carlo para Estimação"
 
 format:
   html:
