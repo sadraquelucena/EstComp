@@ -1,0 +1,1243 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-b719d3d4935f2b08311a76135e2bf442.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.7.28">
+
+  <meta name="author" content="ESTAT0090 – Estatística Computacional  Prof.&nbsp;Dr.&nbsp;Sadraque E. F. Lucena  sadraquelucena@academico.ufs.br">
+  <title>Estatística Computacional – O que fazer quando a amostra é pequena?</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
+  </style>
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-a4fa0395bacdb0b6af247d68eb610ceb.css">
+  <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">O que fazer quando a amostra é pequena?</h1>
+  <p class="subtitle">Método de Reamostragem Boostrap</p>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+<p>ESTAT0090 – Estatística Computacional<br> Prof.&nbsp;Dr.&nbsp;Sadraque E. F. Lucena<br> <span style="font-size:.8em;">sadraquelucena@academico.ufs.br</span></p> 
+</div>
+</div>
+</div>
+
+</section>
+<section id="motivação" class="slide level2">
+<h2>Motivação</h2>
+<p>Fazer inferências com amostras pequenas é muito difícil, principalmente quando a distribuição da população não é conhecida. Nesses casos, os métodos estatísticos tradicionais podem não ser adequados ou aplicáveis. Uma alternativa é usar o método bootstrap.</p>
+</section>
+<section id="objetivos-da-aula" class="slide level2">
+<h2>Objetivos da aula</h2>
+<ul>
+<li>Apresentar o método de reamostragem Bootstrap como uma alternativa para fazer inferência em situações com amostras pequenas.</li>
+<li>Ensinar a usar o método Bootstrap para estimar a distribuição, o erro padrão, o viés e calcular intervalos de confiança para estimadores estatísticos.</li>
+<li>Demonstrar a aplicação do Bootstrap com exemplos práticos, comparando seus resultados com os de métodos analíticos tradicionais (quando disponíveis).</li>
+<li>Introduzir o uso do pacote <code>boot</code> no R para realizar a reamostragem Bootstrap.</li>
+</ul>
+</section>
+<section id="bootstrap-introdução" class="slide level2">
+<h2>Bootstrap: Introdução</h2>
+<ul>
+<li>Quando se deseja fazer inferência sobre um estimador, é essencial conhecer a sua distribuição.</li>
+<li>Há duas formas de determinar a distribuição do estimador:
+<ol type="1">
+<li>Conhecendo a distribuição original dos dados;</li>
+<li>Obtendo aproximação usando resultados assintóticos quando o tamanho da amostra é suficientemente grande.</li>
+</ol></li>
+<li>No entanto, quando lidamos com amostras pequenas e não temos informações suficientes sobre a distribuição da população da qual a amostra foi retirada, os métodos estatísticos tradicionais podem não ser apropriados. É aí que entram os métodos bootstrap.</li>
+<li>Bootstrap envolve o tratamento da amostra que temos como uma representação aproximada da população. Com base nessa amostra, criamos várias amostras artificiais e aplicamos o estimador, obtendo uma estimativa para cada uma dessas amostras artificiais.</li>
+</ul>
+</section>
+<section id="bootstrap-introdução-1" class="slide level2">
+<h2>Bootstrap: Introdução</h2>
+<ul>
+<li>Usando essas estimativas artificiais, podemos construir uma aproximação empírica da distribuição de probabilidade do estimador.</li>
+<li>Dessa forma, o método bootstrap nos permite estimar a variabilidade e a incerteza associadas ao nosso estimador, mesmo quando não conhecemos a distribuição exata da população subjacente.</li>
+<li>Ele é particularmente útil em situações em que os métodos estatísticos clássicos não podem ser aplicados devido ao tamanho pequeno da amostra ou à falta de informações sobre a população.</li>
+</ul>
+</section>
+<section id="bootstrap-introdução-2" class="slide level2">
+<h2>Bootstrap: Introdução</h2>
+<ul>
+<li>O método Boostrap foi apresentado de forma sistematizada por Efron em 1979.</li>
+<li>Principais aplicações de bootstrap:
+<ul>
+<li>Avaliar propriedades da distribuição de estimadores para seleção, ajuste de vício, etc.</li>
+<li>Substituir ou aprimorar a adequação de abordagens assintóticas em amostras pequenas: intervalos de confiança, testes de hipótese.</li>
+</ul></li>
+</ul>
+</section>
+<section id="bootstrap-funcionamento" class="slide level2">
+<h2>Bootstrap: funcionamento</h2>
+<ul>
+<li>Suponha que <span class="math inline">\(\theta\)</span> é o parâmetro de interesse (<span class="math inline">\(\theta\)</span> pode ser um vetor) e <span class="math inline">\(\widehat{\theta}\)</span> é um estimador de <span class="math inline">\(\theta\)</span>. Então a estimativa bootstrap da distribuição de <span class="math inline">\(\theta\)</span> (distribuição empírica) é obtida da seguinte forma:
+<ul>
+<li>Para cada réplica bootstrap, indexada por <span class="math inline">\(b=1,\ldots,B\)</span>:
+<ol type="a">
+<li>Gere a amostra <span class="math inline">\(x^{*(b)} = x^*_1, \ldots, x^*_n\)</span> (mesmo tamanho da amostra original); b. Calcule <span class="math inline">\(\widehat{\theta}^*_{b}\)</span> a partir da amostra <span class="math inline">\(x^{*(b)}\)</span>.</li>
+</ol>
+<ul>
+<li>A distribuição empírica de <span class="math inline">\(\theta\)</span> será <span class="math inline">\(\widehat{\theta}^*_{1},\ldots,\widehat{\theta}^*_{B}\)</span>.</li>
+</ul></li>
+</ul></li>
+<li>Se a amostra <span class="math inline">\(x^*_b\)</span> for gerada a partir de uma amostragem com reposição dos dados originais, o método é chamado bootstrap não paramétrico.</li>
+<li>Se a amostra <span class="math inline">\(x^*_b\)</span> for gerada a partir de uma distribuição conhecida, o método é chamado bootstrap paramétrico.</li>
+</ul>
+</section>
+<section id="bootstrap-funcionamento-1" class="slide level2">
+<h2>Bootstrap: funcionamento</h2>
+<ul>
+<li>No caso do bootstrap não paramétrico (não se sabe a distribuição dos dados):
+<ul>
+<li><span class="math inline">\(x = (x_1,\ldots,x_n)\)</span> é a amostra original da qual foi obtido <span class="math inline">\(\widehat{\theta}\)</span>.
+<ul>
+<li>Para cada réplica bootstrap, indexada por <span class="math inline">\(b=1,\ldots,B\)</span>:
+<ol type="a">
+<li>Gere a amostra <span class="math inline">\(x^{*(b)} = x^*_1, \ldots, x^*_n\)</span> a partir de amostragem com reposição de <span class="math inline">\(x\)</span>;</li>
+<li>Calcule <span class="math inline">\(\widehat{\theta}^{(b)}\)</span> para a amostra <span class="math inline">\(x^{*(b)}\)</span>.</li>
+</ol></li>
+<li>A distribuição empírica de <span class="math inline">\(\theta\)</span> será <span class="math inline">\(\widehat{\theta}^*_1,\ldots,\widehat{\theta}^*_b\)</span>.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<img data-src="imagens/figboot.png" class="r-stretch"></section>
+<section id="bootstrap-funcionamento-2" class="slide level2">
+<h2>Bootstrap: funcionamento</h2>
+<ul>
+<li>No caso do bootstrap paramétrico: (a distribuição dos dados é <span class="math inline">\(\mathfrak{D}(\gamma)\)</span>, mas não se sabe o valor de <span class="math inline">\(\gamma\)</span>)
+<ul>
+<li><span class="math inline">\(x = (x_1,\ldots,x_n)\)</span> é a amostra original da qual foi obtido <span class="math inline">\(\widehat{\theta}\)</span>.</li>
+</ul>
+<ol type="1">
+<li>Obtenha a estimativa do parâmetro desconhecido da distribuição, <span class="math inline">\(\widehat{\gamma}\)</span>.</li>
+<li>Para cada réplica bootstrap, indexada por <span class="math inline">\(b=1,\ldots,B\)</span>:</li>
+</ol>
+<ol type="a">
+<li>Gere a amostra <span class="math inline">\(x^{*(b)} = x^*_1, \ldots, x^*_n\)</span> com distribuição <span class="math inline">\(\mathfrak{D}(\widehat{\gamma})\)</span>;
+<ol start="2" type="a">
+<li>Calcule <span class="math inline">\(\widehat{\theta}^*_b\)</span> para a amostra <span class="math inline">\(x^{*(b)}\)</span>.</li>
+</ol></li>
+</ol></li>
+<li>A distribuição empírica de <span class="math inline">\(\theta\)</span> será <span class="math inline">\(\widehat{\theta}^*_1,\ldots,\widehat{\theta}^*_B\)</span>.</li>
+</ul>
+</section>
+<section id="estimação-bootstrap-do-erro-padrão" class="slide level2">
+<h2>Estimação bootstrap do erro padrão</h2>
+<ul>
+<li><p>A estimativa bootstrap do erro padrão de um estimador <span class="math inline">\(\widehat{\theta}\)</span> é o desvio padrão amostraldas réplicas bootstrap <span class="math inline">\(\widehat{\theta}^{(1)}, \ldots, \widehat{\theta}^{(B)}\)</span> <span class="math display">\[
+  dp(\widehat{\theta}^*) = \sqrt{\frac{1}{B-1} \sum\limits_{b=1}^B \left( \widehat{\theta}^*_b - \overline{\widehat{\theta}^*} \right)^2},
+\]</span> em que <span class="math display">\[
+  \overline{\widehat{\theta}^*} = \sum\limits_{b=1}^B \widehat{\theta}^*_b.
+\]</span></p></li>
+<li><p>Segundo Efron e Tibishirani, o número de réplicas necessárias para boa estimação do erro padrão não pe grande.</p></li>
+<li><p><span class="math inline">\(B=50\)</span> geralmente é grande o suficiente e raramente <span class="math inline">\(B&gt;200\)</span> é necessário (para intervalos de confiança esse número é maior).</p></li>
+</ul>
+</section>
+<section id="estimação-bootstrap-do-erro-padrão-1" class="slide level2">
+<h2>Estimação bootstrap do erro padrão</h2>
+<ul>
+<li>Para ilustrar a simplicidade do bootstrap, usaremos essa técnica para obter o erro padrão em uma situação muito simples, na qual sabemos como calcular um erro padrão analiticamente.</li>
+<li>Dessa forma, podemos comparar o resultado obtido pelo bootstrap com o obtido pela fórmula analítica.</li>
+<li>Normalmente usaremos o bootstrap em situações em que não temos um erro padrão analítico disponível.</li>
+</ul>
+</section>
+<section id="exemplo-17.1" class="slide level2">
+<h2>Exemplo 17.1</h2>
+<p>Gere uma amostra de tamanho 100 de <span class="math inline">\(X\sim N(\mu=0, \sigma^2= 100)\)</span>. Determine o erro padrão e estime-o via bootstrap não paramétrico e paramétrico para comparação.</p>
+<ul>
+<li>O verdadeiro erro padrão da média amostral é <span class="math inline">\(dp(\overline{X})=\frac{\sigma}{\sqrt{n}} = \frac{10}{\sqrt{100}} = 1\)</span></li>
+<li>Vejamos como ficam as estimativas via bootstrap não paramétrico e paramétrico.</li>
+</ul>
+</section>
+<section id="exemplo-17.1-1" class="slide level2">
+<h2>Exemplo 17.1</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a aria-hidden="true" tabindex="-1"></a><span class="co"># fixando a semente para reprodutibilidade</span></span>
+<span id="cb1-2"><a aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">61231601</span>)</span>
+<span id="cb1-3"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a aria-hidden="true" tabindex="-1"></a><span class="co"># Amostra</span></span>
+<span id="cb1-5"><a aria-hidden="true" tabindex="-1"></a>n <span class="ot">&lt;-</span> <span class="dv">100</span>  <span class="co"># tamanho da amostra</span></span>
+<span id="cb1-6"><a aria-hidden="true" tabindex="-1"></a>amostra <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(n, <span class="at">mean =</span> <span class="dv">0</span>, <span class="at">sd =</span> <span class="dv">10</span>)</span>
+<span id="cb1-7"><a aria-hidden="true" tabindex="-1"></a>            </span>
+<span id="cb1-8"><a aria-hidden="true" tabindex="-1"></a><span class="co"># Erro padrão amostral</span></span>
+<span id="cb1-9"><a aria-hidden="true" tabindex="-1"></a>( ep <span class="ot">&lt;-</span> <span class="fu">sd</span>(amostra)<span class="sc">/</span><span class="fu">sqrt</span>(n) )</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.9800282</code></pre>
+</div>
+</div>
+</section>
+<section id="o-pacote-boot" class="slide level2">
+<h2>O pacote boot</h2>
+<ul>
+<li>O erro padrão botstrap não paramétrico pode ser obtido no R usando a função <code>boot()</code> do pacote <code>boot</code>.</li>
+<li>O Exemplo 17.1 pode ser refeito usando o código abaixo:</li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a aria-hidden="true" tabindex="-1"></a><span class="do">### Usando o pacote "boot"</span></span>
+<span id="cb3-2"><a aria-hidden="true" tabindex="-1"></a>media.boot <span class="ot">&lt;-</span> <span class="cf">function</span>(x, i) <span class="fu">mean</span>(x[i])</span>
+<span id="cb3-3"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-4"><a aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(boot)</span>
+<span id="cb3-5"><a aria-hidden="true" tabindex="-1"></a><span class="fu">boot</span>(<span class="at">data =</span> amostra, <span class="at">statistic =</span> media.boot, <span class="at">R =</span> <span class="dv">200</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+ORDINARY NONPARAMETRIC BOOTSTRAP
+
+
+Call:
+boot(data = amostra, statistic = media.boot, R = 200)
+
+
+Bootstrap Statistics :
+     original    bias    std. error
+t1* 0.8863115 0.1178033   0.9650515</code></pre>
+</div>
+</div>
+</section>
+<section id="exemplo-17.1-2" class="slide level2">
+<h2>Exemplo 17.1</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a aria-hidden="true" tabindex="-1"></a>B <span class="ot">&lt;-</span> <span class="dv">200</span> <span class="co"># número de réplicas bootstrap</span></span>
+<span id="cb5-2"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-3"><a aria-hidden="true" tabindex="-1"></a><span class="co"># função que obtem uma amostra bootstrap não paramétrica e calcula a média</span></span>
+<span id="cb5-4"><a aria-hidden="true" tabindex="-1"></a>media.np <span class="ot">&lt;-</span> <span class="cf">function</span>(x) {</span>
+<span id="cb5-5"><a aria-hidden="true" tabindex="-1"></a>  amstr <span class="ot">&lt;-</span> <span class="fu">sample</span>(x, <span class="at">size =</span> n, <span class="at">replace =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb5-6"><a aria-hidden="true" tabindex="-1"></a>    <span class="fu">return</span>(<span class="fu">mean</span>(amstr))</span>
+<span id="cb5-7"><a aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb5-8"><a aria-hidden="true" tabindex="-1"></a>            </span>
+<span id="cb5-9"><a aria-hidden="true" tabindex="-1"></a>medias.boot.np <span class="ot">&lt;-</span> <span class="fu">replicate</span>( B, <span class="fu">media.np</span>(amostra) )</span>
+<span id="cb5-10"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-11"><a aria-hidden="true" tabindex="-1"></a><span class="co"># Estimativa do erro padrão</span></span>
+<span id="cb5-12"><a aria-hidden="true" tabindex="-1"></a>( ep.boot.np <span class="ot">&lt;-</span> <span class="fu">sd</span>(medias.boot.np) )</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.9211583</code></pre>
+</div>
+</div>
+</section>
+<section id="exemplo-17.1-3" class="slide level2">
+<h2>Exemplo 17.1</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a aria-hidden="true" tabindex="-1"></a><span class="fu">hist</span>(medias.boot.np, <span class="at">freq =</span> <span class="cn">FALSE</span>,</span>
+<span id="cb7-2"><a aria-hidden="true" tabindex="-1"></a>     <span class="at">main =</span> <span class="st">"Bootstrap não paramétrico"</span>)</span>
+<span id="cb7-3"><a aria-hidden="true" tabindex="-1"></a><span class="fu">lines</span>(<span class="fu">density</span>(medias.boot.np), <span class="at">col =</span> <span class="st">"red"</span>, <span class="at">lwd =</span> <span class="dv">2</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+
+</div>
+<img data-src="17-Metodo-de-Reamostragem-Bootstrap_files/figure-revealjs/unnamed-chunk-4-1.png" width="960" class="r-stretch"></section>
+<section id="exemplo-17.1-4" class="slide level2">
+<h2>Exemplo 17.1</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a aria-hidden="true" tabindex="-1"></a><span class="do">## Bootstrap paramétrico</span></span>
+<span id="cb8-2"><a aria-hidden="true" tabindex="-1"></a>B <span class="ot">&lt;-</span> <span class="dv">200</span> <span class="co"># número de réplicas bootstrap</span></span>
+<span id="cb8-3"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-4"><a aria-hidden="true" tabindex="-1"></a><span class="co"># função que obtem uma amostra bootstrap paramétrica e calcula a média</span></span>
+<span id="cb8-5"><a aria-hidden="true" tabindex="-1"></a>media.p <span class="ot">&lt;-</span> <span class="cf">function</span>(x) {</span>
+<span id="cb8-6"><a aria-hidden="true" tabindex="-1"></a>  m <span class="ot">&lt;-</span> <span class="fu">mean</span>(x) <span class="co"># media</span></span>
+<span id="cb8-7"><a aria-hidden="true" tabindex="-1"></a>    dp <span class="ot">&lt;-</span> <span class="fu">sd</span>(x)  <span class="co"># desvio padrão</span></span>
+<span id="cb8-8"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-9"><a aria-hidden="true" tabindex="-1"></a>    <span class="co"># amostra bootstra paramétrica</span></span>
+<span id="cb8-10"><a aria-hidden="true" tabindex="-1"></a>    amstr <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(n, <span class="at">mean =</span> m, <span class="at">sd =</span> dp)</span>
+<span id="cb8-11"><a aria-hidden="true" tabindex="-1"></a>    <span class="fu">return</span>(<span class="fu">mean</span>(amstr))</span>
+<span id="cb8-12"><a aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb8-13"><a aria-hidden="true" tabindex="-1"></a>            </span>
+<span id="cb8-14"><a aria-hidden="true" tabindex="-1"></a>medias.boot.p <span class="ot">&lt;-</span> <span class="fu">replicate</span>( B, <span class="fu">media.p</span>(amostra) )</span>
+<span id="cb8-15"><a aria-hidden="true" tabindex="-1"></a>            </span>
+<span id="cb8-16"><a aria-hidden="true" tabindex="-1"></a><span class="co"># Estimativa do erro padrão</span></span>
+<span id="cb8-17"><a aria-hidden="true" tabindex="-1"></a><span class="fu">sd</span>(medias.boot.p)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.9090239</code></pre>
+</div>
+</div>
+</section>
+<section id="exemplo-17.1-5" class="slide level2">
+<h2>Exemplo 17.1</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a aria-hidden="true" tabindex="-1"></a><span class="fu">hist</span>(medias.boot.p, <span class="at">freq =</span> <span class="cn">FALSE</span>,</span>
+<span id="cb10-2"><a aria-hidden="true" tabindex="-1"></a>     <span class="at">main =</span> <span class="st">"Bootstrap paramétrico"</span>)</span>
+<span id="cb10-3"><a aria-hidden="true" tabindex="-1"></a><span class="fu">lines</span>(<span class="fu">density</span>(medias.boot.np), <span class="at">col =</span> <span class="st">"red"</span>, <span class="at">lwd =</span> <span class="dv">2</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+
+</div>
+<img data-src="17-Metodo-de-Reamostragem-Bootstrap_files/figure-revealjs/unnamed-chunk-6-1.png" width="960" class="r-stretch"></section>
+<section id="estimação-do-viés-via-bootstrap" class="slide level2">
+<h2>Estimação do viés via bootstrap</h2>
+<ul>
+<li><p>Se <span class="math inline">\(\widehat{\theta}\)</span> é um estimador não viesado para <span class="math inline">\(\theta\)</span>, então <span class="math inline">\(E[\widehat{\theta}] = \theta\)</span>. O viés de um estimador <span class="math inline">\(\widehat{\theta}\)</span> de <span class="math inline">\(\theta\)</span> é <span class="math display">\[
+B[\widehat{\theta}] = E[\widehat{\theta} - \theta] = E[\widehat{\theta}]- \theta
+\]</span></p></li>
+<li><p>Se obtivermos várias estimativas bootstrap (<span class="math inline">\(\widehat{\theta}^{(1)},\ldots,\widehat{\theta}^{(B)}\)</span>) para compreender a distribuição de <span class="math inline">\(\widehat{\theta}\)</span>, então a estimativa de viés bootstrap é <span class="math display">\[
+\widehat{B}[\widehat{\theta}] = \overline{\widehat{\theta}^*} - \widehat{\theta},
+\]</span> em que <span class="math inline">\(\widehat{\theta}\)</span> é a estimativa calculada da amostra original.</p></li>
+<li><p>Valores positivos de viés indicam que, em média, tende a sobrestimar <span class="math inline">\(\theta\)</span>.</p></li>
+</ul>
+</section>
+<section id="correção-de-viés-via-bootstrap" class="slide level2">
+<h2>Correção de viés via bootstrap</h2>
+<ul>
+<li><p>Se um estimador é viesado gostaríamos de “corrigir” este estimador fazendo <span class="math display">\[
+  \theta - B[\widehat{\theta}].
+\]</span></p></li>
+<li><p>Se usarmos uma estimativa bootstrap do viés, temos: <span class="math display">\[
+\theta - \widehat{B}[\widehat{\theta}].
+\]</span></p></li>
+<li><p>Assim, uma estimativa <span class="math inline">\(\widehat{\theta}^c\)</span> para <span class="math inline">\(\theta\)</span> corrigida pelo viés é <span class="math display">\[
+\begin{aligned}
+\widehat{\theta}^c &amp;= \widehat{\theta} - \widehat{B}[\widehat{\theta}]\\
+      &amp;= \widehat{\theta} - \left( \overline{\widehat{\theta}^*} - \widehat{\theta} \right)\\
+      &amp;= 2 \widehat{\theta} - \overline{\widehat{\theta}^*},
+\end{aligned}
+\]</span> ou seja, a estimativa corrigida é dada pelo dobro da original subtraída da médas das estimativas das amostras bootstrap.</p></li>
+</ul>
+</section>
+<section id="exemplo-17.2" class="slide level2">
+<h2>Exemplo 17.2</h2>
+<ul>
+<li>Vamos estimar o viés de <span class="math inline">\(S^2\)</span> usando bootstrap em uma amostra de tamanho 40 da <span class="math inline">\(N(\mu=5, \sigma^2 = 4)\)</span>.</li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a aria-hidden="true" tabindex="-1"></a><span class="co"># Fixando a semente para reprodutibilidade</span></span>
+<span id="cb11-2"><a aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">61231801</span>)</span>
+<span id="cb11-3"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-4"><a aria-hidden="true" tabindex="-1"></a><span class="co"># Amostra</span></span>
+<span id="cb11-5"><a aria-hidden="true" tabindex="-1"></a>n <span class="ot">&lt;-</span> <span class="dv">100</span>  <span class="co"># tamanho da amostra</span></span>
+<span id="cb11-6"><a aria-hidden="true" tabindex="-1"></a>dados <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(n, <span class="at">mean =</span> <span class="dv">5</span>, <span class="at">sd =</span> <span class="dv">2</span>)</span>
+<span id="cb11-7"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-8"><a aria-hidden="true" tabindex="-1"></a><span class="co"># Variância da amostra</span></span>
+<span id="cb11-9"><a aria-hidden="true" tabindex="-1"></a>( var.dados <span class="ot">&lt;-</span> <span class="fu">var</span>(dados) )</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 3.856463</code></pre>
+</div>
+</div>
+</section>
+<section id="exemplo-17.2-1" class="slide level2">
+<h2>Exemplo 17.2</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a aria-hidden="true" tabindex="-1"></a><span class="do">## Bootstrap não paramétrico</span></span>
+<span id="cb13-2"><a aria-hidden="true" tabindex="-1"></a>B <span class="ot">&lt;-</span> <span class="dv">1000</span> <span class="co"># número de réplicas bootstrap</span></span>
+<span id="cb13-3"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-4"><a aria-hidden="true" tabindex="-1"></a><span class="co"># função que obtem uma amostra bootstrap não</span></span>
+<span id="cb13-5"><a aria-hidden="true" tabindex="-1"></a><span class="co"># paramétrica e calcula a variância</span></span>
+<span id="cb13-6"><a aria-hidden="true" tabindex="-1"></a>variancia.boot <span class="ot">&lt;-</span> <span class="cf">function</span>(x) {</span>
+<span id="cb13-7"><a aria-hidden="true" tabindex="-1"></a>  amstr <span class="ot">&lt;-</span> <span class="fu">sample</span>(x, <span class="at">size =</span> n, <span class="at">replace =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb13-8"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(<span class="fu">var</span>(amstr))</span>
+<span id="cb13-9"><a aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb13-10"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-11"><a aria-hidden="true" tabindex="-1"></a>var.boot.np <span class="ot">&lt;-</span> <span class="fu">replicate</span>( B, <span class="fu">variancia.boot</span>(dados) )</span>
+<span id="cb13-12"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-13"><a aria-hidden="true" tabindex="-1"></a><span class="co"># Estimativa bootstrap da variância </span></span>
+<span id="cb13-14"><a aria-hidden="true" tabindex="-1"></a>( var.np <span class="ot">&lt;-</span> <span class="fu">mean</span>(var.boot.np) )</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 3.822395</code></pre>
+</div>
+</div>
+</section>
+<section id="exemplo-17.2-2" class="slide level2">
+<h2>Exemplo 17.2</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a aria-hidden="true" tabindex="-1"></a><span class="co"># Viés</span></span>
+<span id="cb15-2"><a aria-hidden="true" tabindex="-1"></a>( vies <span class="ot">&lt;-</span> var.np <span class="sc">-</span> var.dados )</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] -0.03406886</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a aria-hidden="true" tabindex="-1"></a><span class="co"># Estimativa corrigido o viés por bootstrap</span></span>
+<span id="cb17-2"><a aria-hidden="true" tabindex="-1"></a>( est <span class="ot">&lt;-</span> <span class="dv">2</span><span class="sc">*</span>var.dados <span class="sc">-</span> var.np )</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 3.890532</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a aria-hidden="true" tabindex="-1"></a><span class="do">## Usando a função "boot"</span></span>
+<span id="cb19-2"><a aria-hidden="true" tabindex="-1"></a>var.amostral <span class="ot">&lt;-</span> <span class="cf">function</span>(x, i)</span>
+<span id="cb19-3"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>( <span class="fu">var</span>(x[i]) )</span>
+<span id="cb19-4"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-5"><a aria-hidden="true" tabindex="-1"></a>( var_boot <span class="ot">&lt;-</span> <span class="fu">boot</span>(dados, var.amostral, B) )</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+ORDINARY NONPARAMETRIC BOOTSTRAP
+
+
+Call:
+boot(data = dados, statistic = var.amostral, R = B)
+
+
+Bootstrap Statistics :
+    original      bias    std. error
+t1* 3.856463 -0.02316833   0.4616322</code></pre>
+</div>
+</div>
+</section>
+<section id="intervalos-de-confiança-bootstrap" class="slide level2">
+<h2>Intervalos de confiança bootstrap</h2>
+<h4 id="intervalo-percentil">Intervalo percentil</h4>
+<ul>
+<li>Este é o intervalo de confiança bootstrap mais simples.</li>
+<li>Se quisermos obter um intervalo com 95% de confiança, o algoritmo é o seguinte:
+<ol type="1">
+<li>Geramos <span class="math inline">\(B\)</span> estimativas bootstrap <span class="math inline">\(\widehat{\theta}^*_1, \ldots, \widehat{\theta}^*_B\)</span></li>
+<li>Ordenamos essas estimativas</li>
+<li>Os limites do intervalo serão os valores correspondentes aos percentis 2,5% e 97,5%.</li>
+</ol></li>
+<li>Ou seja, o intervalo com <span class="math inline">\(100(1-\alpha)\%\)</span> de confiança é <span class="math display">\[
+\left( \widehat{\theta}^*_{\alpha/2}, \widehat{\theta}^*_{1-\alpha/2} \right)
+\]</span></li>
+</ul>
+</section>
+<section id="exemplo-17.3" class="slide level2">
+<h2>Exemplo 17.3</h2>
+<p>Obtenha um intervalo de confiança bootstrap de 95% para a variância do Exemplo 17.2 usando o método percentil.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a aria-hidden="true" tabindex="-1"></a><span class="fu">quantile</span>(var.boot.np, <span class="at">probs =</span> <span class="fu">c</span>(.<span class="dv">25</span>, .<span class="dv">975</span>))</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>     25%    97.5% 
+3.492012 4.819677 </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a aria-hidden="true" tabindex="-1"></a><span class="co"># Usando a função boot.ci</span></span>
+<span id="cb23-2"><a aria-hidden="true" tabindex="-1"></a><span class="fu">boot.ci</span>(var_boot, <span class="at">conf =</span> <span class="fl">0.95</span>, <span class="at">type =</span> <span class="st">"perc"</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>BOOTSTRAP CONFIDENCE INTERVAL CALCULATIONS
+Based on 1000 bootstrap replicates
+
+CALL : 
+boot.ci(boot.out = var_boot, conf = 0.95, type = "perc")
+
+Intervals : 
+Level     Percentile     
+95%   ( 2.969,  4.732 )  
+Calculations and Intervals on Original Scale</code></pre>
+</div>
+</div>
+</section>
+<section id="intervalos-de-confiança-bootstrap-1" class="slide level2">
+<h2>Intervalos de confiança bootstrap</h2>
+<h4 id="outros-intervalos-bootstrap">Outros intervalos bootstrap</h4>
+<ul>
+<li>Intervalo normal padrão (usa o erro padrão bootstrap)</li>
+<li>Bootstrap-t (gera valores t artificiais)</li>
+<li>Básico (usa os percentis com viés corrigidos)</li>
+<li>BCa (melhor intervalo de confiança, mas precisa de muitas réplicas)</li>
+</ul>
+<p><br></p>
+<ul>
+<li>Para usá-los na função <code>boot.ci</code>, use o argumento <code>type = "all"</code></li>
+</ul>
+</section>
+<section id="exemplo-14.4" class="slide level2">
+<h2>Exemplo 14.4</h2>
+<p>Obtenha intervalos de confiança bootstrap de 95% para a variância do Exemplo 17.2 considerando todos os cinco métodos.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a aria-hidden="true" tabindex="-1"></a><span class="co"># Usando a função boot.ci</span></span>
+<span id="cb25-2"><a aria-hidden="true" tabindex="-1"></a><span class="fu">boot.ci</span>(var_boot, <span class="at">conf =</span> <span class="fl">0.95</span>, <span class="at">type =</span> <span class="st">"all"</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>BOOTSTRAP CONFIDENCE INTERVAL CALCULATIONS
+Based on 1000 bootstrap replicates
+
+CALL : 
+boot.ci(boot.out = var_boot, conf = 0.95, type = "all")
+
+Intervals : 
+Level      Normal              Basic         
+95%   ( 2.975,  4.784 )   ( 2.981,  4.744 )  
+
+Level     Percentile            BCa          
+95%   ( 2.969,  4.732 )   ( 3.039,  4.877 )  
+Calculations and Intervals on Original Scale</code></pre>
+</div>
+</div>
+</section>
+<section id="exemplo-17.5" class="slide level2">
+<h2>Exemplo 17.5</h2>
+<p>Os dados abaixo correspondem à notas obtidas na admissão em uma universidade americana (LSAT) e o coeficiente de rendimento médio ao final do curso (GPA).</p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 6%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>LSAT</th>
+<th>576</th>
+<th>635</th>
+<th>558</th>
+<th>578</th>
+<th>666</th>
+<th>580</th>
+<th>555</th>
+<th>661</th>
+<th>651</th>
+<th>605</th>
+<th>653</th>
+<th>575</th>
+<th>545</th>
+<th>572</th>
+<th>594</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>GPA</td>
+<td>339</td>
+<td>330</td>
+<td>281</td>
+<td>303</td>
+<td>344</td>
+<td>307</td>
+<td>300</td>
+<td>343</td>
+<td>336</td>
+<td>313</td>
+<td>312</td>
+<td>274</td>
+<td>276</td>
+<td>288</td>
+<td>296</td>
+</tr>
+</tbody>
+</table>
+<p>Obtenha a correlação amostral entre as duas variáveis. Calcule uma estimativa bootstrap para o viés e o erro padrão dessa correlação. Obtenha também intervalos de confiança boostrap. Use boostrap não paramétrico e considere <span class="math inline">\(B = 2000\)</span>.</p>
+<ul>
+<li>Esses dados pertencem ao pacote <code>bootstrap</code> e chama-se <code>law</code>.</li>
+</ul>
+</section>
+<section id="exemplo-17.5-1" class="slide level2">
+<h2>Exemplo 17.5</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a aria-hidden="true" tabindex="-1"></a><span class="co"># Os dados estão no banco 'law' do pacote 'bootstrap'</span></span>
+<span id="cb27-2"><a aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(bootstrap)</span>
+<span id="cb27-3"><a aria-hidden="true" tabindex="-1"></a>law</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>   LSAT  GPA
+1   576 3.39
+2   635 3.30
+3   558 2.81
+4   578 3.03
+5   666 3.44
+6   580 3.07
+7   555 3.00
+8   661 3.43
+9   651 3.36
+10  605 3.13
+11  653 3.12
+12  575 2.74
+13  545 2.76
+14  572 2.88
+15  594 2.96</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb29"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a aria-hidden="true" tabindex="-1"></a><span class="co"># Definições para o bootstrap</span></span>
+<span id="cb29-2"><a aria-hidden="true" tabindex="-1"></a>B <span class="ot">&lt;-</span> <span class="dv">2000</span>        <span class="co"># número de réplicas</span></span>
+<span id="cb29-3"><a aria-hidden="true" tabindex="-1"></a>n <span class="ot">&lt;-</span> <span class="fu">nrow</span>(dados) <span class="co"># tamanho da amostra</span></span>
+<span id="cb29-4"><a aria-hidden="true" tabindex="-1"></a>R <span class="ot">&lt;-</span> <span class="fu">numeric</span>(B)  <span class="co"># guardará as estimativas bootstrap</span></span>
+<span id="cb29-5"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-6"><a aria-hidden="true" tabindex="-1"></a><span class="co"># calcula a correlação entre as colunas 1 e 2</span></span>
+<span id="cb29-7"><a aria-hidden="true" tabindex="-1"></a>r <span class="ot">&lt;-</span> <span class="cf">function</span>(x, i)</span>
+<span id="cb29-8"><a aria-hidden="true" tabindex="-1"></a>      <span class="fu">cor</span>(x[i,<span class="dv">1</span>], x[i,<span class="dv">2</span>])</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="exemplo-17.5-2" class="slide level2">
+<h2>Exemplo 17.5</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb30"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb30-1"><a aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(boot)   <span class="co"># para a função boot</span></span>
+<span id="cb30-2"><a aria-hidden="true" tabindex="-1"></a>obj <span class="ot">&lt;-</span> <span class="fu">boot</span>(<span class="at">data =</span> law, <span class="at">statistic =</span> r, <span class="at">R =</span> <span class="dv">2000</span>)</span>
+<span id="cb30-3"><a aria-hidden="true" tabindex="-1"></a>obj</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+ORDINARY NONPARAMETRIC BOOTSTRAP
+
+
+Call:
+boot(data = law, statistic = r, R = 2000)
+
+
+Bootstrap Statistics :
+     original       bias    std. error
+t1* 0.7763745 2.340988e-05   0.1342302</code></pre>
+</div>
+</div>
+</section>
+<section id="exemplo-17.5-3" class="slide level2">
+<h2>Exemplo 17.5</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb32"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb32-1"><a aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(obj) <span class="co"># distribuição empírica</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+
+</div>
+<img data-src="17-Metodo-de-Reamostragem-Bootstrap_files/figure-revealjs/unnamed-chunk-14-1.png" width="960" class="r-stretch"></section>
+<section id="exemplo-17.5-4" class="slide level2">
+<h2>Exemplo 17.5</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a aria-hidden="true" tabindex="-1"></a><span class="do">## Acessando os valores calculados</span></span>
+<span id="cb33-2"><a aria-hidden="true" tabindex="-1"></a>y <span class="ot">&lt;-</span> <span class="fu">as.vector</span>(obj<span class="sc">$</span>t) <span class="co"># estimativas de bootstrap</span></span>
+<span id="cb33-3"><a aria-hidden="true" tabindex="-1"></a>cor.amostra <span class="ot">&lt;-</span> <span class="fu">r</span>(law) <span class="co"># correlação dos dados</span></span>
+<span id="cb33-4"><a aria-hidden="true" tabindex="-1"></a><span class="fu">mean</span>(y) <span class="sc">-</span> cor.amostra  <span class="co"># viés</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 2.340988e-05</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb35"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb35-1"><a aria-hidden="true" tabindex="-1"></a><span class="fu">sd</span>(y)  <span class="co"># erro padrão</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.1342302</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb37"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb37-1"><a aria-hidden="true" tabindex="-1"></a><span class="co"># correlação com viés corrigido</span></span>
+<span id="cb37-2"><a aria-hidden="true" tabindex="-1"></a><span class="dv">2</span><span class="sc">*</span>cor.amostra <span class="sc">-</span> <span class="fu">mean</span>(y)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.7763511</code></pre>
+</div>
+</div>
+</section>
+<section id="exemplo-17.5-5" class="slide level2">
+<h2>Exemplo 17.5</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb39"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb39-1"><a aria-hidden="true" tabindex="-1"></a><span class="co"># intervalos de confiança</span></span>
+<span id="cb39-2"><a aria-hidden="true" tabindex="-1"></a><span class="fu">boot.ci</span>(obj, <span class="at">conf =</span> <span class="fl">0.95</span>, <span class="at">type =</span> <span class="st">"all"</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>BOOTSTRAP CONFIDENCE INTERVAL CALCULATIONS
+Based on 2000 bootstrap replicates
+
+CALL : 
+boot.ci(boot.out = obj, conf = 0.95, type = "all")
+
+Intervals : 
+Level      Normal              Basic         
+95%   ( 0.5133,  1.0394 )   ( 0.5900,  1.1028 )  
+
+Level     Percentile            BCa          
+95%   ( 0.4499,  0.9628 )   ( 0.2878,  0.9364 )  
+Calculations and Intervals on Original Scale
+Some BCa intervals may be unstable</code></pre>
+</div>
+</div>
+</section>
+<section id="ganhos-da-aula" class="slide level2">
+<h2>Ganhos da aula</h2>
+<ul>
+<li><p>Conehcimento sobre a construção e interpretação de intervalos de confiança bootstrap.</p></li>
+<li><p>Conhecimento sobre estimação e corrção de viés de estimadores usando o método Bootstrap.</p></li>
+<li><p>Domínio do uso do pacote <code>boot</code> no R para aplicar o Bootstrap em problemas reais.</p></li>
+<li><p>Compreensão da diferença entre bootstrap paramétrico e não paramétrico e quando usar cada um.</p></li>
+</ul>
+</section>
+<section id="fim" class="title-slide slide level1 center">
+<h1>Fim</h1>
+<p>Aula baseada no material “Métodos Computacionais Aplicados à Estatística Implementação no Software R” de Cristiano de Carvalho Santos.</p>
+
+
+</section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<p><img src="imagens/ufs_horizontal_positiva.png" class="slide-logo"></p>
+<div class="footer footer-default">
+
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="../../site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../../site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="../../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../../site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'fade',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'fast',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1024,
+
+        height: 768,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        // Bounds for smallest/largest possible scale to apply to content
+        minScale: 0.2,
+
+        maxScale: 2,
+
+        math: {
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copiada");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copiada");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+            const codeEl = trigger.previousElementSibling.cloneNode(true);
+            for (const childEl of codeEl.children) {
+              if (isCodeAnnotation(childEl)) {
+                childEl.remove();
+              }
+            }
+            return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>

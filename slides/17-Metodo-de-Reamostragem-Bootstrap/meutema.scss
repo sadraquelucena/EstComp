@@ -1,0 +1,28 @@
+/*-- scss:defaults --*/
+
+$presentation-font-size-root: 22pt;
+$presentation-title-slide-text-align: "left";
+
+
+
+
+/* Tamanho da fonte dos code chunks */
+pre code {
+  font-size: 1.5em !important;  /* Força a aplicação do estilo */
+}
+
+/* Bloco de código preenchendo todo o frame */
+.reveal code {
+  max-height: 100% !important;
+}
+
+
+.callout-note .callout-body {
+  font-size: 22pt !important; /* Adjust the value as desired */
+}
+
+.callout-tip .callout-body {
+  font-size: 22pt !important; /* Adjust the value as desired */
+}
+
+

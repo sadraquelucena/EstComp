@@ -60,6 +60,8 @@ website:
         text: "15- O Método de Integração de Monte Carlo"
       - href: conteudos/16-O-Metodo-de-Monte-Carlo-para-Estimacao.qmd
         text: "16- O Método de Monte Carlo para Estimação"
+      - href: conteudos/17-Metodo-de-Reamostragem-Bootstrap.qmd
+        text: "17- Método de Reamostragem Bootstrap"
 
 format:
   html:

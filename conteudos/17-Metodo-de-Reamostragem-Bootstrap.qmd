@@ -1,0 +1,20 @@
+---
+title: ""
+format:
+  html:
+    toc: false
+    anchor-sections: false
+---
+
+# Conteúdo 17
+
+## O Método de Reamostragem Bootatrap
+
+Nesta aula, explorar o o método de reamostragem Bootstrap
+
+Slides:
+
+- [Versão html](/slides/17-Metodo-de-Reamostragem-Bootstrap/17-Metodo-de-Reamostragem-Bootstrap.html){target="_blank"}
+
+- [Versão pdf](/PDF_slides/17-Metodo-de-Reamostragem-Bootstrap.pdf){target="_blank"}
+
