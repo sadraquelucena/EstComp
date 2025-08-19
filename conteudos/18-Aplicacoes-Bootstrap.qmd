@@ -1,0 +1,20 @@
+---
+title: ""
+format:
+  html:
+    toc: false
+    anchor-sections: false
+---
+
+# Conteúdo 18
+
+## Aplicações do Método Bootstrap
+
+Nesta aula, vamos fazer algumas aplicações do método de reamostragem Bootstrap.
+
+Slides:
+
+- [Versão html](/slides/18-Aplicacoes-Bootstrap/18-Aplicacoes-Bootstrap.html){target="_blank"}
+
+- [Versão pdf](/PDF_slides/18-Aplicacoes-Bootstrap.pdf){target="_blank"}
+

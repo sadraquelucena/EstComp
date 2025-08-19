@@ -35,4 +35,6 @@ Cronograma de aulas de Estatística Computacional seguindo o [calendário acadê
 | 20     | Terça, 31 de julho de 2025 | Avaliação 2    |
 | 21     | Terça, 05 de agosto de 2025 | O Método de Integração de Monte Carlo    |
 | 22     | Terça, 12 de agosto de 2025 | O Método de Monte Carlo para Estimação    |
+| 23     | Terça, 14 de agosto de 2025 | Método de Reamostragem Bootstrap    |
+| 24     | Terça, 19 de agosto de 2025 | Aplicações do Método Bootstrap    |
 
