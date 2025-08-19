@@ -54,12 +54,38 @@ Para cada amostra:
 a. estime, por bootstrap ($R=10.000$), o erro padrão e o viés da média amostral;
 b. compare o erro padrão bootstrap com o erro padrão teórico ($\sqrt{1/n}$ e $\sqrt{50/n}$);
 c. O que acontece com o erro padrão quando o tamanho da amostra aumenta?
-d. O erro padrão se coporta diferente para a Normal e para a Gama?
+d. O erro padrão se comporta diferente para a Normal e para a Gama?
 
 
 
 
-## Atividade 18.2 -- Mediana em dados reais
+## Atividade 18.1 -- Erro padrão e viés da média
+
+```{r}
+#| echo: true
+#| eval: true
+
+# Fazendo para a Normal usando a função replicate()
+
+# função que gera dados da normal e calcula a média
+media.norm <- function(n, media=0, desvpad=1){
+  mean(rnorm(n, mean=media, sd=desvpad))
+}
+
+set.seed(123) # semente
+
+n <- 10 # tamanho da amostra
+
+# Normal
+media.norm.b <- replicate(10000, media.norm(n)) # médias boostrap
+mean(media.norm.b) - 0       # viés
+sd(media.norm.b); 1/sqrt(n)  # erro padrão
+```
+
+
+
+
+## Atividade 18.2 -- Mediana e 3º Quartil em dados reais
 
 Faça
 
@@ -72,23 +98,87 @@ x <- faithful$waiting
 
 A variável `x` contém o tempo (em minutos) entre eupções do gêiser Old Faithful no Parque Nacional Yellowstone, Wyoming, EUA.
 
-Calcule a mediana do tempo entre as erupções e apresente erro padrão e o intervalo de confiança bootstrap BCa (que constuma ser o mais confiável, pois corrige viés e assimetria).
+Calcule a mediana e o terceiro quartil do tempo entre as erupções e apresente erro padrão e o intervalo de confiança bootstrap BCa (que constuma ser o mais confiável, pois corrige viés e assimetria).
 
 - Dica: use a função `boot.ci()` para obter o intervalo bootstrap BCa.
 
 
 
 
-## Atividade 18.3 -- Teste de hipóteses para diferença de médias
-
-Verifique se existe diferença significativa ao nível de 5% no consumo de carros manuais e automáticos usando o data frame `mtcars`. O consumo dos veículos foi registrado na variável `mpg`.
+## Atividade 18.2 -- Mediana e 3º Quartil em dados reais
 
 ```{r}
 #| echo: true
 #| eval: true
 
-fit <- lm(mpg ~ wt, data = mtcars)
+library(boot)
+x <- faithful$waiting
 
+mediana <- function(x, i) median(x[i]) # função parausar em boot
+
+set.seed(123)
+mediana.b <- boot(x, mediana, R = 10000)
+```
+
+
+
+
+## Atividade 18.2 -- Mediana e 3º Quartil em dados reais
+
+```{r}
+#| echo: true
+#| eval: true
+
+# erro padrão
+sd(mediana.b$t)
+# intervalo de confiança
+boot.ci(mediana.b, type = c("perc","bca"), conf = .95)
+```
+
+
+
+## Atividade 18.3 -- Teste de hipóteses para diferença de médias
+
+Verifique se carros manuais fazem mais milhas por galão do que carros automáticos usando o data frame `mtcars`. O consumo dos veículos foi registrado na variável `mpg`.
+
+```{r}
+#| echo: true
+#| eval: true
+
+library(dplyr)
+dados <- mtcars |>
+  mutate(am = factor(am, labels = c("auto","manual"))) |>
+  select(mpg, am)
+
+difmedia <- function(bd){
+  n.auto <- length(bd$mpg[bd$am == "auto"])
+  n.manual <- length(bd$mpg[bd$am == "manual"])
+  amostra.auto <- sample(bd$mpg[bd$am == "auto"],
+                         n.auto,
+                         replace = T)
+  amostra.manual <- sample(bd$mpg[bd$am == "manual"],
+                           n.manual,
+                           replace = T)
+  return( mean(amostra.manual) - mean(amostra.auto))
+}
+```
+
+
+
+
+## Atividade 18.3 -- Teste de hipóteses para diferença de médias
+
+```{r}
+#| echo: true
+#| eval: true
+
+( dif <- mean(dados$mpg[dados$am == "manual"]) -
+    mean(dados$mpg[dados$am == "auto"]) )
+
+set.seed(123)
+difmedia.b <- replicate(10000, difmedia(dados))
+
+( pvalor <- (sum(dif >= difmedia.b)+1)/(10000+1) )
 ```
 
 
@@ -102,11 +192,35 @@ Ajuste om modelo de regressão linear para `mpg` vs. `wt`. Obtenha o erro padrã
 #| echo: true
 #| eval: true
 
-library(dplyr)
-df <- mtcars %>%
-  mutate(am = factor(am, labels = c("auto","manual")))
+fit <- lm(mpg ~ wt, data = mtcars)
 
+regboot <- function(dados){
+  n <- nrow(dados)
+  id_amostrado <- sample(1:n, n, replace = TRUE)
+  coef(lm(mpg ~ wt, data = dados[id_amostrado, ]))[2]
+}
+
+beta1.b <- replicate(10000, regboot(mtcars))
 ```
+
+
+
+
+## Atividade 18.4 -- Regressão
+
+```{r}
+#| echo: true
+#| eval: true
+
+# beta1
+fit$coefficients[2]
+# erro pdarão
+sd(beta1.b)
+# intervalo de confiança de 95%
+quantile(beta1.b, c(.025,.975))
+```
+
+
 
 
 # Fim
