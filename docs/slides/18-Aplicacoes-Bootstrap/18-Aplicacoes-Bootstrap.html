@@ -28,72 +28,6 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-    /* CSS for syntax highlighting */
-    html { -webkit-text-size-adjust: 100%; }
-    pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-    pre > code.sourceCode > span:empty { height: 1.2em; }
-    .sourceCode { overflow: visible; }
-    code.sourceCode > span { color: inherit; text-decoration: inherit; }
-    div.sourceCode { margin: 1em 0; }
-    pre.sourceCode { margin: 0; }
-    @media screen {
-    div.sourceCode { overflow: auto; }
-    }
-    @media print {
-    pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-    }
-    pre.numberSource code
-      { counter-reset: source-line 0; }
-    pre.numberSource code > span
-      { position: relative; left: -4em; counter-increment: source-line; }
-    pre.numberSource code > span > a:first-child::before
-      { content: counter(source-line);
-        position: relative; left: -1em; text-align: right; vertical-align: baseline;
-        border: none; display: inline-block;
-        -webkit-touch-callout: none; -webkit-user-select: none;
-        -khtml-user-select: none; -moz-user-select: none;
-        -ms-user-select: none; user-select: none;
-        padding: 0 4px; width: 4em;
-        color: #aaaaaa;
-      }
-    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-    div.sourceCode
-      { color: #003b4f; background-color: #f1f3f5; }
-    @media screen {
-    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-    }
-    code span { color: #003b4f; } /* Normal */
-    code span.al { color: #ad0000; } /* Alert */
-    code span.an { color: #5e5e5e; } /* Annotation */
-    code span.at { color: #657422; } /* Attribute */
-    code span.bn { color: #ad0000; } /* BaseN */
-    code span.bu { } /* BuiltIn */
-    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
-    code span.ch { color: #20794d; } /* Char */
-    code span.cn { color: #8f5902; } /* Constant */
-    code span.co { color: #5e5e5e; } /* Comment */
-    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
-    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
-    code span.dt { color: #ad0000; } /* DataType */
-    code span.dv { color: #ad0000; } /* DecVal */
-    code span.er { color: #ad0000; } /* Error */
-    code span.ex { } /* Extension */
-    code span.fl { color: #ad0000; } /* Float */
-    code span.fu { color: #4758ab; } /* Function */
-    code span.im { color: #00769e; } /* Import */
-    code span.in { color: #5e5e5e; } /* Information */
-    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
-    code span.op { color: #5e5e5e; } /* Operator */
-    code span.ot { color: #003b4f; } /* Other */
-    code span.pp { color: #ad0000; } /* Preprocessor */
-    code span.sc { color: #5e5e5e; } /* SpecialChar */
-    code span.ss { color: #20794d; } /* SpecialString */
-    code span.st { color: #20794d; } /* String */
-    code span.va { color: #111111; } /* Variable */
-    code span.vs { color: #20794d; } /* VerbatimString */
-    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-a4fa0395bacdb0b6af247d68eb610ceb.css">
   <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -206,189 +140,69 @@
 </section>
 <section id="bootstrap" class="slide level2">
 <h2>Bootstrap</h2>
+<p>A grande riqueza em se utilizar o bootstrap é em situações como:</p>
 <ul>
-<li>Bootstrap é um método que resolve um problema clássico: muitas vezes temos um <strong>estimador</strong> (média, mediana, correlação, coeficiente de regressão) e queremos saber <strong>quão confiável ele é</strong>. Para isso, precisamos do <strong>erro padrão</strong> ou de um <strong>intervalo de confiança</strong>.</li>
-<li>Só que às vezes:
-<ul>
-<li>não existe fórmula teórica (mediana, quantis).</li>
-<li>a fórmula é complicada ou exige suposições fortes (normalidade, independência).</li>
-<li>temos amostras pequenas e não dá pra confiar muito em aproximações assintóticas.</li>
-</ul></li>
-<li>É aí que entra o bootstrap: a gente <strong>simula</strong> a distribuição do estimador <strong>a partir da própria amostra</strong>.
-<ul>
-<li>Como? Reamostrando com reposição.</li>
-</ul></li>
-<li>Nos Exercícios a seguir use sempre a semente <code>set.seed(123)</code>.</li>
+<li>Você não tem certeza ou uma premissa forte sobre a distribuição normal da população.</li>
+<li>Você gostaria de estimar intervalos de confiança para métricas mais complexas que não possuem distribuição de probabilidade conhecidas ou facilmente definidas, como por exemplo, <span class="math inline">\(R^2\)</span> de uma regressão ou a mediana.</li>
 </ul>
 </section>
-<section id="atividade-18.1-erro-padrão-e-viés-da-média" class="slide level2">
-<h2>Atividade 18.1 – Erro padrão e viés da média</h2>
-<p>Gere amostras de tamanho <span class="math inline">\(n=10,30,50\)</span> de:</p>
-<ol type="1">
-<li><span class="math inline">\(X\sim N(0,1)\)</span> (distribuição simétrica)</li>
-<li><span class="math inline">\(X\sim Gama(shape=2,scale=5)\)</span> (distribuição assimétrica)</li>
-</ol>
-<p>Para cada amostra:</p>
-<ol type="a">
-<li>estime, por bootstrap (<span class="math inline">\(R=10.000\)</span>), o erro padrão e o viés da média amostral;</li>
-<li>compare o erro padrão bootstrap com o erro padrão teórico (<span class="math inline">\(\sqrt{1/n}\)</span> e <span class="math inline">\(\sqrt{50/n}\)</span>);</li>
-<li>O que acontece com o erro padrão quando o tamanho da amostra aumenta?</li>
-<li>O erro padrão se comporta diferente para a Normal e para a Gama?</li>
-</ol>
-</section>
-<section id="atividade-18.1-erro-padrão-e-viés-da-média-1" class="slide level2">
-<h2>Atividade 18.1 – Erro padrão e viés da média</h2>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a aria-hidden="true" tabindex="-1"></a><span class="co"># Fazendo para a Normal usando a função replicate()</span></span>
-<span id="cb1-2"><a aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a aria-hidden="true" tabindex="-1"></a><span class="co"># função que gera dados da normal e calcula a média</span></span>
-<span id="cb1-4"><a aria-hidden="true" tabindex="-1"></a>media.norm <span class="ot">&lt;-</span> <span class="cf">function</span>(n, <span class="at">media=</span><span class="dv">0</span>, <span class="at">desvpad=</span><span class="dv">1</span>){</span>
-<span id="cb1-5"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">mean</span>(<span class="fu">rnorm</span>(n, <span class="at">mean=</span>media, <span class="at">sd=</span>desvpad))</span>
-<span id="cb1-6"><a aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb1-7"><a aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-8"><a aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">123</span>) <span class="co"># semente</span></span>
-<span id="cb1-9"><a aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-10"><a aria-hidden="true" tabindex="-1"></a>n <span class="ot">&lt;-</span> <span class="dv">10</span> <span class="co"># tamanho da amostra</span></span>
-<span id="cb1-11"><a aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-12"><a aria-hidden="true" tabindex="-1"></a><span class="co"># Normal</span></span>
-<span id="cb1-13"><a aria-hidden="true" tabindex="-1"></a>media.norm.b <span class="ot">&lt;-</span> <span class="fu">replicate</span>(<span class="dv">10000</span>, <span class="fu">media.norm</span>(n)) <span class="co"># médias boostrap</span></span>
-<span id="cb1-14"><a aria-hidden="true" tabindex="-1"></a><span class="fu">mean</span>(media.norm.b) <span class="sc">-</span> <span class="dv">0</span>       <span class="co"># viés</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 0.0009767488</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a aria-hidden="true" tabindex="-1"></a><span class="fu">sd</span>(media.norm.b); <span class="dv">1</span><span class="sc">/</span><span class="fu">sqrt</span>(n)  <span class="co"># erro padrão</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 0.3139096</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 0.3162278</code></pre>
-</div>
-</div>
-</section>
-<section id="atividade-18.2-mediana-e-3º-quartil-em-dados-reais" class="slide level2">
-<h2>Atividade 18.2 – Mediana e 3º Quartil em dados reais</h2>
-<p>Faça</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(boot)</span>
-<span id="cb6-2"><a aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> faithful<span class="sc">$</span>waiting</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>A variável <code>x</code> contém o tempo (em minutos) entre eupções do gêiser Old Faithful no Parque Nacional Yellowstone, Wyoming, EUA.</p>
-<p>Calcule a mediana e o terceiro quartil do tempo entre as erupções e apresente erro padrão e o intervalo de confiança bootstrap BCa (que constuma ser o mais confiável, pois corrige viés e assimetria).</p>
+<section id="exemplo-18.1" class="slide level2">
+<h2>Exemplo 18.1</h2>
+<p>Suponha que um fazendeiro gerencia uma plantação de árvores com o objetivo de vendê-las futuramente para a produção de madeira. Sua plantação possui 10.000 árvores, e você está interessado em estimar o diâmetro médio dessas árvores, o que é importante para determinar seu valor de mercado e o momento certo para a colheita.</p>
+<p>No entanto, fazer um inventário completo de todas as árvores seria caro e demorado. Então, ele te contrata para usar métodos estatísticos para estimar a média dos diâmetros com base em uma amostra de tamanho 100.</p>
+<p>O que se deve fazer nessa situação:</p>
 <ul>
-<li>Dica: use a função <code>boot.ci()</code> para obter o intervalo bootstrap BCa.</li>
+<li>Estimar o diâmetro médio e obter um intervalo de confiança.</li>
+<li>Vamos obter esse IC pelo método tradicional e usando bootstrap.</li>
 </ul>
 </section>
-<section id="atividade-18.2-mediana-e-3º-quartil-em-dados-reais-1" class="slide level2">
-<h2>Atividade 18.2 – Mediana e 3º Quartil em dados reais</h2>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(boot)</span>
-<span id="cb7-2"><a aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> faithful<span class="sc">$</span>waiting</span>
-<span id="cb7-3"><a aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-4"><a aria-hidden="true" tabindex="-1"></a>mediana <span class="ot">&lt;-</span> <span class="cf">function</span>(x, i) <span class="fu">median</span>(x[i]) <span class="co"># função parausar em boot</span></span>
-<span id="cb7-5"><a aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-6"><a aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">123</span>)</span>
-<span id="cb7-7"><a aria-hidden="true" tabindex="-1"></a>mediana.b <span class="ot">&lt;-</span> <span class="fu">boot</span>(x, mediana, <span class="at">R =</span> <span class="dv">10000</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
+<section id="exemplo-18.2" class="slide level2">
+<h2>Exemplo 18.2</h2>
+<p>Vamos aproveitar a amostra obtida no Exemplo 18.1 e obter um intervalo de confiança bootstrap para a mediana.</p>
 </section>
-<section id="atividade-18.2-mediana-e-3º-quartil-em-dados-reais-2" class="slide level2">
-<h2>Atividade 18.2 – Mediana e 3º Quartil em dados reais</h2>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a aria-hidden="true" tabindex="-1"></a><span class="co"># erro padrão</span></span>
-<span id="cb8-2"><a aria-hidden="true" tabindex="-1"></a><span class="fu">sd</span>(mediana.b<span class="sc">$</span>t)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 1.001243</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a aria-hidden="true" tabindex="-1"></a><span class="co"># intervalo de confiança</span></span>
-<span id="cb10-2"><a aria-hidden="true" tabindex="-1"></a><span class="fu">boot.ci</span>(mediana.b, <span class="at">type =</span> <span class="fu">c</span>(<span class="st">"perc"</span>,<span class="st">"bca"</span>), <span class="at">conf =</span> .<span class="dv">95</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>BOOTSTRAP CONFIDENCE INTERVAL CALCULATIONS
-Based on 10000 bootstrap replicates
-
-CALL : 
-boot.ci(boot.out = mediana.b, conf = 0.95, type = c("perc", "bca"))
-
-Intervals : 
-Level     Percentile            BCa          
-95%   (73.5, 77.0 )   (73.0, 77.0 )  
-Calculations and Intervals on Original Scale</code></pre>
-</div>
-</div>
+<section id="exemplo-18.3" class="slide level2">
+<h2>Exemplo 18.3</h2>
+<p>Considere os dados <code>datasets::mtcars</code>. Vamos obter um intervalo de confiança bootstrap de 95% para o <span class="math inline">\(R^2\)</span> na relação de regressão linear da variável de milhas por galão (mpg) com o peso do carro (wt) e sua cilindrada (disp).</p>
 </section>
-<section id="atividade-18.3-teste-de-hipóteses-para-diferença-de-médias" class="slide level2">
-<h2>Atividade 18.3 – Teste de hipóteses para diferença de médias</h2>
-<p>Verifique se carros manuais fazem mais milhas por galão do que carros automáticos usando o data frame <code>mtcars</code>. O consumo dos veículos foi registrado na variável <code>mpg</code>.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
-<span id="cb12-2"><a aria-hidden="true" tabindex="-1"></a>dados <span class="ot">&lt;-</span> mtcars <span class="sc">|&gt;</span></span>
-<span id="cb12-3"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">am =</span> <span class="fu">factor</span>(am, <span class="at">labels =</span> <span class="fu">c</span>(<span class="st">"auto"</span>,<span class="st">"manual"</span>))) <span class="sc">|&gt;</span></span>
-<span id="cb12-4"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(mpg, am)</span>
-<span id="cb12-5"><a aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-6"><a aria-hidden="true" tabindex="-1"></a>difmedia <span class="ot">&lt;-</span> <span class="cf">function</span>(bd){</span>
-<span id="cb12-7"><a aria-hidden="true" tabindex="-1"></a>  n.auto <span class="ot">&lt;-</span> <span class="fu">length</span>(bd<span class="sc">$</span>mpg[bd<span class="sc">$</span>am <span class="sc">==</span> <span class="st">"auto"</span>])</span>
-<span id="cb12-8"><a aria-hidden="true" tabindex="-1"></a>  n.manual <span class="ot">&lt;-</span> <span class="fu">length</span>(bd<span class="sc">$</span>mpg[bd<span class="sc">$</span>am <span class="sc">==</span> <span class="st">"manual"</span>])</span>
-<span id="cb12-9"><a aria-hidden="true" tabindex="-1"></a>  amostra.auto <span class="ot">&lt;-</span> <span class="fu">sample</span>(bd<span class="sc">$</span>mpg[bd<span class="sc">$</span>am <span class="sc">==</span> <span class="st">"auto"</span>],</span>
-<span id="cb12-10"><a aria-hidden="true" tabindex="-1"></a>                         n.auto,</span>
-<span id="cb12-11"><a aria-hidden="true" tabindex="-1"></a>                         <span class="at">replace =</span> T)</span>
-<span id="cb12-12"><a aria-hidden="true" tabindex="-1"></a>  amostra.manual <span class="ot">&lt;-</span> <span class="fu">sample</span>(bd<span class="sc">$</span>mpg[bd<span class="sc">$</span>am <span class="sc">==</span> <span class="st">"manual"</span>],</span>
-<span id="cb12-13"><a aria-hidden="true" tabindex="-1"></a>                           n.manual,</span>
-<span id="cb12-14"><a aria-hidden="true" tabindex="-1"></a>                           <span class="at">replace =</span> T)</span>
-<span id="cb12-15"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>( <span class="fu">mean</span>(amostra.manual) <span class="sc">-</span> <span class="fu">mean</span>(amostra.auto))</span>
-<span id="cb12-16"><a aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
+<section id="exemplo-18.4" class="slide level2">
+<h2>Exemplo 18.4</h2>
+<p>Agora considere duas áreas distintas em uma fazenda e se deseja comparar a produtividade (diâmetro das árvores) das plantações. Para isso o diâmetro de 30 árvores foi coletado em cada área.</p>
+<p>O que deve ser feito nessa situação:</p>
+<ul>
+<li>Hipóteses:
+<ul>
+<li><span class="math inline">\(H_0\)</span>: as produtividades das duas áreas são iguais
+<ul>
+<li><span class="math inline">\(H_1\)</span>: as produtividades das duas áreas são diferentes</li>
+</ul></li>
+</ul></li>
+<li>Fazer um teste t.</li>
+</ul>
 </section>
-<section id="atividade-18.3-teste-de-hipóteses-para-diferença-de-médias-1" class="slide level2">
-<h2>Atividade 18.3 – Teste de hipóteses para diferença de médias</h2>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a aria-hidden="true" tabindex="-1"></a>( dif <span class="ot">&lt;-</span> <span class="fu">mean</span>(dados<span class="sc">$</span>mpg[dados<span class="sc">$</span>am <span class="sc">==</span> <span class="st">"manual"</span>]) <span class="sc">-</span></span>
-<span id="cb13-2"><a aria-hidden="true" tabindex="-1"></a>    <span class="fu">mean</span>(dados<span class="sc">$</span>mpg[dados<span class="sc">$</span>am <span class="sc">==</span> <span class="st">"auto"</span>]) )</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 7.244939</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">123</span>)</span>
-<span id="cb15-2"><a aria-hidden="true" tabindex="-1"></a>difmedia.b <span class="ot">&lt;-</span> <span class="fu">replicate</span>(<span class="dv">10000</span>, <span class="fu">difmedia</span>(dados))</span>
-<span id="cb15-3"><a aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb15-4"><a aria-hidden="true" tabindex="-1"></a>( pvalor <span class="ot">&lt;-</span> (<span class="fu">sum</span>(dif <span class="sc">&gt;=</span> difmedia.b)<span class="sc">+</span><span class="dv">1</span>)<span class="sc">/</span>(<span class="dv">10000</span><span class="sc">+</span><span class="dv">1</span>) )</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 0.5007499</code></pre>
-</div>
-</div>
+<section id="teste-de-comparação-de-médias-bootstrap" class="slide level2">
+<h2>Teste de comparação de médias bootstrap</h2>
+<ul>
+<li>Calcule as médias amostrais <span class="math inline">\(\overline{X}\)</span> e <span class="math inline">\(\overline{Y}\)</span></li>
+<li>Réplicas bootstrap: Repita <span class="math inline">\(B\)</span> vezes
+<ul>
+<li>Obtenha amostras artificiais <span class="math inline">\(x_1^*, \ldots, x^*_n\)</span> e <span class="math inline">\(y_1^*, \ldots, y^*_n\)</span>
+<ul>
+<li>Calcule a diferença das médias artificiais <span class="math inline">\(\overline{x}^* - \overline{y}^*\)</span></li>
+</ul></li>
+</ul></li>
+<li>Calcule o p-valor:
+<ul>
+<li>Se <span class="math inline">\(H_1: \mu_x&lt;\mu_y \Rightarrow\)</span> p-valor <span class="math inline">\(= \frac{1+\#\{\overline{x}^* - \overline{y}^* &lt; 0\}}{1+B}\)</span>
+<ul>
+<li>Se <span class="math inline">\(H_1: \mu_x&gt;\mu_y \Rightarrow\)</span> p-valor <span class="math inline">\(= \frac{1+\#\{\overline{x}^* - \overline{y}^* &gt; 0\}}{1+B}\)</span></li>
+<li>Se <span class="math inline">\(H_1: \mu_x\neq\mu_y \Rightarrow\)</span> p-valor <span class="math inline">\(= \frac{1+2\min\left[\#\{\overline{x}^* - \overline{y}^* &lt; 0\}, \#\{\overline{x}^* - \overline{y}^* &gt; 0\}\right]}{1+B}\)</span></li>
+</ul></li>
+</ul></li>
+</ul>
 </section>
-<section id="atividade-18.4-regressão" class="slide level2">
-<h2>Atividade 18.4 – Regressão</h2>
-<p>Ajuste om modelo de regressão linear para <code>mpg</code> vs.&nbsp;<code>wt</code>. Obtenha o erro padrão do parâmetro associado a <code>wt</code> e obtenha um intervalo de confiança de 95% para ele.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a aria-hidden="true" tabindex="-1"></a>fit <span class="ot">&lt;-</span> <span class="fu">lm</span>(mpg <span class="sc">~</span> wt, <span class="at">data =</span> mtcars)</span>
-<span id="cb17-2"><a aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb17-3"><a aria-hidden="true" tabindex="-1"></a>regboot <span class="ot">&lt;-</span> <span class="cf">function</span>(dados){</span>
-<span id="cb17-4"><a aria-hidden="true" tabindex="-1"></a>  n <span class="ot">&lt;-</span> <span class="fu">nrow</span>(dados)</span>
-<span id="cb17-5"><a aria-hidden="true" tabindex="-1"></a>  id_amostrado <span class="ot">&lt;-</span> <span class="fu">sample</span>(<span class="dv">1</span><span class="sc">:</span>n, n, <span class="at">replace =</span> <span class="cn">TRUE</span>)</span>
-<span id="cb17-6"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">coef</span>(<span class="fu">lm</span>(mpg <span class="sc">~</span> wt, <span class="at">data =</span> dados[id_amostrado, ]))[<span class="dv">2</span>]</span>
-<span id="cb17-7"><a aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb17-8"><a aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb17-9"><a aria-hidden="true" tabindex="-1"></a>beta1.b <span class="ot">&lt;-</span> <span class="fu">replicate</span>(<span class="dv">10000</span>, <span class="fu">regboot</span>(mtcars))</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section>
-<section id="atividade-18.4-regressão-1" class="slide level2">
-<h2>Atividade 18.4 – Regressão</h2>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a aria-hidden="true" tabindex="-1"></a><span class="co"># beta1</span></span>
-<span id="cb18-2"><a aria-hidden="true" tabindex="-1"></a>fit<span class="sc">$</span>coefficients[<span class="dv">2</span>]</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>       wt 
--5.344472 </code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a aria-hidden="true" tabindex="-1"></a><span class="co"># erro pdarão</span></span>
-<span id="cb20-2"><a aria-hidden="true" tabindex="-1"></a><span class="fu">sd</span>(beta1.b)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 0.7055303</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a aria-hidden="true" tabindex="-1"></a><span class="co"># intervalo de confiança de 95%</span></span>
-<span id="cb22-2"><a aria-hidden="true" tabindex="-1"></a><span class="fu">quantile</span>(beta1.b, <span class="fu">c</span>(.<span class="dv">025</span>,.<span class="dv">975</span>))</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>     2.5%     97.5% 
--6.947418 -4.145405 </code></pre>
-</div>
-</div>
+<section id="exemplo-18.5" class="slide level2">
+<h2>Exemplo 18.5</h2>
+<p>Em 1882, Simon Newcomb realizou um experimento de medir a velocidade da luz. Ele mediu o tempo que a luz levou para ir de um ponto a outro. Os dados fornecidos confirmam a teoria de que o tempo que a luz leva é de 33,02 milionésimos de segundos? Considere um nível de significância de 5%.</p>
 </section>
 <section id="fim" class="title-slide slide level1 center">
 <h1>Fim</h1>
@@ -616,44 +430,6 @@ Calculations and Intervals on Original Scale</code></pre>
         ]
       });
     </script>
-    
-    <script>
-      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-      // slide changes (different for each slide format).
-      (function () {
-        // dispatch for htmlwidgets
-        function fireSlideEnter() {
-          const event = window.document.createEvent("Event");
-          event.initEvent("slideenter", true, true);
-          window.document.dispatchEvent(event);
-        }
-
-        function fireSlideChanged(previousSlide, currentSlide) {
-          fireSlideEnter();
-
-          // dispatch for shiny
-          if (window.jQuery) {
-            if (previousSlide) {
-              window.jQuery(previousSlide).trigger("hidden");
-            }
-            if (currentSlide) {
-              window.jQuery(currentSlide).trigger("shown");
-            }
-          }
-        }
-
-        // hookup for slidy
-        if (window.w3c_slidy) {
-          window.w3c_slidy.add_observer(function (slide_num) {
-            // slide_num starts at position 1
-            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-          });
-        }
-
-      })();
-    </script>
-
     <script id="quarto-html-after-body" type="application/javascript">
       window.document.addEventListener("DOMContentLoaded", function (event) {
         const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")

@@ -18,3 +18,5 @@ Slides:
 
 - [Versão pdf](/PDF_slides/18-Aplicacoes-Bootstrap.pdf){target="_blank"}
 
+- [Código R](/PDF_slides/script_slides18.R){target="_blank"}
+
