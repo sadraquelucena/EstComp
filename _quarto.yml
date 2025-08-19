@@ -62,8 +62,8 @@ website:
         text: "16- O Método de Monte Carlo para Estimação"
       - href: conteudos/17-Metodo-de-Reamostragem-Bootstrap.qmd
         text: "17- Método de Reamostragem Bootstrap"
-      - href: conteudos/18-Aplicacoes-Bootstrap.qmd
-        text: "18- Aplicações do Método Bootstrap"
+      #- href: conteudos/18-Aplicacoes-Bootstrap.qmd
+      #  text: "18- Aplicações do Método Bootstrap"
 
 
 
